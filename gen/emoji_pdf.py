@@ -10,6 +10,12 @@ BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PDF = sys.argv[1] if len(sys.argv) > 1 else f"{BASE}/gen/country_emoji_guessing_game.pdf"
 OUT = f"{BASE}/gen/EmojiPdf.authored.json"
 
+if not os.path.isfile(PDF):
+    sys.exit(f"source PDF not found: {PDF}\n"
+             f"It was never copied off the old MacBook. {OUT} already holds this\n"
+             f"script's output and those questions are in the bank, so you only need\n"
+             f"the PDF to re-parse it: {sys.argv[0]} <path-to-pdf>")
+
 # difficulty per clue number (my rating of how cryptic the rebus is)
 DIFF = {1:"medium",2:"hard",3:"easy",4:"medium",5:"medium",6:"easy",7:"medium",8:"medium",
  9:"hard",10:"medium",11:"medium",12:"easy",13:"medium",14:"medium",15:"easy",16:"medium",
