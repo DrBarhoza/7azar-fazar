@@ -570,7 +570,7 @@ function activeQs(topic){
 function qid(topic, qtext){
   // stable id per question so play history survives reloads and bank re-imports
   let h = 5381;
-  const s = topic + " " + qtext;
+  const s = topic + "\u0000" + qtext;
   for(let i=0;i<s.length;i++) h = ((h*33) ^ s.charCodeAt(i)) >>> 0;
   return h.toString(36);
 }
