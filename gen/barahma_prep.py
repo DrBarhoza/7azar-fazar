@@ -2,7 +2,8 @@
 """Append NEW barahma photos to barahma-photos/answers.txt by parsing filenames.
 Existing lines (and any manual fixes) are preserved."""
 import os, re
-SRC = "/Users/el-professor/Downloads/7azar-fazar/barahma-photos"
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SRC = f"{BASE}/barahma-photos"
 ANS = f"{SRC}/answers.txt"
 EXTS = {".jpg",".jpeg",".png",".webp",".heic",".heif",".tif",".tiff"}
 

@@ -8,7 +8,7 @@
 import json, re, os
 from collections import Counter
 
-BASE = "/Users/el-professor/Downloads/7azar-fazar"
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 H, G = f"{BASE}/harvest", f"{BASE}/gen"
 OUT = f"{BASE}/trivia-questions.json"
 CAP = 300

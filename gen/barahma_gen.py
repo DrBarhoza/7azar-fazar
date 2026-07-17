@@ -13,7 +13,7 @@ def load_image(path):
         im = Image.open(tmp); im.load(); os.remove(tmp); return im
     return Image.open(path)
 
-BASE = "/Users/el-professor/Downloads/7azar-fazar"
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = f"{BASE}/barahma-photos"
 OPT = f"{SRC}/opt"
 ANS = f"{SRC}/answers.txt"

@@ -2,7 +2,7 @@
 """Author Country Capitals (open-ended) + package the emoji 'Guess the Country'
 puzzles. Outputs gen/Capitals.authored.json and gen/Emoji.authored.json."""
 import json, os
-BASE = "/Users/el-professor/Downloads/7azar-fazar"
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 EASY = {
  "France":"Paris","United Kingdom":"London","Italy":"Rome","Spain":"Madrid","Germany":"Berlin",

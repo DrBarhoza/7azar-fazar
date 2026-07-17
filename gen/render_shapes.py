@@ -3,7 +3,7 @@
 (johan/world.geo.json). Output: country-shapes/<slug>.svg"""
 import json, math, os, re
 
-BASE = "/Users/el-professor/Downloads/7azar-fazar"
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUTDIR = f"{BASE}/country-shapes"
 os.makedirs(OUTDIR, exist_ok=True)
 GREEN = "#37b34a"

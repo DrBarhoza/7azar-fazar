@@ -7,7 +7,8 @@ Writes  harvest/<topic>.json  (incrementally) and prints per-difficulty counts.
 """
 import sys, os, re, json, time, html, random, urllib.request, urllib.parse
 
-OUT_DIR = "/Users/el-professor/Downloads/7azar-fazar/harvest"
+BASE = os.path.dirname(os.path.abspath(__file__))
+OUT_DIR = f"{BASE}/harvest"
 CAP = 300                     # per difficulty per topic
 DIFFS = ("easy", "medium", "hard")
 

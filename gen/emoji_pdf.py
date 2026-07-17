@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 """Parse the user's Country Emoji Guessing Game PDF into open-ended questions.
 Output: gen/EmojiPdf.authored.json"""
-import json, re
+import json, os, re, sys
 from pypdf import PdfReader
 
-PDF = "/Users/el-professor/Downloads/country_emoji_guessing_game (1).pdf"
-OUT = "/Users/el-professor/Downloads/7azar-fazar/gen/EmojiPdf.authored.json"
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# source PDF lived outside the project and was not copied off the old Mac;
+# pass a replacement path as the first argument
+PDF = sys.argv[1] if len(sys.argv) > 1 else f"{BASE}/gen/country_emoji_guessing_game.pdf"
+OUT = f"{BASE}/gen/EmojiPdf.authored.json"
 
 # difficulty per clue number (my rating of how cryptic the rebus is)
 DIFF = {1:"medium",2:"hard",3:"easy",4:"medium",5:"medium",6:"easy",7:"medium",8:"medium",

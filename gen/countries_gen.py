@@ -5,7 +5,7 @@
 Outputs: gen/CountryShapes.authored.json , gen/RankCountries.authored.json"""
 import json, os, random, itertools
 random.seed(7)
-BASE = "/Users/el-professor/Downloads/7azar-fazar"
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # ---------- shape questions ----------
 shapes = json.load(open(f"{BASE}/gen/shapes_index.json"))

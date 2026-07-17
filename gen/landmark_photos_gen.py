@@ -15,7 +15,7 @@ multiple photos of one country:
 import json, os, re
 from PIL import Image, ImageOps
 
-BASE = "/Users/el-professor/Downloads/7azar-fazar"
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = f"{BASE}/landmark-photos"
 OPT = f"{SRC}/opt"
 OUT = f"{BASE}/gen/LandmarkPhotos.authored.json"
