@@ -1,0 +1,269 @@
+{
+ "Soccer": [
+  {
+   "q": "In the sport of American football, what is the term for scoring 6 points by carrying the ball into the opponent's end zone?  (A) An interception  (B) A sack  (C) A field goal  (D) A touchdown",
+   "a": "D) A touchdown",
+   "d": "easy"
+  },
+  {
+   "q": "What event occurs in soccer when a defender commits a foul in their own penalty area?  (A) A red card  (B) A penalty kick  (C) An own goal  (D) A free kick",
+   "a": "B) A penalty kick",
+   "d": "easy"
+  },
+  {
+   "q": "Which word is used to refer to a soccer match that is not part of an official competition?  (A) Washer  (B) Derby  (C) Friendly  (D) Double header",
+   "a": "C) Friendly",
+   "d": "medium"
+  },
+  {
+   "q": "What is the name of the NFL team whose logo features a blue horseshoe?  (A) The Indianapolis Colts  (B) The Oakland Raiders  (C) The Dallas Cowboys  (D) The Pittsburgh Steelers",
+   "a": "A) The Indianapolis Colts",
+   "d": "medium"
+  },
+  {
+   "q": "Which country won the Copa America in 2019?  (A) Chile  (B) Uruguay  (C) Brazil  (D) Argentina",
+   "a": "C) Brazil",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these is an American Football team based in New York?  (A) New York Raiders  (B) New York Lions  (C) New York Giants  (D) New York Predators",
+   "a": "C) New York Giants",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these is an American Football team based in Pittsburgh?  (A) Pittsburgh Mariners  (B) Pittsburgh Suns  (C) Pittsburgh Steelers  (D) Pittsburgh Eagles",
+   "a": "C) Pittsburgh Steelers",
+   "d": "medium"
+  },
+  {
+   "q": "Who was the first African player to win the FIFA Ballon d'Or?  (A) Samuel Eto'o  (B) Yaya Toure  (C) George Weah  (D) Didier Drogba",
+   "a": "C) George Weah",
+   "d": "medium"
+  },
+  {
+   "q": "With which sport is Wayne Rooney associated?  (A) Golf  (B) Tennis  (C) Swimming  (D) Football",
+   "a": "D) Football",
+   "d": "medium"
+  },
+  {
+   "q": "Which player has scored the most goals in the history of the FIFA World Cup?  (A) Miroslav Klose  (B) Gerd Muller  (C) Pele  (D) Ronaldo",
+   "a": "A) Miroslav Klose",
+   "d": "medium"
+  },
+  {
+   "q": "What is the nickname of the English football team Norwich City?  (A) The Posh  (B) The Foxes  (C) The Tigers  (D) The Canaries",
+   "a": "D) The Canaries",
+   "d": "medium"
+  },
+  {
+   "q": "Which country won the 2014 FIFA World Cup, hosted in Brazil?  (A) Argentina  (B) Germany  (C) Spain  (D) Italy",
+   "a": "B) Germany",
+   "d": "medium"
+  },
+  {
+   "q": "How many referees work a soccer game?  (A) Four  (B) Two  (C) One  (D) Three",
+   "a": "C) One",
+   "d": "medium"
+  },
+  {
+   "q": "What city is the smallest in the United States to have an NFL franchise?  (A) Green Bay  (B) Jacksonville  (C) San Diego  (D) Buffalo",
+   "a": "A) Green Bay",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these is an American Football team based in Denver?  (A) Denver Hornets  (B) Denver Broncos  (C) Denver Marlins  (D) Denver Indians",
+   "a": "B) Denver Broncos",
+   "d": "medium"
+  },
+  {
+   "q": "Which team won the UEFA European Championship in 2016?  (A) Spain  (B) Portugal  (C) France  (D) Germany",
+   "a": "B) Portugal",
+   "d": "medium"
+  },
+  {
+   "q": "American Football: The New Orleans __________.  (A) Brass  (B) Rockets  (C) Gators  (D) Saints",
+   "a": "D) Saints",
+   "d": "medium"
+  },
+  {
+   "q": "Which country won the 1970 FIFA World Cup, hosted in Mexico?  (A) Argentina  (B) West Germany  (C) Brazil  (D) England",
+   "a": "C) Brazil",
+   "d": "hard"
+  },
+  {
+   "q": "Which team won the first UEFA Champions League in 1992?  (A) Manchester United  (B) Real Madrid  (C) FC Schalke  (D) Marseille",
+   "a": "D) Marseille",
+   "d": "hard"
+  },
+  {
+   "q": "What football team was formerly known as the Frankford Yellow Jackets?  (A) New England Patriots  (B) Miami Dolphins  (C) Philadelphia Eagles  (D) Dallas Cowboys",
+   "a": "C) Philadelphia Eagles",
+   "d": "hard"
+  },
+  {
+   "q": "What is the nickname of the English football team Southampton?  (A) The Bees  (B) The Citizens  (C) The Saints  (D) The Clarets",
+   "a": "C) The Saints",
+   "d": "hard"
+  },
+  {
+   "q": "Which NFL team, known for its fans' distinctive cheese wedge hats, is also nicknamed \"Cheeseheads\"?  (A) The Green Bay Packers  (B) The Dallas Cowboys  (C) The New England Patriots  (D) The Pittsburgh Steelers",
+   "a": "A) The Green Bay Packers",
+   "d": "hard"
+  },
+  {
+   "q": "Which team won the CAF Champions League in 2019?  (A) Wydad Casablanca  (B) Esperance Tunis  (C) TP Mazembe  (D) Wydad AC",
+   "a": "B) Esperance Tunis",
+   "d": "hard"
+  },
+  {
+   "q": "Which club won the UEFA Super Cup in 2019?  (A) Barcelona  (B) Chelsea  (C) Real Madrid  (D) Liverpool",
+   "a": "D) Liverpool",
+   "d": "hard"
+  },
+  {
+   "q": "Which team won the UEFA Nations League in 2019?  (A) England  (B) Portugal  (C) Spain  (D) The Netherlands",
+   "a": "B) Portugal",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these is a soccer team based in Philadelphia?  (A) Philadelphia Indians  (B) Philadelphia Union  (C) Philadelphia Reds  (D) Philadelphia Ravens",
+   "a": "B) Philadelphia Union",
+   "d": "hard"
+  },
+  {
+   "q": "Who is the top goalscorer in the history of the English Premier League?  (A) Wayne Rooney  (B) Robbie Fowler  (C) Alan Shearer  (D) Thierry Henry",
+   "a": "C) Alan Shearer",
+   "d": "hard"
+  },
+  {
+   "q": "Alan Shearer was the first player to score 200 Premiership goals. Who was the second?  (A) Wayne Rooney  (B) Harry Kane  (C) Sergio Aguero  (D) Andy Cole",
+   "a": "D) Andy Cole",
+   "d": "hard"
+  },
+  {
+   "q": "Which club was the first to win two consecutive Champions League titles?  (A) Real Madrid  (B) AC Milan  (C) Manchester United  (D) Liverpool",
+   "a": "A) Real Madrid",
+   "d": "hard"
+  },
+  {
+   "q": "Which English football team are nicknamed the Tractor Boys?  (A) Norwich City  (B) Plymouth Argyle  (C) Ipswich Town  (D) Bristol Rovers",
+   "a": "C) Ipswich Town",
+   "d": "hard"
+  },
+  {
+   "q": "Which country won the 1938 FIFA World Cup, hosted in France?  (A) Brazil  (B) Italy  (C) Germany  (D) Spain",
+   "a": "B) Italy",
+   "d": "hard"
+  },
+  {
+   "q": "Which team won the FIFA Women's World Cup in 2019?  (A) The Netherlands  (B) England  (C) USA  (D) Japan",
+   "a": "C) USA",
+   "d": "hard"
+  },
+  {
+   "q": "In 1958 a plane carrying Manchester United home from a match in Belgrade crash during take-off at which city's Airport?  (A) Budapest  (B) Rome  (C) Belgrade  (D) Munich",
+   "a": "D) Munich",
+   "d": "hard"
+  },
+  {
+   "q": "Which country hosted the 1978 FIFA World Cup?  (A) South Africa  (B) Argentina  (C) Mexico  (D) Italy",
+   "a": "B) Argentina",
+   "d": "hard"
+  },
+  {
+   "q": "In which university was Gerald Ford voted MVP of the football team in 1934?  (A) Ohio State University  (B) University of Michigan  (C) Harvard University  (D) University of Notre Dame",
+   "a": "B) University of Michigan",
+   "d": "hard"
+  },
+  {
+   "q": "Which country won the 1974 FIFA World Cup, hosted in West Germany?  (A) Spain  (B) Uruguay  (C) West Germany  (D) Italy",
+   "a": "C) West Germany",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these is an American Football team based in Baltimore?  (A) Baltimore Blues  (B) Baltimore Wizards  (C) Baltimore Crew  (D) Baltimore Ravens",
+   "a": "D) Baltimore Ravens",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these is an American Football team based in Las Vegas?  (A) Las Vegas Eagles  (B) Las Vegas Raiders  (C) Las Vegas 76ers  (D) Las Vegas Blackhawks",
+   "a": "B) Las Vegas Raiders",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 1982 FIFA World Cup?  (A) Italy  (B) Spain  (C) France  (D) Brazil",
+   "a": "A) Italy",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these is a soccer team based in Cincinnati?  (A) FC Cincinnati  (B) Cincinnati Dolphins  (C) Cincinnati Orioles  (D) Sporting Cincinnati",
+   "a": "A) FC Cincinnati",
+   "d": "hard"
+  },
+  {
+   "q": "Which team won the Copa Sudamericana in 2019?  (A) Colón  (B) Gremio  (C) Independiente del Valle  (D) Flamengo",
+   "a": "C) Independiente del Valle",
+   "d": "hard"
+  },
+  {
+   "q": "Which country hosted the 2002 FIFA World Cup?  (A) South Korea & Japan  (B) France  (C) Brazil  (D) South Africa",
+   "a": "A) South Korea & Japan",
+   "d": "hard"
+  },
+  {
+   "q": "Which country won the 1954 FIFA World Cup, hosted in Switzerland?  (A) Italy  (B) West Germany  (C) France  (D) Uruguay",
+   "a": "B) West Germany",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these is a soccer team based in Toronto?  (A) Toronto Canucks  (B) Toronto Bills  (C) Toronto Predators  (D) Toronto FC",
+   "a": "D) Toronto FC",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these is a soccer team based in San Jose?  (A) San Jose Bengals  (B) San Jose Eathquakes  (C) San Jose Hawks  (D) San Jose Heat",
+   "a": "B) San Jose Eathquakes",
+   "d": "hard"
+  },
+  {
+   "q": "Which country won the 1990 FIFA World Cup, hosted in Italy?  (A) Italy  (B) Argentina  (C) France  (D) West Germany",
+   "a": "D) West Germany",
+   "d": "hard"
+  },
+  {
+   "q": "How many seams are there on a football (American)?  (A) Three  (B) Four  (C) Five  (D) Six",
+   "a": "B) Four",
+   "d": "hard"
+  },
+  {
+   "q": "What is the nickname of the English football team Newcastle United?  (A) The Magpies  (B) The Whites  (C) The Hoops  (D) The Citizens",
+   "a": "A) The Magpies",
+   "d": "hard"
+  },
+  {
+   "q": "Which country hosted the 2014 FIFA World Cup?  (A) South Africa  (B) Mexico  (C) Brazil  (D) Germany",
+   "a": "C) Brazil",
+   "d": "hard"
+  },
+  {
+   "q": "Which country hosted the 1990 FIFA World Cup?  (A) United States  (B) Italy  (C) Brazil  (D) Switzerland",
+   "a": "B) Italy",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these is a soccer team based in Chicago?  (A) Chicago Fire  (B) Chicago Marlins  (C) Chicago Rangers  (D) Chicago FC",
+   "a": "A) Chicago Fire",
+   "d": "hard"
+  },
+  {
+   "q": "Which team won the UEFA Europa League in 2013-2014 season?  (A) Athletico Madrid  (B) Juventus  (C) Inter Milan  (D) Sevilla",
+   "a": "D) Sevilla",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these is an American Football team based in Cincinnati?  (A) Cincinnati Cavaliers  (B) Cincinnati FC  (C) Cincinnati Mariners  (D) Cincinnati Bengals",
+   "a": "D) Cincinnati Bengals",
+   "d": "hard"
+  }
+ ]
+}

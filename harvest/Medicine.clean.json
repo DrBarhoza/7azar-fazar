@@ -1,0 +1,474 @@
+{
+ "Medicine": [
+  {
+   "q": "In which part of the human throat is the epiglottis located?  (A) Ear  (B) Larynx (voice box)  (C) Stomach  (D) Liver",
+   "a": "B) Larynx (voice box)",
+   "d": "easy"
+  },
+  {
+   "q": "In the human body, what is the name of the structure that runs down the middle of the back?  (A) Vagus nerve  (B) Spinal cord  (C) Ribcage  (D) Trachea",
+   "a": "B) Spinal cord",
+   "d": "easy"
+  },
+  {
+   "q": "Which organ stores urine?  (A) Kidney  (B) Liver  (C) Bladder  (D) Stomach",
+   "a": "C) Bladder",
+   "d": "easy"
+  },
+  {
+   "q": "What is the process by which both milk and blood can become semisolid?  (A) Clotting  (B) Distillation  (C) Filtration  (D) Pasteurization",
+   "a": "A) Clotting",
+   "d": "easy"
+  },
+  {
+   "q": "What is the abbreviation for the polymer that carries genetic instructions for living cells?  (A) COD  (B) DNA  (C) GCI  (D) ATP",
+   "a": "B) DNA",
+   "d": "easy"
+  },
+  {
+   "q": "What is the word for a medicine that hastens the emptying of the bowels?  (A) Analgesic  (B) Laxative  (C) Anti inflammatory  (D) Suppository",
+   "a": "B) Laxative",
+   "d": "medium"
+  },
+  {
+   "q": "What part of the body, often referred to as 'gristle', is important for the formation of bones?  (A) Ligament  (B) Muscle  (C) Tendon  (D) Cartilage",
+   "a": "D) Cartilage",
+   "d": "medium"
+  },
+  {
+   "q": "What are the two main types of bone fracture?  (A) Hairline and Fault line  (B) Partial and Complete  (C) Open and Closed  (D) Curved and Straight",
+   "a": "C) Open and Closed",
+   "d": "medium"
+  },
+  {
+   "q": "Lack of Vitamin D causes which disease?  (A) Anemia  (B) Rickets  (C) Osteoporosis  (D) Smallpox",
+   "a": "B) Rickets",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these medical terms comes from an Ancient Greek word meaning \"without sensation\"?  (A) Amnesia  (B) Anesthesia  (C) Hypnosis  (D) Paralysis",
+   "a": "B) Anesthesia",
+   "d": "medium"
+  },
+  {
+   "q": "What disease may be diagnosed by checking Vitamin B12 levels and is characterized by a lack of red blood cells?  (A) Cancer  (B) Diabetes  (C) Arthritis  (D) Anemia",
+   "a": "D) Anemia",
+   "d": "medium"
+  },
+  {
+   "q": "Which Disease Of The Liver Is Associated With Alcoholism?  (A) Meningitis  (B) Scurvy  (C) Cirrhosis  (D) Hepatitis",
+   "a": "C) Cirrhosis",
+   "d": "medium"
+  },
+  {
+   "q": "Which two bones form the ankle joint that the talus fits between?  (A) The tibia and fibula  (B) The femur and tibia  (C) The humerus and ulna  (D) The radius and ulna",
+   "a": "A) The tibia and fibula",
+   "d": "medium"
+  },
+  {
+   "q": "Which of the following is the main symptom of bronchitis?  (A) Weight gain  (B) Nausea  (C) Cough  (D) Headache",
+   "a": "C) Cough",
+   "d": "medium"
+  },
+  {
+   "q": "In which part of the human body are the metatarsal bones located?  (A) Brain  (B) Lungs  (C) Throat  (D) Foot",
+   "a": "D) Foot",
+   "d": "medium"
+  },
+  {
+   "q": "In mammals , which organ produces milk?  (A) Mammary gland  (B) Pancreas  (C) Pituitary gland  (D) Prostate",
+   "a": "A) Mammary gland",
+   "d": "medium"
+  },
+  {
+   "q": "What is testosterone?  (A) A sugar  (B) A hormone  (C) An amino acid  (D) A gland",
+   "a": "B) A hormone",
+   "d": "medium"
+  },
+  {
+   "q": "What disease did the British navy begin issuing daily rations of lemon juice in 1795 to prevent?  (A) Smallpox  (B) Scurvy  (C) Yellow fever  (D) Malaria",
+   "a": "B) Scurvy",
+   "d": "medium"
+  },
+  {
+   "q": "Who discovered the structure of DNA?  (A) Gregor Mendel and Ernest Rutherford  (B) Albert Einstein and Richard Feynman  (C) Linus Pauling and Merl Harding  (D) James Watson and Francis Crick",
+   "a": "D) James Watson and Francis Crick",
+   "d": "medium"
+  },
+  {
+   "q": "Meningitis affects the _________.  (A) Kidneys  (B) Heart  (C) Brain  (D) Lungs",
+   "a": "C) Brain",
+   "d": "medium"
+  },
+  {
+   "q": "What plant's oil, called urushiol, causes skin irritation when it comes into contact with human skin?  (A) Oak  (B) Sumac  (C) Jimsonweed  (D) Poison Ivy",
+   "a": "D) Poison Ivy",
+   "d": "medium"
+  },
+  {
+   "q": "What birth defect, whose name means 'divided spine', is credited with being reduced by folic acid?  (A) Spina bifida  (B) Down syndrome  (C) Cleft lip  (D) Clubfoot",
+   "a": "A) Spina bifida",
+   "d": "medium"
+  },
+  {
+   "q": "What is the 3-letter order which, when given by a patient, calls for no chest compressions?  (A) SOS (save our souls)  (B) ALS (advanced life support)  (C) CPR (cardiopulmonary resuscitation)  (D) DNR (do not resuscitate)",
+   "a": "D) DNR (do not resuscitate)",
+   "d": "medium"
+  },
+  {
+   "q": "What is the medical term for the kneecap?  (A) Humerus  (B) Clavicle  (C) Femur  (D) Patella",
+   "a": "D) Patella",
+   "d": "medium"
+  },
+  {
+   "q": "Which of the following is a symptom of asthma?  (A) Weight loss  (B) Fever  (C) Shortness of breath  (D) Headache",
+   "a": "C) Shortness of breath",
+   "d": "medium"
+  },
+  {
+   "q": "Which disease causes tremors, and is often treated with hand exercises to improve motor skills?  (A) ALS  (B) Multiple Sclerosis  (C) Alzheimer's  (D) Parkinson's",
+   "a": "D) Parkinson's",
+   "d": "medium"
+  },
+  {
+   "q": "What do we call an agent that causes cancer?  (A) Androgen  (B) Dermatogen  (C) Cyanogen  (D) Carcinogen",
+   "a": "D) Carcinogen",
+   "d": "medium"
+  },
+  {
+   "q": "In what body part does an osteopath specialise?  (A) Arms  (B) Stomach  (C) Bones  (D) Eyes",
+   "a": "C) Bones",
+   "d": "medium"
+  },
+  {
+   "q": "What is the name of the oath traditionally taken by doctors, which originated in ancient Greece and is still associated with the medical profession today?  (A) The Ecclesiast Pledge  (B) The Nightingale's Pledge  (C) The Socratic Oath  (D) The Hippocratic Oath",
+   "a": "D) The Hippocratic Oath",
+   "d": "medium"
+  },
+  {
+   "q": "With Which Animals Do You Associate The Disease Myxomatosis?  (A) Chickens  (B) Pigeons  (C) Rabbits  (D) Pigs",
+   "a": "C) Rabbits",
+   "d": "medium"
+  },
+  {
+   "q": "Where in the body is the smallest human muscle?  (A) Ear  (B) Foot  (C) Nose  (D) Hand",
+   "a": "A) Ear",
+   "d": "medium"
+  },
+  {
+   "q": "Which Organ's Action Is Replaced By Artifical Dialysis?  (A) Liver  (B) Kidney  (C) Stomach  (D) Bladder",
+   "a": "B) Kidney",
+   "d": "medium"
+  },
+  {
+   "q": "Which gland produces insulin?  (A) Cyretic  (B) The Pancreas  (C) Insuloid  (D) Thyroid",
+   "a": "B) The Pancreas",
+   "d": "medium"
+  },
+  {
+   "q": "Deoxyribonucleic acid is better known as what?  (A) RNA  (B) DNA  (C) DA  (D) DRA",
+   "a": "B) DNA",
+   "d": "medium"
+  },
+  {
+   "q": "As what is haemophilia also known?  (A) Happy disease  (B) Royal disease  (C) Deadly disease  (D) Laughing disease",
+   "a": "B) Royal disease",
+   "d": "medium"
+  },
+  {
+   "q": "What part of the body does carditis affect?  (A) Soul  (B) Eyes  (C) Blood  (D) Heart",
+   "a": "D) Heart",
+   "d": "medium"
+  },
+  {
+   "q": "Which organ has a mitral valve and semilunar valves?  (A) Liver  (B) Lung  (C) Heart  (D) Stomach",
+   "a": "C) Heart",
+   "d": "medium"
+  },
+  {
+   "q": "Who developed the polio vaccine?  (A) Alexander Fleming  (B) Edward Jenner  (C) Jonas Salk  (D) Louis Pasteur",
+   "a": "C) Jonas Salk",
+   "d": "medium"
+  },
+  {
+   "q": "What is the name of the organ that filters blood?  (A) Liver  (B) Kidney  (C) Heart  (D) Spleen",
+   "a": "B) Kidney",
+   "d": "medium"
+  },
+  {
+   "q": "Which pancreatic hormone works to lower glucose levels in the blood?  (A) Adrenaline  (B) Oxytocin  (C) Testosterone  (D) Insulin",
+   "a": "D) Insulin",
+   "d": "medium"
+  },
+  {
+   "q": "What part of the body is affected by dermatitis?  (A) Heart  (B) Hair  (C) Skin  (D) Feet",
+   "a": "C) Skin",
+   "d": "medium"
+  },
+  {
+   "q": "For what disease was the first successful vaccine developed?  (A) Polio  (B) Measles  (C) Smallpox  (D) Influenza",
+   "a": "C) Smallpox",
+   "d": "medium"
+  },
+  {
+   "q": "What is the name of the large muscle that covers the shoulder joint?  (A) Bicep  (B) Deltoid  (C) Gluteal  (D) Tricep",
+   "a": "B) Deltoid",
+   "d": "medium"
+  },
+  {
+   "q": "What is the medical term for the eye condition marked by redness, excessive tearing, and itching?  (A) Glaucoma  (B) Conjunctivitis  (C) Myopia  (D) Cataracts",
+   "a": "B) Conjunctivitis",
+   "d": "medium"
+  },
+  {
+   "q": "What is the medical term for the condition that causes heartburn?  (A) Pneumonia  (B) Gastritis  (C) Acid reflux  (D) Heart disease",
+   "a": "C) Acid reflux",
+   "d": "medium"
+  },
+  {
+   "q": "What infectious lung disease is known by two letters?  (A) HF  (B) TB  (C) AK  (D) CC",
+   "a": "B) TB",
+   "d": "medium"
+  },
+  {
+   "q": "Which part of the human body has 26 bones, including 7 tarsals?  (A) Hand  (B) Skull  (C) Foot  (D) Spine",
+   "a": "C) Foot",
+   "d": "medium"
+  },
+  {
+   "q": "What is the medical name for the collarbone?  (A) Clavicle  (B) Femur  (C) Humerus  (D) Ulna",
+   "a": "A) Clavicle",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these does the prostate contribute to the production of?  (A) Semen  (B) Blood cells  (C) Digestive proteins  (D) Aphrodisiacs",
+   "a": "A) Semen",
+   "d": "medium"
+  },
+  {
+   "q": "What is the name of the medical condition marked by yellow discoloring of the skin caused by too much bilirubin in the blood?  (A) Jaundice  (B) Eczema  (C) Hemophilia  (D) Psoriasis",
+   "a": "A) Jaundice",
+   "d": "medium"
+  },
+  {
+   "q": "What Causes Hypoglycemia?  (A) Low Blood Sugar  (B) High Cholesterol  (C) High Blood Sugar  (D) Low Cholesterol",
+   "a": "A) Low Blood Sugar",
+   "d": "medium"
+  },
+  {
+   "q": "In medical terms, what is the name of a condition in which a blood vessel gets blocked by an air bubble moving through the bloodstream?  (A) A Stroke  (B) An Aneurysm  (C) A Hemorrhage  (D) An Embolism",
+   "a": "D) An Embolism",
+   "d": "hard"
+  },
+  {
+   "q": "What is the function of the pancreas?  (A) Produces oxygen  (B) Filters blood  (C) Controls body temperature  (D) Secretes hormones and digestive enzymes",
+   "a": "D) Secretes hormones and digestive enzymes",
+   "d": "hard"
+  },
+  {
+   "q": "Which of the following is a symptom of hypothyroidism?  (A) Fatigue  (B) Weight loss  (C) Headache  (D) Nausea",
+   "a": "A) Fatigue",
+   "d": "hard"
+  },
+  {
+   "q": "Which muscle group is mainly targeted by wide-grip pull-ups that work the muscles of the shoulders and the arms?  (A) The biceps  (B) The triceps  (C) The deltoids  (D) The latissimus dorsi",
+   "a": "D) The latissimus dorsi",
+   "d": "hard"
+  },
+  {
+   "q": "What term is used to describe a number of skin inflammations and is from the Greek word for 'skin'?  (A) Acne  (B) Dermatitis  (C) Eczema  (D) Psoriasis",
+   "a": "B) Dermatitis",
+   "d": "hard"
+  },
+  {
+   "q": "Cocci, Spirilla, and Streptococci are types of what?  (A) Virus  (B) Blood Cell  (C) Bacteria  (D) Gland",
+   "a": "C) Bacteria",
+   "d": "hard"
+  },
+  {
+   "q": "The Average Woman Has 9 Pints Of Blood, How Much Has The Average Man  (A) 10 Pints  (B) 12 Pints  (C) 9 Pints  (D) 7 Pints",
+   "a": "B) 12 Pints",
+   "d": "hard"
+  },
+  {
+   "q": "When was the first heart transplant?  (A) 1979  (B) 1973  (C) 1967  (D) 1985",
+   "a": "C) 1967",
+   "d": "hard"
+  },
+  {
+   "q": "What is the name of the organ used by an octopus to cling to surfaces?  (A) Grippers  (B) Pads  (C) Tentacles  (D) Suckers",
+   "a": "D) Suckers",
+   "d": "hard"
+  },
+  {
+   "q": "What part of the body is the medical field of phlebology concerned with?  (A) Hair  (B) Skin  (C) Veins  (D) Liver",
+   "a": "C) Veins",
+   "d": "hard"
+  },
+  {
+   "q": "What is the heart rate of the blue whale? (in beats per minute)  (A) 1  (B) 9  (C) 40  (D) 28",
+   "a": "B) 9",
+   "d": "hard"
+  },
+  {
+   "q": "When the penicillin first successfully used to treat a patient for septicaemia?  (A) 1942  (B) 1934  (C) 1918  (D) 1926",
+   "a": "A) 1942",
+   "d": "hard"
+  },
+  {
+   "q": "In which organ is bile produced?  (A) Heart  (B) Bladder  (C) Kidney  (D) Liver",
+   "a": "D) Liver",
+   "d": "hard"
+  },
+  {
+   "q": "Which part of the brain is involved in the coordination of voluntary motor movements?  (A) The amygdala  (B) The cerebellum  (C) The thalamus  (D) The hippocampus",
+   "a": "B) The cerebellum",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was the creation of the first artificial heart?  (A) 2015  (B) 2000  (C) 1993  (D) 2004",
+   "a": "A) 2015",
+   "d": "hard"
+  },
+  {
+   "q": "What is the name of the lymphoid organ located in the throat?  (A) Tonsils  (B) Thyroid  (C) Spleen  (D) Adrenal glands",
+   "a": "A) Tonsils",
+   "d": "hard"
+  },
+  {
+   "q": "What common fungal infection is also known as tinea pedis and is highly contagious?  (A) Jock itch  (B) Athlete's foot  (C) Ringworm  (D) Yeast infection",
+   "a": "B) Athlete's foot",
+   "d": "hard"
+  },
+  {
+   "q": "What organ is joined to the hyoid bone?  (A) Deltoids  (B) Biceps  (C) Heart  (D) Tongue",
+   "a": "D) Tongue",
+   "d": "hard"
+  },
+  {
+   "q": "In the early 20th century, rattlesnake venom was used to treat which illness?  (A) Heart Attack  (B) Anemia  (C) Paralysis  (D) Epilepsy",
+   "a": "D) Epilepsy",
+   "d": "hard"
+  },
+  {
+   "q": "Which disease is carried by the same virus as chicken pox,l and is common amongst older people?  (A) Polio  (B) Measles  (C) Smallpox  (D) Shingles",
+   "a": "D) Shingles",
+   "d": "hard"
+  },
+  {
+   "q": "What is Phycology the study of?  (A) Bacteria  (B) Viruses  (C) Moss  (D) Algae",
+   "a": "D) Algae",
+   "d": "hard"
+  },
+  {
+   "q": "What medical term is often caused by abnormally high fluid pressure in the eye?  (A) Glaucoma  (B) Myopia  (C) Cataracts  (D) Astigmatism",
+   "a": "A) Glaucoma",
+   "d": "hard"
+  },
+  {
+   "q": "What is the name for the extension on a neuron that receives signals from other neurons?  (A) Dendrite  (B) Synapse  (C) Axon  (D) Glia",
+   "a": "A) Dendrite",
+   "d": "hard"
+  },
+  {
+   "q": "Which soft, purplish organ filters blood and stores platelets?  (A) Appendix  (B) Pancreas  (C) Spleen  (D) Gallbladder",
+   "a": "C) Spleen",
+   "d": "hard"
+  },
+  {
+   "q": "What Part Of The Brain Is Affected In A Lobotomy?  (A) The Parietal Lobe  (B) Cortex  (C) The Hypothalamus  (D) The Frontal Lobe",
+   "a": "D) The Frontal Lobe",
+   "d": "hard"
+  },
+  {
+   "q": "What part of the body is the sclera a part of?  (A) The ear  (B) The skeleton  (C) The eyeball  (D) The brain",
+   "a": "C) The eyeball",
+   "d": "hard"
+  },
+  {
+   "q": "Which of the following is a symptom of meningitis?  (A) Hallucinations  (B) Difficulty sleeping  (C) Stiff neck  (D) Weight gain",
+   "a": "C) Stiff neck",
+   "d": "hard"
+  },
+  {
+   "q": "In which organ is a clear watery solution known as the 'aqueous humor' found?  (A) Kidney  (B) Testicles  (C) Eye  (D) Pancreas",
+   "a": "C) Eye",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was the vaccine for tuberculosis created?  (A) 1968  (B) 1951  (C) 1940  (D) 1921",
+   "a": "D) 1921",
+   "d": "hard"
+  },
+  {
+   "q": "When was the first blood bank opened?  (A) 1910  (B) 1928  (C) 1937  (D) 1919",
+   "a": "C) 1937",
+   "d": "hard"
+  },
+  {
+   "q": "The process of a snake shedding its skin or a crustacean casting off its outer shell is called __________  (A) Ecdysis  (B) Poreolasis  (C) Unsheathing  (D) Descaling",
+   "a": "A) Ecdysis",
+   "d": "hard"
+  },
+  {
+   "q": "What part of your body is the ischium a part of?  (A) Skull  (B) Spine  (C) Rib cage  (D) Pelvis",
+   "a": "D) Pelvis",
+   "d": "hard"
+  },
+  {
+   "q": "Which surgeon pioneered the use of sterilisation and antiseptic surgery?  (A) Joseph Lister  (B) Benny Russell  (C) Michael Faraday  (D) Franz Jacob",
+   "a": "A) Joseph Lister",
+   "d": "hard"
+  },
+  {
+   "q": "What suffix is added to a word to denote a cell?  (A) -toma  (B) -ectomy  (C) -plasty  (D) -cyte",
+   "a": "D) -cyte",
+   "d": "hard"
+  },
+  {
+   "q": "Interferons are proteins produced by the human body to interfere with the spread of what?  (A) bacteria  (B) fungi  (C) parasites  (D) viruses",
+   "a": "D) viruses",
+   "d": "hard"
+  },
+  {
+   "q": "What connects the nose to the ear?  (A) Eustachian tube  (B) Philtrum  (C) Maxillary bulb  (D) Optic nerve",
+   "a": "A) Eustachian tube",
+   "d": "hard"
+  },
+  {
+   "q": "What is the smallest bone in the human body?  (A) Stapes  (B) Tibia  (C) Humerus  (D) Femur",
+   "a": "A) Stapes",
+   "d": "hard"
+  },
+  {
+   "q": "What is an autoclave designed to do to surgical instruments in a medical lab?  (A) Dispose of them  (B) Sharpen them  (C) Repair them  (D) Sterilize them",
+   "a": "D) Sterilize them",
+   "d": "hard"
+  },
+  {
+   "q": "From what is the heart drug digitalis obtained?  (A) Foxglove  (B) Coconut  (C) Nightshade  (D) Bamboo",
+   "a": "A) Foxglove",
+   "d": "hard"
+  },
+  {
+   "q": "Which drug can be given to prevent blood clots?  (A) Morphine  (B) Aspirin  (C) Ibuprofen  (D) Paracetamol",
+   "a": "B) Aspirin",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was the first successful organ transplant?  (A) 1954  (B) 1981  (C) 1933  (D) 1970",
+   "a": "A) 1954",
+   "d": "hard"
+  },
+  {
+   "q": "What protein is resposible for carrying oxygen in our blood?  (A) Histidin  (B) Hemoglobin  (C) Histone  (D) GABA",
+   "a": "B) Hemoglobin",
+   "d": "hard"
+  },
+  {
+   "q": "What is the function of the thymus?  (A) Store bile  (B) Produce red blood cells  (C) Filter blood  (D) Support the development of T Cells",
+   "a": "D) Support the development of T Cells",
+   "d": "hard"
+  }
+ ]
+}

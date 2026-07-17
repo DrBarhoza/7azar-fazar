@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>7azar Fazar — Family Quiz Battle</title>
+<script defer src="https://unpkg.com/mammoth@1.6.0/mammoth.browser.min.js"></script>
+<style>
+  :root{
+    --bg:#0f1226; --bg2:#181c3a; --card:#1f2447; --card2:#272d5c;
+    --ink:#f3f4ff; --muted:#9aa0c7;
+    --teamA:#22d3ee; --teamB:#fbbf24;
+    --good:#34d399; --bad:#f87171;
+    --radius:18px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background:radial-gradient(1200px 800px at 70% -10%, #2a2f63 0%, var(--bg) 55%);
+    color:var(--ink); min-height:100vh;
+  }
+  .screen{display:none; max-width:1000px; margin:0 auto; padding:24px 16px 60px;}
+  .screen.active{display:block;}
+  h1{font-size:2.4rem; text-align:center; margin:18px 0 4px; letter-spacing:.5px;}
+  h1 .sj{background:linear-gradient(90deg,var(--teamA),var(--teamB)); -webkit-background-clip:text; background-clip:text; color:transparent;}
+  .tagline{text-align:center; color:var(--muted); margin-bottom:28px;}
+  .card{background:var(--card); border:1px solid #333a75; border-radius:var(--radius); padding:20px; margin-bottom:18px;}
+  .card h2{font-size:1.05rem; text-transform:uppercase; letter-spacing:1.5px; color:var(--muted); margin-bottom:14px;}
+  .row{display:flex; gap:14px; flex-wrap:wrap;}
+  .row > *{flex:1; min-width:200px;}
+  label.field{display:block; font-size:.85rem; color:var(--muted); margin-bottom:6px;}
+  input[type=text], select{
+    width:100%; padding:12px 14px; border-radius:12px; border:1px solid #3b4287;
+    background:var(--bg2); color:var(--ink); font-size:1rem; outline:none;
+  }
+  input[type=text]:focus, select:focus{border-color:var(--teamA);}
+  .teamA-accent{border-left:5px solid var(--teamA);}
+  .teamB-accent{border-left:5px solid var(--teamB);}
+  .topics{display:grid; grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); gap:10px;}
+  .topic-chip{
+    display:flex; align-items:center; gap:8px; padding:12px 14px; border-radius:12px;
+    background:var(--bg2); border:1px solid #3b4287; cursor:pointer; user-select:none;
+    transition:all .15s;
+  }
+  .topic-chip:hover{border-color:var(--teamA);}
+  .topic-chip.checked{background:#123a4d; border-color:var(--teamA);}
+  .topic-chip input{accent-color:var(--teamA); width:17px; height:17px;}
+  .topic-chip .count{margin-left:auto; font-size:.75rem; color:var(--muted);}
+  .topic-chip select.qn{
+    display:none; padding:4px 6px; border-radius:8px; font-size:.8rem;
+    background:var(--bg); color:var(--ink); border:1px solid #3b4287;
+  }
+  .topic-chip.checked select.qn{display:inline-block;}
+  .hint{font-size:.85rem; color:var(--muted); margin-top:10px; line-height:1.5;}
+  .btn{
+    display:inline-block; padding:13px 26px; border-radius:14px; border:none; cursor:pointer;
+    font-size:1.05rem; font-weight:700; color:#0b0e22; background:var(--ink);
+    transition:transform .1s, filter .15s;
+  }
+  .btn:hover{filter:brightness(1.1);} .btn:active{transform:scale(.97);}
+  .btn.primary{background:linear-gradient(90deg,var(--teamA),#60a5fa); color:#06121f; font-size:1.2rem; padding:16px 40px;}
+  .btn.good{background:var(--good); color:#06231a;}
+  .btn.bad{background:var(--bad); color:#2b0a0a;}
+  .btn.ghost{background:transparent; color:var(--ink); border:1px solid #4a51a0;}
+  .btn.small{padding:9px 16px; font-size:.9rem;}
+  .btn:disabled{opacity:.4; cursor:not-allowed;}
+  .center{text-align:center;}
+  .file-row{display:flex; gap:10px; flex-wrap:wrap; align-items:center;}
+  .file-row input[type=text]{flex:1; min-width:220px;}
+  #fileStatus{font-size:.85rem; margin-top:10px;}
+  #fileStatus.ok{color:var(--good);} #fileStatus.err{color:var(--bad);}
+
+  /* ---- game screen ---- */
+  .scoreboard{display:flex; gap:14px; margin-bottom:18px;}
+  .team-score{
+    flex:1; background:var(--card); border-radius:var(--radius); padding:14px 18px;
+    border:2px solid transparent; transition:border .2s, box-shadow .2s;
+  }
+  .team-score .tname{font-weight:700; font-size:1.05rem; margin-bottom:2px;}
+  .team-score .tpts{font-size:2rem; font-weight:800;}
+  .team-score.t0 .tpts{color:var(--teamA);} .team-score.t1 .tpts{color:var(--teamB);}
+  .team-score.active-turn.t0{border-color:var(--teamA); box-shadow:0 0 18px #22d3ee44;}
+  .team-score.active-turn.t1{border-color:var(--teamB); box-shadow:0 0 18px #fbbf2444;}
+  .game-meta{display:flex; justify-content:space-between; align-items:center; color:var(--muted); font-size:.9rem; margin-bottom:10px; flex-wrap:wrap; gap:6px;}
+  .topic-banner{
+    text-align:center; font-size:1.3rem; font-weight:800; letter-spacing:1px;
+    padding:10px; border-radius:12px; background:var(--card2); margin-bottom:16px;
+  }
+  .qwrap{display:flex; gap:20px; align-items:stretch; flex-wrap:wrap;}
+  .qcard{
+    flex:1; min-width:260px; background:var(--card); border-radius:var(--radius);
+    padding:34px 28px; display:flex; flex-direction:column; justify-content:center;
+    border:1px solid #333a75; min-height:230px;
+  }
+  #qText{font-size:1.7rem; font-weight:700; line-height:1.4; text-align:center;}
+  #qImgWrap{display:none; margin-top:18px; text-align:center;}
+  #qImgWrap.shown{display:block;}
+  #qImg{
+    max-width:100%; max-height:52vh; border-radius:10px; background:#fff;
+    padding:8px; box-shadow:0 4px 18px #0007;
+    transition:filter .45s ease, transform .45s ease;
+  }
+  #qImgHint{font-size:.75rem; color:var(--muted); margin-top:6px;}
+  /* El-Barahma blur stages (over-scale so blurred edges don't show a halo) */
+  #qImg.blur3{filter:blur(13px); transform:scale(1.05);}
+  #qImg.blur2{filter:blur(8px); transform:scale(1.03);}
+  #qImg.blur1{filter:blur(3px); transform:scale(1.015);}
+  #qImg.blur0{filter:none; transform:none;}
+  /* figure questions need the whole width — drop the timer onto its own row */
+  .qwrap.with-img .qcard{flex:1 1 100%; min-height:0;}
+  .qwrap.with-img .timer-box{flex-direction:row; gap:18px; width:100%;}
+  .qwrap.with-img .ring{width:96px; height:96px;}
+  .qwrap.with-img #timeLeft{font-size:1.5rem !important;}
+  #aText{
+    margin-top:22px; text-align:center; font-size:1.35rem; color:var(--good);
+    font-weight:800; display:none; border-top:1px dashed #3b4287; padding-top:18px;
+  }
+  #aText.shown{display:block;}
+  .timer-box{display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; min-width:160px;}
+  .ring{position:relative; width:140px; height:140px;}
+  .ring svg{transform:rotate(-90deg);}
+  .ring circle{fill:none; stroke-width:10;}
+  .ring .track{stroke:#2b3163;}
+  .ring .bar{stroke:var(--teamA); stroke-linecap:round; transition:stroke .3s;}
+  .ring .bar.warn{stroke:var(--bad);}
+  #timeLeft{
+    position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+    font-size:2.3rem; font-weight:800;
+  }
+  #timeLeft.warn{color:var(--bad); animation:pulse .5s infinite alternate;}
+  @keyframes pulse{from{transform:scale(1);}to{transform:scale(1.12);}}
+  .controls{display:flex; gap:12px; justify-content:center; margin-top:22px; flex-wrap:wrap;}
+  #stealPanel{
+    display:none; margin-top:18px; padding:16px; border-radius:14px; text-align:center;
+    background:#3a2b12; border:1px solid var(--teamB);
+  }
+  #stealPanel.shown{display:block;}
+  #stealPanel .btns{margin-top:12px; display:flex; gap:10px; justify-content:center;}
+
+  /* intermission overlay */
+  #overlay{
+    position:fixed; inset:0; background:#0f1226ee; display:none;
+    align-items:center; justify-content:center; z-index:50;
+  }
+  #overlay.shown{display:flex;}
+  .ov-card{text-align:center; padding:30px; max-width:600px;}
+  .ov-topic{font-size:2.2rem; font-weight:800; margin-bottom:8px;}
+  .ov-team{font-size:1.5rem; margin-bottom:6px;}
+  .ov-team.t0{color:var(--teamA);} .ov-team.t1{color:var(--teamB);}
+  .ov-sub{color:var(--muted); margin-bottom:26px;}
+
+  .tierbox{display:flex; align-items:center; gap:7px; padding:9px 14px; border-radius:10px;
+    background:var(--bg2); border:1px solid #3b4287; cursor:pointer; font-size:.98rem; user-select:none;}
+  .tierbox input{width:17px; height:17px; accent-color:var(--teamA);}
+  .tierbox.off{opacity:.5;}
+
+  /* ---- pick board ---- */
+  .board{display:flex; gap:10px; align-items:flex-start; justify-content:center; transform-origin:top center;}
+  .board-col{flex:1; min-width:100px;}
+  .board-col h3{
+    font-size:.82rem; text-align:center; padding:6px 6px; border-radius:10px 10px 0 0;
+    background:var(--card2); min-height:0; display:flex; align-items:center; justify-content:center;
+  }
+  .cell{
+    width:100%; margin-top:5px; padding:7px 6px; border-radius:10px; border:1px solid #3b4287;
+    background:var(--bg2); color:var(--ink); font-size:1.05rem; font-weight:800; cursor:pointer; line-height:1.05;
+    transition:transform .1s, background .15s, border-color .15s;
+  }
+  .cell:hover:not(:disabled){background:var(--card2); border-color:var(--teamA); transform:translateY(-2px);}
+  .cell{position:relative; border-left-width:5px;}
+  .cell:disabled{cursor:default;}
+  .cell.own0{border-left-color:var(--teamA);}
+  .cell.own1{border-left-color:var(--teamB);}
+  .cell.own0.mine{background:#123246;}
+  .cell.own1.mine{background:#3a2f12;}
+  .cell.theirs{opacity:.4; text-decoration:none;}
+  .cell.done{opacity:.25; text-decoration:line-through; border-left-color:#555 !important;}
+  .cell .dot{display:block; font-size:.68rem; font-weight:400; margin-top:1px; opacity:.75;}
+  #boardTurn{text-align:center; font-size:1.2rem; font-weight:800; margin:4px 0 10px;}
+  #boardTurn.t0{color:var(--teamA);} #boardTurn.t1{color:var(--teamB);}
+  /* board screen fills the viewport so everything fits on one TV screen */
+  #screen-board.active{display:flex; flex-direction:column; height:100vh; padding-top:12px; padding-bottom:10px; overflow:hidden;}
+  #screen-board .scoreboard{margin-bottom:8px;}
+  #screen-board .team-score{padding:9px 16px;}
+  #screen-board .team-score .tpts{font-size:1.5rem;}
+  #screen-board .game-meta{margin-bottom:4px;}
+  #boardGrid{flex:0 0 auto;}
+
+  /* results */
+  #winnerName{font-size:3rem; text-align:center; font-weight:900; margin:20px 0;}
+  .final-scores{display:flex; gap:16px; justify-content:center; margin:26px 0; flex-wrap:wrap;}
+  .final-scores .fs{background:var(--card); padding:22px 34px; border-radius:var(--radius); text-align:center; min-width:180px;}
+  .final-scores .fs .n{color:var(--muted); margin-bottom:6px;}
+  .final-scores .fs .p{font-size:2.4rem; font-weight:800;}
+  canvas#confetti{position:fixed; inset:0; pointer-events:none; z-index:40;}
+  /* celebration video overlay */
+  #cheerOverlay{
+    position:fixed; inset:0; background:#000000e0; display:none; z-index:60;
+    align-items:center; justify-content:center; flex-direction:column; gap:12px; cursor:pointer;
+  }
+  #cheerOverlay.shown{display:flex;}
+  #cheerVideo{max-width:88vw; max-height:78vh; border-radius:14px; box-shadow:0 10px 50px #000;}
+  #cheerOverlay .skip{color:var(--muted); font-size:.85rem;}
+  @media (max-width:640px){
+    #qText{font-size:1.3rem;}
+    h1{font-size:1.7rem;}
+    .team-score .tpts{font-size:1.5rem;}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ SETUP ============ -->
+<section id="screen-setup" class="screen active">
+  <h1><span class="sj">7azar Fazar</span> 🎯</h1>
+  <p class="tagline">Two teams. Timed questions. One champion family.</p>
+
+  <div class="card">
+    <h2>Teams</h2>
+    <div class="row">
+      <div class="teamA-accent" style="padding-left:12px;">
+        <label class="field">Team 1 name</label>
+        <input type="text" id="teamAName" value="Team 7azar" maxlength="24">
+      </div>
+      <div class="teamB-accent" style="padding-left:12px;">
+        <label class="field">Team 2 name</label>
+        <input type="text" id="teamBName" value="Team Fazar" maxlength="24">
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Topics <span style="text-transform:none; letter-spacing:0;">(pick up to 6 — the ×N box sets how many questions that topic holds, shared by both teams)</span></h2>
+    <div class="topics" id="topicList"></div>
+    <p class="hint" id="topicHint"></p>
+  </div>
+
+  <div class="card">
+    <h2>Rules</h2>
+    <div class="row">
+      <div>
+        <label class="field">Time per question</label>
+        <select id="timerSecs">
+          <option value="15">15 seconds</option>
+          <option value="30" selected>30 seconds</option>
+          <option value="45">45 seconds</option>
+          <option value="60">60 seconds</option>
+        </select>
+      </div>
+      <div>
+        <label class="field">Difficulty levels to include</label>
+        <div style="display:flex; gap:8px; flex-wrap:wrap;">
+          <label class="tierbox"><input type="checkbox" class="tierChk" value="1" checked> 🟢 Easy</label>
+          <label class="tierbox"><input type="checkbox" class="tierChk" value="2" checked> 🟡 Medium</label>
+          <label class="tierbox"><input type="checkbox" class="tierChk" value="3" checked> 🔴 Hard</label>
+        </div>
+      </div>
+      <div>
+        <label class="field">Scoring — teams take turns picking from the board</label>
+        <div style="padding:12px 14px; border-radius:12px; background:var(--bg2); border:1px solid #3b4287;">
+          🟢 Easy 10 · 🟡 Medium 20 · 🔴 Hard 30
+        </div>
+      </div>
+      <div>
+        <label class="field">On a wrong answer, let the other team try for half the points</label>
+        <select id="stealRule">
+          <option value="on" selected>Enabled</option>
+          <option value="off">Disabled</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Question bank</h2>
+    <div class="file-row">
+      <button class="btn small ghost" id="btnPickFile">📂 Load .docx / .json file</button>
+      <input type="file" id="fileInput" accept=".docx,.json" style="display:none">
+      <input type="text" id="urlInput" placeholder="…or paste a URL to a .docx / .json file">
+      <button class="btn small ghost" id="btnLoadUrl">Fetch</button>
+      <button class="btn small ghost" id="btnResetBank">↺ Reset to sample questions</button>
+      <button class="btn small ghost" id="btnResetHistory">🧠 Forget played questions</button>
+      <button class="btn small ghost" id="btnUnban">♻️ Restore banned questions (0)</button>
+    </div>
+    <p id="fileStatus"></p>
+    <p class="hint">
+      Word file format — one line each:<br>
+      <code>TOPIC: Geography</code> &nbsp;then pairs of&nbsp; <code>Q: What is the longest river?</code> / <code>A: The Nile</code>.<br>
+      Set difficulty with <code>Q(easy):</code>, <code>Q(medium):</code> or <code>Q(hard):</code> — a plain <code>Q:</code> counts as medium.
+      Repeat <code>TOPIC:</code> to start a new topic. JSON format: <code>{"Geography":[{"q":"…","a":"…","d":"easy"}]}</code>.<br>
+      Questions are saved in this browser, and ones you've already played are skipped on later game nights
+      (until a topic runs out of fresh ones, or you press "Forget played questions").
+    </p>
+  </div>
+
+  <div class="center" style="margin-top:26px;">
+    <button class="btn primary" id="btnStart">Start Game ▶</button>
+  </div>
+</section>
+
+<!-- ============ PICK BOARD ============ -->
+<section id="screen-board" class="screen">
+  <div class="scoreboard">
+    <div class="team-score t0" id="bScore0"><div class="tname"></div><div class="tpts">0</div></div>
+    <div class="team-score t1" id="bScore1"><div class="tname"></div><div class="tpts">0</div></div>
+  </div>
+  <div class="game-meta"><span id="boardProgress"></span><span></span></div>
+  <div id="boardTurn"></div>
+  <div class="board" id="boardGrid"></div>
+  <div class="center" style="margin-top:26px;">
+    <button class="btn small ghost" id="btnQuitBoard">End game early</button>
+  </div>
+</section>
+
+<!-- ============ GAME ============ -->
+<section id="screen-game" class="screen">
+  <div class="scoreboard">
+    <div class="team-score t0" id="score0"><div class="tname"></div><div class="tpts">0</div></div>
+    <div class="team-score t1" id="score1"><div class="tname"></div><div class="tpts">0</div></div>
+  </div>
+
+  <div class="game-meta">
+    <span id="progressText"></span>
+    <span id="turnText"></span>
+  </div>
+  <div class="topic-banner" id="topicBanner"></div>
+
+  <div class="qwrap">
+    <div class="qcard">
+      <div id="qText"></div>
+      <div id="qImgWrap">
+        <img id="qImg" alt="Question figure">
+        <div id="qImgHint">🚫 Use “Ban this question” if the image looks wrong or cut off</div>
+      </div>
+      <div id="aText"></div>
+    </div>
+    <div class="timer-box">
+      <div class="ring">
+        <svg viewBox="0 0 140 140" width="100%" height="100%">
+          <circle class="track" cx="70" cy="70" r="60"></circle>
+          <circle class="bar" id="timerBar" cx="70" cy="70" r="60"></circle>
+        </svg>
+        <div id="timeLeft">30</div>
+      </div>
+      <div class="hint" id="timerHint">answer before time runs out!</div>
+    </div>
+  </div>
+
+  <div id="stealPanel">
+    <strong id="stealText"></strong>
+    <div class="btns">
+      <button class="btn good small" id="btnStealYes">✓ Other team got it (+half points)</button>
+      <button class="btn bad small" id="btnStealNo">✗ They missed too</button>
+    </div>
+  </div>
+
+  <div class="controls" id="stdControls">
+    <button class="btn ghost" id="btnReveal">👁 Reveal answer</button>
+    <button class="btn good" id="btnCorrect">✓ Correct</button>
+    <button class="btn bad" id="btnWrong">✗ Wrong</button>
+  </div>
+  <div class="controls" id="barahmaControls" style="display:none;">
+    <button class="btn good" id="btnBWho">👤 Who ✓</button>
+    <button class="btn good" id="btnBWhere">📍 Where ✓</button>
+    <button class="btn good" id="btnBWhen">📅 When ✓</button>
+    <button class="btn bad" id="btnBHint">🔍 Clear a layer (−9 pts)</button>
+    <button class="btn ghost" id="btnBDone">➡ Reveal &amp; next</button>
+  </div>
+  <div class="center" style="margin-top:26px; display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+    <button class="btn small ghost" id="btnSwap">🔄 Swap question (−5 pts)</button>
+    <button class="btn small ghost" id="btnBan">🚫 Ban this question</button>
+    <button class="btn small ghost" id="btnQuit">End game early</button>
+  </div>
+</section>
+
+<!-- ============ RESULTS ============ -->
+<section id="screen-results" class="screen">
+  <h1>🏆 Results</h1>
+  <div id="winnerName"></div>
+  <div class="final-scores">
+    <div class="fs"><div class="n" id="fsName0"></div><div class="p" id="fsPts0" style="color:var(--teamA)"></div></div>
+    <div class="fs"><div class="n" id="fsName1"></div><div class="p" id="fsPts1" style="color:var(--teamB)"></div></div>
+  </div>
+  <div class="center">
+    <button class="btn primary" id="btnAgain">Play again</button>
+  </div>
+</section>
+
+<!-- intermission overlay -->
+<div id="overlay">
+  <div class="ov-card">
+    <div class="ov-topic" id="ovTopic"></div>
+    <div class="ov-team" id="ovTeam"></div>
+    <div class="ov-sub" id="ovSub"></div>
+    <button class="btn primary" id="btnGo">Go! ⏱</button>
+  </div>
+</div>
+
+<!-- celebration video (medium/hard correct answers) -->
+<div id="cheerOverlay">
+  <video id="cheerVideo" playsinline></video>
+  <div class="skip">click anywhere to skip</div>
+</div>
+
+<canvas id="confetti"></canvas>
+
+<script>
+"use strict";
+/* ================= sample question bank ================= */
+/* d: 1 = easy (10 pts), 2 = medium (20 pts), 3 = hard (30 pts) */
+const DEFAULT_BANK = {
+  "Geography": [
+    {q:"What is the longest river in the world?", a:"The Nile", d:1},
+    {q:"Which is the largest desert in the world?", a:"The Sahara (largest hot desert)", d:1},
+    {q:"Which ocean is the deepest?", a:"The Pacific Ocean", d:2},
+    {q:"On which continent are the Andes mountains?", a:"South America", d:1},
+    {q:"Which country has the most islands?", a:"Sweden", d:3},
+    {q:"What is the smallest country in the world?", a:"Vatican City", d:2},
+    {q:"Which strait separates Asia from North America?", a:"The Bering Strait", d:3},
+    {q:"Which sea has the saltiest water on Earth?", a:"The Dead Sea", d:2}
+  ],
+  "Countries": [
+    {q:"Which country? 🍕🍝", a:"Italy", d:1},
+    {q:"Which country? 🦘🐨", a:"Australia", d:1},
+    {q:"Which country? 🍁", a:"Canada", d:1},
+    {q:"Which country? 🗼🥖", a:"France", d:1},
+    {q:"Which country? 🦃", a:"Turkey", d:2},
+    {q:"Which country? 🥶🌶️", a:"Chile (chilly + chili)", d:2},
+    {q:"Which country? 🧊🛬", a:"Iceland (ice + landing)", d:2},
+    {q:"Which country? 🐟🛬", a:"Finland (fin + landing)", d:2},
+    {q:"Which country? 🍽️😋", a:"Hungary (hungry)", d:3},
+    {q:"Which country? 🐄⏳", a:"Kuwait (cow + wait)", d:3},
+    {q:"Which country? 🦠👨‍👩‍👧‍👦", a:"Germany (germ + many)", d:3},
+    {q:"Which country? 🕳️🛬", a:"The Netherlands (hole + landing)", d:3},
+    {q:"What is the capital of Australia?", a:"Canberra", d:1},
+    {q:"What is the capital of Canada?", a:"Ottawa", d:1},
+    {q:"What is the capital of Turkey?", a:"Ankara", d:2},
+    {q:"What is the capital of Brazil?", a:"Brasília", d:2},
+    {q:"What is the capital of Morocco?", a:"Rabat", d:3},
+    {q:"What is the capital of Switzerland?", a:"Bern", d:3},
+    {q:"What is the capital of South Korea?", a:"Seoul", d:1},
+    {q:"What is the capital of Kenya?", a:"Nairobi", d:2}
+  ],
+  "Hollywood": [
+    {q:"Who played Jack in the movie Titanic?", a:"Leonardo DiCaprio", d:1},
+    {q:"Which movie features the line “I'll be back”?", a:"The Terminator", d:2},
+    {q:"Who directed Jurassic Park and E.T.?", a:"Steven Spielberg", d:3},
+    {q:"What is the highest-grossing film of all time?", a:"Avatar", d:2},
+    {q:"Which actor plays Iron Man in the Marvel movies?", a:"Robert Downey Jr.", d:1},
+    {q:"In which movie does Tom Hanks talk to a volleyball named Wilson?", a:"Cast Away", d:2},
+    {q:"Which animated movie features the song “Let It Go”?", a:"Frozen", d:1},
+    {q:"Who played the Joker in The Dark Knight?", a:"Heath Ledger", d:3}
+  ],
+  "Medicine": [
+    {q:"Which organ pumps blood around the body?", a:"The heart", d:1},
+    {q:"What is the largest organ of the human body?", a:"The skin", d:2},
+    {q:"How many bones does an adult human have?", a:"206", d:2},
+    {q:"Which vitamin does the body make from sunlight?", a:"Vitamin D", d:1},
+    {q:"What part of the body do nephrologists treat?", a:"The kidneys", d:3},
+    {q:"Which blood type is the universal donor?", a:"O negative", d:2},
+    {q:"What is the medical name for the windpipe?", a:"The trachea", d:3},
+    {q:"Which cells in the blood fight infection?", a:"White blood cells", d:1}
+  ],
+  "History": [
+    {q:"In which year did World War II end?", a:"1945", d:2},
+    {q:"Who was the first person to walk on the moon?", a:"Neil Armstrong", d:1},
+    {q:"Which ancient civilization built the pyramids of Giza?", a:"The ancient Egyptians", d:1},
+    {q:"Who was the first president of the United States?", a:"George Washington", d:1},
+    {q:"The Titanic sank in which year?", a:"1912", d:2},
+    {q:"Which empire was ruled by Julius Caesar?", a:"The Roman Empire", d:2},
+    {q:"In which country did the Renaissance begin?", a:"Italy", d:3},
+    {q:"Who invented the printing press?", a:"Johannes Gutenberg", d:3}
+  ],
+  "Soccer": [
+    {q:"How many players from one team are on the pitch in soccer?", a:"11", d:1},
+    {q:"What color card sends a player off the field?", a:"Red", d:1},
+    {q:"How many minutes does a standard soccer match last (without extra time)?", a:"90 minutes", d:1},
+    {q:"Which country has won the most World Cups?", a:"Brazil (5 titles)", d:2},
+    {q:"Which player is nicknamed CR7?", a:"Cristiano Ronaldo", d:2},
+    {q:"In which country was the 2022 World Cup held?", a:"Qatar", d:2},
+    {q:"Which club has won the most UEFA Champions League titles?", a:"Real Madrid", d:3},
+    {q:"Which country won the first FIFA World Cup in 1930?", a:"Uruguay", d:3}
+  ],
+  "Animals": [
+    {q:"What is the tallest animal in the world?", a:"The giraffe", d:1},
+    {q:"Which animal is called the King of the Jungle?", a:"The lion", d:1},
+    {q:"How many legs does a spider have?", a:"8", d:1},
+    {q:"What is the fastest land animal?", a:"The cheetah", d:2},
+    {q:"Which is the only mammal that can truly fly?", a:"The bat", d:2},
+    {q:"What do you call a baby kangaroo?", a:"A joey", d:2},
+    {q:"Which animal can live for more than 400 years?", a:"The Greenland shark", d:3},
+    {q:"How many hearts does an octopus have?", a:"Three", d:3}
+  ],
+  "Riddles": [
+    {q:"What has keys but can't open locks?", a:"A piano", d:1},
+    {q:"What gets wetter the more it dries?", a:"A towel", d:1},
+    {q:"I speak without a mouth and hear without ears. What am I?", a:"An echo", d:2},
+    {q:"What has hands but cannot clap?", a:"A clock", d:1},
+    {q:"The more you take, the more you leave behind. What are they?", a:"Footsteps", d:3},
+    {q:"What has a head and a tail but no body?", a:"A coin", d:2},
+    {q:"What can travel around the world while staying in a corner?", a:"A stamp", d:3},
+    {q:"What goes up but never comes down?", a:"Your age", d:2}
+  ]
+};
+
+const BANK_KEY = "sj_bank_v1";
+const USED_KEY = "sj_used_v1";
+const BANNED_KEY = "sj_banned_v1";
+const MAX_TOPICS = 6;
+const PTS = {1:10, 2:20, 3:30};
+const TIER_NAME = {1:"Easy", 2:"Medium", 3:"Hard"};
+const TIER_DOT = {1:"🟢", 2:"🟡", 3:"🔴"};
+let bank = loadBank();
+let usedSet = loadSet(USED_KEY);
+let bannedSet = loadSet(BANNED_KEY);
+(function migrate(){   // one-time: Math & Physics replaced by Soccer & Animals
+  try{
+    if(localStorage.getItem("sj_mig_v2")) return;
+    let changed = false;
+    for(const t of ["Math", "Physics"]){ if(bank[t]){ delete bank[t]; changed = true; } }
+    for(const t of ["Soccer", "Animals"]){ if(!bank[t]){ bank[t] = JSON.parse(JSON.stringify(DEFAULT_BANK[t])); changed = true; } }
+    if(changed) saveBank();
+    localStorage.setItem("sj_mig_v2", "1");
+  }catch(e){}
+})();
+(function migrateCountries(){   // one-time: merge country topics into "Countries"
+  try{
+    if(localStorage.getItem("sj_mig_v3")) return;
+    let changed = false;
+    for(const t of ["Country Capitals", "Guess the Country", "Country Shapes", "Rank Countries"]){
+      if(bank[t]){ delete bank[t]; changed = true; }
+    }
+    if(!bank["Countries"]){ bank["Countries"] = JSON.parse(JSON.stringify(DEFAULT_BANK["Countries"])); changed = true; }
+    if(changed) saveBank();
+    localStorage.setItem("sj_mig_v3", "1");
+  }catch(e){}
+})();
+let game = null;
+let timer = {id:null, left:0, total:30};
+let audioCtx = null;
+
+/* ================= helpers ================= */
+const $ = id => document.getElementById(id);
+function shuffle(arr){
+  const a = arr.slice();
+  for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; }
+  return a;
+}
+function loadBank(){
+  try{
+    const saved = localStorage.getItem(BANK_KEY);
+    if(saved){ const b = JSON.parse(saved); if(b && Object.keys(b).length) return b; }
+  }catch(e){}
+  return JSON.parse(JSON.stringify(DEFAULT_BANK));
+}
+function saveBank(){ try{ localStorage.setItem(BANK_KEY, JSON.stringify(bank)); }catch(e){} }
+function loadSet(key){
+  try{
+    const saved = localStorage.getItem(key);
+    if(saved) return new Set(JSON.parse(saved));
+  }catch(e){}
+  return new Set();
+}
+function saveSet(key, set){ try{ localStorage.setItem(key, JSON.stringify([...set])); }catch(e){} }
+function saveUsed(){ saveSet(USED_KEY, usedSet); }
+function saveBanned(){ saveSet(BANNED_KEY, bannedSet); }
+function activeQs(topic){
+  return bank[topic].filter(x=>!bannedSet.has(qid(topic, x.q)));
+}
+function qid(topic, qtext){
+  // stable id per question so play history survives reloads and bank re-imports
+  let h = 5381;
+  const s = topic + " " + qtext;
+  for(let i=0;i<s.length;i++) h = ((h*33) ^ s.charCodeAt(i)) >>> 0;
+  return h.toString(36);
+}
+function normD(d){
+  if(d===1 || d===2 || d===3) return d;
+  const map = {easy:1, medium:2, hard:3, "1":1, "2":2, "3":3};
+  return map[String(d).toLowerCase()] || 2;
+}
+function show(screenId){
+  document.querySelectorAll(".screen").forEach(s=>s.classList.remove("active"));
+  $(screenId).classList.add("active");
+}
+
+/* ================= sounds (WebAudio, no files needed) ================= */
+function ensureAudio(){ if(!audioCtx) audioCtx = new (window.AudioContext||window.webkitAudioContext)(); }
+function beep(freq, dur, type="sine", vol=0.15, when=0){
+  if(!audioCtx) return;
+  const o = audioCtx.createOscillator(), g = audioCtx.createGain();
+  o.type = type; o.frequency.value = freq;
+  g.gain.setValueAtTime(vol, audioCtx.currentTime + when);
+  g.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + when + dur);
+  o.connect(g).connect(audioCtx.destination);
+  o.start(audioCtx.currentTime + when); o.stop(audioCtx.currentTime + when + dur + 0.05);
+}
+const sfx = {
+  tick: ()=>beep(880, .08, "square", .06),
+  timeUp: ()=>{ beep(180, .5, "sawtooth", .2); beep(140, .5, "sawtooth", .2, .15); },
+  correct: ()=>{ beep(660, .12); beep(880, .18, "sine", .15, .12); },
+  wrong: ()=>beep(220, .3, "triangle", .18),
+  fanfare: ()=>{ [523,659,784,1047].forEach((f,i)=>beep(f, .25, "sine", .15, i*.15)); }
+};
+
+/* ================= setup screen ================= */
+function renderTopicList(){
+  const box = $("topicList");
+  box.innerHTML = "";
+  Object.keys(bank).forEach(t=>{
+    const qs = activeQs(t);
+    const n = qs.length;
+    const fresh = qs.filter(x=>!usedSet.has(qid(t, x.q))).length;
+    const chip = document.createElement("label");
+    chip.className = "topic-chip";
+    chip.innerHTML = `<input type="checkbox" value="${t.replace(/"/g,"&quot;")}"><span>${t}</span><span class="count">${fresh}/${n} new</span>` +
+      `<select class="qn" title="questions in this topic (shared by both teams)">` +
+      [2,4,6,8,10,12].map(k=>`<option value="${k}"${k===6?" selected":""}>×${k}</option>`).join("") +
+      `</select>`;
+    box.appendChild(chip);
+  });
+  box.querySelectorAll("input[type=checkbox]").forEach(cb=>{
+    cb.addEventListener("change", ()=>{
+      const checked = box.querySelectorAll("input:checked");
+      if(checked.length > MAX_TOPICS){ cb.checked = false; }
+      box.querySelectorAll(".topic-chip").forEach(c=>c.classList.toggle("checked", c.querySelector("input").checked));
+      updateTopicHint();
+    });
+  });
+  box.querySelectorAll("select.qn").forEach(sel=>{
+    sel.addEventListener("change", updateTopicHint);
+    sel.addEventListener("click", e=>e.stopPropagation());
+  });
+  updateTopicHint();
+}
+function selectedConfigs(){
+  return [...$("topicList").querySelectorAll("input:checked")].map(cb=>({
+    topic: cb.value,
+    n: parseInt(cb.closest(".topic-chip").querySelector("select.qn").value, 10)
+  }));
+}
+function updateTopicHint(){
+  const sel = selectedConfigs();
+  const short = [], stale = [];
+  for(const {topic, n} of sel){
+    const qs = activeQs(topic);
+    if(qs.length < n) short.push(topic);
+    else if(qs.filter(x=>!usedSet.has(qid(topic, x.q))).length < n) stale.push(topic);
+  }
+  $("btnUnban").textContent = `♻️ Restore banned questions (${bannedSet.size})`;
+  const totalQ = sel.reduce((s,c)=>s+c.n, 0);
+  let msg = `${sel.length}/${MAX_TOPICS} topics selected` +
+    (sel.length ? ` — ${totalQ} questions on the board, ${totalQ/2} per team.` : `.`);
+  if(short.length) msg += ` ⚠️ ${short.join(", ")}: not enough questions — some will repeat this game.`;
+  if(stale.length) msg += ` ♻️ ${stale.join(", ")}: not enough new questions left — some already-played ones will return.`;
+  $("topicHint").textContent = msg;
+}
+
+/* ---- question bank loading ---- */
+function setFileStatus(msg, ok){
+  const el = $("fileStatus");
+  el.textContent = msg; el.className = ok ? "ok" : "err";
+}
+function parseDocxText(text){
+  const parsed = {};
+  let topic = null, pendingQ = null, pendingD = 2;
+  for(let raw of text.split(/\r?\n/)){
+    const line = raw.trim();
+    if(!line) continue;
+    let m;
+    if((m = line.match(/^topic\s*[:\-–]\s*(.+)$/i))){
+      topic = m[1].trim(); pendingQ = null;
+      if(!parsed[topic]) parsed[topic] = [];
+    } else if((m = line.match(/^q\s*(?:\(\s*(easy|medium|hard)\s*\))?\s*[:\-–.)]\s*(.+)$/i))){
+      pendingQ = m[2].trim();
+      pendingD = normD(m[1] || 2);
+    } else if((m = line.match(/^a\s*[:\-–.)]\s*(.+)$/i))){
+      if(topic && pendingQ){ parsed[topic].push({q:pendingQ, a:m[1].trim(), d:pendingD}); pendingQ = null; }
+    } else if(pendingQ){
+      pendingQ += " " + line;   // multi-line question
+    }
+  }
+  return parsed;
+}
+function validateJsonBank(obj){
+  const parsed = {};
+  if(typeof obj !== "object" || obj === null || Array.isArray(obj)) return parsed;
+  for(const [topic, qs] of Object.entries(obj)){
+    if(!Array.isArray(qs)) continue;
+    const clean = qs.filter(x=>x && typeof x.q==="string" && typeof x.a==="string")
+                    .map(x=>{
+                      const e = {q:x.q.trim(), a:x.a.trim(), d:normD(x.d ?? 2)};
+                      const t = Number(x.t);
+                      if(Number.isFinite(t) && t >= 5 && t <= 900) e.t = Math.round(t);
+                      // figure image: a relative path next to this page, or a data: URI
+                      if(typeof x.img === "string" && x.img.trim() && !/^\s*(https?|javascript):/i.test(x.img))
+                        e.img = x.img.trim();
+                      // El-Barahma photo round: keep the type + where/when answers
+                      if(x.type === "barahma"){
+                        e.type = "barahma";
+                        if(typeof x.who === "string") e.who = x.who.trim();
+                        if(typeof x.where === "string") e.where = x.where.trim();
+                        if(typeof x.when === "string") e.when = x.when.trim();
+                        if(typeof x.ref === "string") e.ref = x.ref.trim();
+                      }
+                      return e;
+                    });
+    if(clean.length) parsed[topic] = clean;
+  }
+  return parsed;
+}
+function mergeBank(parsed, sourceLabel){
+  const topics = Object.keys(parsed);
+  const total = topics.reduce((s,t)=>s+parsed[t].length, 0);
+  if(!total){
+    setFileStatus(`Couldn't find any questions in ${sourceLabel}. Check the TOPIC:/Q:/A: format.`, false);
+    return;
+  }
+  Object.assign(bank, parsed);
+  saveBank();
+  renderTopicList();
+  setFileStatus(`✓ Loaded ${total} questions in ${topics.length} topic(s) from ${sourceLabel}: ${topics.join(", ")}`, true);
+}
+async function loadFromArrayBuffer(buf, name){
+  if(name.toLowerCase().endsWith(".json")){
+    const text = new TextDecoder().decode(buf);
+    mergeBank(validateJsonBank(JSON.parse(text)), name);
+  } else {
+    if(typeof mammoth === "undefined"){
+      setFileStatus("Word-file support needs an internet connection the first time (couldn't load the .docx reader). You can use a .json file instead.", false);
+      return;
+    }
+    const result = await mammoth.extractRawText({arrayBuffer: buf});
+    mergeBank(parseDocxText(result.value), name);
+  }
+}
+$("btnPickFile").addEventListener("click", ()=>$("fileInput").click());
+$("fileInput").addEventListener("change", async e=>{
+  const f = e.target.files[0];
+  if(!f) return;
+  try{ await loadFromArrayBuffer(await f.arrayBuffer(), f.name); }
+  catch(err){ setFileStatus("Failed to read file: " + err.message, false); }
+  e.target.value = "";
+});
+$("btnLoadUrl").addEventListener("click", async ()=>{
+  const url = $("urlInput").value.trim();
+  if(!url) return;
+  setFileStatus("Fetching…", true);
+  try{
+    const res = await fetch(url);
+    if(!res.ok) throw new Error("HTTP " + res.status);
+    await loadFromArrayBuffer(await res.arrayBuffer(), url.split("/").pop() || url);
+  }catch(err){
+    setFileStatus("Couldn't fetch that URL (" + err.message + "). The server must allow cross-origin requests, or download the file and load it with the button instead.", false);
+  }
+});
+$("btnResetBank").addEventListener("click", ()=>{
+  bank = JSON.parse(JSON.stringify(DEFAULT_BANK));
+  saveBank(); renderTopicList();
+  setFileStatus("Question bank reset to built-in samples.", true);
+});
+$("btnResetHistory").addEventListener("click", ()=>{
+  usedSet.clear(); saveUsed(); renderTopicList();
+  setFileStatus("Play history cleared — every question counts as new again.", true);
+});
+$("btnUnban").addEventListener("click", ()=>{
+  if(!bannedSet.size){ setFileStatus("No banned questions to restore.", true); return; }
+  const n = bannedSet.size;
+  bannedSet.clear(); saveBanned(); renderTopicList();
+  setFileStatus(`Restored ${n} banned question(s).`, true);
+});
+
+/* ================= game flow ================= */
+function normAns(a){ return String(a).toLowerCase().replace(/^the\s+/,"").replace(/[^a-z0-9]/g,""); }
+function pickOne(qs, tier, takenIds, blockAns){
+  // blockAns: no two PICTURE questions (img) for the same country in one game
+  const ok = x => !(blockAns && x.img && blockAns.has(normAns(x.a)));
+  // prefer: never-played at the right tier → never-played any tier →
+  // already-played at the right tier → anything not yet in this game
+  let pool = qs.filter(x=>x.d===tier && !usedSet.has(x.id) && !takenIds.has(x.id) && ok(x));
+  if(!pool.length) pool = qs.filter(x=>!usedSet.has(x.id) && !takenIds.has(x.id) && ok(x));
+  if(!pool.length) pool = qs.filter(x=>x.d===tier && !takenIds.has(x.id) && ok(x));
+  if(!pool.length) pool = qs.filter(x=>!takenIds.has(x.id) && ok(x));
+  if(!pool.length) pool = qs.filter(x=>!takenIds.has(x.id));   // relax the country rule before repeating a question
+  if(!pool.length) pool = qs;   // tiny topic: repeats within the same game
+  const pick = shuffle(pool)[0];
+  takenIds.add(pick.id);
+  if(blockAns && pick.img) blockAns.add(normAns(pick.a));
+  return pick;
+}
+// difficulty mix per board size: [easy, medium, hard]
+function selectedTiers(){
+  const t = [...document.querySelectorAll(".tierChk:checked")].map(c=>parseInt(c.value,10));
+  return t.length ? t.sort((a,b)=>a-b) : [1,2,3];   // none checked → all
+}
+// spread n questions across the chosen tiers, every tier count EVEN so each
+// splits 50/50 between the two teams; extras go to the easier tiers first
+function tierListFor(n, tiers){
+  const allowed = (tiers && tiers.length ? [...tiers] : [1,2,3]).sort((a,b)=>a-b);
+  const k = allowed.length, pairs = Math.floor(n/2);
+  const base = Math.floor(pairs/k), rem = pairs % k;
+  const list = [];
+  allowed.forEach((t,i)=>{ const cnt = (base + (i<rem?1:0))*2; for(let j=0;j<cnt;j++) list.push(t); });
+  return list;
+}
+function buildBoard(configs, tierSel){
+  const usedPicAns = new Set();                  // board-wide: no country picture twice
+  return configs.map(({topic, n})=>{
+    const qs = activeQs(topic).map(x=>({q:x.q, a:x.a, d:normD(x.d ?? 2), t:x.t, img:x.img, type:x.type, who:x.who, where:x.where, when:x.when, ref:x.ref, id:qid(topic, x.q)}));
+    const takenIds = new Set();
+    // El-Barahma has no difficulty tiers — all cells one flat value, filter ignored
+    const flat = qs.length && qs.every(x=>x.type === "barahma");
+    const tiers = flat ? Array(n).fill(3) : tierListFor(n, tierSel);
+    const seen = {};                             // split each tier evenly: owners 0,1,0,1…
+    const cells = tiers.map(tier => {
+      const k = seen[tier] || 0; seen[tier] = k + 1;
+      return {...pickOne(qs, tier, takenIds, usedPicAns), done:false, owner: k % 2};
+    });
+    return {topic, cells};
+  });
+}
+$("btnStart").addEventListener("click", ()=>{
+  ensureAudio();
+  const configs = selectedConfigs();
+  if(configs.length === 0){
+    $("topicHint").textContent = "⚠️ Pick at least one topic to start!";
+    return;
+  }
+  game = {
+    teams: [
+      {name: $("teamAName").value.trim() || "Team 1", score: 0},
+      {name: $("teamBName").value.trim() || "Team 2", score: 0}
+    ],
+    timerSecs: parseInt($("timerSecs").value, 10),
+    steal: $("stealRule").value === "on",
+    board: buildBoard(configs, selectedTiers()),
+    turn: 0,              // whose turn it is to pick
+    pick: null,           // {ti, ci} of the cell being played
+    answerRevealed: false
+  };
+  timer.total = game.timerSecs;
+  for(const id of ["score0","bScore0"]) $(id).querySelector(".tname").textContent = game.teams[0].name;
+  for(const id of ["score1","bScore1"]) $(id).querySelector(".tname").textContent = game.teams[1].name;
+  updateScores();
+  showBoard();
+});
+
+function cur(){
+  return game.pick ? game.board[game.pick.ti].cells[game.pick.ci] : null;
+}
+function curTeam(){ return game.turn; }
+function cellsLeft(){
+  return game.board.reduce((s,col)=>s + col.cells.filter(c=>!c.done).length, 0);
+}
+function updateScores(){
+  const t = curTeam();
+  for(const [i, ids] of [[0,["score0","bScore0"]], [1,["score1","bScore1"]]]){
+    for(const id of ids){
+      $(id).querySelector(".tpts").textContent = game.teams[i].score;
+      $(id).classList.toggle("active-turn", t===i);
+    }
+  }
+}
+
+/* ---- pick board ---- */
+function showBoard(){
+  updateScores();
+  const total = game.board.reduce((s,col)=>s+col.cells.length, 0);
+  const left = cellsLeft();
+  $("boardProgress").textContent = `${total - left} / ${total} questions played`;
+  const tn = $("boardTurn");
+  tn.textContent = `${game.teams[game.turn].name} — pick one of your questions`;
+  tn.className = "t" + game.turn;
+
+  const grid = $("boardGrid");
+  grid.innerHTML = "";
+  game.board.forEach((col, ti)=>{
+    const div = document.createElement("div");
+    div.className = "board-col";
+    div.innerHTML = `<h3>${col.topic}</h3>`;
+    col.cells.forEach((cell, ci)=>{
+      const mine = cell.owner === game.turn;
+      const b = document.createElement("button");
+      b.className = "cell own" + cell.owner + (cell.done ? " done" : (mine ? " mine" : " theirs"));
+      b.disabled = cell.done || !mine;
+      b.title = cell.done ? "" : `${game.teams[cell.owner].name}'s question`;
+      const cellLabel = cell.type === "barahma" ? "📷 Photo" : `${TIER_DOT[cell.d]} ${TIER_NAME[cell.d]}`;
+      b.innerHTML = `${PTS[cell.d]}<span class="dot">${cellLabel}</span>`;
+      if(!cell.done && mine) b.addEventListener("click", ()=>{
+        ensureAudio();
+        game.pick = {ti, ci};
+        show("screen-game");
+        showIntermission();
+      });
+      div.appendChild(b);
+    });
+    grid.appendChild(div);
+  });
+  show("screen-board");
+  requestAnimationFrame(fitBoard);
+}
+function fitBoard(){
+  const grid = $("boardGrid");
+  grid.style.transform = "none";
+  grid.style.marginBottom = "0px";
+  const rect = grid.getBoundingClientRect();
+  const availH = window.innerHeight - rect.top - 66;   // leave room for the "End game early" button
+  const availW = window.innerWidth - 24;
+  const natH = grid.scrollHeight, natW = grid.scrollWidth;
+  if(natH <= 0) return;
+  const scale = Math.max(0.35, Math.min(1, availH / natH, availW / natW));
+  grid.style.transform = "scale(" + scale + ")";
+  grid.style.marginBottom = (natH * scale - natH) + "px";   // reclaim the untransformed layout space
+}
+window.addEventListener("resize", ()=>{ if($("screen-board").classList.contains("active")) fitBoard(); });
+function showIntermission(){
+  const c = cur(), team = curTeam();
+  $("ovTopic").textContent = "📚 " + game.board[game.pick.ti].topic;
+  $("ovTeam").textContent = team===0 ? "🔵 " + game.teams[0].name : "🟡 " + game.teams[1].name;
+  $("ovTeam").className = "ov-team t" + team;
+  $("ovSub").textContent = c.type === "barahma"
+    ? `📷 Family photo — ${PTS[c.d]} points • name WHO, WHERE and WHEN (${Math.round(PTS[c.d]/3)} each) • ${fmtDur(c.t || game.timerSecs)} on the clock`
+    : `${TIER_DOT[c.d]} ${TIER_NAME[c.d]} — worth ${PTS[c.d]} points • ${fmtDur(c.t || game.timerSecs)} on the clock`;
+  $("overlay").classList.add("shown");
+}
+$("btnGo").addEventListener("click", ()=>{
+  ensureAudio();
+  $("overlay").classList.remove("shown");
+  startQuestion();
+});
+function startQuestion(){
+  const c = cur();
+  game.answerRevealed = false;
+  usedSet.add(c.id); saveUsed();
+  const total = game.board.reduce((s,col)=>s+col.cells.length, 0);
+  $("topicBanner").textContent = c.type === "barahma"
+    ? `${game.board[game.pick.ti].topic} — 📷 Photo (${PTS[c.d]} pts)`
+    : `${game.board[game.pick.ti].topic} — ${TIER_DOT[c.d]} ${TIER_NAME[c.d]} (${PTS[c.d]} pts)`;
+  $("progressText").textContent = `Question ${total - cellsLeft() + 1} / ${total}`;
+  $("turnText").textContent = `${game.teams[curTeam()].name}'s turn`;
+  $("qText").textContent = c.q;
+  const wrap = $("qImgWrap"), qwrap = document.querySelector(".qwrap");
+  if(c.img){
+    $("qImg").src = c.img;
+    wrap.classList.add("shown");
+    qwrap.classList.add("with-img");
+    $("qText").style.fontSize = "1rem";        // the figure carries the wording
+    $("qText").style.color = "var(--muted)";
+  } else {
+    wrap.classList.remove("shown");
+    qwrap.classList.remove("with-img");
+    $("qImg").removeAttribute("src");
+    $("qText").style.fontSize = "";
+    $("qText").style.color = "";
+  }
+  const isBara = c.type === "barahma";
+  $("qImg").classList.remove("blur3","blur2","blur1","blur0");
+  if(isBara){
+    $("qText").style.fontSize = "1.15rem"; $("qText").style.color = "";
+    $("qImgHint").textContent = `Photo ${c.ref || "?"} · Guess WHO, WHERE and WHEN — the host clears the photo as you get them.`;
+    $("aText").textContent = `👤 ${c.who || "?"}    📍 ${c.where || "?"}    📅 ${c.when || "?"}`;
+    $("qImg").classList.add("blur3");
+    game.bara = {who:false, where:false, when:false, hints:0};
+    $("stdControls").style.display = "none";
+    $("barahmaControls").style.display = "";
+    $("btnBWho").disabled = false;
+    $("btnBWhere").disabled = false;
+    $("btnBWhen").disabled = false;
+    $("btnBHint").disabled = false;
+  } else {
+    $("qImgHint").textContent = '🚫 Use "Ban this question" if the image looks wrong or cut off';
+    $("aText").textContent = "✓ " + c.a;
+    $("stdControls").style.display = "";
+    $("barahmaControls").style.display = "none";
+  }
+  $("aText").classList.remove("shown");
+  $("stealPanel").classList.remove("shown");
+  $("btnCorrect").disabled = false;
+  $("btnWrong").disabled = false;
+  $("btnReveal").disabled = false;
+  $("btnSwap").disabled = false;
+  updateScores();
+  startTimer();
+}
+function fmtDur(s){
+  return s % 60 === 0 && s >= 60 ? `${s/60} minute${s > 60 ? "s" : ""}` : `${s} seconds`;
+}
+function startTimer(){
+  stopTimer();
+  timer.total = cur().t || game.timerSecs;   // per-question time override
+  timer.left = timer.total;
+  renderTimer();
+  timer.id = setInterval(()=>{
+    timer.left--;
+    renderTimer();
+    if(timer.left <= 5 && timer.left > 0) sfx.tick();
+    if(timer.left <= 0){
+      stopTimer();
+      sfx.timeUp();
+      $("timerHint").textContent = "⏰ Time's up! Judge the answer →";
+    }
+  }, 1000);
+  $("timerHint").textContent = "answer before time runs out!";
+}
+function stopTimer(){ if(timer.id){ clearInterval(timer.id); timer.id = null; } }
+function renderTimer(){
+  const C = 2 * Math.PI * 60;
+  const frac = Math.max(timer.left, 0) / timer.total;
+  const bar = $("timerBar");
+  bar.style.strokeDasharray = C;
+  bar.style.strokeDashoffset = C * (1 - frac);
+  bar.classList.toggle("warn", timer.left <= 5);
+  const tl = $("timeLeft");
+  const left = Math.max(timer.left, 0);
+  const txt = left >= 60 ? `${Math.floor(left/60)}:${String(left%60).padStart(2,"0")}` : String(left);
+  tl.textContent = txt;
+  tl.style.fontSize = txt.length >= 4 ? "1.7rem" : "";
+  tl.classList.toggle("warn", timer.left <= 5);
+}
+
+$("btnReveal").addEventListener("click", ()=>{
+  game.answerRevealed = true;
+  $("aText").classList.add("shown");
+});
+/* ---- reaction videos: add more paths to either list; one is picked at random ---- */
+const REACTIONS = {
+  celebration: [
+    "reactions/celebration/cheer-1.mp4",
+  ],
+  booing: [
+    // e.g. "reactions/booing/boo-1.mp4",
+  ],
+};
+function playReaction(kind, done){
+  const list = REACTIONS[kind] || [];
+  if(!list.length){ done(); return; }          // nothing for this kind yet → carry on
+  const ov = $("cheerOverlay"), v = $("cheerVideo");
+  let finished = false;
+  const finish = ()=>{
+    if(finished) return; finished = true;
+    ov.classList.remove("shown");
+    try{ v.pause(); }catch(e){}
+    v.removeAttribute("src"); v.load();
+    done();
+  };
+  v.src = list[Math.floor(Math.random() * list.length)];
+  v.onended = finish;
+  v.onerror = finish;              // missing/broken file must never stall the game
+  ov.onclick = finish;             // click anywhere to skip
+  ov.classList.add("shown");
+  const p = v.play();
+  if(p && p.catch) p.catch(()=>finish());   // autoplay blocked → just carry on
+}
+$("btnCorrect").addEventListener("click", ()=>{
+  stopTimer(); sfx.correct();
+  game.teams[curTeam()].score += PTS[cur().d];
+  updateScores();
+  if(cur().d >= 2) playReaction("celebration", ()=>nextQuestion());   // medium & hard get a cheer
+  else nextQuestion();
+});
+$("btnWrong").addEventListener("click", ()=>{
+  stopTimer(); sfx.wrong();
+  // steal chance only if answer wasn't already revealed on screen
+  if(game.steal && !game.answerRevealed){
+    const other = 1 - curTeam();
+    $("stealText").textContent = `🔁 ${game.teams[other].name} can answer for ${Math.floor(PTS[cur().d]/2)} points (half)!`;
+    $("stealPanel").classList.add("shown");
+    $("btnCorrect").disabled = true;
+    $("btnWrong").disabled = true;
+    $("btnReveal").disabled = true;
+    $("btnSwap").disabled = true;
+  } else {
+    nextQuestion();
+  }
+});
+$("btnStealYes").addEventListener("click", ()=>{
+  sfx.correct();
+  game.teams[1 - curTeam()].score += Math.floor(PTS[cur().d]/2);
+  nextQuestion();
+});
+$("btnStealNo").addEventListener("click", ()=>{ sfx.wrong(); nextQuestion(); });
+
+/* ---- El-Barahma photo round: who / where / when, each clears the blur a step ---- */
+function baraCorrect(){ return (game.bara.who?1:0) + (game.bara.where?1:0) + (game.bara.when?1:0); }
+function baraBlurStep(){
+  // blur clears for each correct answer AND for each paid hint
+  const lvl = Math.min(3, baraCorrect() + (game.bara.hints || 0));
+  const img = $("qImg");
+  img.classList.remove("blur3","blur2","blur1","blur0");
+  img.classList.add(["blur3","blur2","blur1","blur0"][lvl]);
+  $("btnBHint").disabled = lvl >= 3;              // nothing left to clear
+  return lvl;
+}
+function baraGot(part, btnId){
+  if(!game.bara || game.bara[part]) return;
+  game.bara[part] = true; sfx.correct();
+  game.teams[curTeam()].score += Math.round(PTS[cur().d] / 3);
+  baraBlurStep();
+  if(baraCorrect() === 3) $("aText").classList.add("shown");   // only a full guess reveals the answer
+  $(btnId).disabled = true;
+  updateScores();
+}
+$("btnBHint").addEventListener("click", ()=>{
+  if(!game.bara) return;
+  if(baraCorrect() + (game.bara.hints || 0) >= 3) return;      // already fully clear
+  game.bara.hints = (game.bara.hints || 0) + 1;
+  game.teams[curTeam()].score -= 9;
+  sfx.wrong();
+  baraBlurStep();
+  updateScores();
+});
+$("btnBWho").addEventListener("click", ()=>baraGot("who", "btnBWho"));
+$("btnBWhere").addEventListener("click", ()=>baraGot("where", "btnBWhere"));
+$("btnBWhen").addEventListener("click", ()=>baraGot("when", "btnBWhen"));
+$("btnBDone").addEventListener("click", ()=>{
+  stopTimer();
+  $("qImg").classList.remove("blur3","blur2","blur1"); $("qImg").classList.add("blur0");
+  $("aText").classList.add("shown");
+  nextQuestion();
+});
+
+function nextQuestion(){
+  stopTimer();
+  cur().done = true;          // retire the cell that was just played
+  cur().by = game.turn;       // record which team took it (for the per-tier cap)
+  game.pick = null;
+  game.turn = 1 - game.turn;  // teams alternate picking
+  updateScores();
+  if(cellsLeft() === 0){ endGame(); return; }
+  showBoard();
+}
+$("btnQuit").addEventListener("click", ()=>{
+  stopTimer();
+  if(confirm("End the game now and show results?")) endGame();
+  // note: if they cancel, the timer stays paused on purpose — host can judge at leisure
+});
+$("btnQuitBoard").addEventListener("click", ()=>{
+  if(confirm("End the game now and show results?")) endGame();
+});
+function replacementFor(c){
+  // same-topic, same-tier draw, avoiding every question already on the board
+  const topic = game.board[game.pick.ti].topic;
+  const taken = new Set();
+  for(const col of game.board) for(const cell of col.cells) taken.add(cell.id);
+  // country pictures already shown elsewhere on the board (except this cell)
+  const blockAns = new Set();
+  for(const col of game.board) for(const cell of col.cells)
+    if(cell.img && cell !== c) blockAns.add(normAns(cell.a));
+  const pool = activeQs(topic)
+    .map(x=>({q:x.q, a:x.a, d:normD(x.d ?? 2), t:x.t, img:x.img, type:x.type, who:x.who, where:x.where, when:x.when, ref:x.ref, id:qid(topic, x.q)}))
+    .filter(x=>!taken.has(x.id));
+  return pool.length ? pickOne(pool, c.d, new Set(), blockAns) : null;
+}
+function putReplacement(repl){
+  const cell = cur();
+  delete cell.img; delete cell.t;                     // don't inherit the old question's figure
+  delete cell.type; delete cell.who; delete cell.where; delete cell.when; delete cell.ref;  // ...nor its El-Barahma fields
+  Object.assign(cell, repl);   // keep the cell's position and done flag
+}
+$("btnBan").addEventListener("click", ()=>{
+  const c = cur();
+  stopTimer();
+  if(!confirm("Ban this question permanently? A replacement will be drawn if available.")) return;
+  bannedSet.add(c.id); saveBanned();
+  const repl = replacementFor(c);
+  if(repl){
+    putReplacement(repl);
+    startQuestion();
+  } else {
+    nextQuestion();   // topic exhausted — the cell retires, nobody scores
+  }
+});
+$("btnSwap").addEventListener("click", ()=>{
+  const c = cur();
+  const repl = replacementFor(c);
+  if(!repl){
+    $("timerHint").textContent = "No replacement left in this topic!";
+    return;
+  }
+  stopTimer(); sfx.wrong();
+  game.teams[curTeam()].score -= 5;
+  putReplacement(repl);
+  startQuestion();
+});
+
+/* ================= results + confetti ================= */
+function endGame(){
+  stopTimer();
+  $("overlay").classList.remove("shown");
+  game.pick = null;
+  const [a, b] = game.teams;
+  $("fsName0").textContent = a.name; $("fsPts0").textContent = a.score;
+  $("fsName1").textContent = b.name; $("fsPts1").textContent = b.score;
+  let msg;
+  if(a.score === b.score) msg = "🤝 It's a tie!";
+  else msg = "🎉 " + (a.score > b.score ? a.name : b.name) + " wins!";
+  $("winnerName").textContent = msg;
+  show("screen-results");
+  sfx.fanfare();
+  if(a.score !== b.score) launchConfetti();
+}
+$("btnAgain").addEventListener("click", ()=>{
+  show("screen-setup");
+  renderTopicList();
+});
+
+function launchConfetti(){
+  const cv = $("confetti"), ctx = cv.getContext("2d");
+  cv.width = innerWidth; cv.height = innerHeight;
+  const colors = ["#22d3ee","#fbbf24","#34d399","#f87171","#a78bfa","#f472b6"];
+  const parts = Array.from({length:160}, ()=>({
+    x: Math.random()*cv.width, y: -20 - Math.random()*cv.height*.5,
+    w: 6+Math.random()*6, h: 8+Math.random()*8,
+    vy: 2+Math.random()*3, vx: -1.5+Math.random()*3,
+    rot: Math.random()*Math.PI, vr: -.1+Math.random()*.2,
+    c: colors[Math.floor(Math.random()*colors.length)]
+  }));
+  let frames = 0;
+  (function tick(){
+    ctx.clearRect(0,0,cv.width,cv.height);
+    for(const p of parts){
+      p.x += p.vx; p.y += p.vy; p.rot += p.vr;
+      ctx.save(); ctx.translate(p.x,p.y); ctx.rotate(p.rot);
+      ctx.fillStyle = p.c; ctx.fillRect(-p.w/2,-p.h/2,p.w,p.h);
+      ctx.restore();
+    }
+    if(++frames < 400) requestAnimationFrame(tick);
+    else ctx.clearRect(0,0,cv.width,cv.height);
+  })();
+}
+
+/* ================= init ================= */
+renderTopicList();
+</script>
+</body>
+</html>

@@ -1,0 +1,614 @@
+{
+ "Animals": [
+  {
+   "q": "Which of these birds can swim but not fly?  (A) Penguin  (B) Swan  (C) Stork  (D) Eagle",
+   "a": "A) Penguin",
+   "d": "easy"
+  },
+  {
+   "q": "In the Lion King, what sort of animal is Pumbaa?  (A) An elephant  (B) A rhinoceros  (C) A warthog  (D) A lion",
+   "a": "C) A warthog",
+   "d": "easy"
+  },
+  {
+   "q": "Which bird is associated with delivering babies?  (A) Stork  (B) Swallow  (C) Crane  (D) Pelican",
+   "a": "A) Stork",
+   "d": "easy"
+  },
+  {
+   "q": "What is the word for a young pig?  (A) A Cygnet  (B) A Colt  (C) A Piglet  (D) A Maggot",
+   "a": "C) A Piglet",
+   "d": "easy"
+  },
+  {
+   "q": "What adjective describes a fox?  (A) Serpentine  (B) Vulpine  (C) Feline  (D) Canine",
+   "a": "B) Vulpine",
+   "d": "easy"
+  },
+  {
+   "q": "Which of these snakes kills its prey by coiling around it and squeezing (a method called constriction)?  (A) Python  (B) Rattlesnake  (C) Puff adder  (D) Cobra",
+   "a": "A) Python",
+   "d": "easy"
+  },
+  {
+   "q": "What would you call a baby eagle?  (A) An Eaglet  (B) A Lamb  (C) An Eyas  (D) A Calf",
+   "a": "A) An Eaglet",
+   "d": "easy"
+  },
+  {
+   "q": "What body part can geckos snap off and leave behind when in danger?  (A) The legs  (B) The claws  (C) The horns  (D) The tail",
+   "a": "D) The tail",
+   "d": "easy"
+  },
+  {
+   "q": "In E.B. White's classic children's book \"Charlotte's Web\", what kind of animal is Charlotte?  (A) A Pig  (B) A Spider  (C) A Sheep  (D) A Horse",
+   "a": "B) A Spider",
+   "d": "easy"
+  },
+  {
+   "q": "What type of animal is a caribou?  (A) A Mouse  (B) A Whale  (C) A Reindeer  (D) A Spider",
+   "a": "C) A Reindeer",
+   "d": "easy"
+  },
+  {
+   "q": "What name is given to animals which only eat plants?  (A) Herbivore  (B) Vegitarian  (C) Vegivore  (D) Omnivore",
+   "a": "A) Herbivore",
+   "d": "easy"
+  },
+  {
+   "q": "How many limbs does an octopus have?  (A) 10  (B) 14  (C) 8  (D) 6",
+   "a": "C) 8",
+   "d": "easy"
+  },
+  {
+   "q": "What is the word for a group of lions?  (A) A shrewdness  (B) A clowder  (C) A pride  (D) A muster",
+   "a": "C) A pride",
+   "d": "easy"
+  },
+  {
+   "q": "What term is used for a female horse that is aged four years or under?  (A) Filly  (B) Mare  (C) Stallion  (D) Pony",
+   "a": "A) Filly",
+   "d": "easy"
+  },
+  {
+   "q": "Which dog breed is commonly used as a sled dog in Arctic and subarctic regions?  (A) Boxer  (B) Husky  (C) Dalmatian  (D) Dachshund",
+   "a": "B) Husky",
+   "d": "easy"
+  },
+  {
+   "q": "What is the term for animals that are at risk of becoming extinct?  (A) Exotic species  (B) Endangered species  (C) Invasive species  (D) Declining species",
+   "a": "B) Endangered species",
+   "d": "easy"
+  },
+  {
+   "q": "What is the sound made by a horse when it 'whinnies'?  (A) Moo  (B) Oink  (C) Baa  (D) Neigh",
+   "a": "D) Neigh",
+   "d": "easy"
+  },
+  {
+   "q": "From what animal do we get venison?  (A) Pig  (B) Deer  (C) Goat  (D) Sheep",
+   "a": "B) Deer",
+   "d": "easy"
+  },
+  {
+   "q": "What is the name of the endearing cat sound that is caused by the vibration of the false vocal cords?  (A) A meow  (B) A ruff  (C) A mewl  (D) A purr",
+   "a": "D) A purr",
+   "d": "easy"
+  },
+  {
+   "q": "What is a baby monkey known as?  (A) A Piglet  (B) A Pup  (C) A Bunny  (D) An Infant",
+   "a": "D) An Infant",
+   "d": "medium"
+  },
+  {
+   "q": "A male goat is known as what?  (A) A Billy  (B) A Macho  (C) A Drone  (D) A Ram",
+   "a": "A) A Billy",
+   "d": "medium"
+  },
+  {
+   "q": "Which animal is used to sniff out truffles?  (A) Cows  (B) Cats  (C) Sheep  (D) Pigs",
+   "a": "D) Pigs",
+   "d": "medium"
+  },
+  {
+   "q": "Which book published in 1952 features an unusual friendship between a spider and a pig?  (A) Black Beauty  (B) Charlotte's Web  (C) Animal Farm  (D) Watership Down",
+   "a": "B) Charlotte's Web",
+   "d": "medium"
+  },
+  {
+   "q": "Foie Gras comes from the liver of which animal?  (A) Sheep  (B) Swan  (C) Goat  (D) Goose",
+   "a": "D) Goose",
+   "d": "medium"
+  },
+  {
+   "q": "What animal appears on the flag of Mexico?  (A) Chihuahua  (B) Jaguar  (C) Golden Eagle  (D) Monarch Butterfly",
+   "a": "C) Golden Eagle",
+   "d": "medium"
+  },
+  {
+   "q": "Which German dog breed features short legs and a long body?  (A) Rottweiler  (B) German Shepherd  (C) Dachshund  (D) Doberman Pinscher",
+   "a": "C) Dachshund",
+   "d": "medium"
+  },
+  {
+   "q": "Which Bird Is Resident Of The American Southwest & Has Been Immortilized In A Cartoon Series?  (A) Canary  (B) Roadrunner  (C) Emu  (D) Bald Eagle",
+   "a": "B) Roadrunner",
+   "d": "medium"
+  },
+  {
+   "q": "Which animal would you associate with the Japan Airlines logo?  (A) Butterfly  (B) Moose  (C) Crocodile  (D) Crane",
+   "a": "D) Crane",
+   "d": "medium"
+  },
+  {
+   "q": "An animal is a fish if it has what?  (A) Gills  (B) A tail  (C) A vertebrate  (D) Fins",
+   "a": "A) Gills",
+   "d": "medium"
+  },
+  {
+   "q": "Which garden bird is famous for their red breast and beady eyes?  (A) African Hawk  (B) European Robin  (C) Albatross  (D) Grey Pigeon",
+   "a": "B) European Robin",
+   "d": "medium"
+  },
+  {
+   "q": "Which animal would you associate with the Qantas logo?  (A) Moose  (B) Eagle  (C) Panda  (D) Kangaroo",
+   "a": "D) Kangaroo",
+   "d": "medium"
+  },
+  {
+   "q": "Which animal communicates in sound waves below the frequency that humans can hear?  (A) Elephants  (B) Chimpanzees  (C) Earthworms  (D) Bald Eagles",
+   "a": "A) Elephants",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these brands has a owl on its logo?  (A) Abercrombie & Fitch  (B) Twitter  (C) Swarovski  (D) Tripadvisor",
+   "a": "D) Tripadvisor",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these brands has a horse on its logo?  (A) Mustang  (B) ING Group  (C) Smirnoff  (D) Swarovski",
+   "a": "A) Mustang",
+   "d": "medium"
+  },
+  {
+   "q": "Horse Is To Equine As Pig Is To What?  (A) Bovine  (B) Porcine  (C) Recombinant  (D) Mammalian",
+   "a": "B) Porcine",
+   "d": "medium"
+  },
+  {
+   "q": "What Kind Of Animal Is A Marmoset?  (A) A Rodent  (B) A Marsupial  (C) A Bird  (D) A Monkey",
+   "a": "D) A Monkey",
+   "d": "medium"
+  },
+  {
+   "q": "Which animal would you associate with the Abercrombie & Fitch logo?  (A) Bull  (B) Kangaroo  (C) Moose  (D) Rabbit",
+   "a": "C) Moose",
+   "d": "medium"
+  },
+  {
+   "q": "Which animal would you associate with the Ferrari logo?  (A) Moose  (B) Swan  (C) Horse  (D) Lion",
+   "a": "C) Horse",
+   "d": "medium"
+  },
+  {
+   "q": "What kind of animal is a kookaburra?  (A) Mammal  (B) Fish  (C) Bird  (D) Reptile",
+   "a": "C) Bird",
+   "d": "medium"
+  },
+  {
+   "q": "A male bird is known as what?  (A) A Ram  (B) A Rooster  (C) A Cock  (D) A Cob",
+   "a": "C) A Cock",
+   "d": "medium"
+  },
+  {
+   "q": "Which Spider Devours Its Partner After Mating?  (A) Jumping Spider  (B) Black Widow  (C) Tarantula  (D) Crab Spider",
+   "a": "B) Black Widow",
+   "d": "medium"
+  },
+  {
+   "q": "What is the word for a male deer?  (A) A Buck  (B) A Macho  (C) A Tom  (D) A Cob",
+   "a": "A) A Buck",
+   "d": "medium"
+  },
+  {
+   "q": "What is the word used for a type of tail that can grasp objects?  (A) Prophetic  (B) Prehensile  (C) Persistent  (D) Precipitous",
+   "a": "B) Prehensile",
+   "d": "medium"
+  },
+  {
+   "q": "A female mule is known as what?  (A) A Hembra  (B) A Jenny  (C) A Cow  (D) A Sow",
+   "a": "B) A Jenny",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these brands has a rabbit on its logo?  (A) Peugeot  (B) Playboy  (C) Lamborghini  (D) Nestlé",
+   "a": "B) Playboy",
+   "d": "medium"
+  },
+  {
+   "q": "What type of chemical calling cards are released by an animal to affect other members of its species?  (A) Pheromones  (B) Hormones  (C) Neurotransmitters  (D) Proteins",
+   "a": "A) Pheromones",
+   "d": "medium"
+  },
+  {
+   "q": "Which TV character owned a talking cat called Salem?  (A) Spongebob Squarepants  (B) Sabrina the Teenage Witch  (C) Buffy the Vampire Slayer  (D) Lisa Simpson",
+   "a": "B) Sabrina the Teenage Witch",
+   "d": "medium"
+  },
+  {
+   "q": "What is a baby spider known as?  (A) A Joey  (B) A Spiderling  (C) A Leveret  (D) A Codling",
+   "a": "B) A Spiderling",
+   "d": "medium"
+  },
+  {
+   "q": "Which venomous spider is recognized by its hourglass-shaped mark?  (A) Tarantula  (B) Black Widow  (C) Daddy Longlegs  (D) Brown Recluse",
+   "a": "B) Black Widow",
+   "d": "medium"
+  },
+  {
+   "q": "Which Roman Emperor made his horse a senator?  (A) Augustus  (B) Nero  (C) Commodus  (D) Caligula",
+   "a": "D) Caligula",
+   "d": "medium"
+  },
+  {
+   "q": "Which farm animal is commonly associated with the breeds Jersey, Red Poll, and Angus?  (A) Sheep  (B) Goats  (C) Cows  (D) Horses",
+   "a": "C) Cows",
+   "d": "medium"
+  },
+  {
+   "q": "In Norse mythology, which type of fierce animal are Skoll and Fenrir?  (A) Lions  (B) Wolves  (C) Bears  (D) Tigers",
+   "a": "B) Wolves",
+   "d": "medium"
+  },
+  {
+   "q": "Which animal would you associate with the MGM logo?  (A) Lion  (B) Peacock  (C) Bat  (D) Bird",
+   "a": "A) Lion",
+   "d": "medium"
+  },
+  {
+   "q": "What would you call a male wasp?  (A) A Tiercel  (B) A Drone  (C) A Dog  (D) A Macho",
+   "a": "B) A Drone",
+   "d": "medium"
+  },
+  {
+   "q": "What is the scientific name for the red wolf?  (A) Canis lupus  (B) Canis latrans  (C) Canis aureus  (D) Canis rufus",
+   "a": "D) Canis rufus",
+   "d": "medium"
+  },
+  {
+   "q": "Which animal would you associate with the Porsche logo?  (A) Bull  (B) Penguin  (C) Horse  (D) Elephant",
+   "a": "C) Horse",
+   "d": "medium"
+  },
+  {
+   "q": "Which animal would you associate with the Bacardi logo?  (A) Horse  (B) Lion  (C) Bat  (D) Crocodile",
+   "a": "C) Bat",
+   "d": "medium"
+  },
+  {
+   "q": "Name the only native North American marsupial?  (A) Opossum  (B) Otter  (C) Squirrel  (D) Coyote",
+   "a": "A) Opossum",
+   "d": "medium"
+  },
+  {
+   "q": "The crayfish isn't a fish at all _ it is related to the __________  (A) Lobster  (B) Jellyfish  (C) Sea Snake  (D) Dolphin",
+   "a": "A) Lobster",
+   "d": "medium"
+  },
+  {
+   "q": "Which fish is able to breathe air?  (A) Bubblefish  (B) Lungfish  (C) Shark  (D) Airfish",
+   "a": "B) Lungfish",
+   "d": "medium"
+  },
+  {
+   "q": "Which animal would you associate with the ING Group logo?  (A) Owl  (B) Lion  (C) Bull  (D) Bat",
+   "a": "B) Lion",
+   "d": "medium"
+  },
+  {
+   "q": "What does a snake use to smell with?  (A) Tongue  (B) Ears  (C) Nose  (D) Anus",
+   "a": "A) Tongue",
+   "d": "medium"
+  },
+  {
+   "q": "Apart From Humans There Is Only One Other Creature That Has Sex For Pleasure. What is it?  (A) Gorilla  (B) Turtle  (C) Dolphin  (D) Lion",
+   "a": "C) Dolphin",
+   "d": "medium"
+  },
+  {
+   "q": "What is the collective noun for a group of whales or seals?  (A) Pod  (B) Hive  (C) School  (D) Flock",
+   "a": "A) Pod",
+   "d": "medium"
+  },
+  {
+   "q": "What is the word for a group of wolves?  (A) A pack  (B) A plump  (C) A flight  (D) A kindle",
+   "a": "A) A pack",
+   "d": "medium"
+  },
+  {
+   "q": "Which animal is central to the nomadic herding economy of the Sami people?  (A) Reindeer  (B) Horses  (C) Buffalo  (D) Alpacas",
+   "a": "A) Reindeer",
+   "d": "medium"
+  },
+  {
+   "q": "What is the term for a canis lupus that prefers to live independent of others or leaves its pack?  (A) Black Sheep  (B) Alpha Male  (C) Han Solo  (D) Lone Wolf",
+   "a": "D) Lone Wolf",
+   "d": "medium"
+  },
+  {
+   "q": "What is the word for a group of owls?  (A) A yoke  (B) A parliament  (C) A host  (D) A nest",
+   "a": "B) A parliament",
+   "d": "medium"
+  },
+  {
+   "q": "What animal has a subspecies called the Kodiak?  (A) Eagle  (B) Bear  (C) Shark  (D) Spider",
+   "a": "B) Bear",
+   "d": "medium"
+  },
+  {
+   "q": "What is a female pig known as?  (A) A Hen  (B) A Sow  (C) A Jenny  (D) A Gander",
+   "a": "B) A Sow",
+   "d": "medium"
+  },
+  {
+   "q": "How many teats does a cow have?  (A) 4  (B) 8  (C) 5  (D) 6",
+   "a": "A) 4",
+   "d": "medium"
+  },
+  {
+   "q": "Which animal supposedly predicts whether there will be 6 more weeks of winter or an early spring?  (A) A groundhog  (B) A mole  (C) An armadillo  (D) A prairie dog",
+   "a": "A) A groundhog",
+   "d": "medium"
+  },
+  {
+   "q": "What dog is named after a Mexican state?  (A) Pomeranian  (B) Maltese  (C) Havanese  (D) Chihuahua",
+   "a": "D) Chihuahua",
+   "d": "medium"
+  },
+  {
+   "q": "What would you call a female bird?  (A) A Lioness  (B) A Hen  (C) A Sow  (D) A Nanny",
+   "a": "B) A Hen",
+   "d": "medium"
+  },
+  {
+   "q": "Which animal would you associate with the Evernote logo?  (A) Elephant  (B) Penguin  (C) Eagle  (D) Peacock",
+   "a": "A) Elephant",
+   "d": "medium"
+  },
+  {
+   "q": "Which animal would you associate with the American Airlines logo?  (A) Elephant  (B) Bull  (C) Bat  (D) Eagle",
+   "a": "D) Eagle",
+   "d": "medium"
+  },
+  {
+   "q": "What is the name of the largest species of sharks, which can reach lengths of up to 40 feet?  (A) Whale shark  (B) Hammerhead shark  (C) Tiger shark  (D) Great White shark",
+   "a": "A) Whale shark",
+   "d": "medium"
+  },
+  {
+   "q": "What animal is Snowball in George Orwell's book Animal Farm?  (A) A Swan  (B) A Pig  (C) A Snake  (D) A Horse",
+   "a": "B) A Pig",
+   "d": "medium"
+  },
+  {
+   "q": "What is the word for a group of elk?  (A) A bevy  (B) A muster  (C) A watch  (D) A gang",
+   "a": "D) A gang",
+   "d": "hard"
+  },
+  {
+   "q": "What is the word for a group of leopards?  (A) A leap  (B) A nye  (C) A nest  (D) A sloth",
+   "a": "A) A leap",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was a mammal first cloned?  (A) 1996  (B) 1991  (C) 2001  (D) 1986",
+   "a": "A) 1996",
+   "d": "hard"
+  },
+  {
+   "q": "What is a baby walrus known as?  (A) A Baby  (B) A Caterpillar  (C) A Kit  (D) A Cub",
+   "a": "D) A Cub",
+   "d": "hard"
+  },
+  {
+   "q": "What is the national bird of Mexico?  (A) Golden Eagle  (B) Barn Owl  (C) Red-tailed Hawk  (D) Horned Owl",
+   "a": "A) Golden Eagle",
+   "d": "hard"
+  },
+  {
+   "q": "From what kind of animal does rennet come from?  (A) Sheep  (B) Cow  (C) Chicken  (D) Salmon",
+   "a": "B) Cow",
+   "d": "hard"
+  },
+  {
+   "q": "What type of bird is Hawaii's state bird, the Nene?  (A) A flamingo  (B) A goose  (C) A pelican  (D) An ostrich",
+   "a": "B) A goose",
+   "d": "hard"
+  },
+  {
+   "q": "What would you call a female zebra?  (A) A Worker  (B) A Nanny  (C) A Cow  (D) A Mare",
+   "a": "D) A Mare",
+   "d": "hard"
+  },
+  {
+   "q": "In the animal kingdom, if reptiles are in class reptilia, then birds are in class ____?  (A) Aves  (B) Birdilia  (C) Flowana  (D) Aerilys",
+   "a": "A) Aves",
+   "d": "hard"
+  },
+  {
+   "q": "What is the word for a group of cranes?  (A) A labour  (B) A herd  (C) A nye  (D) A colony",
+   "a": "B) A herd",
+   "d": "hard"
+  },
+  {
+   "q": "From what animal is ambergris obtained?  (A) Sperm Whale  (B) Tortoise  (C) Silverback Gorilla  (D) Anaconda",
+   "a": "A) Sperm Whale",
+   "d": "hard"
+  },
+  {
+   "q": "How many hearts does an octopus have?  (A) 0  (B) 3  (C) 1  (D) 2",
+   "a": "B) 3",
+   "d": "hard"
+  },
+  {
+   "q": "What is the word for a male pig?  (A) A Hob  (B) A Bull  (C) A Macho  (D) A Boar",
+   "a": "D) A Boar",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these animals would you find on the Nestlé logo?  (A) Bird  (B) Tiger  (C) Dog  (D) Fish",
+   "a": "A) Bird",
+   "d": "hard"
+  },
+  {
+   "q": "The small red deer is the only type of deer found on which continent?  (A) North America  (B) Asia  (C) Autralasia  (D) Africa",
+   "a": "D) Africa",
+   "d": "hard"
+  },
+  {
+   "q": "What is the heart rate of the blue whale? (in beats per minute)  (A) 1  (B) 28  (C) 40  (D) 9",
+   "a": "D) 9",
+   "d": "hard"
+  },
+  {
+   "q": "What is the word for a group of kangaroos?  (A) A troop  (B) A nest  (C) A bevy  (D) A down",
+   "a": "A) A troop",
+   "d": "hard"
+  },
+  {
+   "q": "What is the word for a group of peacocks?  (A) A muster  (B) A flight  (C) A pace  (D) A run",
+   "a": "A) A muster",
+   "d": "hard"
+  },
+  {
+   "q": "In the Grimm fairy tale \"Town Musicians of Bremen\", which group of aging animals sets out for Bremen to become musicians?  (A) Donkey, dog, cat and rooster  (B) Duck, goose, swan and pigeon  (C) Horse, cow, pig and sheep  (D) Mouse, rabbit, squirrel and fox",
+   "a": "A) Donkey, dog, cat and rooster",
+   "d": "hard"
+  },
+  {
+   "q": "What is the national animal of Scotland?  (A) Unicorn  (B) Dragon  (C) Lion  (D) Horse",
+   "a": "A) Unicorn",
+   "d": "hard"
+  },
+  {
+   "q": "What is the word for a group of herons?  (A) An unkindness  (B) A sloth  (C) A sedge  (D) A yoke",
+   "a": "C) A sedge",
+   "d": "hard"
+  },
+  {
+   "q": "What is the word for a group of larks?  (A) A run  (B) A gaggle  (C) An exaltation  (D) A nest",
+   "a": "C) An exaltation",
+   "d": "hard"
+  },
+  {
+   "q": "What is the name of the organ used by an octopus to cling to surfaces?  (A) Tentacles  (B) Suckers  (C) Pads  (D) Grippers",
+   "a": "B) Suckers",
+   "d": "hard"
+  },
+  {
+   "q": "A 'Boomer\" Is The Male Of Which Animal?  (A) Cow  (B) Crocodile  (C) Kangaroo  (D) Squirrel",
+   "a": "C) Kangaroo",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these birds of prey mainly feeds on fish?  (A) Osprey  (B) Peregrine falcon  (C) Kestrel  (D) Golden eagle",
+   "a": "A) Osprey",
+   "d": "hard"
+  },
+  {
+   "q": "What is the word for a group of moles?  (A) A watch  (B) A labour  (C) A covey  (D) A nest",
+   "a": "B) A labour",
+   "d": "hard"
+  },
+  {
+   "q": "What would you call a baby ferret?  (A) A Joey  (B) A Lava  (C) A Kit  (D) An Eaglet",
+   "a": "C) A Kit",
+   "d": "hard"
+  },
+  {
+   "q": "What is a baby alpaca known as?  (A) A Chick  (B) A Duckling  (C) A Cria  (D) A Fry",
+   "a": "C) A Cria",
+   "d": "hard"
+  },
+  {
+   "q": "In Incan mythology, which animal warned about the impending flood?  (A) The Chimpanzee  (B) The Iguana  (C) The llama  (D) The Panther",
+   "a": "C) The llama",
+   "d": "hard"
+  },
+  {
+   "q": "What is the word for a group of oxen?  (A) A yoke  (B) A run  (C) A drove  (D) A troop",
+   "a": "A) A yoke",
+   "d": "hard"
+  },
+  {
+   "q": "Name the largest living bird.  (A) Emu  (B) Ostrich  (C) Peacock  (D) Emperor Penguin",
+   "a": "B) Ostrich",
+   "d": "hard"
+  },
+  {
+   "q": "A young sea lion is known as what?  (A) A Foal  (B) A Pup  (C) A Calf  (D) A Piglet",
+   "a": "B) A Pup",
+   "d": "hard"
+  },
+  {
+   "q": "What is the national animal of India?  (A) Lion  (B) Elephant  (C) Crocodile  (D) Tiger",
+   "a": "D) Tiger",
+   "d": "hard"
+  },
+  {
+   "q": "What is the word for a group of sparrows?  (A) A charm  (B) A run  (C) A field  (D) A host",
+   "a": "D) A host",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these brands has a penguin on its logo?  (A) Linux  (B) Qantas  (C) Playboy  (D) Bacardi",
+   "a": "A) Linux",
+   "d": "hard"
+  },
+  {
+   "q": "A group of bees can be called either a hive, a swarm, or a __________  (A) Grist  (B) Murmur  (C) Dazzle  (D) Havok",
+   "a": "A) Grist",
+   "d": "hard"
+  },
+  {
+   "q": "What would you call a baby hare?  (A) A Fawn  (B) A Leveret  (C) A Codling  (D) A Maggot",
+   "a": "B) A Leveret",
+   "d": "hard"
+  },
+  {
+   "q": "What is the word for a group of cattle?  (A) A murder  (B) A sloth  (C) A covey  (D) A drove",
+   "a": "D) A drove",
+   "d": "hard"
+  },
+  {
+   "q": "What is the word for a male eagle?  (A) A Macho  (B) A Tiercel  (C) A Billy  (D) A Cock",
+   "a": "B) A Tiercel",
+   "d": "hard"
+  },
+  {
+   "q": "The process of a snake shedding its skin or a crustacean casting off its outer shell is called __________  (A) Poreolasis  (B) Descaling  (C) Unsheathing  (D) Ecdysis",
+   "a": "D) Ecdysis",
+   "d": "hard"
+  },
+  {
+   "q": "What is the major subdivision of a genus or subgenus?  (A) order  (B) family  (C) species  (D) class",
+   "a": "C) species",
+   "d": "hard"
+  },
+  {
+   "q": "Named for its steely blue colour, which fish has a steelhead variety?  (A) Bass  (B) Trout  (C) Tuna  (D) Salmon",
+   "a": "B) Trout",
+   "d": "hard"
+  },
+  {
+   "q": "Which bird has been known to consume a third of its body weight in a single meal?  (A) Flamingo  (B) Pelican  (C) Turtle  (D) Tiger",
+   "a": "B) Pelican",
+   "d": "hard"
+  },
+  {
+   "q": "What was the name of the horse that won the Belmont in 1973 by a record 31 lengths?  (A) Affirmed  (B) Sea Biscuit  (C) Secretariat  (D) Man o' War",
+   "a": "C) Secretariat",
+   "d": "hard"
+  }
+ ]
+}

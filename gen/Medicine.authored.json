@@ -1,0 +1,482 @@
+[
+ {
+  "q": "Which organ pumps blood around the body?",
+  "a": "The heart",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Which organs do we use to breathe?",
+  "a": "The lungs",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Which organ do we use to think?",
+  "a": "The brain",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Which organ digests the food we eat?",
+  "a": "The stomach",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "What is the largest organ of the human body?",
+  "a": "The skin",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Which part of the body do we use to see?",
+  "a": "The eyes",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Which part of the body do we use to hear?",
+  "a": "The ears",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Which part of the body do we use to smell?",
+  "a": "The nose",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Which part of the body do we use to taste?",
+  "a": "The tongue",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "How many senses does the human body have?",
+  "a": "Five",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "How many lungs does a person have?",
+  "a": "Two",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "What gas do we breathe in that our body needs?",
+  "a": "Oxygen",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "What do our bones do for our body?",
+  "a": "Support it and give it shape",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "What are teeth used for?",
+  "a": "Biting and chewing food",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Which red liquid flows through our veins?",
+  "a": "Blood",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "What should you do to keep your teeth healthy?",
+  "a": "Brush them",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Which part of the body pumps and is felt as a heartbeat?",
+  "a": "The heart",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "What covers and protects the outside of our body?",
+  "a": "The skin",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Which part of your body helps you balance and walk?",
+  "a": "The legs",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "What do we call the doctor who looks after our teeth?",
+  "a": "A dentist",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "How many bones are in the adult human body?",
+  "a": "206",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "How many teeth does a typical adult have?",
+  "a": "32",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "How many chambers does the human heart have?",
+  "a": "Four",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which body system includes the heart and blood vessels?",
+  "a": "The circulatory system",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which body system includes the lungs?",
+  "a": "The respiratory system",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which body system includes the brain and nerves?",
+  "a": "The nervous system",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which body system is made of all the bones?",
+  "a": "The skeletal system",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which body system is made of muscles?",
+  "a": "The muscular system",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which body system breaks down food?",
+  "a": "The digestive system",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which organ filters the blood and makes urine?",
+  "a": "The kidneys",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which organ cleans the blood and removes toxins?",
+  "a": "The liver",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "What is the medical name for the windpipe?",
+  "a": "The trachea",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "What is the medical name for the voice box?",
+  "a": "The larynx",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which cells in the blood carry oxygen?",
+  "a": "Red blood cells",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which cells in the blood fight infection?",
+  "a": "White blood cells",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which vitamin does the body make from sunlight?",
+  "a": "Vitamin D",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which vitamin is found in oranges and lemons?",
+  "a": "Vitamin C",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "What mineral makes our bones and teeth strong?",
+  "a": "Calcium",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "What gas do we breathe out?",
+  "a": "Carbon dioxide",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "What protects the brain?",
+  "a": "The skull",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "What protects the heart and lungs?",
+  "a": "The ribcage",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "What carries messages around the body?",
+  "a": "The nerves",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "What is a doctor who treats the heart called?",
+  "a": "A cardiologist",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "What is a doctor who treats the skin called?",
+  "a": "A dermatologist",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "What is a doctor for children called?",
+  "a": "A pediatrician",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "What is a doctor who treats animals called?",
+  "a": "A veterinarian",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Roughly what is normal human body temperature in Celsius?",
+  "a": "About 37°C",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "How many baby (milk) teeth do children have?",
+  "a": "20",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "What connects muscles to bones?",
+  "a": "Tendons",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "What do we call the see-through front part of the eye?",
+  "a": "The cornea",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which organ produces the most heat in the body?",
+  "a": "The liver",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which part of the eye controls how much light enters?",
+  "a": "The pupil (and iris)",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "What is the longest and strongest bone in the human body?",
+  "a": "The femur (thigh bone)",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "What is the smallest bone in the human body?",
+  "a": "The stapes (in the ear)",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "How many pairs of ribs does a human have?",
+  "a": "12 pairs (24 ribs)",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Which organ produces insulin?",
+  "a": "The pancreas",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "What is the liquid part of blood called?",
+  "a": "Plasma",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Which blood type is known as the universal donor?",
+  "a": "O negative",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "What helps the blood to clot?",
+  "a": "Platelets",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "What is the 'funny bone' actually?",
+  "a": "A nerve (the ulnar nerve)",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Which gland is called the body's 'master gland'?",
+  "a": "The pituitary gland",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "What is the strongest muscle for its size in the body?",
+  "a": "The jaw muscle (masseter)",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "What is the largest muscle in the human body?",
+  "a": "The gluteus maximus (in the buttock)",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Which disease is caused by a lack of vitamin C?",
+  "a": "Scurvy",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "What is the medical name for the collarbone?",
+  "a": "The clavicle",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "What is the medical name for the kneecap?",
+  "a": "The patella",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "What is the medical name for red blood cell count that is too low?",
+  "a": "Anaemia",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Which part of the brain controls balance and coordination?",
+  "a": "The cerebellum",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "What is the largest artery in the body?",
+  "a": "The aorta",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "How many bones is a baby born with, roughly?",
+  "a": "About 300",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "What is the name of the tube that carries urine out of the body?",
+  "a": "The urethra",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Which organ can regrow part of itself if damaged?",
+  "a": "The liver",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "What is the medical term for high blood pressure?",
+  "a": "Hypertension",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "What is a doctor who performs operations called?",
+  "a": "A surgeon",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "What is a doctor who treats the brain and nerves called?",
+  "a": "A neurologist",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "What is a doctor who treats bones and joints called?",
+  "a": "An orthopaedist",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Which vitamin helps blood to clot?",
+  "a": "Vitamin K",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "What is the medical name for the breastbone?",
+  "a": "The sternum",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "What is the medical name for a nosebleed?",
+  "a": "Epistaxis",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Which part of blood carries oxygen using iron?",
+  "a": "Haemoglobin",
+  "d": "hard",
+  "src": "authored"
+ }
+]

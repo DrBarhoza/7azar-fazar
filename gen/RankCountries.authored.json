@@ -1,0 +1,1442 @@
+[
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: China, Thailand, India, Colombia",
+  "a": "China, India, Colombia, Thailand",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Afghanistan, Nigeria, China, Australia",
+  "a": "China, Australia, Nigeria, Afghanistan",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Niger, France, Myanmar, Argentina",
+  "a": "Argentina, Niger, Myanmar, France",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: India, Poland, Afghanistan, Colombia",
+  "a": "India, Colombia, Afghanistan, Poland",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Sweden, Turkey, Sudan, Italy",
+  "a": "Sudan, Turkey, Sweden, Italy",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Iceland, Mexico, Niger, Iran",
+  "a": "Mexico, Iran, Niger, Iceland",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Chad, Tanzania, Spain, United Kingdom",
+  "a": "Chad, Tanzania, Spain, United Kingdom",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: United States, Turkey, Egypt, Ukraine",
+  "a": "United States, Egypt, Turkey, Ukraine",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: China, Vietnam, United Kingdom, Niger",
+  "a": "China, Niger, Vietnam, United Kingdom",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: South Africa, Netherlands, Norway, Canada",
+  "a": "Canada, South Africa, Norway, Netherlands",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Turkey, Sweden, China, Argentina",
+  "a": "China, Argentina, Turkey, Sweden",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Iran, Bolivia, Greece, Philippines",
+  "a": "Iran, Bolivia, Philippines, Greece",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Netherlands, Kazakhstan, Nigeria, South Korea",
+  "a": "Kazakhstan, Nigeria, South Korea, Netherlands",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Libya, Algeria, Norway, Russia",
+  "a": "Russia, Algeria, Libya, Norway",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Mongolia, Chad, Russia, Algeria",
+  "a": "Russia, Algeria, Mongolia, Chad",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Kazakhstan, Angola, France, Sweden",
+  "a": "Kazakhstan, Angola, France, Sweden",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: India, Pakistan, Bolivia, Germany",
+  "a": "India, Bolivia, Pakistan, Germany",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Mali, Spain, China, Argentina",
+  "a": "China, Argentina, Mali, Spain",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: India, Colombia, Sweden, Myanmar",
+  "a": "India, Colombia, Myanmar, Sweden",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Sweden, Germany, Ethiopia, Algeria",
+  "a": "Algeria, Ethiopia, Sweden, Germany",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Mali, Algeria, India, Greece",
+  "a": "India, Algeria, Mali, Greece",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Colombia, Zambia, Sudan, Canada",
+  "a": "Canada, Sudan, Colombia, Zambia",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Japan, Zambia, Niger, Portugal",
+  "a": "Niger, Zambia, Japan, Portugal",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Saudi Arabia, Colombia, Zambia, Philippines",
+  "a": "Saudi Arabia, Colombia, Zambia, Philippines",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Sweden, Cuba, Germany, Libya",
+  "a": "Libya, Sweden, Germany, Cuba",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Pakistan, Iceland, Canada, Peru",
+  "a": "Canada, Peru, Pakistan, Iceland",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: United Kingdom, Tanzania, Cuba, Ukraine",
+  "a": "Tanzania, Ukraine, United Kingdom, Cuba",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Sweden, Pakistan, Sudan, Mali",
+  "a": "Sudan, Mali, Pakistan, Sweden",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Australia, Nepal, Japan, Cuba",
+  "a": "Australia, Japan, Nepal, Cuba",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Iceland, Mali, Germany, Australia",
+  "a": "Australia, Mali, Germany, Iceland",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Saudi Arabia, United Kingdom, Greece, Australia",
+  "a": "Australia, Saudi Arabia, United Kingdom, Greece",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Algeria, Venezuela, New Zealand, Thailand",
+  "a": "Algeria, Venezuela, Thailand, New Zealand",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Algeria, South Africa, Norway, Ukraine",
+  "a": "Algeria, South Africa, Ukraine, Norway",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Japan, Cuba, India, United Kingdom",
+  "a": "India, Japan, United Kingdom, Cuba",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Canada, Morocco, South Korea, Sudan",
+  "a": "Canada, Sudan, Morocco, South Korea",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Chile, Thailand, Iran, Portugal",
+  "a": "Iran, Chile, Thailand, Portugal",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Nepal, Philippines, Kazakhstan, China",
+  "a": "China, Kazakhstan, Philippines, Nepal",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Chile, South Korea, Netherlands, Philippines",
+  "a": "Chile, Philippines, South Korea, Netherlands",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Ireland, Mexico, Spain, Tanzania",
+  "a": "Mexico, Tanzania, Spain, Ireland",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Pakistan, United Kingdom, Sweden, Algeria",
+  "a": "Algeria, Pakistan, Sweden, United Kingdom",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Iceland, Ireland, India, Pakistan",
+  "a": "India, Pakistan, Iceland, Ireland",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: United States, Peru, Ireland, India",
+  "a": "United States, India, Peru, Ireland",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Tanzania, Chile, Sweden, Angola",
+  "a": "Angola, Tanzania, Chile, Sweden",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Ukraine, Zambia, Mongolia, Netherlands",
+  "a": "Mongolia, Zambia, Ukraine, Netherlands",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Brazil, Norway, Angola, Iran",
+  "a": "Brazil, Iran, Angola, Norway",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Norway, Argentina, Iceland, Niger",
+  "a": "Argentina, Niger, Norway, Iceland",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Greece, Venezuela, Libya, India",
+  "a": "India, Libya, Venezuela, Greece",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Norway, Nepal, Libya, Saudi Arabia",
+  "a": "Saudi Arabia, Libya, Norway, Nepal",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Mali, Canada, Afghanistan, Venezuela",
+  "a": "Canada, Mali, Venezuela, Afghanistan",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Argentina, Brazil, Chad, Chile",
+  "a": "Brazil, Argentina, Chad, Chile",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: United States, Mongolia, New Zealand, Peru",
+  "a": "United States, Mongolia, Peru, New Zealand",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Philippines, South Korea, Nigeria, Kenya",
+  "a": "Nigeria, Kenya, Philippines, South Korea",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Vietnam, Australia, Turkey, Angola",
+  "a": "Australia, Angola, Turkey, Vietnam",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: New Zealand, Peru, Brazil, Nigeria",
+  "a": "Brazil, Peru, Nigeria, New Zealand",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Australia, Spain, Cuba, Mongolia",
+  "a": "Australia, Mongolia, Spain, Cuba",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Morocco, Argentina, Russia, Venezuela",
+  "a": "Russia, Argentina, Venezuela, Morocco",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Sweden, Peru, Ukraine, Philippines",
+  "a": "Peru, Ukraine, Sweden, Philippines",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Mongolia, China, Argentina, Saudi Arabia",
+  "a": "China, Argentina, Saudi Arabia, Mongolia",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Germany, Zambia, Portugal, Niger",
+  "a": "Niger, Zambia, Germany, Portugal",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Peru, Italy, Chile, Mexico",
+  "a": "Mexico, Peru, Chile, Italy",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Iran, Ukraine, Tanzania, India",
+  "a": "India, Iran, Tanzania, Ukraine",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Nepal, Myanmar, Bolivia, Netherlands",
+  "a": "Bolivia, Myanmar, Nepal, Netherlands",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Brazil, Nepal, Kazakhstan, Russia",
+  "a": "Russia, Brazil, Kazakhstan, Nepal",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: China, Australia, Norway, Nepal",
+  "a": "China, Australia, Norway, Nepal",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Vietnam, Chad, Iran, Spain",
+  "a": "Iran, Chad, Spain, Vietnam",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Saudi Arabia, Russia, Peru, Tanzania",
+  "a": "Russia, Saudi Arabia, Peru, Tanzania",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: United States, Angola, Afghanistan, Iran",
+  "a": "United States, Iran, Angola, Afghanistan",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Australia, Russia, Mongolia, Ireland",
+  "a": "Russia, Australia, Mongolia, Ireland",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Niger, Australia, Libya, Germany",
+  "a": "Australia, Libya, Niger, Germany",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: United Kingdom, Portugal, Turkey, Angola",
+  "a": "Angola, Turkey, United Kingdom, Portugal",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: South Korea, United States, Nepal, Poland",
+  "a": "United States, Poland, Nepal, South Korea",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Thailand, Italy, Canada, South Korea",
+  "a": "Canada, Thailand, Italy, South Korea",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Colombia, Germany, Kazakhstan, United States",
+  "a": "United States, Kazakhstan, Colombia, Germany",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Italy, Germany, Myanmar, Iran",
+  "a": "Iran, Myanmar, Germany, Italy",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Cuba, Greece, Brazil, Venezuela",
+  "a": "Brazil, Venezuela, Greece, Cuba",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Mongolia, Cuba, Pakistan, Greece",
+  "a": "Mongolia, Pakistan, Greece, Cuba",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Ethiopia, Pakistan, Kenya, Brazil",
+  "a": "Brazil, Ethiopia, Pakistan, Kenya",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Brazil, Spain, Mali, Algeria",
+  "a": "Brazil, Algeria, Mali, Spain",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Kazakhstan, France, Sweden, Russia",
+  "a": "Russia, Kazakhstan, France, Sweden",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Sudan, Chad, Italy, Turkey",
+  "a": "Sudan, Chad, Turkey, Italy",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Argentina, Venezuela, New Zealand, Ireland",
+  "a": "Argentina, Venezuela, New Zealand, Ireland",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Canada, Pakistan, Ukraine, Chad",
+  "a": "Canada, Chad, Pakistan, Ukraine",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Zambia, Australia, Algeria, Greece",
+  "a": "Australia, Algeria, Zambia, Greece",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Chile, South Korea, Spain, Germany",
+  "a": "Chile, Spain, Germany, South Korea",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: New Zealand, Libya, Turkey, Netherlands",
+  "a": "Libya, Turkey, New Zealand, Netherlands",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Saudi Arabia, Turkey, Russia, Italy",
+  "a": "Russia, Saudi Arabia, Turkey, Italy",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Egypt, United Kingdom, Algeria, South Africa",
+  "a": "Algeria, South Africa, Egypt, United Kingdom",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Poland, Ukraine, Indonesia, Argentina",
+  "a": "Argentina, Indonesia, Ukraine, Poland",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Portugal, Ukraine, Colombia, Nigeria",
+  "a": "Colombia, Nigeria, Ukraine, Portugal",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: China, India, Norway, Nepal",
+  "a": "China, India, Norway, Nepal",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Chile, Peru, Iran, Nigeria",
+  "a": "Iran, Peru, Nigeria, Chile",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Nigeria, Iceland, Netherlands, Canada",
+  "a": "Canada, Nigeria, Iceland, Netherlands",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: China, United Kingdom, Australia, Ukraine",
+  "a": "China, Australia, Ukraine, United Kingdom",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Morocco, Turkey, Chad, Japan",
+  "a": "Chad, Turkey, Morocco, Japan",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Greece, Mongolia, Bolivia, Japan",
+  "a": "Mongolia, Bolivia, Japan, Greece",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Argentina, Afghanistan, Bolivia, Norway",
+  "a": "Argentina, Bolivia, Afghanistan, Norway",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Sudan, Brazil, Chile, New Zealand",
+  "a": "Brazil, Sudan, Chile, New Zealand",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Mali, Tanzania, Philippines, Portugal",
+  "a": "Mali, Tanzania, Philippines, Portugal",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Australia, Mali, Mexico, Afghanistan",
+  "a": "Australia, Mexico, Mali, Afghanistan",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Indonesia, Cuba, France, Mongolia",
+  "a": "Indonesia, Mongolia, France, Cuba",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: China, Peru, Portugal, Turkey",
+  "a": "China, Peru, Turkey, Portugal",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Australia, New Zealand, Peru, Iran",
+  "a": "Australia, Iran, Peru, New Zealand",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Niger, Kenya, South Korea, Nigeria",
+  "a": "Niger, Nigeria, Kenya, South Korea",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Bolivia, Russia, Brazil, Ukraine",
+  "a": "Russia, Brazil, Bolivia, Ukraine",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Algeria, Iceland, Libya, India",
+  "a": "India, Algeria, Libya, Iceland",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Portugal, Venezuela, New Zealand, Kenya",
+  "a": "Venezuela, Kenya, New Zealand, Portugal",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Libya, Iceland, Kazakhstan, Russia",
+  "a": "Russia, Kazakhstan, Libya, Iceland",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Germany, Kazakhstan, Mongolia, Zambia",
+  "a": "Kazakhstan, Mongolia, Zambia, Germany",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: India, Niger, Zambia, Brazil",
+  "a": "Brazil, India, Niger, Zambia",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Russia, Iceland, Spain, Libya",
+  "a": "Russia, Libya, Spain, Iceland",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Pakistan, Nepal, Iran, Netherlands",
+  "a": "Iran, Pakistan, Nepal, Netherlands",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Egypt, Japan, Canada, Poland",
+  "a": "Canada, Egypt, Japan, Poland",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Netherlands, Turkey, Indonesia, Italy",
+  "a": "Indonesia, Turkey, Italy, Netherlands",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Ukraine, Norway, Libya, Nigeria",
+  "a": "Libya, Nigeria, Ukraine, Norway",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Cuba, Russia, Chad, Indonesia",
+  "a": "Russia, Indonesia, Chad, Cuba",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Ireland, South Korea, Indonesia, Niger",
+  "a": "Indonesia, Niger, South Korea, Ireland",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Sweden, Turkey, Chad, India",
+  "a": "India, Chad, Turkey, Sweden",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Norway, Egypt, China, Philippines",
+  "a": "China, Egypt, Norway, Philippines",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Canada, Spain, Sudan, Algeria",
+  "a": "Canada, Algeria, Sudan, Spain",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by AREA (land size), from largest to smallest: Netherlands, Angola, United Kingdom, Poland",
+  "a": "Angola, Poland, United Kingdom, Netherlands",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: India, Spain, Chad, Mongolia",
+  "a": "India, Spain, Chad, Mongolia",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Sweden, Myanmar, Saudi Arabia, Iceland",
+  "a": "Myanmar, Saudi Arabia, Sweden, Iceland",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Argentina, Netherlands, Norway, Tanzania",
+  "a": "Tanzania, Argentina, Netherlands, Norway",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: South Korea, Libya, Kazakhstan, Pakistan",
+  "a": "Pakistan, South Korea, Kazakhstan, Libya",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: New Zealand, Venezuela, Pakistan, Algeria",
+  "a": "Pakistan, Algeria, Venezuela, New Zealand",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Greece, Nepal, Russia, Saudi Arabia",
+  "a": "Russia, Saudi Arabia, Nepal, Greece",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Mexico, Germany, Colombia, Brazil",
+  "a": "Brazil, Mexico, Germany, Colombia",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Mali, Greece, Ukraine, Italy",
+  "a": "Italy, Ukraine, Mali, Greece",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: New Zealand, Portugal, Algeria, Turkey",
+  "a": "Turkey, Algeria, Portugal, New Zealand",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Norway, Morocco, Colombia, Mali",
+  "a": "Colombia, Morocco, Mali, Norway",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Mongolia, Mali, Nigeria, Chad",
+  "a": "Nigeria, Mali, Chad, Mongolia",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Sudan, South Africa, Chile, Japan",
+  "a": "Japan, South Africa, Sudan, Chile",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: United States, Iceland, Bolivia, United Kingdom",
+  "a": "United States, United Kingdom, Bolivia, Iceland",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: India, Niger, Russia, Bolivia",
+  "a": "India, Russia, Niger, Bolivia",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Chile, Iceland, Philippines, Myanmar",
+  "a": "Philippines, Myanmar, Chile, Iceland",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Sudan, Italy, Australia, Netherlands",
+  "a": "Italy, Sudan, Australia, Netherlands",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Mexico, India, Germany, Portugal",
+  "a": "India, Mexico, Germany, Portugal",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Philippines, Ukraine, India, Ireland",
+  "a": "India, Philippines, Ukraine, Ireland",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Niger, Morocco, Mongolia, Mexico",
+  "a": "Mexico, Morocco, Niger, Mongolia",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: France, Japan, Nigeria, Canada",
+  "a": "Nigeria, Japan, France, Canada",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Tanzania, Bolivia, Brazil, Russia",
+  "a": "Brazil, Russia, Tanzania, Bolivia",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Egypt, Ireland, Afghanistan, Pakistan",
+  "a": "Pakistan, Egypt, Afghanistan, Ireland",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Nigeria, Italy, Norway, Russia",
+  "a": "Nigeria, Russia, Italy, Norway",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Kazakhstan, Pakistan, Argentina, Morocco",
+  "a": "Pakistan, Argentina, Morocco, Kazakhstan",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Ireland, Ukraine, Colombia, China",
+  "a": "China, Colombia, Ukraine, Ireland",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Venezuela, Ukraine, Turkey, Norway",
+  "a": "Turkey, Ukraine, Venezuela, Norway",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: United Kingdom, Ethiopia, Spain, Niger",
+  "a": "Ethiopia, United Kingdom, Spain, Niger",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Japan, Germany, Saudi Arabia, Cuba",
+  "a": "Japan, Germany, Saudi Arabia, Cuba",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Ireland, Peru, Iceland, Tanzania",
+  "a": "Tanzania, Peru, Ireland, Iceland",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Sweden, China, Poland, Japan",
+  "a": "China, Japan, Poland, Sweden",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Thailand, Netherlands, Nigeria, Iran",
+  "a": "Nigeria, Iran, Thailand, Netherlands",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Vietnam, Chad, Tanzania, Cuba",
+  "a": "Vietnam, Tanzania, Chad, Cuba",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Portugal, Netherlands, South Korea, Philippines",
+  "a": "Philippines, South Korea, Netherlands, Portugal",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Cuba, Morocco, France, Netherlands",
+  "a": "France, Morocco, Netherlands, Cuba",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Ethiopia, Turkey, Indonesia, Cuba",
+  "a": "Indonesia, Ethiopia, Turkey, Cuba",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Venezuela, Italy, Poland, Bolivia",
+  "a": "Italy, Poland, Venezuela, Bolivia",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Myanmar, Ethiopia, Venezuela, Iceland",
+  "a": "Ethiopia, Myanmar, Venezuela, Iceland",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Ireland, Brazil, Bolivia, Libya",
+  "a": "Brazil, Bolivia, Libya, Ireland",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Indonesia, Mexico, Sudan, Australia",
+  "a": "Indonesia, Mexico, Sudan, Australia",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Kenya, Zambia, Bolivia, Ireland",
+  "a": "Kenya, Zambia, Bolivia, Ireland",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Germany, Colombia, Venezuela, India",
+  "a": "India, Germany, Colombia, Venezuela",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Canada, Spain, India, Zambia",
+  "a": "India, Spain, Canada, Zambia",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Mali, Nepal, Indonesia, United States",
+  "a": "United States, Indonesia, Nepal, Mali",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: New Zealand, Kenya, Philippines, Turkey",
+  "a": "Philippines, Turkey, Kenya, New Zealand",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Libya, Angola, France, Mongolia",
+  "a": "France, Angola, Libya, Mongolia",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Tanzania, Saudi Arabia, Mexico, Kenya",
+  "a": "Mexico, Tanzania, Kenya, Saudi Arabia",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: United States, South Africa, Mongolia, Mexico",
+  "a": "United States, Mexico, South Africa, Mongolia",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Philippines, China, Nepal, Mongolia",
+  "a": "China, Philippines, Nepal, Mongolia",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Algeria, Russia, Portugal, Angola",
+  "a": "Russia, Algeria, Angola, Portugal",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Colombia, India, Pakistan, Angola",
+  "a": "India, Pakistan, Colombia, Angola",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Pakistan, Ethiopia, Colombia, Saudi Arabia",
+  "a": "Pakistan, Ethiopia, Colombia, Saudi Arabia",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Italy, Philippines, New Zealand, Russia",
+  "a": "Russia, Philippines, Italy, New Zealand",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Libya, Nepal, Ukraine, Brazil",
+  "a": "Brazil, Ukraine, Nepal, Libya",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Tanzania, India, Ireland, Ukraine",
+  "a": "India, Tanzania, Ukraine, Ireland",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Angola, Tanzania, South Korea, Mali",
+  "a": "Tanzania, South Korea, Angola, Mali",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Greece, Libya, China, Mexico",
+  "a": "China, Mexico, Greece, Libya",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Saudi Arabia, Cuba, Mali, Mongolia",
+  "a": "Saudi Arabia, Mali, Cuba, Mongolia",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Argentina, Venezuela, Pakistan, New Zealand",
+  "a": "Pakistan, Argentina, Venezuela, New Zealand",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Nepal, Argentina, Mongolia, Chad",
+  "a": "Argentina, Nepal, Chad, Mongolia",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Mongolia, Ukraine, Iran, India",
+  "a": "India, Iran, Ukraine, Mongolia",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Saudi Arabia, Nepal, New Zealand, China",
+  "a": "China, Saudi Arabia, Nepal, New Zealand",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Nigeria, Colombia, Mexico, United States",
+  "a": "United States, Nigeria, Mexico, Colombia",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Nepal, France, Kazakhstan, Mexico",
+  "a": "Mexico, France, Nepal, Kazakhstan",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Indonesia, Mexico, Spain, Poland",
+  "a": "Indonesia, Mexico, Spain, Poland",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Sudan, Portugal, Mexico, Peru",
+  "a": "Mexico, Sudan, Peru, Portugal",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Russia, Niger, Indonesia, Thailand",
+  "a": "Indonesia, Russia, Thailand, Niger",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Nepal, China, United Kingdom, Philippines",
+  "a": "China, Philippines, United Kingdom, Nepal",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Pakistan, Morocco, Portugal, Kazakhstan",
+  "a": "Pakistan, Morocco, Kazakhstan, Portugal",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: France, United States, Colombia, Nepal",
+  "a": "United States, France, Colombia, Nepal",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Zambia, Argentina, South Africa, Brazil",
+  "a": "Brazil, South Africa, Argentina, Zambia",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: China, Portugal, France, New Zealand",
+  "a": "China, France, Portugal, New Zealand",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Canada, Kazakhstan, Cuba, Myanmar",
+  "a": "Myanmar, Canada, Kazakhstan, Cuba",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: India, Sweden, Mexico, Saudi Arabia",
+  "a": "India, Mexico, Saudi Arabia, Sweden",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Indonesia, Greece, Mongolia, Canada",
+  "a": "Indonesia, Canada, Greece, Mongolia",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: United States, Peru, Argentina, Venezuela",
+  "a": "United States, Argentina, Peru, Venezuela",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Libya, Morocco, Myanmar, Thailand",
+  "a": "Thailand, Myanmar, Morocco, Libya",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: South Korea, Bolivia, Saudi Arabia, Greece",
+  "a": "South Korea, Saudi Arabia, Bolivia, Greece",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Bolivia, United States, Zambia, Spain",
+  "a": "United States, Spain, Zambia, Bolivia",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Bolivia, Iran, Nepal, Mali",
+  "a": "Iran, Nepal, Mali, Bolivia",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Algeria, Angola, China, Zambia",
+  "a": "China, Algeria, Angola, Zambia",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Germany, Colombia, Russia, Norway",
+  "a": "Russia, Germany, Colombia, Norway",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Chile, Canada, Libya, Norway",
+  "a": "Canada, Chile, Libya, Norway",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Ukraine, Venezuela, Germany, Ireland",
+  "a": "Germany, Ukraine, Venezuela, Ireland",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Italy, Peru, Sweden, Philippines",
+  "a": "Philippines, Italy, Peru, Sweden",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Argentina, Zambia, Mongolia, Russia",
+  "a": "Russia, Argentina, Zambia, Mongolia",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: South Africa, Niger, Chad, Argentina",
+  "a": "South Africa, Argentina, Niger, Chad",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: New Zealand, Philippines, Spain, Chile",
+  "a": "Philippines, Spain, Chile, New Zealand",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Myanmar, Ukraine, Thailand, Algeria",
+  "a": "Thailand, Myanmar, Algeria, Ukraine",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Iran, Chad, Peru, France",
+  "a": "Iran, France, Peru, Chad",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: South Korea, Pakistan, Niger, Sweden",
+  "a": "Pakistan, South Korea, Niger, Sweden",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Libya, Indonesia, Chile, Myanmar",
+  "a": "Indonesia, Myanmar, Chile, Libya",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Spain, Brazil, Morocco, South Africa",
+  "a": "Brazil, South Africa, Spain, Morocco",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Ethiopia, Zambia, Tanzania, Nepal",
+  "a": "Ethiopia, Tanzania, Nepal, Zambia",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Zambia, Italy, Greece, Libya",
+  "a": "Italy, Zambia, Greece, Libya",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Peru, Sweden, Kenya, Indonesia",
+  "a": "Indonesia, Kenya, Peru, Sweden",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Philippines, Poland, Germany, Kazakhstan",
+  "a": "Philippines, Germany, Poland, Kazakhstan",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Thailand, Afghanistan, Ireland, Egypt",
+  "a": "Egypt, Thailand, Afghanistan, Ireland",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Algeria, France, Kenya, Egypt",
+  "a": "Egypt, France, Kenya, Algeria",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Ethiopia, Tanzania, Kenya, Vietnam",
+  "a": "Ethiopia, Vietnam, Tanzania, Kenya",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Angola, Iceland, Russia, Greece",
+  "a": "Russia, Angola, Greece, Iceland",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Niger, Myanmar, Cuba, Mexico",
+  "a": "Mexico, Myanmar, Niger, Cuba",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: South Korea, Thailand, Libya, Australia",
+  "a": "Thailand, South Korea, Australia, Libya",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Sudan, Nigeria, New Zealand, Angola",
+  "a": "Nigeria, Sudan, Angola, New Zealand",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Mongolia, France, Turkey, New Zealand",
+  "a": "Turkey, France, New Zealand, Mongolia",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Myanmar, Nigeria, Sweden, Zambia",
+  "a": "Nigeria, Myanmar, Zambia, Sweden",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Brazil, Libya, Zambia, India",
+  "a": "India, Brazil, Zambia, Libya",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Algeria, Indonesia, Netherlands, Egypt",
+  "a": "Indonesia, Egypt, Algeria, Netherlands",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Niger, Chile, Argentina, Mexico",
+  "a": "Mexico, Argentina, Niger, Chile",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Germany, Egypt, Zambia, Saudi Arabia",
+  "a": "Egypt, Germany, Saudi Arabia, Zambia",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Egypt, Indonesia, Chile, New Zealand",
+  "a": "Indonesia, Egypt, Chile, New Zealand",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Poland, Niger, Russia, Iceland",
+  "a": "Russia, Poland, Niger, Iceland",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: India, Thailand, Russia, Nepal",
+  "a": "India, Russia, Thailand, Nepal",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Ireland, Turkey, France, Afghanistan",
+  "a": "Turkey, France, Afghanistan, Ireland",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Indonesia, Egypt, Spain, France",
+  "a": "Indonesia, Egypt, France, Spain",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Turkey, South Korea, Zambia, Venezuela",
+  "a": "Turkey, South Korea, Venezuela, Zambia",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Angola, Italy, Thailand, Ireland",
+  "a": "Thailand, Italy, Angola, Ireland",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: India, Kenya, Germany, Peru",
+  "a": "India, Germany, Kenya, Peru",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Ethiopia, Sweden, Canada, Tanzania",
+  "a": "Ethiopia, Tanzania, Canada, Sweden",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Sweden, Iran, Libya, China",
+  "a": "China, Iran, Sweden, Libya",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Put these four countries in order by POPULATION, from largest to smallest: Netherlands, Mongolia, Turkey, Spain",
+  "a": "Turkey, Spain, Netherlands, Mongolia",
+  "d": "medium",
+  "src": "authored"
+ }
+]

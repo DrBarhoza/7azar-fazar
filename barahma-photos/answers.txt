@@ -1,0 +1,48 @@
+# El-Barahma — auto-drafted from filenames. REVIEW & fix any wrong lines.
+# Format: filename | who | where | when   (no difficulty; flat value)
+abdo,jimmy italy 2019.JPEG | Abdo, Jimmy | Italy | 2019
+abdo,maha,ali,omar,jimmy,youka,ayla,ahmed,sarah marina 2021.JPEG | Abdo, Maha, Ali, Omar, Jimmy, Youka, Ayla, Ahmed, Sarah | Marina | 2021
+ahmed egypt 2021.JPEG | Ahmed | Egypt | 2021
+ahmed,ayla maadi 2018.JPEG | Ahmed, Ayla | Maadi | 2018
+ahmed,mohamed saudiarabia 1978.HEIC | Ahmed, Mohamed | Saudi Arabia | 1978
+ahmed,mohamed saudiarabia 1980.JPEG | Ahmed, Mohamed | Saudi Arabia | 1980
+ahmed,sarah,mohamed,maha,omar,ali,youka,ayla marina 2017.JPEG | Ahmed, Sarah, Mohamed, Maha, Omar, Ali, Youka, Ayla | Marina | 2017
+ali,mohamed marina 2014.JPEG | Ali, Mohamed | Marina | 2014
+ali,omar jordan 2019.JPEG | Ali, Omar | Jordan | 2019
+all family corona worldwide 2020.JPEG | All family | worldwide | 2020 (Covid)
+all family except mohamed maadi 2017 .JPEG | All family except Mohamed | Maadi | 2017
+amr,salma,maha,mohamed,omar,jimmy dubai 2016.JPEG | Amr, Salma, Maha, Mohamed, Omar, Jimmy | Dubai | 2016
+gamal,abdo,mohamed,maha egypt 2003.JPEG | Gamal, Abdo, Mohamed, Maha | Egypt | 2003
+gamal,ahmed,mohamed saudiarabia 1980.JPEG | Gamal, Ahmed, Mohamed | Saudi Arabia | 1980
+gamal,mervat,amr,mona maadi 1988.JPEG | Gamal, Mervat, Amr, Mona | Maadi | 1988
+maha school giza 1986.JPEG | Maha | School Giza | 1986
+maha usa 2014.JPEG | Maha | USA | 2014
+maha,mohamed qatar 2021.JPEG | Maha, Mohamed | Qatar | 2021
+maha,mohamed,ali,omar,jimmy qatar 2019.JPEG | Maha, Mohamed, Ali, Omar, Jimmy | Qatar | 2019
+mohamed,abdo,mona foukabay 2025.JPEG | Mohamed, Abdo, Mona | Fouka Bay | 2025
+mohamed,ali,jimmy 2015.JPEG | Mohamed, Ali, Jimmy | Qatar | 2015
+mohamed,ali,omar,jimmy qatar 2021.JPEG | Mohamed, Ali, Omar, Jimmy | Qatar | 2021
+mohamed,ayla marina 2022.HEIC | Mohamed, Ayla | Marina | 2022
+mohamed,maha 2004.JPEG | Mohamed, Maha | Sharm El-Sheikh | 2004
+mohamed,maha,ali,omar,jimmy qatar 2018.JPEG | Mohamed, Maha, Ali, Omar, Jimmy | Qatar | 2018
+mohamed,maha,mona saudiarabia 2024.JPG | Mohamed, Maha, Mona | Saudi Arabia | 2024
+mohamed,maha,omar,ali,jimmy london 2025.JPEG | Mohamed, Maha, Omar, Ali, Jimmy | London | 2025
+mohamed,maha,omar,jimmy qatar 2026.JPEG | Mohamed, Maha, Omar, Jimmy | Qatar | 2026
+mohamed,mervat,maha,mona foukabay 2024.JPG | Mohamed, Mervat, Maha, Mona | Fouka Bay | 2024
+mohamed,samir 2023.HEIC | Mohamed, Samir | Qatar | 2023
+mona usa 2021.JPEG | Mona | USA | 2021
+ahmed,sarah,youka,ayla egypt 2023.jpg | Ahmed, Sarah, Youka, Ayla | Egypt | 2023
+ali,maha,mohamed qatar2022.jpg | Ali, Maha, Mohamed | Qatar | 2022
+ali,omar,youka,ayla,yassin,yehia marina 2022.jpg | Ali, Omar, Youka, Ayla, Yassin, Yehia | Marina | 2022
+all family northcoast 2024.jpg | All family | North Coast | 2024
+amr,chloe usa 2026.jpg | Amr, Chloe | USA | 2026
+femi egypt 2023.jpg | Femi | Egypt | 2023
+mervat,mohamed,jimmy,omar qatar 2022.jpg | Mervat, Mohamed, Jimmy, Omar | Qatar | 2022
+mohamed,maha,ahmed,sarah cairo 2001.jpg | Mohamed, Maha, Ahmed, Sarah | Cairo | 2001
+mohamed,maha,mona,mervat ras elbar 2023.jpg | Mohamed, Maha, Mona, Mervat | Ras El-Bar | 2023
+mohamed,mona marina 2023.jpg | Mohamed, Mona | Marina | 2023
+omar,mona ras elbar 2023.jpg | Omar, Mona | Ras El-Bar | 2023
+omar,yassin,ayla egypt 2010.jpg | Omar, Yassin, Ayla | Egypt | 2010
+sarah,ayla,maha,omar,jimmy,youka maadi 2026.jpg | Sarah, Ayla, Maha, Omar, Jimmy, Youka | Maadi | 2026
+sarah,ayla,mervat maadi 2025.jpg | Sarah, Ayla, Mervat | Maadi | 2025
+youka qatar 2022.jpg | Youka | Qatar | 2022

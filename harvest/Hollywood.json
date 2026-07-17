@@ -1,0 +1,3319 @@
+{
+ "Hollywood": [
+  {
+   "q": "Which actor played the role of The Terminator in The Terminator?  (A) Andy Serkis  (B) Michael Douglas  (C) Dustin Hoffman  (D) Arnold Schwarzenegger",
+   "a": "D) Arnold Schwarzenegger",
+   "d": "easy"
+  },
+  {
+   "q": "In the Marvel Cinematic Universe, which character is played by Scarlett Johansson?  (A) Gamora  (B) Captain Marvel  (C) Black Widow  (D) Valkyrie",
+   "a": "C) Black Widow",
+   "d": "easy"
+  },
+  {
+   "q": "In which 2010 animated film does Hiccup befriend and then teach an injured mythical creature?  (A) How to Train Your Basilisk  (B) How to Train Your Unicorn  (C) How to Train Your Kraken  (D) How to Train Your Dragon",
+   "a": "D) How to Train Your Dragon",
+   "d": "easy"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Spider-Man'?  (A) \"Which would be worse, to live a monster or die as a good man?\"  (B) \"La-dee-da, la-dee-da.\"  (C) \"I love lamp.\"  (D) \"With great power comes great responsiblity.\"",
+   "a": "D) \"With great power comes great responsiblity.\"",
+   "d": "easy"
+  },
+  {
+   "q": "Which Disney movie features the song 'Can You Feel The Love Tonight', written by Elton John and Tim Rice?  (A) The Lion King  (B) Beauty and the Beast  (C) Aladdin  (D) Mulan",
+   "a": "A) The Lion King",
+   "d": "easy"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'When a girl is possessed, her mother seeks the help of two priests to save her.'  (A) Green Book  (B) The Exorcist  (C) Up  (D) Sunset Blvd.",
+   "a": "B) The Exorcist",
+   "d": "easy"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Anchorman: The Legend of Ron Burgundy'?  (A) \"Rosebud.\"  (B) \"You're gonna need a bigger boat.\"  (C) \"Shane. Shane. Come back!\"  (D) \"I love lamp.\"",
+   "a": "D) \"I love lamp.\"",
+   "d": "easy"
+  },
+  {
+   "q": "Which actor played the role of Kevin McCallister in Home Alone?  (A) Bill Murray  (B) Andy Serkis  (C) Macauley Culkin  (D) Al Pacino",
+   "a": "C) Macauley Culkin",
+   "d": "easy"
+  },
+  {
+   "q": "Which film contains the character 'Hannibal Lecter'?  (A) The Silence of the Lambs  (B) A Nightmare on Elm Street  (C) Casablanca  (D) Taxi Driver",
+   "a": "A) The Silence of the Lambs",
+   "d": "easy"
+  },
+  {
+   "q": "In the Lion King, what sort of animal is Pumbaa?  (A) A lion  (B) A warthog  (C) An elephant  (D) A rhinoceros",
+   "a": "B) A warthog",
+   "d": "easy"
+  },
+  {
+   "q": "Which director directed Interstellar?  (A) Martin Scorsese  (B) Woody Allen  (C) Steven Spielberg  (D) Christopher Nolan",
+   "a": "D) Christopher Nolan",
+   "d": "easy"
+  },
+  {
+   "q": "Which actor has starred in films including Inception and The Revenant?  (A) Ralph Fiennes  (B) Kiefer Sutherland  (C) Brian Cox  (D) Leonardo DiCaprio",
+   "a": "D) Leonardo DiCaprio",
+   "d": "easy"
+  },
+  {
+   "q": "In the Marvel Cinematic Universe, which character is played by Tom Hiddleston?  (A) Iron Man  (B) Black Panther  (C) Spiderman  (D) Loki",
+   "a": "D) Loki",
+   "d": "easy"
+  },
+  {
+   "q": "In the Marvel Cinematic Universe, which character is played by Tom Holland?  (A) Spiderman  (B) Obadiah Stane  (C) Hawkeye  (D) Iron Man",
+   "a": "A) Spiderman",
+   "d": "easy"
+  },
+  {
+   "q": "What color are Smurfs?  (A) Green  (B) Blue  (C) Yellow  (D) Red",
+   "a": "B) Blue",
+   "d": "easy"
+  },
+  {
+   "q": "Which popular '90s show featured the character of Ross Geller?  (A) The Simpsons  (B) Seinfeld  (C) Friends  (D) Frasier",
+   "a": "C) Friends",
+   "d": "easy"
+  },
+  {
+   "q": "Which actor plays the role of Nick Fury in the Marvel Cinematic Universe?  (A) Paul Rudd  (B) Clark Gregg  (C) Samuel L. Jackson  (D) Tom Hiddleston",
+   "a": "C) Samuel L. Jackson",
+   "d": "easy"
+  },
+  {
+   "q": "Chris Evans plays the role of which character in the Marvel Cinematic Universe?  (A) Spiderman  (B) Thor  (C) Captain America  (D) The Collector",
+   "a": "C) Captain America",
+   "d": "easy"
+  },
+  {
+   "q": "Which actor has starred in films including Star Wars and Blade Runner?  (A) Michael Fassbender  (B) Harrison Ford  (C) Brad Pitt  (D) John Cusack",
+   "a": "B) Harrison Ford",
+   "d": "easy"
+  },
+  {
+   "q": "Which director directed Pulp Fiction?  (A) Steven Spielberg  (B) Quentin Tarantino  (C) Martin Scorsese  (D) Woody Allen",
+   "a": "B) Quentin Tarantino",
+   "d": "easy"
+  },
+  {
+   "q": "Which movie had a device known as a flux capacitor?  (A) Jurassic Park  (B) Back to the Future  (C) Star Wars  (D) The Goonies",
+   "a": "B) Back to the Future",
+   "d": "easy"
+  },
+  {
+   "q": "Which actor played the role of Indiana Jones in Raiders of the Lost Ark?  (A) Marlon Brando  (B) Al Pacino  (C) Samuel L. Jackson  (D) Harrison Ford",
+   "a": "D) Harrison Ford",
+   "d": "easy"
+  },
+  {
+   "q": "Who was the director of the film \"Citizen Kane\"?  (A) Orson Welles  (B) Billy Wilder  (C) Howard Hawks  (D) Carol Reed",
+   "a": "A) Orson Welles",
+   "d": "easy"
+  },
+  {
+   "q": "The role of Thor in the Marvel Cinematic Universe is played by which actor?  (A) Jon Favreau  (B) John Slattery  (C) Chris Hemsworth  (D) Tom Holland",
+   "a": "C) Chris Hemsworth",
+   "d": "easy"
+  },
+  {
+   "q": "In the Marvel Cinematic Universe, which character is played by Robert Downey Jr.?  (A) The Grandmaster  (B) Tony Stark  (C) Alexander Pierce  (D) Vision",
+   "a": "B) Tony Stark",
+   "d": "easy"
+  },
+  {
+   "q": "What is the name of the mermaid in the Disney film The Little Mermaid?  (A) Belle  (B) Jasmine  (C) Elsa  (D) Ariel",
+   "a": "D) Ariel",
+   "d": "easy"
+  },
+  {
+   "q": "Which film contains the character 'Dr. Evil'?  (A) Austin Powers: International Man of Mystery  (B) Die Hard  (C) The Adventures of Robin Hood  (D) Pulp Fiction",
+   "a": "A) Austin Powers: International Man of Mystery",
+   "d": "easy"
+  },
+  {
+   "q": "Which film contains the character 'Gollum'?  (A) Ghost  (B) The Searchers  (C) My Favorite Year  (D) The Lord of the Rings",
+   "a": "D) The Lord of the Rings",
+   "d": "easy"
+  },
+  {
+   "q": "Which film contains the character 'Captain Jack Sparrow'?  (A) Pirates of the Caribbean  (B) The Silence of the Lambs  (C) The Godfather  (D) The Birds",
+   "a": "A) Pirates of the Caribbean",
+   "d": "easy"
+  },
+  {
+   "q": "Which actor plays the role of Heimdall in the Marvel Cinematic Universe?  (A) Chadwick Boseman  (B) Josh Brolin  (C) Idris Elba  (D) Peter Dinklage",
+   "a": "C) Idris Elba",
+   "d": "easy"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Chinatown'?  (A) \"I could do this all day\"  (B) \"Mother of mercy, is this the end of Rico?\"  (C) \"You shall not pass!\"  (D) \"Forget it, Jake, it's Chinatown.\"",
+   "a": "D) \"Forget it, Jake, it's Chinatown.\"",
+   "d": "easy"
+  },
+  {
+   "q": "Which actor has featured in films including Forrest Gump and Apollo 13?  (A) Tom Cruise  (B) Tom Hanks  (C) Ewan McGregor  (D) Will Smith",
+   "a": "B) Tom Hanks",
+   "d": "easy"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A small-time boxer gets a chance to fight the world heavyweight champion.'  (A) The Deer Hunter  (B) Amélie  (C) Rocky  (D) Schindler's List",
+   "a": "C) Rocky",
+   "d": "easy"
+  },
+  {
+   "q": "Which actor has starred in films including Men in Black and Enemy of the State?  (A) Ryan Reynolds  (B) Ralph Fiennes  (C) Will Smith  (D) Brian Cox",
+   "a": "C) Will Smith",
+   "d": "easy"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A blacksmith teams up with an eccentric pirate to save his love.'  (A) Pirates of the Caribbean: The Curse of the Black Pearl  (B) The Departed  (C) The Truman Show  (D) Die Hard",
+   "a": "A) Pirates of the Caribbean: The Curse of the Black Pearl",
+   "d": "easy"
+  },
+  {
+   "q": "Which of these quotes is from the film '300'?  (A) \"This is Sparta!\"  (B) \"I have always depended on the kindness of strangers.\"  (C) \"Elementary, my dear Watson.\"  (D) \"I love the smell of napalm in the morning.\"",
+   "a": "A) \"This is Sparta!\"",
+   "d": "easy"
+  },
+  {
+   "q": "What sports icon did Will Smith portray to receive an Oscar nomination in 2002?  (A) Michael Jordan  (B) Muhammad Ali  (C) Tiger Woods  (D) Kobe Bryant",
+   "a": "B) Muhammad Ali",
+   "d": "easy"
+  },
+  {
+   "q": "Which master of suspense directed the 1969 film 'Topaz', a tale of Cold War defectors and double-dealing spies?  (A) Scorsese  (B) Spielberg  (C) Tarantino  (D) Hitchcock",
+   "a": "D) Hitchcock",
+   "d": "easy"
+  },
+  {
+   "q": "Which of these quotes is from the film 'The Graduate'?  (A) \"Round up the usual suspects.\"  (B) \"Mrs. Robinson, you're trying to seduce me. Aren't you?\"  (C) \"Soylent Green is people!\"  (D) \"Just keep swimming.\"",
+   "a": "B) \"Mrs. Robinson, you're trying to seduce me. Aren't you?\"",
+   "d": "easy"
+  },
+  {
+   "q": "In Star Wars, what color is Darth Vader's lightsaber?  (A) Red  (B) Green  (C) Purple  (D) Blue",
+   "a": "A) Red",
+   "d": "easy"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A high school student is sent thirty years into the past in a time-traveling car.'  (A) Raiders of the Lost Ark  (B) The Truman Show  (C) Back to the Future  (D) Forrest Gump",
+   "a": "C) Back to the Future",
+   "d": "easy"
+  },
+  {
+   "q": "Which action star has featured in both Terminator and Predator?  (A) Jason Statham  (B) Arnold Schwarzenegger  (C) Sylvester Stallone  (D) Chuck Norris",
+   "a": "B) Arnold Schwarzenegger",
+   "d": "easy"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A Hobbit and eight companions set out on a journey to destroy the powerful One Ring.'  (A) Star Wars  (B) Logan  (C) Double Indemnity  (D) The Lord of the Rings: The Fellowship of the Ring",
+   "a": "D) The Lord of the Rings: The Fellowship of the Ring",
+   "d": "easy"
+  },
+  {
+   "q": "Which actor played the role of John McClane in Die Hard?  (A) Sean Penn  (B) John Travolta  (C) Al Pacino  (D) Bruce Willis",
+   "a": "D) Bruce Willis",
+   "d": "easy"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'Simba and his father are targeted by his uncle, who wants to ascend the throne himself.'  (A) The Wizard of Oz  (B) The Lion King  (C) Joker  (D) Rear Window",
+   "a": "B) The Lion King",
+   "d": "easy"
+  },
+  {
+   "q": "Who played the role of James Bond in Casino Royale?  (A) George Lazenby  (B) Roger Moore  (C) Sean Connery  (D) Daniel Craig",
+   "a": "D) Daniel Craig",
+   "d": "easy"
+  },
+  {
+   "q": "In 2009, which world leader was portrayed on-screen by Morgan Freeman?  (A) Barack Obama  (B) Mahatma Gandhi  (C) Winston Churchill  (D) Nelson Mandela",
+   "a": "D) Nelson Mandela",
+   "d": "easy"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Borat'?  (A) \"I'm walking here! I'm walking here!\"  (B) \"A martini. Shaken, not stirred.\"  (C) \"The stuff that dreams are made of.\"  (D) \"Very nice!\"",
+   "a": "D) \"Very nice!\"",
+   "d": "easy"
+  },
+  {
+   "q": "Which actor originally played the role of Han Solo in Star Wars?  (A) Mark Hamill  (B) Harrison Ford  (C) Pedro Pascal  (D) Brad Pitt",
+   "a": "B) Harrison Ford",
+   "d": "easy"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Frankenstein'?  (A) \"It's alive! It's alive!\"  (B) \"I'm walkin' here!\"  (C) \"Stella! Hey, Stella!\"  (D) \"My precious...\"",
+   "a": "A) \"It's alive! It's alive!\"",
+   "d": "easy"
+  },
+  {
+   "q": "Who won the 1994 Academy Award for Best Leading Actor for playing the role of Forrest Gump in Forrest Gump?  (A) Nigel Hawthorne  (B) Tom Hanks  (C) Paul Newman  (D) Morgan Freeman",
+   "a": "B) Tom Hanks",
+   "d": "easy"
+  },
+  {
+   "q": "Which actor has featured in films including The Good, the Bad and the Ugly and Million Dollar Baby?  (A) Matt Damon  (B) Clint Eastwood  (C) Sean Connery  (D) Robert De Niro",
+   "a": "B) Clint Eastwood",
+   "d": "easy"
+  },
+  {
+   "q": "Which actor plays the role of Dr Strange in the Marvel Cinematic Universe?  (A) Jeff Goldblum  (B) J.K. Simmons  (C) Michael Douglas  (D) Benedict Cumberbatch",
+   "a": "D) Benedict Cumberbatch",
+   "d": "easy"
+  },
+  {
+   "q": "Which actor played Batman in the Dark Knight trilogy?  (A) Keanu Reeves  (B) Dan Aykroyd  (C) Donald Sutherland  (D) Christian Bale",
+   "a": "D) Christian Bale",
+   "d": "easy"
+  },
+  {
+   "q": "In which iconic '90s film did Leonardo DiCaprio play the role of Jack Dawson?  (A) The Great Gatsby  (B) Romeo + Juliet  (C) The Beach  (D) Titanic",
+   "a": "D) Titanic",
+   "d": "easy"
+  },
+  {
+   "q": "Which 1970s movie, featuring Sylvester Stallone, was re-released under the rhyming title \"The Italian Stallion\"?  (A) Jaws  (B) Rocky  (C) The Godfather  (D) Star Wars",
+   "a": "B) Rocky",
+   "d": "easy"
+  },
+  {
+   "q": "In what movie does the main character have a friend called Bubba Blue who dreams of opening up his own shrimping business?  (A) Indiana Jones  (B) Rocky  (C) Scarface  (D) Forrest Gump",
+   "a": "D) Forrest Gump",
+   "d": "easy"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A killer shark unleashes chaos on a beach community.'  (A) Platoon  (B) Jaws  (C) The Good, the Bad and the Ugly  (D) The Silence of the Lambs",
+   "a": "B) Jaws",
+   "d": "easy"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Goldfinger'?  (A) \"Go ahead, make my day.\"  (B) \"A martini. Shaken, not stirred.\"  (C) \"Carpe diem. Seize the day, boys. Make your lives extraordinary.\"  (D) \"Elementary, my dear Watson.\"",
+   "a": "B) \"A martini. Shaken, not stirred.\"",
+   "d": "easy"
+  },
+  {
+   "q": "Who performed the theme song to the James Bond film Skyfall?  (A) Madonna  (B) Jack White and Alicia Keys  (C) Adele  (D) Chris Cornell",
+   "a": "C) Adele",
+   "d": "easy"
+  },
+  {
+   "q": "Which Hollywood actor has starred in films including Interstellar and The Wolf of Wall Street?  (A) Hugh Jackman  (B) Matthew McConaughey  (C) Ryan Reynolds  (D) Jim Carrey",
+   "a": "B) Matthew McConaughey",
+   "d": "easy"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Planet of the Apes'?  (A) \"Take your stinking paws off me, you damned dirty ape.\"  (B) \"Toga! Toga!\"  (C) \"Attica! Attica!\"  (D) \"Mrs. Robinson, you're trying to seduce me. Aren't you?\"",
+   "a": "A) \"Take your stinking paws off me, you damned dirty ape.\"",
+   "d": "easy"
+  },
+  {
+   "q": "Which actor played the role of Iron Man in the Marvel Cinematic Universe?  (A) Robert Downey Jr.  (B) Chris Hemsworth  (C) Tom Holland  (D) Chris Evans",
+   "a": "A) Robert Downey Jr.",
+   "d": "easy"
+  },
+  {
+   "q": "On which two popular sitcoms has Bebe Neuwirth played Dr. Lilith Sternin?  (A) The Big Bang Theory & How I Met Your Mother  (B) The Office & Brooklyn Nine-Nine  (C) Cheers & Frasier  (D) Seinfeld & Friends",
+   "a": "C) Cheers & Frasier",
+   "d": "medium"
+  },
+  {
+   "q": "Which director directed Jurassic Park?  (A) Steven Spielberg  (B) Alfred Hitchcock  (C) Martin Scorsese  (D) Woody Allen",
+   "a": "A) Steven Spielberg",
+   "d": "medium"
+  },
+  {
+   "q": "What was the name of the popular '90s police film starring Will Smith and Martin Lawrence?  (A) Independence Day  (B) Men in Black  (C) Bad Boys  (D) Wild Wild West",
+   "a": "C) Bad Boys",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor made his debut in the lesser-known film \"The Curse of the Living Corpse\" before achieving fame with \"Jaws\" and \"All that Jazz\"?  (A) Roy Scheider  (B) Jack Nicholson  (C) Harrison Ford  (D) Robert De Niro",
+   "a": "A) Roy Scheider",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A family heads to a hotel for the winter where a sinister presence influences the father into violence.'  (A) Taxi Driver  (B) Untouchable  (C) Fargo  (D) The Shining",
+   "a": "D) The Shining",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Brokeback Mountain'?  (A) \"I want to be alone.\"  (B) \"Show me the money!\"  (C) \"Frankly, my dear, I don't give a damn.\"  (D) \"I wish I knew how to quit you.\"",
+   "a": "D) \"I wish I knew how to quit you.\"",
+   "d": "medium"
+  },
+  {
+   "q": "The Matrix was released in which year?  (A) 1993  (B) 1999  (C) 2002  (D) 1996",
+   "a": "B) 1999",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor played the role of Alex DeLarge in A Clockwork Orange?  (A) Malcolm McDowell  (B) Clint Eastwood  (C) James Stewart  (D) Arnold Schwarzenegger",
+   "a": "A) Malcolm McDowell",
+   "d": "medium"
+  },
+  {
+   "q": "Which famous sitcom character is played by Kelsey Grammer?  (A) Chandler Bing  (B) Jerry Seinfeld  (C) Michael Bluth  (D) Frasier Crane",
+   "a": "D) Frasier Crane",
+   "d": "medium"
+  },
+  {
+   "q": "What did the Karate Kid use to catch a fly?  (A) A shotglass  (B) Chopsticks  (C) His fingers  (D) Sticky tape",
+   "a": "B) Chopsticks",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A mentally unstable veteran has urges for violence after witnessing decadence and sleaze.'  (A) It's a Wonderful Life  (B) Taxi Driver  (C) Apocalypse Now  (D) Life Is Beautiful",
+   "a": "B) Taxi Driver",
+   "d": "medium"
+  },
+  {
+   "q": "What was Brett's last supper in the film Pulp Fiction?  (A) Royale With Cheese  (B) Dunkin' Donuts  (C) KFC Family Bucket  (D) Big Kahuna burger",
+   "a": "D) Big Kahuna burger",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A destitute family builds a symbiotic relationship with a wealthy family.'  (A) Vertigo  (B) Parasite  (C) Casino  (D) The Big Lebowski",
+   "a": "B) Parasite",
+   "d": "medium"
+  },
+  {
+   "q": "Which word is the last word in the titles of six of George Romero's zombie movies?  (A) Living  (B) Dead  (C) Corpse  (D) Undead",
+   "a": "B) Dead",
+   "d": "medium"
+  },
+  {
+   "q": "Which actress has featured in films including Ocean's Eleven and Pretty Woman?  (A) Charlize Theron  (B) Cameron Diaz  (C) Julia Roberts  (D) Jodie Foster",
+   "a": "C) Julia Roberts",
+   "d": "medium"
+  },
+  {
+   "q": "What is the name of the Rowan Atkinson character who calls his teddy bear and best friend \"Teddy\"?  (A) Cornelius Fudge  (B) Mr. Bean  (C) Teddy Ruxpin  (D) Paddington Bear",
+   "a": "B) Mr. Bean",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has starred in both Harry Potter and Batman Begins?  (A) Gary Oldman  (B) Laurence Fishburne  (C) James Franco  (D) George Clooney",
+   "a": "A) Gary Oldman",
+   "d": "medium"
+  },
+  {
+   "q": "Bradley Cooper plays the role of which character in the Marvel Cinematic Universe?  (A) Ned Leeds  (B) Dr. Bruce Banner  (C) Drax the Destroyer  (D) Rocket Raccoon",
+   "a": "D) Rocket Raccoon",
+   "d": "medium"
+  },
+  {
+   "q": "Which film won the Academy Award for Best Picture in 1998?  (A) Shakespeare in Love  (B) Elizabeth  (C) Life Is Beautiful  (D) Saving Private Ryan",
+   "a": "A) Shakespeare in Love",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A former gangster returns home, where he must confront the regrets of his old life.'  (A) Once Upon a Time in America  (B) Goodfellas  (C) There Will Be Blood  (D) Gone with the Wind",
+   "a": "A) Once Upon a Time in America",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A surgeon rescues a disfigured man who is mistreated while scraping a living as a side-show freak.'  (A) Mr. Smith Goes to Washington  (B) Vertigo  (C) The Elephant Man  (D) Back to the Future",
+   "a": "C) The Elephant Man",
+   "d": "medium"
+  },
+  {
+   "q": "'You talkin to me?' is a line from which 1970's film?  (A) The Graduate  (B) Taxi Driver  (C) Raging Bull  (D) Midnight Cowboy",
+   "a": "B) Taxi Driver",
+   "d": "medium"
+  },
+  {
+   "q": "Which film contains the character 'Tony Montana'?  (A) The Night of the Hunter  (B) Scarface  (C) The Manchurian Candidate  (D) Casablanca",
+   "a": "B) Scarface",
+   "d": "medium"
+  },
+  {
+   "q": "What Was The Gang Name Of John Travolta And His Cohorts In The Movie Grease?  (A) The T-Birds  (B) The Heavy Quarters  (C) The Pink Ladies  (D) The Wild Dogs",
+   "a": "A) The T-Birds",
+   "d": "medium"
+  },
+  {
+   "q": "What was the name of David Hasslehoff's Talking car in the show 'Knight Rider'?  (A) HAL  (B) JARVIS  (C) MORN  (D) KITT",
+   "a": "D) KITT",
+   "d": "medium"
+  },
+  {
+   "q": "The role of Falcon in the Marvel Cinematic Universe is played by which actor?  (A) Anthony Mackie  (B) Benedict Cumberbatch  (C) Michael Douglas  (D) Mark Ruffalo",
+   "a": "A) Anthony Mackie",
+   "d": "medium"
+  },
+  {
+   "q": "Who played the role of Nala in the 2019 remake of The Lion King?  (A) Nicki Minaj  (B) Drake  (C) Madonna  (D) Beyoncé",
+   "a": "D) Beyoncé",
+   "d": "medium"
+  },
+  {
+   "q": "At which city's film festival is the Palme d'Or awarded?  (A) Venice  (B) Geneva  (C) Cannes  (D) Nice",
+   "a": "C) Cannes",
+   "d": "medium"
+  },
+  {
+   "q": "Which director directed The Lord of the Rings: The Fellowship of the Ring?  (A) Martin Scorsese  (B) Steven Spielberg  (C) Woody Allen  (D) Peter Jackson",
+   "a": "D) Peter Jackson",
+   "d": "medium"
+  },
+  {
+   "q": "Who won the 2018 Academy Award for Best Supporting Actor for playing the role of Dr. Donald Shirley in Green Book?  (A) Sam Elliott  (B) Richard E. Grant  (C) Adam Driver  (D) Mahershala Ali",
+   "a": "D) Mahershala Ali",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor played the role of Vito Corleone in The Godfather?  (A) Robert Shaw  (B) Marlon Brando  (C) Glenn Close  (D) Samuel L. Jackson",
+   "a": "B) Marlon Brando",
+   "d": "medium"
+  },
+  {
+   "q": "Which actress starred in films including My Fair Lady and Roman Holiday?  (A) Bette Davis  (B) Selena Gomez  (C) Catherine Deneuve  (D) Audrey Hepburn",
+   "a": "D) Audrey Hepburn",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor played the role of Saruman in The Lord of the Rings?  (A) Patrick Stewart  (B) Anthony Hopkins  (C) Christopher Lee  (D) Ian McKellen",
+   "a": "C) Christopher Lee",
+   "d": "medium"
+  },
+  {
+   "q": "Which Hollywood actor has featured in TV shows including The Sopranos and Boardwalk Empire?  (A) Steve Buscemi  (B) Arnold Schwarzenegger  (C) Christopher Lee  (D) Anthony Hopkins",
+   "a": "A) Steve Buscemi",
+   "d": "medium"
+  },
+  {
+   "q": "In the Marvel Cinematic Universe, which character is played by Benicio Del Toro?  (A) Howard Stark  (B) Groot  (C) Alexander Pierce  (D) The Collector",
+   "a": "D) The Collector",
+   "d": "medium"
+  },
+  {
+   "q": "Which director directed 2001: A Space Odyssey?  (A) Stanley Kubrick  (B) Steven Spielberg  (C) Martin Scorsese  (D) Woody Allen",
+   "a": "A) Stanley Kubrick",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A tramp who has fallen in love with a blind flower girl saves money to help her medically.'  (A) The Terminator  (B) City Lights  (C) Pulp Fiction  (D) The Truman Show",
+   "a": "B) City Lights",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has appeared in films including House of Cards and Superman Returns?  (A) Russell Crowe  (B) John Turturro  (C) Jean-Claude Van Damme  (D) Kevin Spacey",
+   "a": "D) Kevin Spacey",
+   "d": "medium"
+  },
+  {
+   "q": "Who won the 1987 Academy Award for Best Leading Actor for playing the role of Gordon Gekko in Wall Street?  (A) Michael Douglas  (B) William Hurt  (C) Jack Nicholson  (D) Marcello Mastroianni",
+   "a": "A) Michael Douglas",
+   "d": "medium"
+  },
+  {
+   "q": "Which director directed Batman Begins?  (A) Martin Scorsese  (B) Woody Allen  (C) Steven Spielberg  (D) Christopher Nolan",
+   "a": "D) Christopher Nolan",
+   "d": "medium"
+  },
+  {
+   "q": "What is the name of the character played by Matt LeBlanc on 'Friends'?  (A) Buster  (B) Chandler  (C) Ross  (D) Joey",
+   "a": "D) Joey",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor, who starred in several 'Fast & Furious' films and in the 2020 movie 'Bloodshot', is also a producer?  (A) Dwayne Johnson  (B) Jason Statham  (C) Vin Diesel  (D) Chris Hemsworth",
+   "a": "C) Vin Diesel",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'An insurance representative lets a housewife seduce him into a scheme of insurance fraud and murder.'  (A) Dune  (B) Double Indemnity  (C) Casino  (D) The Great Escape",
+   "a": "B) Double Indemnity",
+   "d": "medium"
+  },
+  {
+   "q": "In the Marvel Cinematic Universe, which character is played by Gwyneth Paltrow?  (A) Pepper Potts  (B) Wanda Maximoff  (C) Valkyrie  (D) Eitri",
+   "a": "A) Pepper Potts",
+   "d": "medium"
+  },
+  {
+   "q": "What was the name of the iconic '90s thriller starring Brad Pitt and Morgan Freeman?  (A) Interview with the Vampire  (B) Fight Club  (C) Seven  (D) The Shawshank Redemption",
+   "a": "C) Seven",
+   "d": "medium"
+  },
+  {
+   "q": "What is the name of the villain in Pinocchio?  (A) The Evil Queen  (B) Stromboli  (C) Ursula  (D) Maleficent",
+   "a": "B) Stromboli",
+   "d": "medium"
+  },
+  {
+   "q": "Which actress has played roles in films including Titanic and The Reader?  (A) Sandra Bæ Hovedr  (B) Kate Winslet  (C) Kathy Bates  (D) Kirsten Dunst",
+   "a": "B) Kate Winslet",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'An insomniac and a soap maker form an underground organisation that evolves into much more.'  (A) Rocky  (B) Hotel Rwanda  (C) Fight Club  (D) North by Northwest",
+   "a": "C) Fight Club",
+   "d": "medium"
+  },
+  {
+   "q": "What Oscar-winning song was featured in the 2008 movie 'Slumdog Millionaire'?  (A) Let It Go  (B) My Heart Will Go On  (C) Jai Ho  (D) Shallow",
+   "a": "C) Jai Ho",
+   "d": "medium"
+  },
+  {
+   "q": "Which actress played both the roles of Evelyn Salt and Lara Croft?  (A) Scarlett Johansson  (B) Angelina Jolie  (C) Jennifer Lawrence  (D) Charlize Theron",
+   "a": "B) Angelina Jolie",
+   "d": "medium"
+  },
+  {
+   "q": "The Shawshank Redemption was released in which year?  (A) 1994  (B) 1986  (C) 1990  (D) 1998",
+   "a": "A) 1994",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor played Meryl Streep's son in the 1996 film 'Marvin's Room' before starring in 'The Beach'?  (A) Brad Pitt  (B) Matt Damon  (C) Johnny Depp  (D) Leonardo DiCaprio",
+   "a": "D) Leonardo DiCaprio",
+   "d": "medium"
+  },
+  {
+   "q": "Which 1985 Steven Spielberg film features the actor who played Samwise Gamgee in The Lord of the Rings?  (A) Indiana Jones and the Temple of Doom  (B) E.T. the Extra-Terrestrial  (C) Back to the Future  (D) The Goonies",
+   "a": "D) The Goonies",
+   "d": "medium"
+  },
+  {
+   "q": "Which futuristic 1999 film did Will Smith famously turn down for the lead role, later praising Keanu Reeves for his performance?  (A) Terminator 2: Judgment Day  (B) The Matrix  (C) Star Trek: First Contact  (D) Blade Runner",
+   "a": "B) The Matrix",
+   "d": "medium"
+  },
+  {
+   "q": "Which actress has played prominent roles in films including Mad Max: Fury Road and Prometheus?  (A) Emma Thompson  (B) Charlize Theron  (C) Sandra Bæ Hovedr  (D) Kirsten Dunst",
+   "a": "B) Charlize Theron",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'The son of a former boxer is trained by his father for a mixed martial arts tournament.'  (A) The Terminator  (B) Lawrence of Arabia  (C) No Country for Old Men  (D) Warrior",
+   "a": "D) Warrior",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has played roles in House of Cards and American Beauty?  (A) Kevin Spacey  (B) John Turturro  (C) Russell Crowe  (D) Jean-Claude Van Damme",
+   "a": "A) Kevin Spacey",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor played the role of Tony Montana in Scarface?  (A) Al Pacino  (B) Robert Shaw  (C) Macauley Culkin  (D) Arnold Schwarzenegger",
+   "a": "A) Al Pacino",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor played the role of Jules Winnfield in Pulp Fiction?  (A) Samuel L. Jackson  (B) John Travolta  (C) Michael Douglas  (D) Johnny Depp",
+   "a": "A) Samuel L. Jackson",
+   "d": "medium"
+  },
+  {
+   "q": "What is the name of the dog in the movie Lady and the Tramp?  (A) Sparky  (B) Bolt  (C) Max  (D) Scamp",
+   "a": "D) Scamp",
+   "d": "medium"
+  },
+  {
+   "q": "What horror video game involves surviving environments infested with zombies, and was later adapted into a movie starring Milla Jovovich?  (A) Resident Evil  (B) Dead Space  (C) The Last of Us  (D) Left 4 Dead",
+   "a": "A) Resident Evil",
+   "d": "medium"
+  },
+  {
+   "q": "Who played the role of James Bond in The Man with the Golden Gun?  (A) Pierce Brosnan  (B) George Lazenby  (C) Timothy Dalton  (D) Roger Moore",
+   "a": "D) Roger Moore",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'Follows the rise and fall of a stock-broker living the high life.'  (A) The Wolf of Wall Street  (B) Django Unchained  (C) Snatch  (D) Up",
+   "a": "A) The Wolf of Wall Street",
+   "d": "medium"
+  },
+  {
+   "q": "In which 1999 film does Bruce Willis meet a boy who can see dead people?  (A) The Others  (B) The Sixth Sense  (C) The Ring  (D) The Grudge",
+   "a": "B) The Sixth Sense",
+   "d": "medium"
+  },
+  {
+   "q": "Elizabeth Olsen plays the role of which character in the Marvel Cinematic Universe?  (A) The Ancient One  (B) Carol Danvers  (C) Valkyrie  (D) Wanda Maximoff",
+   "a": "D) Wanda Maximoff",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor plays the role of Drax the Destroyer in the Marvel Cinematic Universe?  (A) Jeremy Renner  (B) Dave Bautista  (C) Paul Bettany  (D) Paul Rudd",
+   "a": "B) Dave Bautista",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these is a movie directed by Alfred Hitchcock?  (A) Headache  (B) Nausea  (C) Vertigo  (D) Insomnia",
+   "a": "C) Vertigo",
+   "d": "medium"
+  },
+  {
+   "q": "Complete this movie trailer catch line for the film Alien. 'In space no one can _____'  (A) Win  (B) See You  (C) Hear You Scream  (D) Breathe",
+   "a": "C) Hear You Scream",
+   "d": "medium"
+  },
+  {
+   "q": "Which director directed Inglourious Basterds?  (A) Woody Allen  (B) Steven Spielberg  (C) Martin Scorsese  (D) Quentin Tarantino",
+   "a": "D) Quentin Tarantino",
+   "d": "medium"
+  },
+  {
+   "q": "Who plays the role of Hawkeye in the Marvel Cinematic Universe?  (A) Jeremy Renner  (B) Benedict Wong  (C) Don Cheadle  (D) Chris Hemsworth",
+   "a": "A) Jeremy Renner",
+   "d": "medium"
+  },
+  {
+   "q": "Released in 1937, what was the first Disney animated feature?  (A) Aladdin  (B) Snow White and the Seven Dwarfs  (C) The Little Mermaid  (D) Beauty and the Beast",
+   "a": "B) Snow White and the Seven Dwarfs",
+   "d": "medium"
+  },
+  {
+   "q": "Leonardo DiCaprio played a South African smuggler in which 2006 movie?  (A) The Departed  (B) Titanic  (C) Blood Diamond  (D) Redemption Stone",
+   "a": "C) Blood Diamond",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has featured in films including Spider-Man and Milk?  (A) Donald Sutherland  (B) James Franco  (C) Gary Oldman  (D) Sean Connery",
+   "a": "B) James Franco",
+   "d": "medium"
+  },
+  {
+   "q": "The line \"There're all gonna laugh at you\" is from which 70's film?  (A) Star Wars  (B) Carrie  (C) The Godfather  (D) Jaws",
+   "a": "B) Carrie",
+   "d": "medium"
+  },
+  {
+   "q": "What is the name of the snake in the Disney film The Jungle Book?  (A) King Louie  (B) Kaa  (C) Baloo  (D) Shere Khan",
+   "a": "B) Kaa",
+   "d": "medium"
+  },
+  {
+   "q": "What was the name of the iconic '90s film where Julia Roberts plays a prostitute who is hired by a wealthy entrepreneur?  (A) Runaway Bride  (B) My Best Friend's Wedding  (C) Pretty Woman  (D) Maid in Manhattan",
+   "a": "C) Pretty Woman",
+   "d": "medium"
+  },
+  {
+   "q": "The Big Lebowski was released in which year?  (A) 1998  (B) 1995  (C) 2001  (D) 2004",
+   "a": "A) 1998",
+   "d": "medium"
+  },
+  {
+   "q": "In which year was Pirates of the Caribbean: The Curse of the Black Pearl first released in the cinema?  (A) 2006  (B) 2003  (C) 2009  (D) 2000",
+   "a": "B) 2003",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Shutter Island'?  (A) \"Which would be worse, to live a monster or die as a good man?\"  (B) \"Release the Kraken!\"  (C) \"I want to be alone.\"  (D) \"A martini. Shaken, not stirred.\"",
+   "a": "A) \"Which would be worse, to live a monster or die as a good man?\"",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor played the role of Jack Torrance in The Shining?  (A) Peter O'Toole  (B) Samuel L. Jackson  (C) Bruce Willis  (D) Jack Nicholson",
+   "a": "D) Jack Nicholson",
+   "d": "medium"
+  },
+  {
+   "q": "Which film contains the character 'Charles Foster Kane'?  (A) Ghost  (B) National Lampoon's Animal House  (C) It's A Wonderful Life  (D) Citizen Kane",
+   "a": "D) Citizen Kane",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'In order to power the city, beasts have to scare children so that they scream.'  (A) Into the Wild  (B) The Green Mile  (C) Monsters, Inc.  (D) Metropolis",
+   "a": "C) Monsters, Inc.",
+   "d": "medium"
+  },
+  {
+   "q": "Aladdin was released in which year?  (A) 1992  (B) 2000  (C) 1988  (D) 1996",
+   "a": "A) 1992",
+   "d": "medium"
+  },
+  {
+   "q": "The role of Captain Marvel in the Marvel Cinematic Universe is played by which actor?  (A) Hayley Atwell  (B) Brie Larson  (C) Zoe Saldana  (D) Karen Gillan",
+   "a": "B) Brie Larson",
+   "d": "medium"
+  },
+  {
+   "q": "In which 1988 animated film did Jessica Rabbit appear?  (A) Space Jam  (B) Who Framed Roger Rabbit  (C) Beauty and the Beast  (D) The Little Mermaid",
+   "a": "B) Who Framed Roger Rabbit",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Marvel's The Avengers'?  (A) \"That's my secret, Captain: I'm always angry.\"  (B) \"They call me Mister Tibbs!\"  (C) \"I am big! It's the pictures that got small.\"  (D) \"I'm gonna make him an offer he can't refuse.\"",
+   "a": "A) \"That's my secret, Captain: I'm always angry.\"",
+   "d": "medium"
+  },
+  {
+   "q": "Which actress has appeared in both Batman & Robin and Kill Bill Volume 1?  (A) Penélope Cruz  (B) Kirsten Dunst  (C) Uma Thurman  (D) Kristin Scott Thomas",
+   "a": "C) Uma Thurman",
+   "d": "medium"
+  },
+  {
+   "q": "Which does Carrie's mother warn her will happen if she attends the prom?  (A) She would get hurt  (B) She would be laughed at  (C) She would die  (D) She would get dumped",
+   "a": "B) She would be laughed at",
+   "d": "medium"
+  },
+  {
+   "q": "What is the name of the villain in the Disney film The Hunchback of Notre Dame?  (A) Gaston  (B) Jafar  (C) Frollo  (D) Hades",
+   "a": "C) Frollo",
+   "d": "medium"
+  },
+  {
+   "q": "Which actress played the role of Oda Mae Brown in Ghost?  (A) Whoopi Goldberg  (B) Katharine Hepburn  (C) Gloria Swanson  (D) Frances McDormand",
+   "a": "A) Whoopi Goldberg",
+   "d": "medium"
+  },
+  {
+   "q": "What is the name of the villain in Aladdin?  (A) Ursula  (B) Maleficent  (C) Jafar  (D) Hades",
+   "a": "C) Jafar",
+   "d": "medium"
+  },
+  {
+   "q": "Who won the 2014 Academy Award for Best Leading Actor for playing the role of Stephen Hawking in The Theory of Everything?  (A) Benedict Cumberbatch  (B) Steve Carell  (C) Eddie Redmayne  (D) Bradley Cooper",
+   "a": "C) Eddie Redmayne",
+   "d": "medium"
+  },
+  {
+   "q": "Who played the title role in the movie Shakespeare In Love?  (A) Benedict Cumberbatch  (B) Hugh Grant  (C) Tom Hiddleston  (D) Joseph Fiennes",
+   "a": "D) Joseph Fiennes",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A former detective becomes obsessed with the woman he has been hired to trail.'  (A) Apocalypse Now  (B) Inside Out  (C) The Sixth Sense  (D) Vertigo",
+   "a": "D) Vertigo",
+   "d": "medium"
+  },
+  {
+   "q": "Which film won the Academy Award for Best Picture in 1989?  (A) Field of Dreams  (B) Dead Poets Society  (C) Driving Miss Daisy  (D) Born on the Fourth of July",
+   "a": "C) Driving Miss Daisy",
+   "d": "medium"
+  },
+  {
+   "q": "In Sabrina The Teenage Witch What Is The Name Of Sabrina's Cat?  (A) Wilmington  (B) Alexandria  (C) Salem  (D) Greensboro",
+   "a": "C) Salem",
+   "d": "medium"
+  },
+  {
+   "q": "From which film do we get the song 'White Christmas''  (A) Miracle on 34th Street  (B) White Christmas  (C) Holiday Inn  (D) It's a Wonderful Life",
+   "a": "C) Holiday Inn",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor played the role of Lucius Fox in Christopher Nolan's Batman trilogy?  (A) Morgan Freeman  (B) Christopher Lee  (C) Arnold Schwarzenegger  (D) Liam Neeson",
+   "a": "A) Morgan Freeman",
+   "d": "medium"
+  },
+  {
+   "q": "Which director directed Transformers?  (A) Woody Allen  (B) Michael Bay  (C) Martin Scorsese  (D) Steven Spielberg",
+   "a": "B) Michael Bay",
+   "d": "medium"
+  },
+  {
+   "q": "Who won the 2018 Academy Award for Best Leading Actress for playing the role of Queen Anne in The Favourite?  (A) Lady Gaga  (B) Glenn Close  (C) Olivia Colman  (D) Yalitza Aparicio",
+   "a": "C) Olivia Colman",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A detective hired to expose an adulterer finds himself caught up in a web of deceit.'  (A) Chinatown  (B) Up  (C) Gone Girl  (D) Gran Torino",
+   "a": "A) Chinatown",
+   "d": "medium"
+  },
+  {
+   "q": "In Star Wars, what is the name of Han Solo's ship?  (A) Ebon Hawk  (B) X-Wing  (C) Millennium Falcon  (D) Razor Crest",
+   "a": "C) Millennium Falcon",
+   "d": "medium"
+  },
+  {
+   "q": "Who won the 2015 Academy Award for Best Leading Actor for playing the role of Hugh Glass in The Revenant?  (A) Bryan Cranston  (B) Matt Damon  (C) Michael Fassbender  (D) Leonardo DiCaprio",
+   "a": "D) Leonardo DiCaprio",
+   "d": "medium"
+  },
+  {
+   "q": "Which animated movie gave us the quote \"Dynaguy, snagged on takeoff! Splashdown, sucked into a vortex... no capes!\"?  (A) The Incredibles  (B) Cars  (C) Finding Nemo  (D) Toy Story",
+   "a": "A) The Incredibles",
+   "d": "medium"
+  },
+  {
+   "q": "Which Oscar Winning Actor Played Scrooge In \"The Muppet Christmas Carol\"?  (A) Daniel Day Lewis  (B) Patrick Stewart  (C) Michael Caine  (D) Christopher Lee",
+   "a": "C) Michael Caine",
+   "d": "medium"
+  },
+  {
+   "q": "Who won the 1974 Academy Award for Best Supporting Actor for playing the role of Vito Corleone in The Godfather Part II?  (A) Jeff Bridges  (B) Fred Astaire  (C) Michael V. Gazzo  (D) Robert De Niro",
+   "a": "D) Robert De Niro",
+   "d": "medium"
+  },
+  {
+   "q": "Chiwetel Ejiofor plays the role of which character in the Marvel Cinematic Universe?  (A) Odin  (B) Thor  (C) Karl Mordo  (D) Tony Stark",
+   "a": "C) Karl Mordo",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor played the role of Rick Blaine in Casablanca?  (A) Gregory Peck  (B) Peter O'Toole  (C) John Travolta  (D) Humphrey Bogart",
+   "a": "D) Humphrey Bogart",
+   "d": "medium"
+  },
+  {
+   "q": "\"You're gonna need a bigger boat\" is a line from which 70's film?  (A) Titanic  (B) Star Wars  (C) Jaws  (D) The Godfather",
+   "a": "C) Jaws",
+   "d": "medium"
+  },
+  {
+   "q": "In which year was Braveheart released?  (A) 1991  (B) 1983  (C) 1995  (D) 1987",
+   "a": "C) 1995",
+   "d": "medium"
+  },
+  {
+   "q": "What classic TV show from the 1960s featured the theme song with the following lyrics: 'Here we come, walkin' down the street, we get the funniest looks from everyone we meet'?  (A) Bewitched  (B) The Brady Bunch  (C) The Monkees  (D) Gilligan's Island",
+   "a": "C) The Monkees",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A skilled forger and conman is pursued by an FBI agent.'  (A) American History X  (B) Catch Me If You Can  (C) Logan  (D) American Beauty",
+   "a": "B) Catch Me If You Can",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A stand-up comedian embarks on a downward spiral that leads to the creation of an iconic villain.'  (A) Joker  (B) Grave of the Fireflies  (C) Mad Max: Fury Road  (D) 1917",
+   "a": "A) Joker",
+   "d": "medium"
+  },
+  {
+   "q": "Which Jim Carrey film features the quote, 'Hi. Is there a problem with your service?'?  (A) Ace Ventura: Pet Detective  (B) Liar Liar  (C) The Truman Show  (D) The Cable Guy",
+   "a": "D) The Cable Guy",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'An aspiring nun is sent to become a governess to the seven children of a widowed naval officer.'  (A) Three Billboards Outside Ebbing, Missouri  (B) Inception  (C) The Sound of Music  (D) Monsters, Inc.",
+   "a": "C) The Sound of Music",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'The stepdaughter of a sadistic army officer escapes into an eerie fantasy world.'  (A) Monsters, Inc.  (B) V for Vendetta  (C) Pan's Labyrinth  (D) Fight Club",
+   "a": "C) Pan's Labyrinth",
+   "d": "medium"
+  },
+  {
+   "q": "In the Halloween films, Michael Myers wears a painted mask of which character?  (A) Captain Kirk  (B) E.T.  (C) Charles Foster Kane  (D) Luke Skywalker",
+   "a": "A) Captain Kirk",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has featured in films including The Matrix and Batman v Superman: Dawn of Justice?  (A) Donald Sutherland  (B) Sean Connery  (C) Gary Oldman  (D) Laurence Fishburne",
+   "a": "D) Laurence Fishburne",
+   "d": "medium"
+  },
+  {
+   "q": "With Which Horror Film Would You Associate The Character Of Leatherface  (A) Halloween  (B) Texas Chainsaw Massacre  (C) The Blair Witch Project  (D) Nightmare on Elm Street",
+   "a": "B) Texas Chainsaw Massacre",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has played roles in films including X-Men: Days of Future Past and American Hustle?  (A) Jennifer Lawrence  (B) Catherine Deneuve  (C) Audrey Hepburn  (D) Rachel Weisz",
+   "a": "A) Jennifer Lawrence",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these quotes is from the film 'King Kong'?  (A) \"That's my secret, Captain: I'm always angry.\"  (B) \"Louis, I think this is the beginning of a beautiful friendship.\"  (C) \"Oh, no, it wasn't the airplanes. It was Beauty killed the Beast.\"  (D) \"Oh, Jerry, don't let's ask for the moon. We have the stars.\"",
+   "a": "C) \"Oh, no, it wasn't the airplanes. It was Beauty killed the Beast.\"",
+   "d": "medium"
+  },
+  {
+   "q": "Which director directed The Godfather Part II?  (A) Steven Spielberg  (B) Francis Ford Coppola  (C) Woody Allen  (D) Martin Scorsese",
+   "a": "B) Francis Ford Coppola",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor played the role of Luke Skywalker in Star Wars?  (A) Mark Hamill  (B) James Earl Jones  (C) Harrison Ford  (D) Ewan McGregor",
+   "a": "A) Mark Hamill",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor plays the role of Odin in the Marvel Cinematic Universe?  (A) Benedict Cumberbatch  (B) Anthony Hopkins  (C) Robert Redford  (D) Jon Favreau",
+   "a": "B) Anthony Hopkins",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'When a serial killer murders key political figures, a vigilante is forced to intervene.'  (A) The Good, the Bad and the Ugly  (B) Die Hard  (C) The Batman  (D) Rocky",
+   "a": "C) The Batman",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor played Det. Terry Hoitz in the film \"The Other Guys\"?  (A) Colin Farrel  (B) Mark Wahlberg  (C) Matt Damon  (D) Leonardo DiCaprio",
+   "a": "B) Mark Wahlberg",
+   "d": "medium"
+  },
+  {
+   "q": "Which 2010 Coen Brothers Western stars Hailee Steinfeld as young Mattie, who tracks down Josh Brolin's character?  (A) True Grit  (B) The Ballad of Buster Scruggs  (C) The Hateful Eight  (D) No Country for Old Men",
+   "a": "A) True Grit",
+   "d": "medium"
+  },
+  {
+   "q": "In the 1967 animated film 'The Jungle Book', what is the name of the tiger character?  (A) King Louie  (B) Baloo  (C) Shere Khan  (D) Bagheera",
+   "a": "C) Shere Khan",
+   "d": "medium"
+  },
+  {
+   "q": "Which actress has featured in films including Avatar and Alien?  (A) Kate Winslet  (B) Sigourney Weaver  (C) Natalie Portman  (D) Helen Mirren",
+   "a": "B) Sigourney Weaver",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor played the role of Hannibal Lecter in The Silence of the Lambs?  (A) John Belushi  (B) Michael Douglas  (C) Bill Murray  (D) Anthony Hopkins",
+   "a": "D) Anthony Hopkins",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has played roles such as Willy Wonka and Gilbert Grape?  (A) Robert Downey Jr.  (B) Keanu Reeves  (C) Johnny Depp  (D) Brad Pitt",
+   "a": "C) Johnny Depp",
+   "d": "medium"
+  },
+  {
+   "q": "In what recent film does Paul Rudd enlist the aid of his insect allies to defeat the villainous Yellow Jacket?  (A) Ant-Man  (B) Iron Man  (C) Batman  (D) Spider-Man",
+   "a": "A) Ant-Man",
+   "d": "medium"
+  },
+  {
+   "q": "Who won the 2019 Academy Award for Best Supporting Actor for playing the role of Cliff Booth in Once upon a Time...in Hollywood?  (A) Al Pacino  (B) Brad Pitt  (C) Anthony Hopkins  (D) Tom Hanks",
+   "a": "B) Brad Pitt",
+   "d": "medium"
+  },
+  {
+   "q": "Which film contains the character 'The Dude'?  (A) The Big Lebowski  (B) Broadcast News  (C) Caddyshack  (D) Fast Times at Ridgemont High",
+   "a": "A) The Big Lebowski",
+   "d": "medium"
+  },
+  {
+   "q": "In which year was Schindler's List first released in the cinema?  (A) 2001  (B) 1989  (C) 1997  (D) 1993",
+   "a": "D) 1993",
+   "d": "medium"
+  },
+  {
+   "q": "In the film 'Million Dollar Baby', what sport does the protagonist pursue?  (A) Soccer  (B) Tennis  (C) Boxing  (D) Golf",
+   "a": "C) Boxing",
+   "d": "medium"
+  },
+  {
+   "q": "Which song from \"The Lego Movie\" received an Oscar nomination?  (A) Build Something Great  (B) The Power of Imagination  (C) Everything Is Awesome  (D) Little Red Bricks",
+   "a": "C) Everything Is Awesome",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has featured in films including Pulp Fiction and Sin City?  (A) Bruce Willis  (B) Samuel L. Jackson  (C) Liam Neeson  (D) Robert De Niro",
+   "a": "A) Bruce Willis",
+   "d": "medium"
+  },
+  {
+   "q": "Who played the role of James Bond in GoldenEye?  (A) Daniel Craig  (B) Roger Moore  (C) Sean Connery  (D) Pierce Brosnan",
+   "a": "D) Pierce Brosnan",
+   "d": "medium"
+  },
+  {
+   "q": "The role of Vision in the Marvel Cinematic Universe is played by which actor?  (A) Paul Bettany  (B) Robert Downey Jr.  (C) Mark Ruffalo  (D) Benicio Del Toro",
+   "a": "A) Paul Bettany",
+   "d": "medium"
+  },
+  {
+   "q": "Which 1980s adventure show featured a talking car named KITT?  (A) The A-Team  (B) Hawaii Five-O  (C) Knight Rider  (D) Airwolf",
+   "a": "C) Knight Rider",
+   "d": "medium"
+  },
+  {
+   "q": "What is the name of the 1964 Spaghetti Western Clint Eastwood starred in, the first of an iconic trilogy?  (A) The Good, the Bad and the Ugly  (B) A Fistful of Dollars  (C) Hang 'Em High  (D) High Plains Drifter",
+   "a": "B) A Fistful of Dollars",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor played the role of Gollum in The Lord of the Rings?  (A) Jack Nicholson  (B) John Cusack  (C) Harrison Ford  (D) Andy Serkis",
+   "a": "D) Andy Serkis",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has starred in both Spider-Man and The Great Gatsby?  (A) Hugo Weaving  (B) Tobey Maguire  (C) Warwick Davis  (D) Timothy Spall",
+   "a": "B) Tobey Maguire",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A former Roman General seeks revenge against the emperor who murdered his family.'  (A) Schindler's List  (B) Gladiator  (C) Mr. Smith Goes to Washington  (D) Indiana Jones and the Last Crusade",
+   "a": "B) Gladiator",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'The daughter of a plantation owner conducts a romance with a roguish profiteer.'  (A) My Neighbour Totoro  (B) Up  (C) Downfall  (D) Gone with the Wind",
+   "a": "D) Gone with the Wind",
+   "d": "medium"
+  },
+  {
+   "q": "What is the name of the format used for presenting wide theatrical images on TV while maintaining their original aspect ratio?  (A) Fullscreen  (B) Pan and Scan  (C) High Dynamic Range  (D) Letterbox",
+   "a": "D) Letterbox",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor plays the role of Happy Hogan in the Marvel Cinematic Universe?  (A) Michael Douglas  (B) Jon Favreau  (C) Kurt Russell  (D) Tom Hiddleston",
+   "a": "B) Jon Favreau",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has featured in films including Harry Potter and the Philosopher's Stone and Gladiator?  (A) James Hong  (B) Jon Bernthal  (C) Sam Shepard  (D) Richard Harris",
+   "a": "D) Richard Harris",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has starred in films including The Matrix and Bram Stoker's Dracula?  (A) Gérard Depardieu  (B) Shah Rukh Khan  (C) Keanu Reeves  (D) Christian Bale",
+   "a": "C) Keanu Reeves",
+   "d": "medium"
+  },
+  {
+   "q": "Who won the 2002 Academy Award for Best Leading Actor for playing the role of Wladyslaw Szpilman in The Pianist?  (A) Michael Caine  (B) Adrien Brody  (C) Daniel Day-Lewis  (D) Nicolas Cage",
+   "a": "B) Adrien Brody",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A maverick teacher emboldens his students to new heights of self-expression.'  (A) Raging Bull  (B) Modern Times  (C) The Wizard of Oz  (D) Dead Poets Society",
+   "a": "D) Dead Poets Society",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor played the role of Charles Foster Kane in Citizen Kane?  (A) Orson Welles  (B) Robert De Niro  (C) Bruce Willis  (D) John Travolta",
+   "a": "A) Orson Welles",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has appeared in films including No Country for Old Men and Skyfall?  (A) Jason Bateman  (B) Sean Penn  (C) Ken Jeong  (D) Javier Bardem",
+   "a": "D) Javier Bardem",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has featured in films including The Lord of the Rings and Sin City?  (A) Timothy Spall  (B) Tim Roth  (C) Elijah Wood  (D) Hugo Weaving",
+   "a": "C) Elijah Wood",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has appeared in both Spider-Man: Homecoming and Birdman?  (A) Toshirō Mifune  (B) Michael Keaton  (C) Simon Pegg  (D) Roger Moore",
+   "a": "B) Michael Keaton",
+   "d": "medium"
+  },
+  {
+   "q": "In Star Wars, who is Luke Skywalker's father?  (A) Obi-Wan Kenobi  (B) Han Solo  (C) Darth Vader  (D) Yoda",
+   "a": "C) Darth Vader",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A lawyer in Depression-era Alabama defends a black man against an undeserved rape charge.'  (A) The Elephant Man  (B) Cool Hand Luke  (C) The Lion King  (D) To Kill a Mockingbird",
+   "a": "D) To Kill a Mockingbird",
+   "d": "medium"
+  },
+  {
+   "q": "Which film contains the character 'Scarlett O'Hara'?  (A) Gone with the Wind  (B) The Birds  (C) Saturday Night Fever  (D) A Streetcar Named Desire",
+   "a": "A) Gone with the Wind",
+   "d": "medium"
+  },
+  {
+   "q": "In which year was Saving Private Ryan released?  (A) 1989  (B) 1992  (C) 1995  (D) 1998",
+   "a": "D) 1998",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A noble family becomes embroiled in a war for control over the galaxy's most valuable asset.'  (A) Vertigo  (B) Eternal Sunshine of the Spotless Mind  (C) Das Boot  (D) Dune",
+   "a": "D) Dune",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor played the role of Travis Bickle in Taxi Driver?  (A) Peter Lorre  (B) Robert De Niro  (C) Joe Pesci  (D) Robert Englund",
+   "a": "B) Robert De Niro",
+   "d": "medium"
+  },
+  {
+   "q": "What 1922 F.W. Murnau film is detailed in the movie \"Shadow of the Vampire\"?  (A) Nosferatu  (B) Frankenstein  (C) The Wolf Man  (D) Dracula",
+   "a": "A) Nosferatu",
+   "d": "medium"
+  },
+  {
+   "q": "Macaulay Caulkin's folks left him \"Home Alone\" in the original 1990 movie. Where did they go?  (A) New York  (B) London  (C) Sydney  (D) Paris",
+   "a": "D) Paris",
+   "d": "medium"
+  },
+  {
+   "q": "Which director directed Raiders of the Lost Ark?  (A) Woody Allen  (B) Alfred Hitchcock  (C) Martin Scorsese  (D) Steven Spielberg",
+   "a": "D) Steven Spielberg",
+   "d": "medium"
+  },
+  {
+   "q": "In the Marvel Cinematic Universe, which character is played by Natalie Portman?  (A) Agent Maria Hill  (B) Gamora  (C) Jane Foster  (D) Thena",
+   "a": "C) Jane Foster",
+   "d": "medium"
+  },
+  {
+   "q": "Which TV character owned a talking cat called Salem?  (A) Sabrina the Teenage Witch  (B) Lisa Simpson  (C) Spongebob Squarepants  (D) Buffy the Vampire Slayer",
+   "a": "A) Sabrina the Teenage Witch",
+   "d": "medium"
+  },
+  {
+   "q": "Who created the TV show 'Family Guy'?  (A) Trey Parker  (B) Seth MacFarlane  (C) Matt Groening  (D) Will Ferrell",
+   "a": "B) Seth MacFarlane",
+   "d": "medium"
+  },
+  {
+   "q": "What adjective completes the TV show title, \"It's Always ____ in Philadelphia\"?  (A) Stormy  (B) Cloudy  (C) Sunny  (D) Rainy",
+   "a": "C) Sunny",
+   "d": "medium"
+  },
+  {
+   "q": "Who performed the theme song to the James Bond film Quantum of Solace?  (A) Lulu  (B) Sheryl Crow  (C) Tina Turner  (D) Jack White and Alicia Keys",
+   "a": "D) Jack White and Alicia Keys",
+   "d": "medium"
+  },
+  {
+   "q": "What sort weapon was used by Jack Torrance in The Shining?  (A) An Axe  (B) A Gun  (C) A Bow and Arrow  (D) A Hammer",
+   "a": "A) An Axe",
+   "d": "medium"
+  },
+  {
+   "q": "Which television show features the characters Jim Halpert and Pam Beesly?  (A) The Office  (B) Parks and Recreation  (C) Brooklyn Nine-Nine  (D) Friends",
+   "a": "A) The Office",
+   "d": "medium"
+  },
+  {
+   "q": "What was the name of the popular '90s sitcom starring Will Smith?  (A) Friends  (B) The Fresh Prince of Bel-Air  (C) Home Improvement  (D) Seinfeld",
+   "a": "B) The Fresh Prince of Bel-Air",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Meet the Parents'?  (A) \"With great power comes great responsiblity.\"  (B) \"I have nipples Greg. Could you milk me?\"  (C) \"We'll always have Paris.\"  (D) \"Take your stinking paws off me, you damned dirty ape.\"",
+   "a": "B) \"I have nipples Greg. Could you milk me?\"",
+   "d": "medium"
+  },
+  {
+   "q": "Which film contains the character 'Oda Mae Brown'?  (A) Ghost  (B) Blue Velvet  (C) Terms of Endearment  (D) Apocalypse Now",
+   "a": "A) Ghost",
+   "d": "medium"
+  },
+  {
+   "q": "Which director directed Star Wars: Episode III – Revenge of the Sith?  (A) George Lucas  (B) Woody Allen  (C) Martin Scorsese  (D) Steven Spielberg",
+   "a": "A) George Lucas",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'Two bounty hunters with the same intentions team up to track down an escaped Mexican outlaw.'  (A) Once Upon a Time in the West  (B) The Elephant Man  (C) For a Few Dollars More  (D) Coco",
+   "a": "C) For a Few Dollars More",
+   "d": "medium"
+  },
+  {
+   "q": "Which film contains the character 'Kevin McCallister'?  (A) Blue Velvet  (B) On the Waterfront  (C) Mad Max  (D) Home Alone",
+   "a": "D) Home Alone",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has starred in Thor and Westworld?  (A) Anthony Hopkins  (B) Tom Hanks  (C) Arnold Schwarzenegger  (D) Ewan McGregor",
+   "a": "A) Anthony Hopkins",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Dracula'?  (A) \"I'm gonna make him an offer he can't refuse.\"  (B) \"Listen to them. Children of the night. What music they make.\"  (C) \"There's no crying in baseball!\"  (D) \"With great power comes great responsiblity.\"",
+   "a": "B) \"Listen to them. Children of the night. What music they make.\"",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A man houses over a thousand Tutsi refugees during their struggle against the Hutu militia.'  (A) Psycho  (B) Hotel Rwanda  (C) The Terminator  (D) City of God",
+   "a": "B) Hotel Rwanda",
+   "d": "medium"
+  },
+  {
+   "q": "Who co-created the British TV show 'The Office' with Stephen Merchant?  (A) John Oliver  (B) Sacha Baron Cohen  (C) Ricky Gervais  (D) Steve Carell",
+   "a": "C) Ricky Gervais",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'During World War II, a group of Jewish U.S. soldiers plan to assassinate Nazi leaders.'  (A) Snatch  (B) Inglourious Basterds  (C) Hotel Rwanda  (D) Cool Hand Luke",
+   "a": "B) Inglourious Basterds",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Terminator 2: Judgment Day'?  (A) \"With great power comes great responsiblity.\"  (B) \"Made it, Ma! Top of the world!\"  (C) \"Attica! Attica!\"  (D) \"Hasta la vista, baby.\"",
+   "a": "D) \"Hasta la vista, baby.\"",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor plays the role of Ego in the Marvel Cinematic Universe?  (A) Mickey Rourke  (B) Kurt Russell  (C) Mark Ruffalo  (D) Chiwetel Ejiofor",
+   "a": "B) Kurt Russell",
+   "d": "medium"
+  },
+  {
+   "q": "Pulp Fiction was released in which year?  (A) 1998  (B) 1990  (C) 1994  (D) 1986",
+   "a": "C) 1994",
+   "d": "medium"
+  },
+  {
+   "q": "What is the name of the villain in Beauty and the Beast?  (A) Ursula  (B) Maleficent  (C) Gaston  (D) The Evil Queen",
+   "a": "C) Gaston",
+   "d": "medium"
+  },
+  {
+   "q": "Paul Rudd plays the role of which character in the Marvel Cinematic Universe?  (A) Ant Man  (B) Quentin Beck  (C) The Grandmaster  (D) Karl Mordo",
+   "a": "A) Ant Man",
+   "d": "medium"
+  },
+  {
+   "q": "Who won the 1991 Academy Award for Best Leading Actress for playing the role of Clarice Starling in The Silence of the Lambs?  (A) Geena Davis  (B) Jodie Foster  (C) Bette Midler  (D) Laura Dern",
+   "a": "B) Jodie Foster",
+   "d": "medium"
+  },
+  {
+   "q": "Which actress played the role of Ellen Ripley in Alien?  (A) Angela Lansbury  (B) Anne Bancroft  (C) Katharine Hepburn  (D) Sigourney Weaver",
+   "a": "D) Sigourney Weaver",
+   "d": "medium"
+  },
+  {
+   "q": "Which British actor has featured in films including Harry Potter and the Goblet of Fire, and The King's Speech?  (A) Hugh Grant  (B) Timothy Spall  (C) Anthony Hopkins  (D) Stephen Fry",
+   "a": "B) Timothy Spall",
+   "d": "medium"
+  },
+  {
+   "q": "What was the name of Norm's wife on Cheers?  (A) Shea  (B) Vera  (C) Daphne  (D) Mary",
+   "a": "B) Vera",
+   "d": "medium"
+  },
+  {
+   "q": "Which actress played the role of Dorothy Gale in The Wizard of Oz?  (A) Anne Bancroft  (B) Vivien Leigh  (C) Olivia Newton-John  (D) Judy Garland",
+   "a": "D) Judy Garland",
+   "d": "medium"
+  },
+  {
+   "q": "In which year was Star Wars released?  (A) 1982  (B) 1987  (C) 1977  (D) 1972",
+   "a": "C) 1977",
+   "d": "medium"
+  },
+  {
+   "q": "Who Wrote The Music To The 1994 Movie “The Lion King”  (A) Paul Simon  (B) Paul McCartney  (C) Elton John  (D) Michael Jackson",
+   "a": "C) Elton John",
+   "d": "medium"
+  },
+  {
+   "q": "Which film contains the character 'Sandy Olsson'?  (A) Gangs of New York  (B) Terms of Endearment  (C) Grease  (D) The Good, the Bad, and the Ugly",
+   "a": "C) Grease",
+   "d": "medium"
+  },
+  {
+   "q": "In Star Wars, who is Princess Leia's twin brother?  (A) Han Solo  (B) Lando Calrissian  (C) Luke Skywalker  (D) Obi-Wan Kenobi",
+   "a": "C) Luke Skywalker",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Captain America: Civil War'?  (A) \"If you build it, he will come.\"  (B) \"Toga! Toga!\"  (C) \"There's no crying in baseball!\"  (D) \"I could do this all day\"",
+   "a": "D) \"I could do this all day\"",
+   "d": "medium"
+  },
+  {
+   "q": "Which actress has appeared in both Twin Peaks and Jurassic Park?  (A) Frances Fisher  (B) Laura Dern  (C) Rachel Weisz  (D) Salma Hayek",
+   "a": "B) Laura Dern",
+   "d": "medium"
+  },
+  {
+   "q": "Which actress has appeared in both Beauty and the Beast and Men in Black 3?  (A) Emma Thompson  (B) Kirsten Dunst  (C) Charlize Theron  (D) Sandra Bæ Hovedr",
+   "a": "A) Emma Thompson",
+   "d": "medium"
+  },
+  {
+   "q": "Which Marvel superhero and lawyer has the enhanced senses of hearing and smell, allowing him to hear heartbeats from 20 feet away and track people by scent?  (A) Captain America  (B) Spider-Man  (C) Iron Man  (D) Daredevil",
+   "a": "D) Daredevil",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'The story an English officer who successfully united and led the Arab tribes during World War I.'  (A) City Lights  (B) Sunset Blvd.  (C) Braveheart  (D) Lawrence of Arabia",
+   "a": "D) Lawrence of Arabia",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler.'  (A) Mad Max: Fury Road  (B) City Lights  (C) Casino  (D) Warrior",
+   "a": "A) Mad Max: Fury Road",
+   "d": "medium"
+  },
+  {
+   "q": "What was the name of the popular '90s film starring Tom Hanks and Meg Ryan?  (A) Toy Story  (B) A Kiss from a Vampire  (C) Forrest Gump  (D) Sleepless in Seattle",
+   "a": "D) Sleepless in Seattle",
+   "d": "medium"
+  },
+  {
+   "q": "In which year was Jurassic Park released?  (A) 1993  (B) 1989  (C) 1985  (D) 1981",
+   "a": "A) 1993",
+   "d": "medium"
+  },
+  {
+   "q": "Who provided the voice for Po in the DreamWorks animated film 'Kung Fu Panda'?  (A) Seth Rogan  (B) Will Ferrell  (C) Jim Carrey  (D) Jack Black",
+   "a": "D) Jack Black",
+   "d": "medium"
+  },
+  {
+   "q": "Which film contains the character 'Vito Corleone'?  (A) Fatal Attraction  (B) The Third Man  (C) Gangs of New York  (D) The Godfather",
+   "a": "D) The Godfather",
+   "d": "medium"
+  },
+  {
+   "q": "Which Disney villainess has a song with the line \"If she doesn't scare you, no evil thing will\"?  (A) Scar  (B) Cruella de Vil  (C) Maleficent  (D) Ursula",
+   "a": "B) Cruella de Vil",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A family of undercover superheroes are forced into action to save the world.'  (A) Gandhi  (B) The Incredibles  (C) 12 Angry Men  (D) The Sound of Music",
+   "a": "B) The Incredibles",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has starred in films including The Mask and The Truman Show?  (A) Gerard Butler  (B) Jim Carrey  (C) Michael Fassbender  (D) Hugh Jackman",
+   "a": "B) Jim Carrey",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has starred in films including The Fighter and Ted?  (A) Michael Douglas  (B) Mark Wahlberg  (C) Brian Cox  (D) Ralph Fiennes",
+   "a": "B) Mark Wahlberg",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'When a heist goes wrong, the surviving criminals suspect that one of them is a police informant.'  (A) The Green Mile  (B) Saving Private Ryan  (C) Gran Torino  (D) Reservoir Dogs",
+   "a": "D) Reservoir Dogs",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has starred in films including Joker and Her?  (A) Roger Moore  (B) Peter O'Toole  (C) Alan Cumming  (D) Joaquin Phoenix",
+   "a": "D) Joaquin Phoenix",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has played Jim Morrison, Elvis Presley, and Batman in various films?  (A) Kevin Spacey  (B) Val Kilmer  (C) Tom Cruise  (D) Samuel L. Jackson",
+   "a": "B) Val Kilmer",
+   "d": "medium"
+  },
+  {
+   "q": "Vin Diesel plays the role of which character in the Marvel Cinematic Universe?  (A) Drax the Destroyer  (B) Groot  (C) Ego  (D) Clint Barton",
+   "a": "B) Groot",
+   "d": "medium"
+  },
+  {
+   "q": "What type of animal is Spongebob's best friend Patrick?  (A) Starfish  (B) Plankton  (C) Squid  (D) Lobster",
+   "a": "A) Starfish",
+   "d": "medium"
+  },
+  {
+   "q": "Which Disney film from 1967 features a tiger trying to eat a man-cub?  (A) Aladdin  (B) The Lion King  (C) The Jungle Book  (D) Tarzan",
+   "a": "C) The Jungle Book",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A car designer and driver battle to build a revolutionary race car.'  (A) Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb  (B) Ratatouille  (C) Le Mans '66  (D) Downfall",
+   "a": "C) Le Mans '66",
+   "d": "medium"
+  },
+  {
+   "q": "Who won the 2006 Academy Award for Best Supporting Actress for playing the role of Effie White in Dreamgirls?  (A) Abigail Breslin  (B) Jennifer Hudson  (C) Adriana Barraza  (D) Cate Blanchett",
+   "a": "B) Jennifer Hudson",
+   "d": "medium"
+  },
+  {
+   "q": "Which James Bond theme song was performed by Wings?  (A) Tomorrow Never Dies  (B) Live and Let Die  (C) The Living Daylights  (D) Skyfall",
+   "a": "B) Live and Let Die",
+   "d": "medium"
+  },
+  {
+   "q": "Which actress played the role of Sandy Olsson in Grease?  (A) Olivia Newton-John  (B) Tippi Hedren  (C) Audrey Hepburn  (D) Kathy Bates",
+   "a": "A) Olivia Newton-John",
+   "d": "medium"
+  },
+  {
+   "q": "In which period film did Billy Boyd serve as Russell Crowe's coxswain?  (A) Gladiator  (B) Master and Commander  (C) Pirates of the Caribbean  (D) The Last Samurai",
+   "a": "B) Master and Commander",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor from the Harry Potter films also starred as Dracula in the 1992 adaptation?  (A) Michael Gambon  (B) Daniel Radcliffe  (C) Alan Rickman  (D) Gary Oldman",
+   "a": "D) Gary Oldman",
+   "d": "medium"
+  },
+  {
+   "q": "Which director directed E.T. the Extra-Terrestrial?  (A) Woody Allen  (B) Alfred Hitchcock  (C) Martin Scorsese  (D) Steven Spielberg",
+   "a": "D) Steven Spielberg",
+   "d": "medium"
+  },
+  {
+   "q": "What is the name of the 1933 film in which a character delivers the famous line 'Oh, no.  It wasn't the airplanes.  It was Beauty killed the Beast'?  (A) The Wolfman  (B) Frankenstein  (C) King Kong  (D) Dracula",
+   "a": "C) King Kong",
+   "d": "medium"
+  },
+  {
+   "q": "Which actress has played roles including Galadriel in The Lord of the Rings and Hela in Thor: Ragnarok?  (A) Kate Winslet  (B) Natalie Portman  (C) Helen Mirren  (D) Cate Blanchett",
+   "a": "D) Cate Blanchett",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'An insurance salesman discovers his whole life is actually a reality TV show.'  (A) The Matrix  (B) The Batman  (C) The Truman Show  (D) Indiana Jones and the Last Crusade",
+   "a": "C) The Truman Show",
+   "d": "medium"
+  },
+  {
+   "q": "On the TV show Friends, which characters do Courtney Cox and David Schwimmer play?  (A) Monica and Ross  (B) Monica and Chandler  (C) Phoebe and Chandler  (D) Rachel and Joey",
+   "a": "A) Monica and Ross",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has featured in films including 300 and James Bond: Tomorrow Never Dies?  (A) Gerard Butler  (B) Jim Carrey  (C) Hugh Jackman  (D) Robert Redford",
+   "a": "A) Gerard Butler",
+   "d": "medium"
+  },
+  {
+   "q": "Which character, played by Peter Sellers, famously mispronounces words like 'room', 'phone', and 'monkey'?  (A) Borat  (B) Inspector Clouseau  (C) Dr. Evil  (D) Austin Powers",
+   "a": "B) Inspector Clouseau",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'Held captive for 7 years, a woman and her young son finally gain their freedom.'  (A) Beauty and the Beast  (B) L.A. Confidential  (C) Barry Lyndon  (D) Room",
+   "a": "D) Room",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A Polish Jew struggles to survive the destruction of the Warsaw ghetto of World War II.'  (A) Gandhi  (B) The Terminator  (C) The Pianist  (D) Unforgiven",
+   "a": "C) The Pianist",
+   "d": "medium"
+  },
+  {
+   "q": "What 2011 animated film centers on a pet Chameleon who accidentally ends up in a lawless Wild West outpost?  (A) Po  (B) Nemo  (C) Simba  (D) Rango",
+   "a": "D) Rango",
+   "d": "medium"
+  },
+  {
+   "q": "Which 1989 film features Kevin Costner building a baseball diamond on his corn farm?  (A) The Natural  (B) Bull Durham  (C) Moneyball  (D) Field of Dreams",
+   "a": "D) Field of Dreams",
+   "d": "medium"
+  },
+  {
+   "q": "Which actress has featured in films including Moulin Rouge! and Aquaman?  (A) Natalie Portman  (B) Maggie Smith  (C) Kate Winslet  (D) Nicole Kidman",
+   "a": "D) Nicole Kidman",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has featured in films including Rogue One and Black Panther?  (A) Forest Whitaker  (B) Christian Bale  (C) Dan Aykroyd  (D) Shah Rukh Khan",
+   "a": "A) Forest Whitaker",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these quotes is from the film '2001: A Space Odyssey'?  (A) \"Open the pod bay doors, please, HAL.\"  (B) \"I love lamp.\"  (C) \"Forget it, Jake, it's Chinatown.\"  (D) \"I'm the guy who does his job. You must be the other guy.\"",
+   "a": "A) \"Open the pod bay doors, please, HAL.\"",
+   "d": "medium"
+  },
+  {
+   "q": "Which movie follows a container ship that is taken over by pirates?  (A) Master and Commander  (B) Captain Phillips</i>  (C) Raiders of the Lost Ark  (D) Pirates of the Caribbean",
+   "a": "B) Captain Phillips</i>",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'An aspiring musician enters the Land of the Dead to find his great-great-grandfather, a legendary singer.'  (A) Aliens  (B) The Usual Suspects  (C) Gone Girl  (D) Coco",
+   "a": "D) Coco",
+   "d": "medium"
+  },
+  {
+   "q": "Which country produces more theatrical feature films every year than any other country?  (A) India  (B) France  (C) China  (D) United States",
+   "a": "A) India",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has starred in both Gladiator and A Beautiful Mind?  (A) Russell Crowe  (B) John Wayne  (C) Seth Rogen  (D) Ron Perlman",
+   "a": "A) Russell Crowe",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'Eddy has a week to pay back £500,000 after losing a poker game to a powerful local mobster.'  (A) Lock, Stock and Two Smoking Barrels  (B) Dead Poets Society  (C) La Haine  (D) The Deer Hunter",
+   "a": "A) Lock, Stock and Two Smoking Barrels",
+   "d": "medium"
+  },
+  {
+   "q": "Which actress has played roles in both American Horror Story and Titanic?  (A) Kate Winslet  (B) Maggie Smith  (C) Helen Mirren  (D) Kathy Bates",
+   "a": "D) Kathy Bates",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has starred in films including Fight Club and Suicide Squad?  (A) Peter Cushing  (B) Jared Leto  (C) Kenneth Branagh  (D) Luke Evans",
+   "a": "B) Jared Leto",
+   "d": "medium"
+  },
+  {
+   "q": "What Family Live At 1313 Cemetary Lane?  (A) The Adams Family  (B) The Flintstones  (C) The Simpsons  (D) The Von Trapps",
+   "a": "A) The Adams Family",
+   "d": "medium"
+  },
+  {
+   "q": "Which Hollywood actor has starred in films including Guardians of the Galaxy and American Hustle?  (A) Bradley Cooper  (B) Hugh Jackman  (C) Jim Carrey  (D) Ryan Reynolds",
+   "a": "A) Bradley Cooper",
+   "d": "medium"
+  },
+  {
+   "q": "Which director directed Titanic?  (A) James Cameron  (B) Martin Scorsese  (C) Steven Spielberg  (D) Woody Allen",
+   "a": "A) James Cameron",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'Violence and mayhem ensue after a man stumbles upon more than two million dollars.'  (A) Pulp Fiction  (B) No Country for Old Men  (C) Hacksaw Ridge  (D) Aliens",
+   "a": "B) No Country for Old Men",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'After his father goes missing, a professor finds himself in a search for the Holy Grail.'  (A) The Godfather  (B) Spotlight  (C) The Green Mile  (D) Indiana Jones and the Last Crusade",
+   "a": "D) Indiana Jones and the Last Crusade",
+   "d": "medium"
+  },
+  {
+   "q": "Which series of films features a habitual serial killer called Michael Myers  (A) IT  (B) Friday the 13th  (C) Halloween  (D) Scream",
+   "a": "C) Halloween",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Gladiator'?  (A) \"I'll have what she's having.\"  (B) \"Nobody puts Baby in a corner.\"  (C) \"Are you not entertained?\"  (D) \"La-dee-da, la-dee-da.\"",
+   "a": "C) \"Are you not entertained?\"",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor played the role of Raymond Babbitt in Rain Man?  (A) Michael Douglas  (B) Robert Duvall  (C) Dustin Hoffman  (D) Kevin Spacey",
+   "a": "C) Dustin Hoffman",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A mafia enforcer and a casino executive compete against each other over a gambling empire.'  (A) Eternal Sunshine of the Spotless Mind  (B) Parasite  (C) The Godfather  (D) Casino",
+   "a": "D) Casino",
+   "d": "medium"
+  },
+  {
+   "q": "Which actress has played the roles of Gamora in the Marvel Cinematic Universe, and of Neytiri in the Avatar films?  (A) Rachel Weisz  (B) Catherine Deneuve  (C) Zoe Saldana  (D) Audrey Hepburn",
+   "a": "C) Zoe Saldana",
+   "d": "medium"
+  },
+  {
+   "q": "Which actress has acted in both That '70s Show and Black Swan?  (A) Sophia Loren  (B) Mila Kunis  (C) Jacqueline Bisset  (D) Madonna",
+   "a": "B) Mila Kunis",
+   "d": "medium"
+  },
+  {
+   "q": "Which one-named singer showed off her acting in 'Ocean's 8' as a hacker/stoner named Nine Ball in 2018?  (A) Beyonce  (B) Adele  (C) Shakira  (D) Rihanna",
+   "a": "D) Rihanna",
+   "d": "medium"
+  },
+  {
+   "q": "Tilda Swinton plays the role of which character in the Marvel Cinematic Universe?  (A) The Ancient One  (B) Agent Peggy Carter  (C) Rocket Raccoon  (D) Valkyrie",
+   "a": "A) The Ancient One",
+   "d": "medium"
+  },
+  {
+   "q": "From which 1942 animated film is a skunk named Flower?  (A) Dumbo  (B) Peter Pan  (C) Bambi  (D) Pinocchio",
+   "a": "C) Bambi",
+   "d": "medium"
+  },
+  {
+   "q": "What is the missing word in the TV title 'Freaks and ___'?  (A) Shrieks  (B) Sikhs  (C) Geeks  (D) Peaks",
+   "a": "C) Geeks",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Dirty Dancing'?  (A) \"I am a golden god!\"  (B) \"What's the most you ever lost on a coin toss?\"  (C) \"Nobody puts Baby in a corner.\"  (D) \"Toto, I've a feeling we're not in Kansas anymore.\"",
+   "a": "C) \"Nobody puts Baby in a corner.\"",
+   "d": "medium"
+  },
+  {
+   "q": "Which film contains the character 'Ellen Ripley'?  (A) Caddyshack  (B) Gone with the Wind  (C) Alien  (D) A Streetcar Named Desire",
+   "a": "C) Alien",
+   "d": "medium"
+  },
+  {
+   "q": "Who won the 2010 Academy Award for Best Leading Actress for playing the role of Nina Sayers/The Swan Queen in Black Swan?  (A) Annette Bening  (B) Jennifer Lawrence  (C) Natalie Portman  (D) Nicole Kidman",
+   "a": "C) Natalie Portman",
+   "d": "medium"
+  },
+  {
+   "q": "Tessa Thompson plays the role of which character in the Marvel Cinematic Universe?  (A) Valkyrie  (B) Thena  (C) Agent Peggy Carter  (D) Jane Foster",
+   "a": "A) Valkyrie",
+   "d": "medium"
+  },
+  {
+   "q": "Who won the 2019 Academy Award for Best Leading Actor for playing the role of Arthur Fleck in Joker?  (A) Antonio Banderas  (B) Leonardo DiCaprio  (C) Adam Driver  (D) Joaquin Phoenix",
+   "a": "D) Joaquin Phoenix",
+   "d": "medium"
+  },
+  {
+   "q": "In which iconic '90s film did Tom Cruise play the role of Ethan Hunt?  (A) Top Gun  (B) The Firm  (C) Jerry Maguire  (D) Mission: Impossible",
+   "a": "D) Mission: Impossible",
+   "d": "medium"
+  },
+  {
+   "q": "What is the name of the radio presenter, played by Kelsey Grammer, on the TV show 'Frasier'?  (A) Dr. House  (B) Dr. Dolittle  (C) Dr. Strange  (D) Dr. Crane",
+   "a": "D) Dr. Crane",
+   "d": "medium"
+  },
+  {
+   "q": "Which film contains the character 'John McClane'?  (A) Citizen Kane  (B) Raiders of the Lost Ark  (C) The Big Lebowski  (D) Die Hard",
+   "a": "D) Die Hard",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'Two men join in an uneasy alliance against a third to find gold buried in a remote cemetery.'  (A) The Silence of the Lambs  (B) The Deer Hunter  (C) It's a Wonderful Life  (D) The Good, the Bad and the Ugly",
+   "a": "D) The Good, the Bad and the Ugly",
+   "d": "medium"
+  },
+  {
+   "q": "Which James Bond actor played the role in Dr. No and Thunderball?  (A) Laurence Fishburne  (B) Sean Connery  (C) James Franco  (D) George Clooney",
+   "a": "B) Sean Connery",
+   "d": "medium"
+  },
+  {
+   "q": "Which film contains the character 'Dorothy Gale'?  (A) The Wizard of Oz  (B) Citizen Kane  (C) The Public Enemy  (D) Network",
+   "a": "A) The Wizard of Oz",
+   "d": "medium"
+  },
+  {
+   "q": "Which Bird Is Resident Of The American Southwest & Has Been Immortilized In A Cartoon Series?  (A) Canary  (B) Emu  (C) Roadrunner  (D) Bald Eagle",
+   "a": "C) Roadrunner",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor starred in films including The Lord of the Rings and The Matrix?  (A) Elijah Wood  (B) Hugo Weaving  (C) Tobey Maguire  (D) Timothy Spall",
+   "a": "B) Hugo Weaving",
+   "d": "medium"
+  },
+  {
+   "q": "Which TV Family Adopted A Greyhound For Christmas?  (A) The Sopranos  (B) The Flintstones  (C) The Bradys  (D) The Simpsons",
+   "a": "D) The Simpsons",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'The final secretary for Adolf Hitler tells of the Nazi dictator's final days.'  (A) The Green Mile  (B) Downfall  (C) Up  (D) Platoon",
+   "a": "B) Downfall",
+   "d": "medium"
+  },
+  {
+   "q": "Who performed the theme song to the James Bond film No Time To Die?  (A) Billie Eilish  (B) A-ha  (C) Gladys Knight  (D) Chris Cornell",
+   "a": "A) Billie Eilish",
+   "d": "medium"
+  },
+  {
+   "q": "Who won the 2007 Academy Award for Best Supporting Actor for playing the role of Anton Chigurh in No Country for Old Men?  (A) Javier Bardem  (B) Hal Holbrook  (C) Philip Seymour Hoffman  (D) Casey Affleck",
+   "a": "A) Javier Bardem",
+   "d": "medium"
+  },
+  {
+   "q": "Who played the role of James Bond in Die Another Day?  (A) Sean Connery  (B) Pierce Brosnan  (C) George Lazenby  (D) Daniel Craig",
+   "a": "B) Pierce Brosnan",
+   "d": "medium"
+  },
+  {
+   "q": "Which Keanu Reeves movie sequel has the subtitle '2: Cruise Control'?  (A) Speed  (B) Bill & Ted's Bogus Journey  (C) The Matrix  (D) John Wick",
+   "a": "A) Speed",
+   "d": "medium"
+  },
+  {
+   "q": "In the Marvel Cinematic Universe, which character is played by William Hurt?  (A) Quentin Beck  (B) Secretary Thaddeus Ross  (C) Nick Fury  (D) Vision",
+   "a": "B) Secretary Thaddeus Ross",
+   "d": "medium"
+  },
+  {
+   "q": "In 'Home Alone 2' which city was Kevin lost in?  (A) New York  (B) Paris  (C) London  (D) Chicago",
+   "a": "A) New York",
+   "d": "medium"
+  },
+  {
+   "q": "Who won the 2000 Academy Award for Best Leading Actor for playing the role of Maximus Decimus Meridius in Gladiator?  (A) Ed Harris  (B) Tom Hanks  (C) Russell Crowe  (D) Javier Bardem",
+   "a": "C) Russell Crowe",
+   "d": "medium"
+  },
+  {
+   "q": "What are The Simpsons Halloween specials known as?  (A) Evergreen Menace  (B) The Halloween Haunt  (C) Treehouse of Horror  (D) Spooky Springfield",
+   "a": "C) Treehouse of Horror",
+   "d": "medium"
+  },
+  {
+   "q": "In the Marvel Cinematic Universe, which character is played by Benedict Wong?  (A) Wong  (B) Nick Fury  (C) Loki  (D) Steve Rogers",
+   "a": "A) Wong",
+   "d": "medium"
+  },
+  {
+   "q": "What caused the gremlins in the movie Gremlins to become evil?  (A) Eating after midnight  (B) Magnetic fields  (C) Sunlight  (D) Hearing The Macarena",
+   "a": "A) Eating after midnight",
+   "d": "medium"
+  },
+  {
+   "q": "In which year was Back to the Future first released in the cinema?  (A) 1975  (B) 1970  (C) 1980  (D) 1985",
+   "a": "D) 1985",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Bonnie and Clyde'?  (A) \"There's no place like home.\"  (B) \"We rob banks.\"  (C) \"You can't handle the truth!\"  (D) \"Carpe diem. Seize the day, boys. Make your lives extraordinary.\"",
+   "a": "B) \"We rob banks.\"",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor has featured in films including Pulp Fiction and Hairspray?  (A) Brian Cox  (B) John Travolta  (C) Michael Douglas  (D) Ralph Fiennes",
+   "a": "B) John Travolta",
+   "d": "medium"
+  },
+  {
+   "q": "In which year was Star Wars: Episode V - The Empire Strikes Back first released in the cinema?  (A) 1965  (B) 1980  (C) 1970  (D) 1975",
+   "a": "B) 1980",
+   "d": "medium"
+  },
+  {
+   "q": "In which year did the show 'Friends' first air?  (A) 1984  (B) 1994  (C) 1999  (D) 1989",
+   "a": "B) 1994",
+   "d": "medium"
+  },
+  {
+   "q": "Who was the British-born film director who died in Los Angeles in 1980?  (A) Orson Welles  (B) Alfred Hitchcock  (C) Martin Scorsese  (D) Christopher Nolan",
+   "a": "B) Alfred Hitchcock",
+   "d": "medium"
+  },
+  {
+   "q": "The role of James \"Rhodey\" Rhodes in the Marvel Cinematic Universe is played by which actor?  (A) Don Cheadle  (B) Vin Diesel  (C) Paul Bettany  (D) Josh Brolin",
+   "a": "A) Don Cheadle",
+   "d": "medium"
+  },
+  {
+   "q": "Which director directed Batman?  (A) Steven Spielberg  (B) Tim Burton  (C) Woody Allen  (D) Martin Scorsese",
+   "a": "B) Tim Burton",
+   "d": "medium"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Lord of the Rings: The Two Towers'?  (A) \"You're gonna need a bigger boat.\"  (B) \"My precious.\"  (C) \"Keep your friends close, but your enemies closer.\"  (D) \"You shall not pass!\"",
+   "a": "B) \"My precious.\"",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'An angel is sent to help a man by showing him what life would have been like if he had never existed.'  (A) It's a Wonderful Life  (B) Ratatouille  (C) WALL·E  (D) Psycho",
+   "a": "A) It's a Wonderful Life",
+   "d": "medium"
+  },
+  {
+   "q": "The Character Jack Skellington Appears In Which 1993 Tim Burton Film?  (A) Edward Scissorhands  (B) Corpse Bride  (C) The Nightmare Before Christmas  (D) Batman",
+   "a": "C) The Nightmare Before Christmas",
+   "d": "medium"
+  },
+  {
+   "q": "Which director of the film \"Moulin Rouge!\" brought his hit production of \"La boheme\" to Broadway in 2002?  (A) Christopher Nolan  (B) Steven Spielberg  (C) Darren Aronofsky  (D) Baz Luhrmann",
+   "a": "D) Baz Luhrmann",
+   "d": "medium"
+  },
+  {
+   "q": "Who performed the theme song to the James Bond film GoldenEye?  (A) Sam Smith  (B) Tina Turner  (C) Duran Duran  (D) Nancy Sinatra",
+   "a": "B) Tina Turner",
+   "d": "medium"
+  },
+  {
+   "q": "Which actor played the role of Blondie in The Good, the Bad, and the Ugly?  (A) Marlon Brando  (B) James Cagney  (C) Harrison Ford  (D) Clint Eastwood",
+   "a": "D) Clint Eastwood",
+   "d": "medium"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A laid back man is sentenced to two years in a rural prison, but refuses to conform.'  (A) The Silence of the Lambs  (B) Cool Hand Luke  (C) Untouchable  (D) Jurassic Park",
+   "a": "B) Cool Hand Luke",
+   "d": "medium"
+  },
+  {
+   "q": "What is the name of the TV drama starring Claire Danes that was popular throughout the 2010s?  (A) Homeland  (B) Badland  (C) Madland  (D) Motherland",
+   "a": "A) Homeland",
+   "d": "medium"
+  },
+  {
+   "q": "Which actress has starred in both Batman v Superman: Dawn of Justice and American Hustle?  (A) Penélope Cruz  (B) Kirsten Dunst  (C) Emma Thompson  (D) Amy Adams",
+   "a": "D) Amy Adams",
+   "d": "hard"
+  },
+  {
+   "q": "No Country for Old Men was released in which year?  (A) 2011  (B) 2009  (C) 2007  (D) 2005",
+   "a": "C) 2007",
+   "d": "hard"
+  },
+  {
+   "q": "The Sixth Sense was released in which year?  (A) 1996  (B) 2005  (C) 1999  (D) 2002",
+   "a": "C) 1999",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress has appeared in both Little Nicky and Walk the Line?  (A) Penélope Cruz  (B) Kristin Scott Thomas  (C) Naomi Watts  (D) Reese Witherspoon",
+   "a": "D) Reese Witherspoon",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2012 Academy Award for Best Leading Actor for playing the role of Abraham Lincoln in Lincoln?  (A) Hugh Jackman  (B) Joaquin Phoenix  (C) Daniel Day-Lewis  (D) Bradley Cooper",
+   "a": "C) Daniel Day-Lewis",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor has featured in roles including 30 Rock and The Departed?  (A) Sean Connery  (B) Donald Sutherland  (C) Alec Baldwin  (D) Gary Oldman",
+   "a": "C) Alec Baldwin",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was Raiders of the Lost Ark released?  (A) 1976  (B) 1986  (C) 1981  (D) 1991",
+   "a": "C) 1981",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Sudden Impact'?  (A) \"With great power comes great responsiblity.\"  (B) \"Go ahead, make my day.\"  (C) \"Round up the usual suspects.\"  (D) \"Life is a banquet, and most poor suckers are starving to death!\"",
+   "a": "B) \"Go ahead, make my day.\"",
+   "d": "hard"
+  },
+  {
+   "q": "Interstellar was released in which year?  (A) 2013  (B) 2011  (C) 2012  (D) 2014",
+   "a": "D) 2014",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor and comedian appeared in 'Car Wash' and 'Silver Streak', and won a comedy album Grammy in 1976?  (A) Steve Martin  (B) Richard Pryor  (C) Chris Rock  (D) Eddie Murphy",
+   "a": "B) Richard Pryor",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the '90s film Wayne's World?  (A) We're not worthy!  We're not worthy!  (B) I'll be back  (C) Show me the money!  (D) Cowabunga! Cowabunga!",
+   "a": "A) We're not worthy!  We're not worthy!",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2020 Academy Award for Best Supporting Actor for playing the role of Fred Hampton in Judas and the Black Messiah?  (A) Daniel Kaluuya  (B) Paul Raci  (C) Leslie Odom, Jr.  (D) Sacha Baron Cohen",
+   "a": "A) Daniel Kaluuya",
+   "d": "hard"
+  },
+  {
+   "q": "Finding Nemo was released in which year?  (A) 2006  (B) 1997  (C) 2003  (D) 2000",
+   "a": "C) 2003",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress has starred in both The Shape of Water and Vera Drake?  (A) Sally Hawkins  (B) Abigail Breslin  (C) Lucy Lawless  (D) Kim Basinger",
+   "a": "A) Sally Hawkins",
+   "d": "hard"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'The jury in a murder trial is frustrated by a member whose caution forces them to consider the evidence.'  (A) American History X  (B) 12 Angry Men  (C) Rear Window  (D) All About Eve",
+   "a": "B) 12 Angry Men",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress has appeared in both The Bourne Legacy and The Mummy?  (A) Catherine Deneuve  (B) Salma Hayek  (C) Audrey Hepburn  (D) Rachel Weisz",
+   "a": "D) Rachel Weisz",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress played the role of Scarlett O'Hara in Gone with the Wind?  (A) Vivien Leigh  (B) Bette Davis  (C) Holly Hunter  (D) Whoopi Goldberg",
+   "a": "A) Vivien Leigh",
+   "d": "hard"
+  },
+  {
+   "q": "What movie from 1951 includes the quote \"I have always depended on the kindness of strangers\"?  (A) 12 Angry Men  (B) A Streetcar Named Desire  (C) Psycho  (D) Gone with the Wind",
+   "a": "B) A Streetcar Named Desire",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Rocky'?  (A) \"Just keep swimming.\"  (B) \"May the odds ever be in your favor.\"  (C) \"Yo, Adrian!\"  (D) \"A martini. Shaken, not stirred.\"",
+   "a": "C) \"Yo, Adrian!\"",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor has featured in both The Big Lebowski and Transformers?  (A) John Turturro  (B) Jean-Claude Van Damme  (C) Pierce Brosnan  (D) Russell Crowe",
+   "a": "A) John Turturro",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Alex Forrest'?  (A) Breakfast at Tiffany's  (B) Grease  (C) On the Waterfront  (D) Fatal Attraction",
+   "a": "D) Fatal Attraction",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Annie Wilkes'?  (A) Alien  (B) Misery  (C) Wall Street  (D) Network",
+   "a": "B) Misery",
+   "d": "hard"
+  },
+  {
+   "q": "Who performed the theme song to the James Bond film Moonraker?  (A) Shirley Bassey  (B) Wings  (C) Billie Eilish  (D) Lulu",
+   "a": "A) Shirley Bassey",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor has featured in films including DodgeBall: A True Underdog Story and Up in the Air?  (A) Jason Bateman  (B) Colin Firth  (C) Javier Bardem  (D) Tim Roth",
+   "a": "A) Jason Bateman",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Mrs. Iselin'?  (A) The Silence of the Lambs  (B) The Shining  (C) The Manchurian Candidate  (D) M",
+   "a": "C) The Manchurian Candidate",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Gone with the Wind'?  (A) \"Forget it, Jake, it's Chinatown.\"  (B) \"With great power comes great responsiblity.\"  (C) \"I am Groot.\"  (D) \"As God is my witness, I'll never be hungry again.\"",
+   "a": "D) \"As God is my witness, I'll never be hungry again.\"",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2013 Academy Award for Best Leading Actress for playing the role of Jasmine in Blue Jasmine?  (A) Judi Dench  (B) Amy Adams  (C) Sandra Bullock  (D) Cate Blanchett",
+   "a": "D) Cate Blanchett",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor has featured in films including Guardians of the Galaxy and 101 Dalmatians?  (A) Naomi Watts  (B) Penélope Cruz  (C) Glenn Close  (D) Kristin Scott Thomas",
+   "a": "C) Glenn Close",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor has featured in films including The Hunger Games and Ordinary People?  (A) Donald Sutherland  (B) Laurence Fishburne  (C) George Clooney  (D) Alec Baldwin",
+   "a": "A) Donald Sutherland",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor has featured in films including Arrested Development and Donnie Darko?  (A) Seth Rogen  (B) Jean-Claude Van Damme  (C) Russell Crowe  (D) Pierce Brosnan",
+   "a": "A) Seth Rogen",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor played the role of J. J. Hunsecker in Sweet Smell of Success?  (A) Burt Lancaster  (B) James Stewart  (C) Bill Murray  (D) John Wayne",
+   "a": "A) Burt Lancaster",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was Trainspotting released?  (A) 2004  (B) 1992  (C) 2000  (D) 1996",
+   "a": "D) 1996",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2015 Academy Award for Best Supporting Actress for playing the role of Gerda in The Danish Girl?  (A) Alicia Vikander  (B) Rooney Mara  (C) Jennifer Jason Leigh  (D) Rachel McAdams",
+   "a": "A) Alicia Vikander",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2005 Academy Award for Best Supporting Actress for playing the role of Tessa Quayle in The Constant Gardener?  (A) Rachel Weisz  (B) Frances McDormand  (C) Catherine Keener  (D) Amy Adams",
+   "a": "A) Rachel Weisz",
+   "d": "hard"
+  },
+  {
+   "q": "Which James Bond Movie Is Set During The Christmas Period?  (A) Live and Let Die  (B) On Her Majesty's Secret Service  (C) Dr. No  (D) Goldeneye",
+   "a": "B) On Her Majesty's Secret Service",
+   "d": "hard"
+  },
+  {
+   "q": "From which 1975 film classic does the quote 'Your mother was a hamster and your father smelt of elderberries' come?  (A) The Wizard of Oz  (B) Monty Python and the Holy Grail  (C) The Godfather  (D) Star Wars",
+   "a": "B) Monty Python and the Holy Grail",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor has appeared in both \"Sons of Anarchy\" and \"Fantastic Beasts and Where to Find Them\"?  (A) Seth Rogen  (B) Jean-Claude Van Damme  (C) John Turturro  (D) Ron Perlman",
+   "a": "D) Ron Perlman",
+   "d": "hard"
+  },
+  {
+   "q": "Which James Bond theme song was performed by Shirley Bassey?  (A) Dr. No  (B) Casino Royale  (C) Goldfinger  (D) Spectre",
+   "a": "C) Goldfinger",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Fred C. Dobbs'?  (A) The Maltese Falcon  (B) Terms of Endearment  (C) The Treasure of the Sierra Madre  (D) The Birds",
+   "a": "C) The Treasure of the Sierra Madre",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Training Day'?  (A) \"King Kong ain't got s*** on me!\"  (B) \"Well, nobody's perfect.\"  (C) \"I'll have what she's having.\"  (D) \"My precious.\"",
+   "a": "A) \"King Kong ain't got s*** on me!\"",
+   "d": "hard"
+  },
+  {
+   "q": "The role of Shuri in the Marvel Cinematic Universe is played by which actor?  (A) Zendaya  (B) Marisa Tomei  (C) Karen Gillan  (D) Letitia Wright",
+   "a": "D) Letitia Wright",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was Monsters, Inc. first released in the cinema?  (A) 2001  (B) 1995  (C) 1998  (D) 1992",
+   "a": "A) 2001",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was Beauty and the Beast released?  (A) 1983  (B) 1987  (C) 1995  (D) 1991",
+   "a": "D) 1991",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress has played roles in films including Spider-Man and The Hunger Games?  (A) Penélope Cruz  (B) Emma Thompson  (C) Sandra Bæ Hovedr  (D) Elizabeth Banks",
+   "a": "D) Elizabeth Banks",
+   "d": "hard"
+  },
+  {
+   "q": "Jake Gyllenhaal plays the role of which character in the Marvel Cinematic Universe?  (A) Dr. Hank Pym  (B) Obadiah Stane  (C) James \"Rhodey\" Rhodes  (D) Quentin Beck",
+   "a": "D) Quentin Beck",
+   "d": "hard"
+  },
+  {
+   "q": "Which director directed Apollo 13?  (A) Steven Spielberg  (B) Martin Scorsese  (C) Woody Allen  (D) Ron Howard",
+   "a": "D) Ron Howard",
+   "d": "hard"
+  },
+  {
+   "q": "Which director directed The Sound of Music?  (A) Woody Allen  (B) Robert Wise  (C) Steven Spielberg  (D) Martin Scorsese",
+   "a": "B) Robert Wise",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2011 Academy Award for Best Leading Actress for playing the role of Margaret Thatcher in The Iron Lady?  (A) Viola Davis  (B) Glenn Close  (C) Meryl Streep  (D) Rooney Mara",
+   "a": "C) Meryl Streep",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor played the role of Captain Quint in Jaws?  (A) Robert Shaw  (B) Orson Welles  (C) Dennis Hopper  (D) James Cagney",
+   "a": "A) Robert Shaw",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 1978 Academy Award for Best Supporting Actor for playing the role of Nick in The Deer Hunter?  (A) Richard Farnsworth  (B) Christopher Walken  (C) John Hurt  (D) Bruce Dern",
+   "a": "B) Christopher Walken",
+   "d": "hard"
+  },
+  {
+   "q": "Which movie from 1984 features the line 'It doesn't feel pity, or remorse, or fear. And it absolutely will not stop... ever, until you are dead!'?  (A) Aliens  (B) RoboCop  (C) Predator  (D) The Terminator",
+   "a": "D) The Terminator",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2013 Academy Award for Best Supporting Actress for playing the role of Patsey in 12 Years a Slave?  (A) Sally Hawkins  (B) Lupita Nyong'o  (C) Jennifer Lawrence  (D) Julia Roberts",
+   "a": "B) Lupita Nyong'o",
+   "d": "hard"
+  },
+  {
+   "q": "Which crime film from 1967 features Gene Hackman as Buck Barrow?  (A) The French Connection  (B) The Godfather  (C) Dirty Harry  (D) Bonnie and Clyde",
+   "a": "D) Bonnie and Clyde",
+   "d": "hard"
+  },
+  {
+   "q": "What did the person chained to wall in Goonies want?  (A) A Twinky  (B) A Baseball  (C) A Baby Ruth candy bar  (D) Smores",
+   "a": "C) A Baby Ruth candy bar",
+   "d": "hard"
+  },
+  {
+   "q": "Which singer starred as the Australian outlaw \"Ned Kelly\" in the 1970 film?  (A) Mick Jagger  (B) Elton John  (C) David Bowie  (D) Elvis Presley",
+   "a": "A) Mick Jagger",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Blondie'?  (A) Fast Times at Ridgemont High  (B) The Silence of the Lambs  (C) Chinatown  (D) The Good, the Bad, and the Ugly",
+   "a": "D) The Good, the Bad, and the Ugly",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress has featured in both Birdman and Twin Peaks?  (A) Melissa Leo  (B) Frances Conroy  (C) Naomi Watts  (D) Laura Linney",
+   "a": "C) Naomi Watts",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was Groundhog Day released?  (A) 1997  (B) 2001  (C) 1993  (D) 1989",
+   "a": "C) 1993",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was Monty Python and the Holy Grail first released in the cinema?  (A) 1975  (B) 1970  (C) 1965  (D) 1980",
+   "a": "A) 1975",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was Amélie first released in the cinema?  (A) 2007  (B) 2004  (C) 1998  (D) 2001",
+   "a": "D) 2001",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress has featured in films including Batman and Never Say Never Again?  (A) Sally Hawkins  (B) Kim Basinger  (C) Jacqueline Bisset  (D) Lucy Lawless",
+   "a": "B) Kim Basinger",
+   "d": "hard"
+  },
+  {
+   "q": "Which film won the Academy Award for Best Picture in 1996?  (A) Secrets & Lies  (B) Fargo  (C) Jerry Maguire  (D) The English Patient",
+   "a": "D) The English Patient",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor played the role of Jake Gittes in Chinatown?  (A) Al Pacino  (B) Burt Lancaster  (C) Jack Nicholson  (D) Sean Penn",
+   "a": "C) Jack Nicholson",
+   "d": "hard"
+  },
+  {
+   "q": "Who performed the theme song to the James Bond film Thunderball?  (A) Adele  (B) Shirley Bassey  (C) Tom Jones  (D) Duran Duran",
+   "a": "C) Tom Jones",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor has featured in films including 300 and Watchmen?  (A) Gerard Butler  (B) Hugh Jackman  (C) Robert Redford  (D) Jim Carrey",
+   "a": "A) Gerard Butler",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2008 Academy Award for Best Leading Actress for playing the role of Hanna Schmitz in The Reader?  (A) Angelina Jolie  (B) Anne Hathaway  (C) Melissa Leo  (D) Kate Winslet",
+   "a": "D) Kate Winslet",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was The Dark Knight first released in the cinema?  (A) 2008  (B) 2010  (C) 2012  (D) 2006",
+   "a": "A) 2008",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'William 'Bill the Butcher' Cutting'?  (A) Broadcast News  (B) Gangs of New York  (C) Sweet Smell of Success  (D) Terms of Endearment",
+   "a": "B) Gangs of New York",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress was nominated for an academy award for playing the role of Queen Ramonda in the Black Panther films?  (A) Angela Bassett  (B) Audrey Hepburn  (C) Frances Fisher  (D) Catherine Deneuve",
+   "a": "A) Angela Bassett",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Harry Lime'?  (A) The Third Man  (B) On the Waterfront  (C) Mad Max  (D) The Usual Suspects",
+   "a": "A) The Third Man",
+   "d": "hard"
+  },
+  {
+   "q": "What is the nickname of the ship's computer in the 1979 film Alien?  (A) Jarvis  (B) Colossus  (C) HAL  (D) Mother",
+   "a": "D) Mother",
+   "d": "hard"
+  },
+  {
+   "q": "In the Marvel Cinematic Universe, which character is played by Stellan Skarsgård?  (A) Drax the Destroyer  (B) Sam Wilson  (C) Dr. Erik Selvig  (D) The Grandmaster",
+   "a": "C) Dr. Erik Selvig",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor has starred in both The King's Speech and The English Patient?  (A) Colin Firth  (B) Sean Penn  (C) Billy Bob Thornton  (D) Jean-Claude Van Damme",
+   "a": "A) Colin Firth",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2020 Academy Award for Best Leading Actor for playing the role of Anthony in The Father?  (A) Gary Oldman  (B) Riz Ahmed  (C) Anthony Hopkins  (D) Chadwick Boseman",
+   "a": "C) Anthony Hopkins",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 1995 Academy Award for Best Leading Actress for playing the role of Sister Helen Prejean in Dead Man Walking?  (A) Sharon Stone  (B) Elisabeth Shue  (C) Susan Sarandon  (D) Meryl Streep",
+   "a": "C) Susan Sarandon",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor played the role of Tom Powers in The Public Enemy?  (A) James Cagney  (B) Bruce Willis  (C) Mel Gibson  (D) Robert Mitchum",
+   "a": "A) James Cagney",
+   "d": "hard"
+  },
+  {
+   "q": "Jaws was released in which year?  (A) 1970  (B) 1975  (C) 1965  (D) 1980",
+   "a": "B) 1975",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'National Lampoon's Animal House'?  (A) \"With great power comes great responsiblity.\"  (B) \"Frankly, my dear, I don't give a damn.\"  (C) \"Toga! Toga!\"  (D) \"Soylent Green is people!\"",
+   "a": "C) \"Toga! Toga!\"",
+   "d": "hard"
+  },
+  {
+   "q": "Which film won the Academy Award for Best Picture in 1952?  (A) The Greatest Show on Earth  (B) Ivanhoe  (C) Moulin Rouge  (D) High Noon",
+   "a": "A) The Greatest Show on Earth",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Dog Day Afternoon'?  (A) \"Well, here's another nice mess you've gotten me into!\"  (B) \"Why don't you come up sometime and see me?\"  (C) \"Attica! Attica!\"  (D) \"Well, I don't want to survive. I want to live.\"",
+   "a": "C) \"Attica! Attica!\"",
+   "d": "hard"
+  },
+  {
+   "q": "In the movie \"The Usual Suspects\", who might have been the killer named Verbal Kint?  (A) Keyser Gundogan  (B) Keyser Söze  (C) Keyser Rommel  (D) Keyser Wilhelm",
+   "a": "B) Keyser Söze",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was Die Hard first released in the cinema?  (A) 1996  (B) 1988  (C) 1992  (D) 1984",
+   "a": "B) 1988",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress has starred in both Downton Abbey and the Harry Potter series of films?  (A) Kathy Bates  (B) Maggie Smith  (C) Kirsten Dunst  (D) Sandra Bæ Hovedr",
+   "a": "B) Maggie Smith",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 1979 Academy Award for Best Leading Actor for playing the role of Ted Kramer in Kramer vs. Kramer?  (A) Dustin Hoffman  (B) Al Pacino  (C) Roy Scheider  (D) Jack Lemmon",
+   "a": "A) Dustin Hoffman",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress has starred in both Sex and the City and Ed Wood?  (A) Lucy Lawless  (B) Sarah Jessica Parker  (C) Sally Hawkins  (D) Audrey Hepburn",
+   "a": "B) Sarah Jessica Parker",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 1996 Academy Award for Best Supporting Actor for playing the role of Rod Tidwell in Jerry Maguire?  (A) William H. Macy  (B) Cuba Gooding, Jr.  (C) Edward Norton  (D) Armin Mueller-Stahl",
+   "a": "B) Cuba Gooding, Jr.",
+   "d": "hard"
+  },
+  {
+   "q": "What is the name of the NBC drama series set in County General Hospital?  (A) ER  (B) House M.D.  (C) Chicago Med  (D) Grey's Anatomy",
+   "a": "A) ER",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was The Silence of the Lambs released?  (A) 1987  (B) 1991  (C) 1983  (D) 1995",
+   "a": "B) 1991",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was Seven first released in the cinema?  (A) 1987  (B) 1999  (C) 1991  (D) 1995",
+   "a": "D) 1995",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was Inglourious Basterds first released in the cinema?  (A) 2005  (B) 2003  (C) 2007  (D) 2009",
+   "a": "D) 2009",
+   "d": "hard"
+  },
+  {
+   "q": "Which director directed Apocalypse Now?  (A) Steven Spielberg  (B) Francis Ford Coppola  (C) Woody Allen  (D) Martin Scorsese",
+   "a": "B) Francis Ford Coppola",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress has starred in films including Murder on the Orient Express and Casino Royale?  (A) Sophia Loren  (B) Hilary Duff  (C) Jacqueline Bisset  (D) Mila Kunis",
+   "a": "C) Jacqueline Bisset",
+   "d": "hard"
+  },
+  {
+   "q": "Which Popular Christmas Movie Featured A Must Have Toy Called 'Turbo Man''  (A) Bad Santa  (B) The Santa Clause  (C) Miracle on 34th Street  (D) Jingle All The Way",
+   "a": "D) Jingle All The Way",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress has played roles in films including The Queen and National Treasure: Book of Secrets?  (A) Kathy Bates  (B) Helen Mirren  (C) Kirsten Dunst  (D) Sandra Bæ Hovedr",
+   "a": "B) Helen Mirren",
+   "d": "hard"
+  },
+  {
+   "q": "Which film won the Academy Award for Best Picture in 1999?  (A) The Cider House Rules  (B) The Insider  (C) American Beauty  (D) The Green Mile",
+   "a": "C) American Beauty",
+   "d": "hard"
+  },
+  {
+   "q": "Which director directed Blade Runner?  (A) Steven Spielberg  (B) Martin Scorsese  (C) Woody Allen  (D) Ridley Scott",
+   "a": "D) Ridley Scott",
+   "d": "hard"
+  },
+  {
+   "q": "What is the name of the 1972 film in which a canoe trip into the Georgia backwoods becomes a living nightmare for four friends?  (A) Night of the Living Dead  (B) Cabin in the Woods  (C) Deliverance  (D) Saw",
+   "a": "C) Deliverance",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was The Wizard of Oz released?  (A) 1923  (B) 1915  (C) 1931  (D) 1939",
+   "a": "D) 1939",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2011 Academy Award for Best Leading Actor for playing the role of George Valentin in The Artist?  (A) Demián Bichir  (B) Jean Dujardin  (C) Gary Oldman  (D) George Clooney",
+   "a": "B) Jean Dujardin",
+   "d": "hard"
+  },
+  {
+   "q": "What is the name of the character played by John Lithgow on the show '3rd Rock From the Sun'?  (A) Dick Solomon  (B) Tommy Defoe  (C) Sammy Jakes  (D) Harry Thompson",
+   "a": "A) Dick Solomon",
+   "d": "hard"
+  },
+  {
+   "q": "What Is The Name Of The Bad Guy In The Friday The 13th Series?  (A) Mike  (B) Freddie  (C) Jason  (D) Chuckie",
+   "a": "C) Jason",
+   "d": "hard"
+  },
+  {
+   "q": "What is the first name of the character 'Citizen Kane' in the film of the same name?  (A) Jacob  (B) Charles  (C) William  (D) Orson",
+   "a": "B) Charles",
+   "d": "hard"
+  },
+  {
+   "q": "Which 1963 drama features Marlon Brando as the U.S. Ambassador to an Asian country?  (A) The Americanization of Emily  (B) The Quiet American  (C) An American in Vietnam  (D) The Ugly American",
+   "a": "D) The Ugly American",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Little Caesar'?  (A) \"I love lamp.\"  (B) \"May the odds ever be in your favor.\"  (C) \"Mother of mercy, is this the end of Rico?\"  (D) \"I wish I knew how to quit you.\"",
+   "a": "C) \"Mother of mercy, is this the end of Rico?\"",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2012 Academy Award for Best Supporting Actress for playing the role of Fantine in Les Misérables?  (A) Sally Field  (B) Anne Hathaway  (C) Amy Adams  (D) Helen Hunt",
+   "a": "B) Anne Hathaway",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor played the role of John \"Bluto\" Blutarsky in National Lampoon's Animal House?  (A) John Belushi  (B) Dustin Hoffman  (C) Andy Serkis  (D) Anthony Perkins",
+   "a": "A) John Belushi",
+   "d": "hard"
+  },
+  {
+   "q": "Who performed the theme song to the James Bond film On Her Majesty's Secret Service?  (A) Louis Armstrong  (B) A-ha  (C) Garbage  (D) Jack White and Alicia Keys",
+   "a": "A) Louis Armstrong",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Frank Booth'?  (A) Blue Velvet  (B) Apocalypse Now  (C) Alien  (D) Network",
+   "a": "A) Blue Velvet",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Stanley Kowalski'?  (A) Sunset Boulevard  (B) A Streetcar Named Desire  (C) Saturday Night Fever  (D) Wall Street",
+   "a": "B) A Streetcar Named Desire",
+   "d": "hard"
+  },
+  {
+   "q": "Who performed the theme song to the James Bond film A View to a Kill?  (A) Garbage  (B) Chris Cornell  (C) Duran Duran  (D) Lulu",
+   "a": "C) Duran Duran",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'No Country for Old Men'?  (A) \"I'll be back.\"  (B) \"What's the most you ever lost on a coin toss?\"  (C) \"Very nice!\"  (D) \"My precious.\"",
+   "a": "B) \"What's the most you ever lost on a coin toss?\"",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'When Harry Met Sally...'?  (A) \"Toga! Toga!\"  (B) \"Just keep swimming.\"  (C) \"I'll have what she's having.\"  (D) \"I'm just one stomach flu away from my goal weight.\"",
+   "a": "C) \"I'll have what she's having.\"",
+   "d": "hard"
+  },
+  {
+   "q": "Which acress has starred in both A Beautiful Mind and Requiem for a Dream?  (A) Jennifer Connelly  (B) Salma Hayek  (C) Rachel Weisz  (D) Frances Fisher",
+   "a": "A) Jennifer Connelly",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress has appeared in films including American Horror Story and 12 Years a Slave?  (A) Salma Hayek  (B) Sarah Paulson  (C) Naomi Watts  (D) Keira Knightley",
+   "a": "B) Sarah Paulson",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was The Shining first released in the cinema?  (A) 1980  (B) 1975  (C) 1985  (D) 1990",
+   "a": "A) 1980",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2010 Academy Award for Best Leading Actor for playing the role of King George VI in The King's Speech?  (A) Javier Bardem  (B) Jesse Eisenberg  (C) Jeff Bridges  (D) Colin Firth",
+   "a": "D) Colin Firth",
+   "d": "hard"
+  },
+  {
+   "q": "The Sound of Music was released in which year?  (A) 1953  (B) 1959  (C) 1971  (D) 1965",
+   "a": "D) 1965",
+   "d": "hard"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'In the slums of Rio, two kids' paths diverge as one becomes a photographer and the other a kingpin.'  (A) Unforgiven  (B) Die Hard  (C) City of God  (D) A Beautiful Mind",
+   "a": "C) City of God",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'A League of Their Own'?  (A) \"We rob banks.\"  (B) \"Forget it, Jake, it's Chinatown.\"  (C) \"There's no crying in baseball!\"  (D) \"Striker: Surely you can't be serious.\"",
+   "a": "C) \"There's no crying in baseball!\"",
+   "d": "hard"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A secretly ruthless woman insinuates herself into the lives of an aging actor and her circle of theater friends.'  (A) Chinatown  (B) All About Eve  (C) Grave of the Fireflies  (D) Trainspotting",
+   "a": "B) All About Eve",
+   "d": "hard"
+  },
+  {
+   "q": "Which director directed Solo: A Star Wars Story?  (A) Woody Allen  (B) Steven Spielberg  (C) Martin Scorsese  (D) Ron Howard",
+   "a": "D) Ron Howard",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress has featured in films including Spider-Man and Eternal Sunshine of the Spotless Mind?  (A) Reese Witherspoon  (B) Charlize Theron  (C) Emma Thompson  (D) Kirsten Dunst",
+   "a": "D) Kirsten Dunst",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Travis Bickle'?  (A) Taxi Driver  (B) To Kill a Mockingbird  (C) Wall Street  (D) Blue Velvet",
+   "a": "A) Taxi Driver",
+   "d": "hard"
+  },
+  {
+   "q": "How many people resided in the Brady house on The Brady Bunch?*  (A) 21  (B) 4  (C) 9  (D) 2",
+   "a": "C) 9",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2008 Academy Award for Best Supporting Actress for playing the role of Maria Elena in Vicky Cristina Barcelona?  (A) Amy Adams  (B) Viola Davis  (C) Taraji P. Henson  (D) Penélope Cruz",
+   "a": "D) Penélope Cruz",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2011 Academy Award for Best Supporting Actress for playing the role of Minny Jackson in The Help?  (A) Jessica Chastain  (B) Bérénice Bejo  (C) Melissa McCarthy  (D) Octavia Spencer",
+   "a": "D) Octavia Spencer",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Carl Spackler'?  (A) The Godfather  (B) A Clockwork Orange  (C) The Silence of the Lambs  (D) Caddyshack",
+   "a": "D) Caddyshack",
+   "d": "hard"
+  },
+  {
+   "q": "A mysterious cloud of pesticide and radiation causes a disturbing reversal for Scott Carey in which classic 50s film?  (A) Invasion of the Body Snatchers  (B) The Incredible Shrinking Man  (C) The Thing  (D) The Fly",
+   "a": "B) The Incredible Shrinking Man",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Midnight Cowboy'?  (A) \"Shane. Shane. Come back!\"  (B) \"Attica! Attica!\"  (C) \"I'm walking here! I'm walking here!\"  (D) \"I feel the need - the need for speed!\"",
+   "a": "C) \"I'm walking here! I'm walking here!\"",
+   "d": "hard"
+  },
+  {
+   "q": "Which film won the Academy Award for Best Picture in 1978?  (A) Midnight Express  (B) The Deer Hunter  (C) Heaven Can Wait  (D) Coming Home",
+   "a": "B) The Deer Hunter",
+   "d": "hard"
+  },
+  {
+   "q": "Which movie features the quote 'Good morning! And in case I don't see you, good afternoon, good evening, and good night!'?  (A) The Truman Show  (B) The Shawshank Redemption  (C) Dead Poet's Society  (D) Eternal Sunshine of the Spotless Mind",
+   "a": "A) The Truman Show",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress has starred in both Birdman and King Kong?  (A) Naomi Watts  (B) Laura Linney  (C) Frances Conroy  (D) Melissa Leo",
+   "a": "A) Naomi Watts",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2002 Academy Award for Best Supporting Actress for playing the role of Velma Kelly in Chicago?  (A) Julianne Moore  (B) Queen Latifah  (C) Catherine Zeta-Jones  (D) Kathy Bates",
+   "a": "C) Catherine Zeta-Jones",
+   "d": "hard"
+  },
+  {
+   "q": "Which Bond film features the character of Dr Christmas Jones?  (A) Octopussy  (B) The World Is Not Enough  (C) For Your Eyes Only  (D) Casino Royale",
+   "a": "B) The World Is Not Enough",
+   "d": "hard"
+  },
+  {
+   "q": "In which 1977 film does Burt Reynolds drive a Trans Am from Georgia to Texas and back?  (A) The Dukes of Hazzard  (B) Smokey and the Bandit  (C) The Cannonball Run  (D) White Lightning",
+   "a": "B) Smokey and the Bandit",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was 2001: A Space Odyssey released?  (A) 1968  (B) 1950  (C) 1956  (D) 1962",
+   "a": "A) 1968",
+   "d": "hard"
+  },
+  {
+   "q": "Which director's films included Shivers, Videodrome and The Fly?  (A) Peter Jackson  (B) David Cronenberg  (C) Baz Luhrmann  (D) Alfred Hitchcock",
+   "a": "B) David Cronenberg",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Funny Girl'?  (A) \"Which would be worse, to live a monster or die as a good man?\"  (B) \"Attica! Attica!\"  (C) \"Hello, gorgeous.\"  (D) \"Chewie, we're home.\"",
+   "a": "C) \"Hello, gorgeous.\"",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Clash of the Titans'?  (A) \"Rosebud.\"  (B) \"Release the Kraken!\"  (C) \"You can't handle the truth!\"  (D) \"With great power comes great responsiblity.\"",
+   "a": "B) \"Release the Kraken!\"",
+   "d": "hard"
+  },
+  {
+   "q": "One Flew Over the Cuckoo's Nest was released in which year?  (A) 1980  (B) 1970  (C) 1975  (D) 1985",
+   "a": "C) 1975",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'J. J. Hunsecker'?  (A) The Shining  (B) Sweet Smell of Success  (C) Network  (D) It's A Wonderful Life",
+   "a": "B) Sweet Smell of Success",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was The Thing first released in the cinema?  (A) 1992  (B) 1977  (C) 1982  (D) 1987",
+   "a": "C) 1982",
+   "d": "hard"
+  },
+  {
+   "q": "What Is The Name Of The Summer Camp In The Friday The 13th Movies?  (A) Camp Crystal Lake  (B) Camp Fear  (C) Camp Snowy Peaks  (D) Camp Last Retreat",
+   "a": "A) Camp Crystal Lake",
+   "d": "hard"
+  },
+  {
+   "q": "Which director directed Terminator 2: Judgment Day?  (A) James Cameron  (B) Martin Scorsese  (C) Woody Allen  (D) Steven Spielberg",
+   "a": "A) James Cameron",
+   "d": "hard"
+  },
+  {
+   "q": "Who played the monster in the 1931 film Frankenstein?  (A) Jack Delaney  (B) Boris Karloff  (C) Marlo Fontaine  (D) Buster Keats",
+   "a": "B) Boris Karloff",
+   "d": "hard"
+  },
+  {
+   "q": "What was E.T.'s favorite candy?  (A) M&M's  (B) Reece's Pieces  (C) Twinkies  (D) Smores",
+   "a": "B) Reece's Pieces",
+   "d": "hard"
+  },
+  {
+   "q": "What was the name of the computer in TV's Wonder Woman?  (A) TRON  (B) OPAL  (C) IRAC  (D) HAL",
+   "a": "C) IRAC",
+   "d": "hard"
+  },
+  {
+   "q": "Who performed the theme song to the James Bond film The World is Not Enough?  (A) Sam Smith  (B) Garbage  (C) Matt Monro  (D) Shirley Bassey",
+   "a": "B) Garbage",
+   "d": "hard"
+  },
+  {
+   "q": "On Star Trek, what was the main weapon used by the crew of the USS Enterprise?  (A) Lightsaber  (B) Phaser  (C) Pulse rifle  (D) Blaster",
+   "a": "B) Phaser",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was Up first released in the cinema?  (A) 2011  (B) 2009  (C) 2007  (D) 2013",
+   "a": "B) 2009",
+   "d": "hard"
+  },
+  {
+   "q": "What were the character names of the 3 lead women of Charlie's Angels?  (A) Joan, Lucy, Emily  (B) Sabrina, Kelly, Jill  (C) Ashley, Michelle, Tina  (D) Mary, Louise, Jackie",
+   "a": "B) Sabrina, Kelly, Jill",
+   "d": "hard"
+  },
+  {
+   "q": "Complete the title of this 1985 Woody Allen movie: 'The Purple Rose of ___'.  (A) Cairo  (B) New York  (C) Paris  (D) Venice",
+   "a": "A) Cairo",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2009 Academy Award for Best Supporting Actor for playing the role of Col. Hans Landa in Inglourious Basterds?  (A) Woody Harrelson  (B) Christoph Waltz  (C) Christopher Plummer  (D) Matt Damon",
+   "a": "B) Christoph Waltz",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 1999 Academy Award for Best Supporting Actor for playing the role of Dr. Wilbur Larch in The Cider House Rules?  (A) Jude Law  (B) Michael Clarke Duncan  (C) Tom Cruise  (D) Michael Caine",
+   "a": "D) Michael Caine",
+   "d": "hard"
+  },
+  {
+   "q": "What is the title of the film in which the protagonist uses tattoos to keep track of his life?  (A) Donnie Darko  (B) Memento  (C) The Butterfly Effect  (D) Eternal Sunshine of the Spotless Mind",
+   "a": "B) Memento",
+   "d": "hard"
+  },
+  {
+   "q": "Which 1992 film featured Al Pacino as a blind character who could tango?  (A) Scarface  (B) The Godfather  (C) Dirty Dancing  (D) Scent of a Woman",
+   "a": "D) Scent of a Woman",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Lt. Col. Bill Kilgore'?  (A) Citizen Kane  (B) Apocalypse Now  (C) Pirates of the Caribbean  (D) Austin Powers: International Man of Mystery",
+   "a": "B) Apocalypse Now",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'The Maltese Falcon'?  (A) \"I'll be back.\"  (B) \"Stella! Hey, Stella!\"  (C) \"The stuff that dreams are made of.\"  (D) \"Nobody makes me bleed my own blood. Nobody!\"",
+   "a": "C) \"The stuff that dreams are made of.\"",
+   "d": "hard"
+  },
+  {
+   "q": "\"The Perfect Game\" is a 2009 family movie about which sport?  (A) Tennis  (B) Basketball  (C) Baseball  (D) Soccer",
+   "a": "C) Baseball",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress has appeared in films including The English Patient and Gosford Park?  (A) Kristin Scott Thomas  (B) Melissa Leo  (C) Reese Witherspoon  (D) Glenn Close",
+   "a": "A) Kristin Scott Thomas",
+   "d": "hard"
+  },
+  {
+   "q": "In the Disney movie 'Pocahontas', what does Pocahontas ask if you can do?  (A) Dance with all the animals in the forest  (B) Swim with all the water in the river  (C) Speak with all the spirits of the trees  (D) Sing with all the voices of the mountain",
+   "a": "D) Sing with all the voices of the mountain",
+   "d": "hard"
+  },
+  {
+   "q": "Which James Bond theme song was performed by Gladys Knight?  (A) The Living Daylights  (B) Diamonds Are Forever  (C) Licence to Kill  (D) Goldfinger",
+   "a": "C) Licence to Kill",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor played the role of Rev. Harry Powell in The Night of the Hunter?  (A) John Belushi  (B) Robert Mitchum  (C) Dennis Hopper  (D) James Stewart",
+   "a": "B) Robert Mitchum",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2016 Academy Award for Best Leading Actress for playing the role of Mia in La La Land?  (A) Isabelle Huppert  (B) Natalie Portman  (C) Ruth Negga  (D) Emma Stone",
+   "a": "D) Emma Stone",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor played Marty Hart on 'True Detective'?  (A) Woody Harrelson  (B) Leonardo DiCaprio  (C) George Clooney  (D) Brad Pitt",
+   "a": "A) Woody Harrelson",
+   "d": "hard"
+  },
+  {
+   "q": "Which film won the Academy Award for Best Picture in 2007?  (A) Atonement  (B) Michael Clayton  (C) Juno  (D) No Country for Old Men",
+   "a": "D) No Country for Old Men",
+   "d": "hard"
+  },
+  {
+   "q": "Cate Blanchett plays the role of which character in the Marvel Cinematic Universe?  (A) The Collector  (B) Hela  (C) Aunt May Parker  (D) Pepper Potts",
+   "a": "B) Hela",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Margo Channing'?  (A) The Good, the Bad, and the Ugly  (B) Citizen Kane  (C) Apocalypse Now  (D) All About Eve",
+   "a": "D) All About Eve",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor played the role of Batman in Batman v Superman: Dawn of Justice and Justice League?  (A) Keanu Reeves  (B) Ben Affleck  (C) Christian Bale  (D) Donald Sutherland",
+   "a": "B) Ben Affleck",
+   "d": "hard"
+  },
+  {
+   "q": "Which film won the Academy Award for Best Picture in 2010?  (A) Black Swan  (B) Inception  (C) The Fighter  (D) The King's Speech",
+   "a": "D) The King's Speech",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'She Done Him Wrong'?  (A) \"Yo, Adrian!\"  (B) \"What's the most you ever lost on a coin toss?\"  (C) \"Yo, Adrian!\"  (D) \"Why don't you come up sometime and see me?\"",
+   "a": "D) \"Why don't you come up sometime and see me?\"",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress has played roles in films including The Truman Show and Mystic River?  (A) Keira Knightley  (B) Frances Fisher  (C) Laura Linney  (D) Rachel Weisz",
+   "a": "C) Laura Linney",
+   "d": "hard"
+  },
+  {
+   "q": "Which film won the Academy Award for Best Picture in 2002?  (A) The Lord of the Rings: The Two Towers  (B) Chicago  (C) Gangs of New York  (D) The Hours",
+   "a": "B) Chicago",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Phyllis Dietrichson'?  (A) Network  (B) Raiders of the Lost Ark  (C) Double Indemnity  (D) Jaws",
+   "a": "C) Double Indemnity",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor has featured in films including Batman Begins and Lucy?  (A) Liam Neeson  (B) Christopher Lee  (C) Arnold Schwarzenegger  (D) Morgan Freeman",
+   "a": "D) Morgan Freeman",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was Lawrence of Arabia released?  (A) 1956  (B) 1962  (C) 1950  (D) 1968",
+   "a": "B) 1962",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Beyond the Forest'?  (A) \"May the odds ever be in your favor.\"  (B) \"What a dump.\"  (C) \"Mother of mercy, is this the end of Rico?\"  (D) \"We're goin' streaking!\"",
+   "a": "B) \"What a dump.\"",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor played the role of Terry Malloy in On the Waterfront?  (A) Humphrey Bogart  (B) Bruce Willis  (C) Anthony Perkins  (D) Marlon Brando",
+   "a": "D) Marlon Brando",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor played the role of Ethan Edwards in The Searchers?  (A) John Wayne  (B) Burt Lancaster  (C) Mel Gibson  (D) Jack Nicholson",
+   "a": "A) John Wayne",
+   "d": "hard"
+  },
+  {
+   "q": "Which TV show featured characters named Peggy Olson and Joan Holloway?  (A) Breaking Bad  (B) The Wire  (C) The Sopranos  (D) Mad Men",
+   "a": "D) Mad Men",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor has appeared in both Django Unchained and Moneyball?  (A) Warwick Davis  (B) Hugo Weaving  (C) Javier Bardem  (D) Jonah Hill",
+   "a": "D) Jonah Hill",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was The Great Escape released?  (A) 1957  (B) 1975  (C) 1969  (D) 1963",
+   "a": "D) 1963",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was Ben-Hur first released in the cinema?  (A) 1965  (B) 1953  (C) 1959  (D) 1971",
+   "a": "C) 1959",
+   "d": "hard"
+  },
+  {
+   "q": "Which director directed Harry Potter and the Half-Blood Prince?  (A) David Yates  (B) Martin Scorsese  (C) Woody Allen  (D) Steven Spielberg",
+   "a": "A) David Yates",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor has appeared in films including Apocalypse Now and Speed?  (A) Dennis Hopper  (B) Tim Roth  (C) Hugo Weaving  (D) Warwick Davis",
+   "a": "A) Dennis Hopper",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2008 Academy Award for Best Leading Actor for playing the role of Harvey Milk in Milk?  (A) Sean Penn  (B) Brad Pitt  (C) Richard Jenkins  (D) Frank Langella",
+   "a": "A) Sean Penn",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'The Fast and the Furious'?  (A) \"I live my life a quarter mile at a time.\"  (B) \"Release the Kraken!\"  (C) \"Fasten your seatbelts. It's going to be a bumpy night.\"  (D) \"Hello, gorgeous.\"",
+   "a": "A) \"I live my life a quarter mile at a time.\"",
+   "d": "hard"
+  },
+  {
+   "q": "In what 1941 movie is the mysterious last word 'Rosebud' whispered by the main character before his death?  (A) Casablanca  (B) The Maltese Falcon  (C) Citizen Kane  (D) Gone with the Wind",
+   "a": "C) Citizen Kane",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Almost Famous'?  (A) \"My precious.\"  (B) \"Made it, Ma! Top of the world!\"  (C) \"I am a golden god!\"  (D) \"The stuff that dreams are made of.\"",
+   "a": "C) \"I am a golden god!\"",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Lloyd Dobler'?  (A) The Treasure of the Sierra Madre  (B) The Adventures of Robin Hood  (C) The Silence of the Lambs  (D) Say Anything...",
+   "a": "D) Say Anything...",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress has starred in films including Gravity and Crash?  (A) Sandra Bullock  (B) Charlize Theron  (C) Maggie Smith  (D) Emma Thompson",
+   "a": "A) Sandra Bullock",
+   "d": "hard"
+  },
+  {
+   "q": "What is the name of the witch in Snow White and the Seven Dwarfs?  (A) Maleficent  (B) The Evil Queen  (C) The Wicked Witch  (D) The Lady of the Lake",
+   "a": "B) The Evil Queen",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2017 Academy Award for Best Leading Actor for playing the role of Winston Churchill in Darkest Hour?  (A) Gary Oldman  (B) Timothée Chalamet  (C) Daniel Day-Lewis  (D) Daniel Kaluuya",
+   "a": "A) Gary Oldman",
+   "d": "hard"
+  },
+  {
+   "q": "Who plays the role of Hope Van Dyne in the Marvel Cinematic Universe?  (A) Evangeline Lilly  (B) Scarlett Johansson  (C) Hayley Atwell  (D) Natalie Portman",
+   "a": "A) Evangeline Lilly",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Jeff Spicoli'?  (A) Pulp Fiction  (B) The Searchers  (C) The Pink Panther  (D) Fast Times at Ridgemont High",
+   "a": "D) Fast Times at Ridgemont High",
+   "d": "hard"
+  },
+  {
+   "q": "Which 1978 movie features the line 'It was the Deltas against the rules... the rules lost!'?  (A) Fast Times at Ridgemont High  (B) The Breakfast Club  (C) Animal House  (D) The Karate Kid",
+   "a": "C) Animal House",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Rose Sayer'?  (A) Ghost  (B) Raiders of the Lost Ark  (C) Midnight Cowboy  (D) The African Queen",
+   "a": "D) The African Queen",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor played the role of William 'Bill the Butcher' Cutting in Gangs of New York?  (A) Peter O'Toole  (B) Sidney Poitier  (C) Daniel Day-Lewis  (D) Robert De Niro",
+   "a": "C) Daniel Day-Lewis",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Rev. Harry Powell'?  (A) The Wizard of Oz  (B) Fatal Attraction  (C) The Night of the Hunter  (D) Jaws",
+   "a": "C) The Night of the Hunter",
+   "d": "hard"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: '24 hours in the lives of three young men the day after a violent riot.'  (A) The Big Lebowski  (B) La Haine  (C) Three Billboards Outside Ebbing, Missouri  (D) The Lives of Others",
+   "a": "B) La Haine",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 1982 Academy Award for Best Leading Actress for playing the role of Sophie in Sophie's Choice?  (A) Julie Andrews  (B) Sissy Spacek  (C) Meryl Streep  (D) Jessica Lange",
+   "a": "C) Meryl Streep",
+   "d": "hard"
+  },
+  {
+   "q": "In which US state is the fictional hometown of Superman?  (A) Iowa  (B) Nebraska  (C) Kansas  (D) Ohio",
+   "a": "C) Kansas",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor played the role of Jeff Spicoli in Fast Times at Ridgemont High?  (A) Sean Penn  (B) James Stewart  (C) Johnny Depp  (D) Arnold Schwarzenegger",
+   "a": "A) Sean Penn",
+   "d": "hard"
+  },
+  {
+   "q": "In what movie, based on a Washington Irving short story, is the protagonist a policeman sent to investigate a series of decapitations?  (A) Murdead  (B) Sleepy Hollow  (C) Ichabod Crane  (D) The Headless Horseman",
+   "a": "B) Sleepy Hollow",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2010 Academy Award for Best Supporting Actor for playing the role of Dicky Eklund in The Fighter?  (A) Jeremy Renner  (B) John Hawkes  (C) Mark Ruffalo  (D) Christian Bale",
+   "a": "D) Christian Bale",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress has starred in films including Atonement and Love Actually?  (A) Melissa Leo  (B) Laura Linney  (C) Sarah Paulson  (D) Keira Knightley",
+   "a": "D) Keira Knightley",
+   "d": "hard"
+  },
+  {
+   "q": "Which notorious murderer, hanged in July 1953, had his story told in the film \"Ten Rillington Place\"?  (A) Ted Bundy  (B) John Wayne Gacey Jr  (C) Ed Gaine  (D) John Reginald Christie",
+   "a": "D) John Reginald Christie",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Susan Vance'?  (A) The Night of the Hunter  (B) The Crying Game  (C) To Kill a Mockingbird  (D) Bringing Up Baby",
+   "a": "D) Bringing Up Baby",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was A Beautiful Mind released?  (A) 2004  (B) 1998  (C) 2007  (D) 2001",
+   "a": "D) 2001",
+   "d": "hard"
+  },
+  {
+   "q": "Marisa Tomei plays the role of which character in the Marvel Cinematic Universe?  (A) The Ancient One  (B) Wanda Maximoff  (C) Aunt May Parker  (D) Jane Foster",
+   "a": "C) Aunt May Parker",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor has had roles in both Brooklyn Nine-Nine and Terminator Salvation?  (A) Richard Harris  (B) Terry Crews  (C) Anthony Quinn  (D) Hugo Weaving",
+   "a": "B) Terry Crews",
+   "d": "hard"
+  },
+  {
+   "q": "Which director directed Gangs of New York?  (A) Steven Spielberg  (B) Alfred Hitchcock  (C) Martin Scorsese  (D) Woody Allen",
+   "a": "C) Martin Scorsese",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor played the role of Inspector Jacques Clouseau in The Pink Panther?  (A) Daniel Day-Lewis  (B) Robert Duvall  (C) Marlon Brando  (D) Peter Sellers",
+   "a": "D) Peter Sellers",
+   "d": "hard"
+  },
+  {
+   "q": "Which director directed Schindler's List?  (A) Woody Allen  (B) Steven Spielberg  (C) Alfred Hitchcock  (D) Martin Scorsese",
+   "a": "B) Steven Spielberg",
+   "d": "hard"
+  },
+  {
+   "q": "What 1980s movie featured the Harold Faltermeyer song 'Axel F.'?  (A) Top Gun  (B) The Breakfast Club  (C) Ghostbusters  (D) Beverly Hills Cop",
+   "a": "D) Beverly Hills Cop",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor has played roles in both Blackadder and The Hobbit: The Desolation of Smaug?  (A) Tom Waits  (B) Luke Evans  (C) Stephen Fry  (D) Michael Ironside",
+   "a": "C) Stephen Fry",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Norman Bates'?  (A) Psycho  (B) The Good, the Bad, and the Ugly  (C) Sunset Boulevard  (D) The Big Lebowski",
+   "a": "A) Psycho",
+   "d": "hard"
+  },
+  {
+   "q": "Which stage director brought Shakespeare's \"A Midsummer Night's Dream\" to the screen in 1935?  (A) Friedrich Nietzsche  (B) Ludwig Wittgenstein  (C) Franz Kafka  (D) Max Reinhardt",
+   "a": "D) Max Reinhardt",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 1980 Academy Award for Best Leading Actor for playing the role of Jake LaMotta in Raging Bull?  (A) John Hurt  (B) Jack Lemmon  (C) Robert De Niro  (D) Robert Duvall",
+   "a": "C) Robert De Niro",
+   "d": "hard"
+  },
+  {
+   "q": "Which film won the Academy Award for Best Picture in 2000?  (A) Crouching Tiger, Hidden Dragon  (B) Erin Brockovich  (C) Chocolat  (D) Gladiator",
+   "a": "D) Gladiator",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Sons of the Desert'?  (A) \"Gentlemen, you can't fight in here! This is the War Room!\"  (B) \"After all, tomorrow is another day!\"  (C) \"My precious.\"  (D) \"Well, here's another nice mess you've gotten me into!\"",
+   "a": "D) \"Well, here's another nice mess you've gotten me into!\"",
+   "d": "hard"
+  },
+  {
+   "q": "The role of Agent Peggy Carter in the Marvel Cinematic Universe is played by which actor?  (A) Evangeline Lilly  (B) Cobie Smulders  (C) Cate Blanchett  (D) Hayley Atwell",
+   "a": "D) Hayley Atwell",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Moonstruck'?  (A) \"Snap out of it!\"  (B) \"I drink your milkshake. I drink it up.\"  (C) \"Go ahead, make my day.\"  (D) \"You're gonna need a bigger boat.\"",
+   "a": "A) \"Snap out of it!\"",
+   "d": "hard"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A stranger joins forces with a desperado to protect a widow from an assassin.'  (A) Shutter Island  (B) Mad Max: Fury Road  (C) The Good, the Bad and the Ugly  (D) Once Upon a Time in the West",
+   "a": "D) Once Upon a Time in the West",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2016 Academy Award for Best Leading Actor for playing the role of Lee Chandler in Manchester by the Sea?  (A) Casey Affleck  (B) Ryan Gosling  (C) Andrew Garfield  (D) Viggo Mortensen",
+   "a": "A) Casey Affleck",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was Good Will Hunting released?  (A) 1997  (B) 2001  (C) 1989  (D) 1993",
+   "a": "A) 1997",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor is the father-in-law of Catherine Zeta-Jones?  (A) Clint Eastwood  (B) Burt Lancaster  (C) Anthony Hopkins  (D) Kirk Douglas",
+   "a": "D) Kirk Douglas",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2006 Academy Award for Best Leading Actress for playing the role of The Queen in The Queen?  (A) Helen Mirren  (B) Penélope Cruz  (C) Judi Dench  (D) Meryl Streep",
+   "a": "A) Helen Mirren",
+   "d": "hard"
+  },
+  {
+   "q": "Which director directed Harry Potter and the Chamber of Secrets?  (A) Steven Spielberg  (B) Woody Allen  (C) Chris Columbus  (D) Martin Scorsese",
+   "a": "C) Chris Columbus",
+   "d": "hard"
+  },
+  {
+   "q": "Who played the role of James Bond in The Living Daylights?  (A) Sean Connery  (B) Roger Moore  (C) George Lazenby  (D) Timothy Dalton",
+   "a": "D) Timothy Dalton",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress starred in both E.T. the Extra-Terrestrial and Batman Forever?  (A) Penélope Cruz  (B) Kirsten Dunst  (C) Charlize Theron  (D) Drew Barrymore",
+   "a": "D) Drew Barrymore",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress played the role of Jane Craig in Broadcast News?  (A) Sidney Poitier  (B) Holly Hunter  (C) Emma Thompson  (D) Angela Lansbury",
+   "a": "B) Holly Hunter",
+   "d": "hard"
+  },
+  {
+   "q": "Name the movie that matches the following plot summary: 'A general accuses soldiers of cowardice and their commanding officer must defend them.'  (A) Scarface  (B) Paths of Glory  (C) Double Indemnity  (D) North by Northwest",
+   "a": "B) Paths of Glory",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Tom Powers'?  (A) The Public Enemy  (B) The Silence of the Lambs  (C) All About Eve  (D) Rain Man",
+   "a": "A) The Public Enemy",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2003 Academy Award for Best Supporting Actress for playing the role of Ruby Thewes in Cold Mountain?  (A) Renée Zellweger  (B) Marcia Gay Harden  (C) Patricia Clarkson  (D) Shohreh Aghdashloo",
+   "a": "A) Renée Zellweger",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor played the role of Norman Bates in Psycho?  (A) Anthony Perkins  (B) Orson Welles  (C) Andy Serkis  (D) Robert Duvall",
+   "a": "A) Anthony Perkins",
+   "d": "hard"
+  },
+  {
+   "q": "In the Marvel Cinematic Universe, which character is played by Florence Kasumba?  (A) Agent Peggy Carter  (B) Jane Foster  (C) Agent Maria Hill  (D) Ayo",
+   "a": "D) Ayo",
+   "d": "hard"
+  },
+  {
+   "q": "What 2005-2009 TV show featured Cylons and cyborgs?  (A) Battlestar Galactica  (B) RoboCop  (C) Westworld  (D) The Terminator",
+   "a": "A) Battlestar Galactica",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Holly Golightly'?  (A) Say Anything...  (B) Breakfast at Tiffany's  (C) The Maltese Falcon  (D) Citizen Kane",
+   "a": "B) Breakfast at Tiffany's",
+   "d": "hard"
+  },
+  {
+   "q": "On which TV series did Alyson Hannigan play a geek-turned-witch?  (A) Supernatural  (B) Charmed  (C) Sabrina, the Teenage Witch  (D) Buffy the Vampire Slayer",
+   "a": "D) Buffy the Vampire Slayer",
+   "d": "hard"
+  },
+  {
+   "q": "In the Marvel Cinematic Universe, which character is played by Karen Gillan?  (A) Shuri  (B) Pepper Potts  (C) Nebula  (D) Eitri",
+   "a": "C) Nebula",
+   "d": "hard"
+  },
+  {
+   "q": "Raging Bull was released in which year?  (A) 1980  (B) 1975  (C) 1970  (D) 1965",
+   "a": "A) 1980",
+   "d": "hard"
+  },
+  {
+   "q": "Who played the role of James Bond in Goldfinger?  (A) Sean Connery  (B) George Lazenby  (C) Roger Moore  (D) Pierce Brosnan",
+   "a": "A) Sean Connery",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Jake Gittes'?  (A) Breakfast at Tiffany's  (B) Chinatown  (C) Ghost  (D) The Terminator",
+   "a": "B) Chinatown",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 1998 Academy Award for Best Leading Actress for playing the role of Viola De Lesseps in Shakespeare in Love?  (A) Meryl Streep  (B) Cate Blanchett  (C) Gwyneth Paltrow  (D) Fernanda Montenegro",
+   "a": "C) Gwyneth Paltrow",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was The Wolf of Wall Street first released in the cinema?  (A) 2015  (B) 2017  (C) 2011  (D) 2013",
+   "a": "D) 2013",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor played the role of Superman's adoptive father in Batman v Superman: Dawn of Justice and Man of Steel?  (A) Dwayne Johnson  (B) Kevin Costner  (C) Gérard Depardieu  (D) George Clooney",
+   "a": "B) Kevin Costner",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2016 Academy Award for Best Supporting Actor for playing the role of Juan in Moonlight?  (A) Jeff Bridges  (B) Dev Patel  (C) Lucas Hedges  (D) Mahershala Ali",
+   "a": "D) Mahershala Ali",
+   "d": "hard"
+  },
+  {
+   "q": "What film was co-written by Matt Damon and Ben Affleck?  (A) The Bourne Identity  (B) Good Will Hunting  (C) The Departed  (D) Argo",
+   "a": "B) Good Will Hunting",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2009 Academy Award for Best Supporting Actress for playing the role of Mary in Precious: Based on the Novel 'Push' by Sapphire?  (A) Maggie Gyllenhaal  (B) Mo'Nique  (C) Penélope Cruz  (D) Vera Farmiga",
+   "a": "B) Mo'Nique",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor played the role of Fred C. Dobbs in The Treasure of the Sierra Madre?  (A) Errol Flynn  (B) Dennis Hopper  (C) Humphrey Bogart  (D) Peter O'Toole",
+   "a": "C) Humphrey Bogart",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress has appeared in films including Traffic and Eternals?  (A) Rachel Weisz  (B) Salma Hayek  (C) Keira Knightley  (D) Frances Fisher",
+   "a": "B) Salma Hayek",
+   "d": "hard"
+  },
+  {
+   "q": "Who played the role of James Bond in Diamonds Are Forever?  (A) Sean Connery  (B) Roger Moore  (C) Pierce Brosnan  (D) George Lazenby",
+   "a": "A) Sean Connery",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'There Will Be Blood'?  (A) \"I'll be back.\"  (B) \"Release the Kraken!\"  (C) \"I drink your milkshake. I drink it up.\"  (D) \"I'll get you, my pretty, and your little dog, too!\"",
+   "a": "C) \"I drink your milkshake. I drink it up.\"",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor plays the role of Howard Stark in the Marvel Cinematic Universe?  (A) Paul Bettany  (B) Dave Bautista  (C) John Slattery  (D) Benedict Cumberbatch",
+   "a": "C) John Slattery",
+   "d": "hard"
+  },
+  {
+   "q": "Which director directed Ben-Hur?  (A) Steven Spielberg  (B) Martin Scorsese  (C) William Wyler  (D) Woody Allen",
+   "a": "C) William Wyler",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor has featured in films including Harry Potter and the Chamber of Secrets and Dunkirk?  (A) Kenneth Branagh  (B) Luke Evans  (C) Michael Ironside  (D) Tom Waits",
+   "a": "A) Kenneth Branagh",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2015 Academy Award for Best Leading Actress for playing the role of Ma in Room?  (A) Cate Blanchett  (B) Brie Larson  (C) Charlotte Rampling  (D) Jennifer Lawrence",
+   "a": "B) Brie Larson",
+   "d": "hard"
+  },
+  {
+   "q": "Which Spice Girl made a guest appearance in an episode of Sex and the City?  (A) Posh Spice  (B) Baby Spice  (C) Scary Spice  (D) Ginger Spice",
+   "a": "D) Ginger Spice",
+   "d": "hard"
+  },
+  {
+   "q": "Which member of the Monty Python comedy team has travelled extensively, making programmes such as 'Pole to Pole' and 'Around the World in 80 Days'?  (A) Eric Idle  (B) Michael Palin  (C) John Cleese  (D) Terry Gilliam",
+   "a": "B) Michael Palin",
+   "d": "hard"
+  },
+  {
+   "q": "What is the name of the character played by Eric McCormack on the show 'Will & Grace'?  (A) Will Buckland  (B) Mark Wilson  (C) Jack McFarland  (D) Will Truman",
+   "a": "D) Will Truman",
+   "d": "hard"
+  },
+  {
+   "q": "Adam Scott and Britt Lower star in which 2022 TV dark comedy?  (A) The Queens Gambit  (B) Severance  (C) Slow Horses  (D) Shantaram",
+   "a": "B) Severance",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor plays the role of Ivan Vanko in the Marvel Cinematic Universe?  (A) Clark Gregg  (B) Vin Diesel  (C) Mickey Rourke  (D) Idris Elba",
+   "a": "C) Mickey Rourke",
+   "d": "hard"
+  },
+  {
+   "q": "Aliens was released in which year?  (A) 1971  (B) 1976  (C) 1981  (D) 1986",
+   "a": "D) 1986",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film 'Mad Max: Fury Road'?  (A) \"Is it safe?\"  (B) \"Mrs. Robinson, you're trying to seduce me. Aren't you?\"  (C) \"After all, tomorrow is another day!\"  (D) \"Oh what a day. What a lovely day!\"",
+   "a": "D) \"Oh what a day. What a lovely day!\"",
+   "d": "hard"
+  },
+  {
+   "q": "Blade Runner was released in which year?  (A) 1992  (B) 1982  (C) 1987  (D) 1977",
+   "a": "B) 1982",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Hans Beckert'?  (A) Apocalypse Now  (B) Austin Powers: International Man of Mystery  (C) M  (D) Home Alone",
+   "a": "C) M",
+   "d": "hard"
+  },
+  {
+   "q": "Which eighties sitcom featured Tom Hanks in drag on a regular basis?  (A) Freaky Friends  (B) Bosom Buddies  (C) Messy Mates  (D) Pen Pals",
+   "a": "B) Bosom Buddies",
+   "d": "hard"
+  },
+  {
+   "q": "Which of these quotes is from the film '12 Years a Slave'?  (A) \"Nobody puts Baby in a corner.\"  (B) \"Well, I don't want to survive. I want to live.\"  (C) \"A martini. Shaken, not stirred.\"  (D) \"It's alive! It's alive!\"",
+   "a": "B) \"Well, I don't want to survive. I want to live.\"",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress has appeared in both Pirates of the Caribbean: On Stranger Tides and All About My Mother?  (A) Uma Thurman  (B) Amy Adams  (C) Cameron Diaz  (D) Penélope Cruz",
+   "a": "D) Penélope Cruz",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor has featured in films including 2012 and The Color Purple?  (A) Shah Rukh Khan  (B) Danny Glover  (C) Gérard Depardieu  (D) Dan Aykroyd",
+   "a": "B) Danny Glover",
+   "d": "hard"
+  },
+  {
+   "q": "Which film won the Academy Award for Best Picture in 1992?  (A) Howards End  (B) A Few Good Men  (C) The Crying Game  (D) Unforgiven",
+   "a": "D) Unforgiven",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor received 3 Oscar nominations in one year, winning for his supporting role in \"Syriana\"?  (A) Leonardo DiCaprio  (B) Brad Pitt  (C) Tom Hanks  (D) George Clooney",
+   "a": "D) George Clooney",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress played the role of Phyllis Dietrichson in Double Indemnity?  (A) Barbara Stanwyck  (B) Olivia Newton-John  (C) Vivien Leigh  (D) Anne Bancroft",
+   "a": "A) Barbara Stanwyck",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2020 Academy Award for Best Leading Actress for playing the role of Fern in Nomadland?  (A) Viola Davis  (B) Andra Day  (C) Vanessa Kirby  (D) Frances McDormand",
+   "a": "D) Frances McDormand",
+   "d": "hard"
+  },
+  {
+   "q": "Who played the role of James Bond in You Only Live Twice?  (A) Timothy Dalton  (B) Sean Connery  (C) George Lazenby  (D) Daniel Craig",
+   "a": "B) Sean Connery",
+   "d": "hard"
+  },
+  {
+   "q": "Which long running sci-fi program was first aired in November 1963?  (A) Battlestar Galactica  (B) Dr Who  (C) Star Trek  (D) The Twilight Zone",
+   "a": "B) Dr Who",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor played the role of Ratso Rizzo in Midnight Cowboy?  (A) Dennis Hopper  (B) Malcolm McDowell  (C) Al Pacino  (D) Dustin Hoffman",
+   "a": "D) Dustin Hoffman",
+   "d": "hard"
+  },
+  {
+   "q": "What kind of creature is Spongebob Squarepants' friend Sandy?  (A) A Squirrel  (B) A Starfish  (C) An Octopus  (D) A Crab",
+   "a": "A) A Squirrel",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Howard Beale'?  (A) The Lord of the Rings  (B) Taxi Driver  (C) Network  (D) Say Anything...",
+   "a": "C) Network",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor has had roles in films including Batman v Superman: Dawn of Justice and The Untouchables?  (A) Gérard Depardieu  (B) Shah Rukh Khan  (C) Kevin Costner  (D) Dwayne Johnson",
+   "a": "C) Kevin Costner",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was Kill Bill: Vol. 1 first released in the cinema?  (A) 2006  (B) 2000  (C) 2003  (D) 1997",
+   "a": "C) 2003",
+   "d": "hard"
+  },
+  {
+   "q": "What Was The Name Of Dustin Hoffman's Character In The 1967 Film The Graduate?  (A) Leo Quince  (B) Ben Braddock  (C) Harold Buck  (D) Martin Jackson",
+   "a": "B) Ben Braddock",
+   "d": "hard"
+  },
+  {
+   "q": "Which TV show followed a pair of streetwise cops played by Paul Michael Glaser and David Soul?  (A) Starsky and Hutch  (B) Cagney and Lacey  (C) Simon and Simon  (D) Tango and Cash",
+   "a": "A) Starsky and Hutch",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Jack Torrance'?  (A) Caddyshack  (B) The Shining  (C) Casablanca  (D) The Silence of the Lambs",
+   "a": "B) The Shining",
+   "d": "hard"
+  },
+  {
+   "q": "Who played the role of James Bond in Octopussy?  (A) Pierce Brosnan  (B) Roger Moore  (C) Daniel Craig  (D) Sean Connery",
+   "a": "B) Roger Moore",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor played the role of Freddy Krueger in A Nightmare on Elm Street?  (A) Andy Serkis  (B) Peter Lorre  (C) Jack Nicholson  (D) Robert Englund",
+   "a": "D) Robert Englund",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was WALL·E first released in the cinema?  (A) 2006  (B) 2004  (C) 2010  (D) 2008",
+   "a": "D) 2008",
+   "d": "hard"
+  },
+  {
+   "q": "Who wanted to make a coat out of 101 Dalmatians  (A) Maleficent  (B) Yzma  (C) Cruella De Vil  (D) Ursula",
+   "a": "C) Cruella De Vil",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor has featured in films including The Matrix and Speed?  (A) Christian Bale  (B) Shah Rukh Khan  (C) Gérard Depardieu  (D) Keanu Reeves",
+   "a": "D) Keanu Reeves",
+   "d": "hard"
+  },
+  {
+   "q": "In which year was It's a Wonderful Life first released in the cinema?  (A) 1946  (B) 1939  (C) 1960  (D) 1953",
+   "a": "A) 1946",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor played the role of The Dude in The Big Lebowski?  (A) Jeff Bridges  (B) Errol Flynn  (C) John Wayne  (D) Michael Douglas",
+   "a": "A) Jeff Bridges",
+   "d": "hard"
+  },
+  {
+   "q": "Which actor played the role of Atticus Finch in To Kill a Mockingbird?  (A) Anthony Perkins  (B) James Cagney  (C) Gregory Peck  (D) Jean Pierre Leaud",
+   "a": "C) Gregory Peck",
+   "d": "hard"
+  },
+  {
+   "q": "What is the name of the kingdom Rapunzel is from in Disney's 2010 film Tangled?  (A) Belgravia  (B) Arendelle  (C) Aldova  (D) Corona",
+   "a": "D) Corona",
+   "d": "hard"
+  },
+  {
+   "q": "Which film won the Academy Award for Best Picture in 2005?  (A) Capote  (B) Brokeback Mountain  (C) Good Night, and Good Luck.  (D) Crash",
+   "a": "D) Crash",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 1977 Academy Award for Best Leading Actress for playing the role of Annie Hall in Annie Hall?  (A) Anne Bancroft  (B) Diane Keaton  (C) Jane Fonda  (D) Shirley MacLaine",
+   "a": "B) Diane Keaton",
+   "d": "hard"
+  },
+  {
+   "q": "Which film contains the character 'Alan Swann'?  (A) Die Hard  (B) My Favorite Year  (C) The Searchers  (D) A Nightmare on Elm Street",
+   "a": "B) My Favorite Year",
+   "d": "hard"
+  },
+  {
+   "q": "Who played the role of James Bond in The World is Not Enough?  (A) George Lazenby  (B) Pierce Brosnan  (C) Roger Moore  (D) Timothy Dalton",
+   "a": "B) Pierce Brosnan",
+   "d": "hard"
+  },
+  {
+   "q": "Who won the 2016 Academy Award for Best Supporting Actress for playing the role of Rose Maxson in Fences?  (A) Naomie Harris  (B) Octavia Spencer  (C) Viola Davis  (D) Nicole Kidman",
+   "a": "C) Viola Davis",
+   "d": "hard"
+  },
+  {
+   "q": "Which actress played the character Marissa on 'The O.C.' and later became a model on 'The Beautiful Life'?  (A) Rachel Bilson  (B) Mischa Barton  (C) Megan Fox  (D) Misha Collins",
+   "a": "B) Mischa Barton",
+   "d": "hard"
+  }
+ ]
+}

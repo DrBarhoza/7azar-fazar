@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Which country? 🧊🅰️",
+  "a": "Cuba",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🎤🅰️🫗",
+  "a": "Singapore",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🐋🐳",
+  "a": "Wales",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🍽️☕🍚",
+  "a": "China",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🍳🅰️🤰",
+  "a": "Panama",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🌶️",
+  "a": "Chile",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 👁️👂🛬",
+  "a": "Ireland",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🐜🥶",
+  "a": "Antarctica",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🥫🐍",
+  "a": "Canada",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🍐U",
+  "a": "Peru",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? U🏗️",
+  "a": "Ukraine",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? ❄️🛬",
+  "a": "Iceland",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 💈🛬",
+  "a": "Poland",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🔔🏋️‍♂️",
+  "a": "Belgium",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🦃",
+  "a": "Turkey",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 👁️🏃‍♂️",
+  "a": "Iran",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 😡🅰️⛽🚘",
+  "a": "Madagascar",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🦠🅰️🦵",
+  "a": "Germany",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🚣‍♂️🤪",
+  "a": "Romania",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? ✚🚪🅰️",
+  "a": "Andorra",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 👀🐚🐚",
+  "a": "Seychelles",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🇦🇺🌳🅰️",
+  "a": "Austria",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 👙🤧",
+  "a": "Brazil",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🥃🛬",
+  "a": "Scotland",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 😋",
+  "a": "Hungary",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? Ⓢ🤕",
+  "a": "Spain",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 👔1️⃣",
+  "a": "Taiwan",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? J🍳",
+  "a": "Japan",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🗝️🦵🅰️",
+  "a": "Kenya",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🟢🛬",
+  "a": "Greenland",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 😺®️",
+  "a": "Qatar",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🦈🛬",
+  "a": "Finland",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🔔🧊",
+  "a": "Belize",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🦘🅰️",
+  "a": "Australia",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🅱️9️⃣",
+  "a": "Benin",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🧢🟢",
+  "a": "Cape Verde",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? O🧍‍♂️",
+  "a": "Oman",
+  "d": "medium",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🚣‍♂️&🅰️",
+  "a": "Rwanda",
+  "d": "hard",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 🐄⏳",
+  "a": "Kuwait",
+  "d": "easy",
+  "src": "authored"
+ },
+ {
+  "q": "Which country? 👔🛬",
+  "a": "Thailand",
+  "d": "medium",
+  "src": "authored"
+ }
+]
