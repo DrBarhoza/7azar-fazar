@@ -14839,72 +14839,6 @@
  ],
  "Countries": [
   {
-   "q": "Which country? 🍕🍝",
-   "a": "Italy",
-   "d": "easy",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🦘🐨",
-   "a": "Australia",
-   "d": "easy",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🍁",
-   "a": "Canada",
-   "d": "easy",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🗼🥖",
-   "a": "France",
-   "d": "easy",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🐋🐳",
-   "a": "Wales",
-   "d": "easy",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🌶️",
-   "a": "Chile",
-   "d": "easy",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? ❄️🛬",
-   "a": "Iceland",
-   "d": "easy",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 😋",
-   "a": "Hungary",
-   "d": "easy",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🟢🛬",
-   "a": "Greenland",
-   "d": "easy",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🦈🛬",
-   "a": "Finland",
-   "d": "easy",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🦘🅰️",
-   "a": "Australia",
-   "d": "easy",
-   "src": "authored"
-  },
-  {
    "q": "What is the capital of France?",
    "a": "Paris",
    "d": "easy",
@@ -15163,76 +15097,6 @@
    "src": "authored"
   },
   {
-   "q": "Which country has this shape?",
-   "a": "United Kingdom",
-   "d": "easy",
-   "src": "authored",
-   "img": "country-shapes/united-kingdom.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "United States",
-   "d": "easy",
-   "src": "authored",
-   "img": "country-shapes/united-states.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Italy",
-   "d": "easy",
-   "src": "authored",
-   "img": "country-shapes/italy.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Australia",
-   "d": "easy",
-   "src": "authored",
-   "img": "country-shapes/australia.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Mexico",
-   "d": "easy",
-   "src": "authored",
-   "img": "country-shapes/mexico.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "China",
-   "d": "easy",
-   "src": "authored",
-   "img": "country-shapes/china.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "France",
-   "d": "easy",
-   "src": "authored",
-   "img": "country-shapes/france.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Japan",
-   "d": "easy",
-   "src": "authored",
-   "img": "country-shapes/japan.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Brazil",
-   "d": "easy",
-   "src": "authored",
-   "img": "country-shapes/brazil.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Canada",
-   "d": "easy",
-   "src": "authored",
-   "img": "country-shapes/canada.svg"
-  },
-  {
    "q": "Put these four countries in order by AREA (land size), from largest to smallest: China, Thailand, India, Colombia",
    "a": "China, India, Colombia, Thailand",
    "d": "easy",
@@ -15308,312 +15172,6 @@
    "q": "Put these four countries in order by POPULATION, from largest to smallest: Egypt, Indonesia, Chile, New Zealand",
    "a": "Indonesia, Egypt, Chile, New Zealand",
    "d": "easy",
-   "src": "authored"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "Australia",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/australia-2.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "Brazil",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/brazil.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "Brazil",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/brazil-2.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "China",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/china.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "Egypt",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/egypt.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "France",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/france-4.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "Germany",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/germany.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "Greece",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/greece.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "India",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/india.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "Italy",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/italy.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "Italy",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/italy-2.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "Japan",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/japan.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "Mexico",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/mexico.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "Nepal",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/nepal.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "Peru",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/peru.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "Russia",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/russia.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "Turkey",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/turkey.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "United Arab Emirates",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/united-arab-emirates-2.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "United Kingdom",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/united-kingdom.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "United States",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/united-states-2.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "United States",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/united-states-3.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "United States",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/united-states-4.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "United States",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/united-states-5.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "Vatican City",
-   "d": "easy",
-   "src": "authored",
-   "img": "landmark-photos/opt/vatican-city.jpg"
-  },
-  {
-   "q": "Which country? 🦃",
-   "a": "Turkey",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🥶🌶️",
-   "a": "Chile (chilly + chili)",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🧊🛬",
-   "a": "Iceland (ice + landing)",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🐟🛬",
-   "a": "Finland (fin + landing)",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🧊🅰️",
-   "a": "Cuba",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🍽️☕🍚",
-   "a": "China",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🍳🅰️🤰",
-   "a": "Panama",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 👁️👂🛬",
-   "a": "Ireland",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🐜🥶",
-   "a": "Antarctica",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🍐U",
-   "a": "Peru",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? U🏗️",
-   "a": "Ukraine",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 💈🛬",
-   "a": "Poland",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🔔🏋️‍♂️",
-   "a": "Belgium",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 👁️🏃‍♂️",
-   "a": "Iran",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🦠🅰️🦵",
-   "a": "Germany",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 👀🐚🐚",
-   "a": "Seychelles",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🥃🛬",
-   "a": "Scotland",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? Ⓢ🤕",
-   "a": "Spain",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 👔1️⃣",
-   "a": "Taiwan",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? J🍳",
-   "a": "Japan",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🔔🧊",
-   "a": "Belize",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? O🧍‍♂️",
-   "a": "Oman",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 👔🛬",
-   "a": "Thailand",
-   "d": "medium",
    "src": "authored"
   },
   {
@@ -16029,153 +15587,6 @@
    "a": "Pretoria (administrative capital)",
    "d": "medium",
    "src": "authored"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Egypt",
-   "d": "medium",
-   "src": "authored",
-   "img": "country-shapes/egypt.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Spain",
-   "d": "medium",
-   "src": "authored",
-   "img": "country-shapes/spain.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Germany",
-   "d": "medium",
-   "src": "authored",
-   "img": "country-shapes/germany.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Chile",
-   "d": "medium",
-   "src": "authored",
-   "img": "country-shapes/chile.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Argentina",
-   "d": "medium",
-   "src": "authored",
-   "img": "country-shapes/argentina.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "South Africa",
-   "d": "medium",
-   "src": "authored",
-   "img": "country-shapes/south-africa.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Norway",
-   "d": "medium",
-   "src": "authored",
-   "img": "country-shapes/norway.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Sweden",
-   "d": "medium",
-   "src": "authored",
-   "img": "country-shapes/sweden.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Portugal",
-   "d": "medium",
-   "src": "authored",
-   "img": "country-shapes/portugal.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Ireland",
-   "d": "medium",
-   "src": "authored",
-   "img": "country-shapes/ireland.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Iceland",
-   "d": "medium",
-   "src": "authored",
-   "img": "country-shapes/iceland.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Greece",
-   "d": "medium",
-   "src": "authored",
-   "img": "country-shapes/greece.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Turkey",
-   "d": "medium",
-   "src": "authored",
-   "img": "country-shapes/turkey.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Saudi Arabia",
-   "d": "medium",
-   "src": "authored",
-   "img": "country-shapes/saudi-arabia.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "South Korea",
-   "d": "medium",
-   "src": "authored",
-   "img": "country-shapes/south-korea.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Vietnam",
-   "d": "medium",
-   "src": "authored",
-   "img": "country-shapes/vietnam.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Cuba",
-   "d": "medium",
-   "src": "authored",
-   "img": "country-shapes/cuba.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Madagascar",
-   "d": "medium",
-   "src": "authored",
-   "img": "country-shapes/madagascar.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "New Zealand",
-   "d": "medium",
-   "src": "authored",
-   "img": "country-shapes/new-zealand.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Iran",
-   "d": "medium",
-   "src": "authored",
-   "img": "country-shapes/iran.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Peru",
-   "d": "medium",
-   "src": "authored",
-   "img": "country-shapes/peru.svg"
   },
   {
    "q": "Put these four countries in order by AREA (land size), from largest to smallest: India, Poland, Afghanistan, Colombia",
@@ -16652,144 +16063,6 @@
    "src": "authored"
   },
   {
-   "q": "Which country is this landmark in?",
-   "a": "Bolivia",
-   "d": "medium",
-   "src": "authored",
-   "img": "landmark-photos/opt/bolivia.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "Chile",
-   "d": "medium",
-   "src": "authored",
-   "img": "landmark-photos/opt/chile.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "France",
-   "d": "medium",
-   "src": "authored",
-   "img": "landmark-photos/opt/france-2.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "France",
-   "d": "medium",
-   "src": "authored",
-   "img": "landmark-photos/opt/france-3.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "Spain",
-   "d": "medium",
-   "src": "authored",
-   "img": "landmark-photos/opt/spain-2.jpg"
-  },
-  {
-   "q": "Which country is this landmark in?",
-   "a": "United States",
-   "d": "medium",
-   "src": "authored",
-   "img": "landmark-photos/opt/united-states.jpg"
-  },
-  {
-   "q": "Which country? 🍽️😋",
-   "a": "Hungary (hungry)",
-   "d": "hard",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🐄⏳",
-   "a": "Kuwait (cow + wait)",
-   "d": "hard",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🦠👨‍👩‍👧‍👦",
-   "a": "Germany (germ + many)",
-   "d": "hard",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🕳️🛬",
-   "a": "The Netherlands (hole + landing)",
-   "d": "hard",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🎤🅰️🫗",
-   "a": "Singapore",
-   "d": "hard",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🥫🐍",
-   "a": "Canada",
-   "d": "hard",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 😡🅰️⛽🚘",
-   "a": "Madagascar",
-   "d": "hard",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🚣‍♂️🤪",
-   "a": "Romania",
-   "d": "hard",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? ✚🚪🅰️",
-   "a": "Andorra",
-   "d": "hard",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🇦🇺🌳🅰️",
-   "a": "Austria",
-   "d": "hard",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 👙🤧",
-   "a": "Brazil",
-   "d": "hard",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🗝️🦵🅰️",
-   "a": "Kenya",
-   "d": "hard",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 😺®️",
-   "a": "Qatar",
-   "d": "hard",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🅱️9️⃣",
-   "a": "Benin",
-   "d": "hard",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🧢🟢",
-   "a": "Cape Verde",
-   "d": "hard",
-   "src": "authored"
-  },
-  {
-   "q": "Which country? 🚣‍♂️&🅰️",
-   "a": "Rwanda",
-   "d": "hard",
-   "src": "authored"
-  },
-  {
    "q": "What is the capital of Andorra?",
    "a": "Andorra la Vella",
    "d": "hard",
@@ -17166,125 +16439,6 @@
    "a": "Sucre (La Paz is the seat of government)",
    "d": "hard",
    "src": "authored"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "India",
-   "d": "hard",
-   "src": "authored",
-   "img": "country-shapes/india.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Thailand",
-   "d": "hard",
-   "src": "authored",
-   "img": "country-shapes/thailand.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Sri Lanka",
-   "d": "hard",
-   "src": "authored",
-   "img": "country-shapes/sri-lanka.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Netherlands",
-   "d": "hard",
-   "src": "authored",
-   "img": "country-shapes/netherlands.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Poland",
-   "d": "hard",
-   "src": "authored",
-   "img": "country-shapes/poland.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Ukraine",
-   "d": "hard",
-   "src": "authored",
-   "img": "country-shapes/ukraine.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Kenya",
-   "d": "hard",
-   "src": "authored",
-   "img": "country-shapes/kenya.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Nigeria",
-   "d": "hard",
-   "src": "authored",
-   "img": "country-shapes/nigeria.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Morocco",
-   "d": "hard",
-   "src": "authored",
-   "img": "country-shapes/morocco.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Iraq",
-   "d": "hard",
-   "src": "authored",
-   "img": "country-shapes/iraq.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Afghanistan",
-   "d": "hard",
-   "src": "authored",
-   "img": "country-shapes/afghanistan.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Nepal",
-   "d": "hard",
-   "src": "authored",
-   "img": "country-shapes/nepal.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Colombia",
-   "d": "hard",
-   "src": "authored",
-   "img": "country-shapes/colombia.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Finland",
-   "d": "hard",
-   "src": "authored",
-   "img": "country-shapes/finland.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Somalia",
-   "d": "hard",
-   "src": "authored",
-   "img": "country-shapes/somalia.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Pakistan",
-   "d": "hard",
-   "src": "authored",
-   "img": "country-shapes/pakistan.svg"
-  },
-  {
-   "q": "Which country has this shape?",
-   "a": "Indonesia",
-   "d": "hard",
-   "src": "authored",
-   "img": "country-shapes/indonesia.svg"
   },
   {
    "q": "Put these four countries in order by AREA (land size), from largest to smallest: Afghanistan, Nigeria, China, Australia",
@@ -18173,6 +17327,854 @@
    "a": "China, Iran, Sweden, Libya",
    "d": "hard",
    "src": "authored"
+  }
+ ],
+ "Guess the Country": [
+  {
+   "q": "Which country? 🍕🍝",
+   "a": "Italy",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🦘🐨",
+   "a": "Australia",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🍁",
+   "a": "Canada",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🗼🥖",
+   "a": "France",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🐋🐳",
+   "a": "Wales",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🌶️",
+   "a": "Chile",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? ❄️🛬",
+   "a": "Iceland",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 😋",
+   "a": "Hungary",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🟢🛬",
+   "a": "Greenland",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🦈🛬",
+   "a": "Finland",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🦘🅰️",
+   "a": "Australia",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "United Kingdom",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-shapes/united-kingdom.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "United States",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-shapes/united-states.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Italy",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-shapes/italy.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Australia",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-shapes/australia.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Mexico",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-shapes/mexico.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "China",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-shapes/china.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "France",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-shapes/france.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Japan",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-shapes/japan.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Brazil",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-shapes/brazil.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Canada",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-shapes/canada.svg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "Australia",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/australia-2.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "Brazil",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/brazil.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "Brazil",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/brazil-2.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "China",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/china.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "Egypt",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/egypt.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "France",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/france-4.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "Germany",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/germany.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "Greece",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/greece.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "India",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/india.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "Italy",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/italy.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "Italy",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/italy-2.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "Japan",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/japan.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "Mexico",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/mexico.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "Nepal",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/nepal.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "Peru",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/peru.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "Russia",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/russia.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "Turkey",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/turkey.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "United Arab Emirates",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/united-arab-emirates-2.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "United Kingdom",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/united-kingdom.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "United States",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/united-states-2.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "United States",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/united-states-3.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "United States",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/united-states-4.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "United States",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/united-states-5.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "Vatican City",
+   "d": "easy",
+   "src": "authored",
+   "img": "landmark-photos/opt/vatican-city.jpg"
+  },
+  {
+   "q": "Which country? 🦃",
+   "a": "Turkey",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🥶🌶️",
+   "a": "Chile (chilly + chili)",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🧊🛬",
+   "a": "Iceland (ice + landing)",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🐟🛬",
+   "a": "Finland (fin + landing)",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🧊🅰️",
+   "a": "Cuba",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🍽️☕🍚",
+   "a": "China",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🍳🅰️🤰",
+   "a": "Panama",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 👁️👂🛬",
+   "a": "Ireland",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🐜🥶",
+   "a": "Antarctica",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🍐U",
+   "a": "Peru",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? U🏗️",
+   "a": "Ukraine",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 💈🛬",
+   "a": "Poland",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🔔🏋️‍♂️",
+   "a": "Belgium",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 👁️🏃‍♂️",
+   "a": "Iran",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🦠🅰️🦵",
+   "a": "Germany",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 👀🐚🐚",
+   "a": "Seychelles",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🥃🛬",
+   "a": "Scotland",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? Ⓢ🤕",
+   "a": "Spain",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 👔1️⃣",
+   "a": "Taiwan",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? J🍳",
+   "a": "Japan",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🔔🧊",
+   "a": "Belize",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? O🧍‍♂️",
+   "a": "Oman",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 👔🛬",
+   "a": "Thailand",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Egypt",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-shapes/egypt.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Spain",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-shapes/spain.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Germany",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-shapes/germany.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Chile",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-shapes/chile.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Argentina",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-shapes/argentina.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "South Africa",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-shapes/south-africa.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Norway",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-shapes/norway.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Sweden",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-shapes/sweden.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Portugal",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-shapes/portugal.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Ireland",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-shapes/ireland.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Iceland",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-shapes/iceland.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Greece",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-shapes/greece.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Turkey",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-shapes/turkey.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Saudi Arabia",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-shapes/saudi-arabia.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "South Korea",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-shapes/south-korea.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Vietnam",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-shapes/vietnam.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Cuba",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-shapes/cuba.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Madagascar",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-shapes/madagascar.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "New Zealand",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-shapes/new-zealand.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Iran",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-shapes/iran.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Peru",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-shapes/peru.svg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "Bolivia",
+   "d": "medium",
+   "src": "authored",
+   "img": "landmark-photos/opt/bolivia.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "Chile",
+   "d": "medium",
+   "src": "authored",
+   "img": "landmark-photos/opt/chile.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "France",
+   "d": "medium",
+   "src": "authored",
+   "img": "landmark-photos/opt/france-2.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "France",
+   "d": "medium",
+   "src": "authored",
+   "img": "landmark-photos/opt/france-3.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "Spain",
+   "d": "medium",
+   "src": "authored",
+   "img": "landmark-photos/opt/spain-2.jpg"
+  },
+  {
+   "q": "Which country is this landmark in?",
+   "a": "United States",
+   "d": "medium",
+   "src": "authored",
+   "img": "landmark-photos/opt/united-states.jpg"
+  },
+  {
+   "q": "Which country? 🍽️😋",
+   "a": "Hungary (hungry)",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🐄⏳",
+   "a": "Kuwait (cow + wait)",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🦠👨‍👩‍👧‍👦",
+   "a": "Germany (germ + many)",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🕳️🛬",
+   "a": "The Netherlands (hole + landing)",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🎤🅰️🫗",
+   "a": "Singapore",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🥫🐍",
+   "a": "Canada",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 😡🅰️⛽🚘",
+   "a": "Madagascar",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🚣‍♂️🤪",
+   "a": "Romania",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? ✚🚪🅰️",
+   "a": "Andorra",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🇦🇺🌳🅰️",
+   "a": "Austria",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 👙🤧",
+   "a": "Brazil",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🗝️🦵🅰️",
+   "a": "Kenya",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 😺®️",
+   "a": "Qatar",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🅱️9️⃣",
+   "a": "Benin",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🧢🟢",
+   "a": "Cape Verde",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? 🚣‍♂️&🅰️",
+   "a": "Rwanda",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "India",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-shapes/india.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Thailand",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-shapes/thailand.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Sri Lanka",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-shapes/sri-lanka.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Netherlands",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-shapes/netherlands.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Poland",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-shapes/poland.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Ukraine",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-shapes/ukraine.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Kenya",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-shapes/kenya.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Nigeria",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-shapes/nigeria.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Morocco",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-shapes/morocco.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Iraq",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-shapes/iraq.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Afghanistan",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-shapes/afghanistan.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Nepal",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-shapes/nepal.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Colombia",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-shapes/colombia.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Finland",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-shapes/finland.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Somalia",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-shapes/somalia.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Pakistan",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-shapes/pakistan.svg"
+  },
+  {
+   "q": "Which country has this shape?",
+   "a": "Indonesia",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-shapes/indonesia.svg"
   },
   {
    "q": "Which country is this landmark in?",

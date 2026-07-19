@@ -516,7 +516,10 @@ let bannedSet = loadSet(BANNED_KEY);
   try{
     if(localStorage.getItem("sj_mig_v3")) return;
     let changed = false;
-    for(const t of ["Country Capitals", "Guess the Country", "Country Shapes", "Rank Countries"]){
+    // "Guess the Country" is deliberately NOT in this list: it used to be one of
+    // the old split topics, but it is a live topic again (emoji + landmarks +
+    // shapes), so this migration must never delete it.
+    for(const t of ["Country Capitals", "Country Shapes", "Rank Countries"]){
       if(bank[t]){ delete bank[t]; changed = true; }
     }
     if(!bank["Countries"]){ bank["Countries"] = JSON.parse(JSON.stringify(DEFAULT_BANK["Countries"])); changed = true; }

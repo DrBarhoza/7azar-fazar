@@ -22,9 +22,11 @@ SRC = {
  # the old harvested + authored sets are no longer dealt.
  "Medicine":       (None,                  ["Medicine.docx.json"]),
  "Soccer":         ("Soccer.clean.json",   []),
- "Countries":      (None, ["Emoji.authored.json", "EmojiPdf.authored.json", "Capitals.authored.json",
-                           "CountryShapes.authored.json", "RankCountries.authored.json",
-                           "LandmarkPhotos.authored.json"]),
+ # Countries keeps the written rounds; the three "name that country from a
+ # picture / emoji" rounds are their own topic.
+ "Countries":      (None, ["Capitals.authored.json", "RankCountries.authored.json"]),
+ "Guess the Country": (None, ["Emoji.authored.json", "EmojiPdf.authored.json",
+                              "CountryShapes.authored.json", "LandmarkPhotos.authored.json"]),
  "El-Barahma":     (None, ["Barahma.authored.json"]),
 }
 
