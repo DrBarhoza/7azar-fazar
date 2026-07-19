@@ -18,7 +18,9 @@ SRC = {
  "History":        ("History.json",        []),
  "Hollywood":      ("Hollywood.json",      []),
  "Animals":        ("Animals.clean.json",  ["Animals.authored.json"]),
- "Medicine":       ("Medicine.clean.json", ["Medicine.authored.json"]),
+ # Medicine was replaced wholesale by the Word bank (gen/medicine_gen_docx.py);
+ # the old harvested + authored sets are no longer dealt.
+ "Medicine":       (None,                  ["Medicine.docx.json"]),
  "Soccer":         ("Soccer.clean.json",   []),
  "Countries":      (None, ["Emoji.authored.json", "EmojiPdf.authored.json", "Capitals.authored.json",
                            "CountryShapes.authored.json", "RankCountries.authored.json",
