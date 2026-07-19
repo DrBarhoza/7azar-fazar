@@ -20,15 +20,23 @@ teams answer out loud and the host judges.
    even number of questions, the two teams get the same number of turns.
 7. After picking a tile, a "Get ready" screen shows the topic, the team, and what
    the question is worth — press **Go!** to start the clock.
-8. The host reads the question, the team answers before the timer runs out, and
-   the host presses **✓ Correct** or **✗ Wrong** (press **👁 Reveal answer** to
-   show the answer on screen). Then the board returns for the other team's pick.
-9. **Steal rule:** if a team misses and the answer wasn't revealed yet, the other
-   team may steal for half the points. Stealing does not change whose turn it is
-   to pick next.
+8. The host reads the question. **Both teams say their answer out loud** — the
+   team whose turn it is first, then the other team. While this happens the only
+   button on screen is **👁 Reveal answer**, so nothing is scored yet.
+9. The host presses **👁 Reveal answer**. The answer appears, the clock stops,
+   and the judging buttons take its place:
+   - **✓ Correct** — the team whose turn it is got it: full points, and a
+     celebration video plays on medium and hard questions.
+   - **✗ Wrong** — nobody got it: no points, and a booing video plays.
+   - **🔁 Steal** — the *other* team got it: they take half the points, quietly
+     (no video). Stealing does not change whose turn it is to pick next. The
+     button is hidden when the steal rule is set to Disabled.
+
+   Then the board returns for the other team's pick.
 10. **Swap rule:** a team that doesn't like its question can pay **5 points** to
     swap it for another question of the same topic and difficulty (🔄 button).
-    The timer restarts with the new question.
+    The timer restarts with the new question. Only available before the answer is
+    revealed — you can't trade away a question you've already seen the answer to.
 11. Highest score once the board is empty wins. 🏆
 
 ## Banning bad questions

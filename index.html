@@ -130,12 +130,7 @@
   #timeLeft.warn{color:var(--bad); animation:pulse .5s infinite alternate;}
   @keyframes pulse{from{transform:scale(1);}to{transform:scale(1.12);}}
   .controls{display:flex; gap:12px; justify-content:center; margin-top:22px; flex-wrap:wrap;}
-  #stealPanel{
-    display:none; margin-top:18px; padding:16px; border-radius:14px; text-align:center;
-    background:#3a2b12; border:1px solid var(--teamB);
-  }
-  #stealPanel.shown{display:block;}
-  #stealPanel .btns{margin-top:12px; display:flex; gap:10px; justify-content:center;}
+  .btn.steal{background:#3a2b12; border:1px solid var(--teamB); color:var(--teamB);}
 
   /* intermission overlay */
   #overlay{
@@ -346,18 +341,12 @@
     </div>
   </div>
 
-  <div id="stealPanel">
-    <strong id="stealText"></strong>
-    <div class="btns">
-      <button class="btn good small" id="btnStealYes">✓ Other team got it (+half points)</button>
-      <button class="btn bad small" id="btnStealNo">✗ They missed too</button>
-    </div>
-  </div>
-
   <div class="controls" id="stdControls">
+    <!-- both teams answer out loud first; the host reveals, then judges -->
     <button class="btn ghost" id="btnReveal">👁 Reveal answer</button>
     <button class="btn good" id="btnCorrect">✓ Correct</button>
     <button class="btn bad" id="btnWrong">✗ Wrong</button>
+    <button class="btn steal" id="btnSteal">🔁 Steal</button>
   </div>
   <div class="controls" id="barahmaControls" style="display:none;">
     <button class="btn good" id="btnBWho">👤 Who ✓</button>
@@ -932,7 +921,6 @@ $("btnGo").addEventListener("click", ()=>{
 });
 function startQuestion(){
   const c = cur();
-  game.answerRevealed = false;
   usedSet.add(c.id); saveUsed();
   const total = game.board.reduce((s,col)=>s+col.cells.length, 0);
   $("topicBanner").textContent = c.type === "barahma"
@@ -976,11 +964,7 @@ function startQuestion(){
     $("barahmaControls").style.display = "none";
   }
   $("aText").classList.remove("shown");
-  $("stealPanel").classList.remove("shown");
-  $("btnCorrect").disabled = false;
-  $("btnWrong").disabled = false;
-  $("btnReveal").disabled = false;
-  $("btnSwap").disabled = false;
+  setJudging(false);
   updateScores();
   startTimer();
 }
@@ -999,7 +983,7 @@ function startTimer(){
     if(timer.left <= 0){
       stopTimer();
       sfx.timeUp();
-      $("timerHint").textContent = "⏰ Time's up! Judge the answer →";
+      $("timerHint").textContent = "⏰ Time's up! Reveal the answer →";
     }
   }, 1000);
   $("timerHint").textContent = "answer before time runs out!";
@@ -1020,17 +1004,37 @@ function renderTimer(){
   tl.classList.toggle("warn", timer.left <= 5);
 }
 
+/* The question screen has two phases. While the teams answer out loud only
+   "Reveal answer" is offered; revealing shows the answer and swaps in the
+   judging buttons, so scoring is always a decision made with the answer on
+   screen. Swapping is gone by then — you can't trade a question you've seen. */
+function setJudging(on){
+  game.answerRevealed = on;
+  $("btnReveal").style.display = on ? "none" : "";
+  for(const id of ["btnCorrect","btnWrong","btnSteal"]) $(id).style.display = on ? "" : "none";
+  if(on && game.steal){
+    const other = game.teams[1 - curTeam()].name;
+    $("btnSteal").textContent = `🔁 ${other} stole it (+${Math.floor(PTS[cur().d]/2)})`;
+  }
+  $("btnSteal").style.display = (on && game.steal) ? "" : "none";   // steal rule off → no button
+  $("btnSwap").disabled = on;
+}
 $("btnReveal").addEventListener("click", ()=>{
-  game.answerRevealed = true;
+  stopTimer();                       // the answering window is over
   $("aText").classList.add("shown");
+  $("timerHint").textContent = "who got it? →";
+  setJudging(true);
 });
 /* ---- reaction videos: add more paths to either list; one is picked at random ---- */
 const REACTIONS = {
   celebration: [
     "reactions/celebration/cheer-1.mp4",
+    "reactions/celebration/Cristiano Ronaldo siuuu.MP4",
+    "reactions/celebration/Facebook 2 (معدل).MP4",
   ],
   booing: [
-    // e.g. "reactions/booing/boo-1.mp4",
+    "reactions/booing/Facebook (معدل) (معدل).MP4",
+    "reactions/booing/osama.m.22.MP4",
   ],
 };
 function playReaction(kind, done){
@@ -1045,7 +1049,8 @@ function playReaction(kind, done){
     v.removeAttribute("src"); v.load();
     done();
   };
-  v.src = list[Math.floor(Math.random() * list.length)];
+  // encodeURI: some clip names carry spaces, parentheses and Arabic text
+  v.src = encodeURI(list[Math.floor(Math.random() * list.length)]);
   v.onended = finish;
   v.onerror = finish;              // missing/broken file must never stall the game
   ov.onclick = finish;             // click anywhere to skip
@@ -1054,33 +1059,22 @@ function playReaction(kind, done){
   if(p && p.catch) p.catch(()=>finish());   // autoplay blocked → just carry on
 }
 $("btnCorrect").addEventListener("click", ()=>{
-  stopTimer(); sfx.correct();
+  sfx.correct();
   game.teams[curTeam()].score += PTS[cur().d];
   updateScores();
   if(cur().d >= 2) playReaction("celebration", ()=>nextQuestion());   // medium & hard get a cheer
   else nextQuestion();
 });
 $("btnWrong").addEventListener("click", ()=>{
-  stopTimer(); sfx.wrong();
-  // steal chance only if answer wasn't already revealed on screen
-  if(game.steal && !game.answerRevealed){
-    const other = 1 - curTeam();
-    $("stealText").textContent = `🔁 ${game.teams[other].name} can answer for ${Math.floor(PTS[cur().d]/2)} points (half)!`;
-    $("stealPanel").classList.add("shown");
-    $("btnCorrect").disabled = true;
-    $("btnWrong").disabled = true;
-    $("btnReveal").disabled = true;
-    $("btnSwap").disabled = true;
-  } else {
-    nextQuestion();
-  }
+  sfx.wrong();
+  playReaction("booing", ()=>nextQuestion());
 });
-$("btnStealYes").addEventListener("click", ()=>{
+$("btnSteal").addEventListener("click", ()=>{
   sfx.correct();
-  game.teams[1 - curTeam()].score += Math.floor(PTS[cur().d]/2);
-  nextQuestion();
+  game.teams[1 - curTeam()].score += Math.floor(PTS[cur().d]/2);   // half, to the other team
+  updateScores();
+  nextQuestion();                                                  // a steal gets no reaction
 });
-$("btnStealNo").addEventListener("click", ()=>{ sfx.wrong(); nextQuestion(); });
 
 /* ---- El-Barahma photo round: who / where / when, each clears the blur a step ---- */
 function baraCorrect(){ return (game.bara.who?1:0) + (game.bara.where?1:0) + (game.bara.when?1:0); }
