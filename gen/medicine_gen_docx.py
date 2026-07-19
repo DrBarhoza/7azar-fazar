@@ -10,36 +10,20 @@ The Category column carries the difficulty:
 
 Reads the .docx as a zip and walks the table XML, so no python-docx needed.
 """
-import json, os, re, zipfile
-import xml.etree.ElementTree as ET
+import json, os, re
 from collections import Counter
+
+from docx_table import rows_from_docx
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC  = f"{BASE}/gen/Medicine.source.docx"
 OUT  = f"{BASE}/gen/Medicine.docx.json"
 
-W = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
 TIER = {"easy": "easy", "difficult": "hard"}      # everything else falls to medium
 
 
-def cell_text(tc):
-    """A cell's paragraphs joined by newline, runs within a paragraph concatenated."""
-    paras = ["".join(t.text or "" for t in p.iter(f"{W}t")) for p in tc.iter(f"{W}p")]
-    return "\n".join(paras).strip()
-
-
-def rows_from_docx(path):
-    with zipfile.ZipFile(path) as z:
-        root = ET.fromstring(z.read("word/document.xml"))
-    tbl = next(root.iter(f"{W}tbl"))
-    for tr in tbl.findall(f"{W}tr"):
-        cells = [cell_text(tc) for tc in tr.findall(f"{W}tc")]
-        if len(cells) == 4:
-            yield cells
-
-
 def main():
-    rows = list(rows_from_docx(SRC))
+    rows = list(rows_from_docx(SRC, width=4))
     if rows and rows[0][1].strip().lower() == "category":
         rows = rows[1:]                            # drop the header row
 
