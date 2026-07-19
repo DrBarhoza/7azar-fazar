@@ -17,7 +17,7 @@ SRC = {
  "Geography":      ("Geography.json",      ["Geography.easy.json"]),
  "History":        ("History.json",        []),
  "Hollywood":      ("Hollywood.json",      []),
- "Animals":        ("Animals.clean.json",  ["Animals.authored.json"]),
+ "Animals":        ("Animals.clean.json",  ["Animals.authored.json", "Animals.docx.json"]),
  # Medicine was replaced wholesale by the Word bank (gen/medicine_gen_docx.py);
  # the old harvested + authored sets are no longer dealt.
  "Medicine":       (None,                  ["Medicine.docx.json"]),
