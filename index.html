@@ -7,16 +7,31 @@
 <script defer src="https://unpkg.com/mammoth@1.6.0/mammoth.browser.min.js"></script>
 <style>
   :root{
-    --bg:#0f1226; --bg2:#181c3a; --card:#1f2447; --card2:#272d5c;
-    --ink:#f3f4ff; --muted:#9aa0c7;
-    --teamA:#22d3ee; --teamB:#fbbf24;
-    --good:#34d399; --bad:#f87171;
+    /* The five accents, each in two strengths. The bright one is for borders,
+       tints and confetti; the deep one is for anything that carries text —
+       white on bright orange is only 2.9:1, which is unreadable across a room. */
+    --orange:#ea580c; --green:#16a34a; --turq:#0891b2; --blue:#3b82f6; --pink:#ec4899;
+    --orange-d:#c2410c; --green-d:#15803d; --turq-d:#0e7490; --blue-d:#1d4ed8; --pink-d:#be185d;
+    --bg:#ffffff; --bg2:#f5f8fc; --card:#ffffff; --card2:#eef4ff;
+    /* --muted is a touch darker than it looks like it needs to be: the panels
+       are tinted, not white, which costs ~0.5 of contrast on small text */
+    --ink:#16182b; --muted:#59616f; --line:#e3e9f4;
+    --teamA:var(--turq); --teamB:var(--orange);
+    --good:var(--green-d); --bad:#e11d48;
     --radius:18px;
   }
   *{box-sizing:border-box; margin:0; padding:0;}
   body{
     font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    background:radial-gradient(1200px 800px at 70% -10%, #2a2f63 0%, var(--bg) 55%);
+    /* a wash of all five accents — strong enough that no screen reads as plain
+       white, light enough that dark text stays comfortably readable on top */
+    background:
+      radial-gradient(900px 620px at 92% -6%,  #ffd9b8 0%, transparent 60%),
+      radial-gradient(820px 560px at 2% 4%,    #bfeaf2 0%, transparent 58%),
+      radial-gradient(760px 560px at 22% 98%,  #d6f2dd 0%, transparent 58%),
+      radial-gradient(820px 600px at 78% 104%, #fbcfe4 0%, transparent 58%),
+      #eef4fb;
+    background-attachment:fixed;
     color:var(--ink); min-height:100vh;
   }
   .screen{display:none; max-width:1000px; margin:0 auto; padding:24px 16px 60px;}
@@ -24,13 +39,21 @@
   h1{font-size:2.4rem; text-align:center; margin:18px 0 4px; letter-spacing:.5px;}
   h1 .sj{background:linear-gradient(90deg,var(--teamA),var(--teamB)); -webkit-background-clip:text; background-clip:text; color:transparent;}
   .tagline{text-align:center; color:var(--muted); margin-bottom:28px;}
-  .card{background:var(--card); border:1px solid #333a75; border-radius:var(--radius); padding:20px; margin-bottom:18px;}
-  .card h2{font-size:1.05rem; text-transform:uppercase; letter-spacing:1.5px; color:var(--muted); margin-bottom:14px;}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:20px; margin-bottom:18px; box-shadow:0 2px 10px #16182b0a;}
+  .card h2{font-size:1.05rem; text-transform:uppercase; letter-spacing:1.5px; color:#4b5563; margin-bottom:14px;}
+  /* each setup panel gets its own colour so the page isn't a wall of white */
+  .card.c-teams {background:#d6ebff; border-color:#a7d3f5;}
+  .card.c-topics{background:#ffe7d1; border-color:#f9c48c;}
+  .card.c-rules {background:#ffdcec; border-color:#f7add0;}
+  .card.c-bank  {background:#d8f7e0; border-color:#8fdfa9;}
+  /* inputs and chips go white so they lift off the tinted panel */
+  .card.c-teams input[type=text], .card.c-rules select, .card.c-bank input[type=text],
+  .card.c-topics .topic-chip, .card.c-rules .tierbox, .card.c-rules .scorebox{background:#fff;}
   .row{display:flex; gap:14px; flex-wrap:wrap;}
   .row > *{flex:1; min-width:200px;}
   label.field{display:block; font-size:.85rem; color:var(--muted); margin-bottom:6px;}
   input[type=text], select{
-    width:100%; padding:12px 14px; border-radius:12px; border:1px solid #3b4287;
+    width:100%; padding:12px 14px; border-radius:12px; border:1px solid var(--line);
     background:var(--bg2); color:var(--ink); font-size:1rem; outline:none;
   }
   input[type=text]:focus, select:focus{border-color:var(--teamA);}
@@ -39,29 +62,30 @@
   .topics{display:grid; grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); gap:10px;}
   .topic-chip{
     display:flex; align-items:center; gap:8px; padding:12px 14px; border-radius:12px;
-    background:var(--bg2); border:1px solid #3b4287; cursor:pointer; user-select:none;
+    background:var(--bg2); border:1px solid var(--line); cursor:pointer; user-select:none;
     transition:all .15s;
   }
-  .topic-chip:hover{border-color:var(--teamA);}
-  .topic-chip.checked{background:#123a4d; border-color:var(--teamA);}
+  .topic-chip:hover{border-color:var(--turq);}
+  .topic-chip.checked{background:#dff6fa; border-color:var(--turq); color:#0b5f70;}
   .topic-chip input{accent-color:var(--teamA); width:17px; height:17px;}
   .topic-chip .count{margin-left:auto; font-size:.75rem; color:var(--muted);}
   .topic-chip select.qn{
     display:none; padding:4px 6px; border-radius:8px; font-size:.8rem;
-    background:var(--bg); color:var(--ink); border:1px solid #3b4287;
+    background:var(--bg); color:var(--ink); border:1px solid var(--line);
   }
   .topic-chip.checked select.qn{display:inline-block;}
   .hint{font-size:.85rem; color:var(--muted); margin-top:10px; line-height:1.5;}
   .btn{
     display:inline-block; padding:13px 26px; border-radius:14px; border:none; cursor:pointer;
-    font-size:1.05rem; font-weight:700; color:#0b0e22; background:var(--ink);
+    font-size:1.05rem; font-weight:700; color:#fff; background:var(--blue);
     transition:transform .1s, filter .15s;
   }
-  .btn:hover{filter:brightness(1.1);} .btn:active{transform:scale(.97);}
-  .btn.primary{background:linear-gradient(90deg,var(--teamA),#60a5fa); color:#06121f; font-size:1.2rem; padding:16px 40px;}
-  .btn.good{background:var(--good); color:#06231a;}
-  .btn.bad{background:var(--bad); color:#2b0a0a;}
-  .btn.ghost{background:transparent; color:var(--ink); border:1px solid #4a51a0;}
+  .btn:hover{filter:brightness(1.08);} .btn:active{transform:scale(.97);}
+  .btn.primary{background:linear-gradient(90deg,var(--turq-d),var(--blue-d) 55%,var(--pink-d)); color:#fff; font-size:1.2rem; padding:16px 40px; box-shadow:0 6px 18px #1d4ed840;}
+  .btn.good{background:var(--good); color:#fff;}
+  .btn.bad{background:var(--bad); color:#fff;}
+  .btn.ghost{background:#fff; color:var(--ink); border:1px solid var(--line);}
+  .btn.ghost:hover{border-color:var(--blue); color:var(--blue);}
   .btn.small{padding:9px 16px; font-size:.9rem;}
   .btn:disabled{opacity:.4; cursor:not-allowed;}
   .center{text-align:center;}
@@ -74,30 +98,33 @@
   .scoreboard{display:flex; gap:14px; margin-bottom:18px;}
   .team-score{
     flex:1; background:var(--card); border-radius:var(--radius); padding:14px 18px;
-    border:2px solid transparent; transition:border .2s, box-shadow .2s;
+    border:2px solid var(--line); transition:border .2s, box-shadow .2s;
   }
   .team-score .tname{font-weight:700; font-size:1.05rem; margin-bottom:2px;}
   .team-score .tpts{font-size:2rem; font-weight:800;}
-  .team-score.t0 .tpts{color:var(--teamA);} .team-score.t1 .tpts{color:var(--teamB);}
-  .team-score.active-turn.t0{border-color:var(--teamA); box-shadow:0 0 18px #22d3ee44;}
-  .team-score.active-turn.t1{border-color:var(--teamB); box-shadow:0 0 18px #fbbf2444;}
+  .team-score.t0{background:#dff4fa;} .team-score.t1{background:#ffeada;}
+  .team-score.t0 .tpts{color:var(--turq-d);} .team-score.t1 .tpts{color:var(--orange-d);}
+  .team-score.active-turn.t0{border-color:var(--teamA); box-shadow:0 0 0 4px #0891b21f;}
+  .team-score.active-turn.t1{border-color:var(--teamB); box-shadow:0 0 0 4px #f973161f;}
   .game-meta{display:flex; justify-content:space-between; align-items:center; color:var(--muted); font-size:.9rem; margin-bottom:10px; flex-wrap:wrap; gap:6px;}
   .topic-banner{
     text-align:center; font-size:1.3rem; font-weight:800; letter-spacing:1px;
-    padding:10px; border-radius:12px; background:var(--card2); margin-bottom:16px;
+    padding:10px; border-radius:12px; margin-bottom:16px; color:#fff;
+    background:linear-gradient(90deg,var(--turq-d),var(--blue-d) 50%,var(--pink-d));
   }
   .qwrap{display:flex; gap:20px; align-items:stretch; flex-wrap:wrap;}
   .qcard{
     flex:1; min-width:260px; background:var(--card); border-radius:var(--radius);
     padding:34px 28px; display:flex; flex-direction:column; justify-content:center;
-    border:1px solid #333a75; min-height:230px;
+    border:1px solid #b9dcf5; min-height:230px; box-shadow:0 3px 14px #16182b12;
+    background:#eaf5ff;
   }
   #qText{font-size:1.7rem; font-weight:700; line-height:1.4; text-align:center;}
   #qImgWrap{display:none; margin-top:18px; text-align:center;}
   #qImgWrap.shown{display:block;}
   #qImg{
     max-width:100%; max-height:52vh; border-radius:10px; background:#fff;
-    padding:8px; box-shadow:0 4px 18px #0007;
+    padding:8px; box-shadow:0 4px 18px #16182b26; border:1px solid var(--line);
     transition:filter .45s ease, transform .45s ease;
   }
   #qImgHint{font-size:.75rem; color:var(--muted); margin-top:6px;}
@@ -113,14 +140,14 @@
   .qwrap.with-img #timeLeft{font-size:1.5rem !important;}
   #aText{
     margin-top:22px; text-align:center; font-size:1.35rem; color:var(--good);
-    font-weight:800; display:none; border-top:1px dashed #3b4287; padding-top:18px;
+    font-weight:800; display:none; border-top:2px dashed var(--line); padding-top:18px;
   }
   #aText.shown{display:block;}
   .timer-box{display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; min-width:160px;}
   .ring{position:relative; width:140px; height:140px;}
   .ring svg{transform:rotate(-90deg);}
   .ring circle{fill:none; stroke-width:10;}
-  .ring .track{stroke:#2b3163;}
+  .ring .track{stroke:#e8edf7;}
   .ring .bar{stroke:var(--teamA); stroke-linecap:round; transition:stroke .3s;}
   .ring .bar.warn{stroke:var(--bad);}
   #timeLeft{
@@ -130,11 +157,11 @@
   #timeLeft.warn{color:var(--bad); animation:pulse .5s infinite alternate;}
   @keyframes pulse{from{transform:scale(1);}to{transform:scale(1.12);}}
   .controls{display:flex; gap:12px; justify-content:center; margin-top:22px; flex-wrap:wrap;}
-  .btn.steal{background:#3a2b12; border:1px solid var(--teamB); color:var(--teamB);}
+  .btn.steal{background:#fff3e8; border:1px solid var(--orange); color:#b8480a;}
 
   /* intermission overlay */
   #overlay{
-    position:fixed; inset:0; background:#0f1226ee; display:none;
+    position:fixed; inset:0; background:#eaf3fdf7; display:none;
     align-items:center; justify-content:center; z-index:50;
   }
   #overlay.shown{display:flex;}
@@ -145,9 +172,10 @@
   .ov-sub{color:var(--muted); margin-bottom:26px;}
 
   .tierbox{display:flex; align-items:center; gap:7px; padding:9px 14px; border-radius:10px;
-    background:var(--bg2); border:1px solid #3b4287; cursor:pointer; font-size:.98rem; user-select:none;}
+    background:var(--bg2); border:1px solid var(--line); cursor:pointer; font-size:.98rem; user-select:none;}
   .tierbox input{width:17px; height:17px; accent-color:var(--teamA);}
   .tierbox.off{opacity:.5;}
+  .scorebox{padding:12px 14px; border-radius:12px; background:var(--bg2); border:1px solid var(--line);}
 
   /* ---- pick board ---- */
   .board{display:flex; gap:10px; align-items:flex-start; justify-content:center; transform-origin:top center;}
@@ -155,21 +183,36 @@
   .board-col h3{
     font-size:.82rem; text-align:center; padding:6px 6px; border-radius:10px 10px 0 0;
     background:var(--card2); min-height:0; display:flex; align-items:center; justify-content:center;
+    color:#fff; font-weight:800;
   }
+  /* each topic column takes the next accent, so the board reads as five colours */
+  .board-col{border-radius:10px; padding:0 5px 5px; }
+  .board-col:nth-child(5n+1) h3{background:var(--turq-d);}
+  .board-col:nth-child(5n+2) h3{background:var(--orange-d);}
+  .board-col:nth-child(5n+3) h3{background:var(--green-d);}
+  .board-col:nth-child(5n+4) h3{background:var(--blue-d);}
+  .board-col:nth-child(5n+5) h3{background:var(--pink-d);}
+  /* the column body carries a pale version of its header colour */
+  .board-col:nth-child(5n+1){background:#dbf1f7;}
+  .board-col:nth-child(5n+2){background:#ffe7d4;}
+  .board-col:nth-child(5n+3){background:#dcf4e3;}
+  .board-col:nth-child(5n+4){background:#dfe9ff;}
+  .board-col:nth-child(5n+5){background:#fcdeeb;}
+  .board-col h3{margin:0 -5px;}
   .cell{
-    width:100%; margin-top:5px; padding:7px 6px; border-radius:10px; border:1px solid #3b4287;
-    background:var(--bg2); color:var(--ink); font-size:1.05rem; font-weight:800; cursor:pointer; line-height:1.05;
+    width:100%; margin-top:5px; padding:7px 6px; border-radius:10px; border:1px solid var(--line);
+    background:#fff; color:var(--ink); font-size:1.05rem; font-weight:800; cursor:pointer; line-height:1.05;
     transition:transform .1s, background .15s, border-color .15s;
   }
-  .cell:hover:not(:disabled){background:var(--card2); border-color:var(--teamA); transform:translateY(-2px);}
+  .cell:hover:not(:disabled){background:var(--card2); border-color:var(--blue); transform:translateY(-2px);}
   .cell{position:relative; border-left-width:5px;}
   .cell:disabled{cursor:default;}
   .cell.own0{border-left-color:var(--teamA);}
   .cell.own1{border-left-color:var(--teamB);}
-  .cell.own0.mine{background:#123246;}
-  .cell.own1.mine{background:#3a2f12;}
-  .cell.theirs{opacity:.4; text-decoration:none;}
-  .cell.done{opacity:.25; text-decoration:line-through; border-left-color:#555 !important;}
+  .cell.own0.mine{background:#dff6fa;}
+  .cell.own1.mine{background:#fff1e4;}
+  .cell.theirs{opacity:.45; text-decoration:none;}
+  .cell.done{opacity:.3; text-decoration:line-through; border-left-color:#c9d2e3 !important;}
   .cell .dot{display:block; font-size:.68rem; font-weight:400; margin-top:1px; opacity:.75;}
   #boardTurn{text-align:center; font-size:1.2rem; font-weight:800; margin:4px 0 10px;}
   #boardTurn.t0{color:var(--teamA);} #boardTurn.t1{color:var(--teamB);}
@@ -184,7 +227,9 @@
   /* results */
   #winnerName{font-size:3rem; text-align:center; font-weight:900; margin:20px 0;}
   .final-scores{display:flex; gap:16px; justify-content:center; margin:26px 0; flex-wrap:wrap;}
-  .final-scores .fs{background:var(--card); padding:22px 34px; border-radius:var(--radius); text-align:center; min-width:180px;}
+  .final-scores .fs{background:var(--card); border:1px solid var(--line); box-shadow:0 3px 14px #16182b0d; padding:22px 34px; border-radius:var(--radius); text-align:center; min-width:180px;}
+  .final-scores .fs:nth-child(1){background:#dff4fa; border-color:#a7dce8;}
+  .final-scores .fs:nth-child(2){background:#ffeada; border-color:#f9c48c;}
   .final-scores .fs .n{color:var(--muted); margin-bottom:6px;}
   .final-scores .fs .p{font-size:2.4rem; font-weight:800;}
   canvas#confetti{position:fixed; inset:0; pointer-events:none; z-index:40;}
@@ -195,7 +240,8 @@
   }
   #cheerOverlay.shown{display:flex;}
   #cheerVideo{max-width:88vw; max-height:78vh; border-radius:14px; box-shadow:0 10px 50px #000;}
-  #cheerOverlay .skip{color:var(--muted); font-size:.85rem;}
+  /* this overlay stays dark — video reads better against black */
+  #cheerOverlay .skip{color:#ffffffb3; font-size:.85rem;}
   @media (max-width:640px){
     #qText{font-size:1.3rem;}
     h1{font-size:1.7rem;}
@@ -210,7 +256,7 @@
   <h1><span class="sj">7azar Fazar</span> 🎯</h1>
   <p class="tagline">Two teams. Timed questions. One champion family.</p>
 
-  <div class="card">
+  <div class="card c-teams">
     <h2>Teams</h2>
     <div class="row">
       <div class="teamA-accent" style="padding-left:12px;">
@@ -224,13 +270,13 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card c-topics">
     <h2>Topics <span style="text-transform:none; letter-spacing:0;">(pick up to 6 — the ×N box sets how many questions that topic holds, shared by both teams)</span></h2>
     <div class="topics" id="topicList"></div>
     <p class="hint" id="topicHint"></p>
   </div>
 
-  <div class="card">
+  <div class="card c-rules">
     <h2>Rules</h2>
     <div class="row">
       <div>
@@ -252,7 +298,7 @@
       </div>
       <div>
         <label class="field">Scoring — teams take turns picking from the board</label>
-        <div style="padding:12px 14px; border-radius:12px; background:var(--bg2); border:1px solid #3b4287;">
+        <div class="scorebox">
           🟢 Easy 10 · 🟡 Medium 20 · 🔴 Hard 30
         </div>
       </div>
@@ -266,7 +312,7 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card c-bank">
     <h2>Question bank</h2>
     <div class="file-row">
       <button class="btn small ghost" id="btnPickFile">📂 Load .docx / .json file</button>
@@ -927,7 +973,8 @@ function yearRange(question, answer){
 function showIntermission(){
   const c = cur(), team = curTeam();
   $("ovTopic").textContent = "📚 " + game.board[game.pick.ti].topic;
-  $("ovTeam").textContent = team===0 ? "🔵 " + game.teams[0].name : "🟡 " + game.teams[1].name;
+  // 🟠 not 🟡: team 2 is orange now, and 🟡 already means the medium tier
+  $("ovTeam").textContent = team===0 ? "🔵 " + game.teams[0].name : "🟠 " + game.teams[1].name;
   $("ovTeam").className = "ov-team t" + team;
   $("ovSub").textContent = c.type === "barahma"
     ? `📷 Family photo — ${PTS[c.d]} points • name WHO, WHERE and WHEN (${Math.round(PTS[c.d]/3)} each) • ${fmtDur(c.t || game.timerSecs)} on the clock`
@@ -1224,7 +1271,7 @@ $("btnAgain").addEventListener("click", ()=>{
 function launchConfetti(){
   const cv = $("confetti"), ctx = cv.getContext("2d");
   cv.width = innerWidth; cv.height = innerHeight;
-  const colors = ["#22d3ee","#fbbf24","#34d399","#f87171","#a78bfa","#f472b6"];
+  const colors = ["#0891b2","#f97316","#16a34a","#3b82f6","#ec4899","#fbbf24"];
   const parts = Array.from({length:160}, ()=>({
     x: Math.random()*cv.width, y: -20 - Math.random()*cv.height*.5,
     w: 6+Math.random()*6, h: 8+Math.random()*8,
