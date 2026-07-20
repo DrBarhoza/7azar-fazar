@@ -33,6 +33,11 @@ teams answer out loud and the host judges.
      button is hidden when the steal rule is set to Disabled.
 
    Then the board returns for the other team's pick.
+
+   **Year questions are judged loosely:** when the answer is a year, the card
+   also shows the window to accept — `✓ 1492  (accept 1491 – 1493)`. A year
+   either side counts, so "1491" is a correct answer to a 1492 question. This
+   applies to the El-Barahma photo round's 📅 WHEN as well.
 10. **Swap rule:** a team that doesn't like its question can pay **5 points** to
     swap it for another question of the same topic and difficulty (🔄 button).
     The timer restarts with the new question. Only available before the answer is

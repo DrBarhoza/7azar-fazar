@@ -907,6 +907,23 @@ function fitBoard(){
   grid.style.marginBottom = (natH * scale - natH) + "px";   // reclaim the untransformed layout space
 }
 window.addEventListener("resize", ()=>{ if($("screen-board").classList.contains("active")) fitBoard(); });
+
+/* ---- year questions accept a year either side ----
+   Nobody types an answer here — the host hears "nineteen sixty-eight", the card
+   says 1969, and has to rule on it. So the card shows the window to accept.
+   Both tests must pass: the answer is nothing but a year, AND the question is
+   actually asking about time. That second test is what keeps "Roughly how many
+   men were in a Roman legion? 5000" from sprouting a date range. */
+const YEAR_ANSWER = /^\s*(?:in\s+)?(\d{3,4})\s*(BCE?|AD)?\s*\.?\s*$/i;
+const TEMPORAL_Q  = /\byear\b|\bwhen\b/i;
+function yearRange(question, answer){
+  const m = YEAR_ANSWER.exec(String(answer == null ? "" : answer));
+  if(!m || !TEMPORAL_Q.test(String(question || ""))) return "";
+  const v = parseInt(m[1], 10), era = (m[2] || "").toUpperCase();
+  // BC years count backwards, so the earlier bound is the bigger number
+  if(era.startsWith("B")) return `  (accept ${v+1}${era} – ${v-1}${era})`;
+  return `  (accept ${v-1} – ${v+1}${era ? " " + era : ""})`;
+}
 function showIntermission(){
   const c = cur(), team = curTeam();
   $("ovTopic").textContent = "📚 " + game.board[game.pick.ti].topic;
@@ -951,7 +968,8 @@ function startQuestion(){
   if(isBara){
     $("qText").style.fontSize = "1.15rem"; $("qText").style.color = "";
     $("qImgHint").textContent = `Photo ${c.ref || "?"} · Guess WHO, WHERE and WHEN — the host clears the photo as you get them.`;
-    $("aText").textContent = `👤 ${c.who || "?"}    📍 ${c.where || "?"}    📅 ${c.when || "?"}`;
+    // the photo round's WHEN is a year guess too, so it gets the same window
+    $("aText").textContent = `👤 ${c.who || "?"}    📍 ${c.where || "?"}    📅 ${c.when || "?"}${yearRange("when", c.when)}`;
     $("qImg").classList.add("blur3");
     game.bara = {who:false, where:false, when:false, hints:0};
     $("stdControls").style.display = "none";
@@ -962,7 +980,7 @@ function startQuestion(){
     $("btnBHint").disabled = false;
   } else {
     $("qImgHint").textContent = '🚫 Use "Ban this question" if the image looks wrong or cut off';
-    $("aText").textContent = "✓ " + c.a;
+    $("aText").textContent = "✓ " + c.a + yearRange(c.q, c.a);
     $("stdControls").style.display = "";
     $("barahmaControls").style.display = "none";
   }
