@@ -2,8 +2,23 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- viewport-fit=cover so the board can reach under the notch; the safe-area
+     insets below keep the controls clear of it -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>7azar Fazar — Family Quiz Battle</title>
+
+<!-- ---- installable web app ---- -->
+<link rel="manifest" href="./manifest.webmanifest">
+<meta name="theme-color" content="#0e7490">
+<meta name="description" content="A party quiz game for two teams, hosted on a shared screen.">
+<link rel="icon" href="./icons/favicon-32.png" sizes="32x32" type="image/png">
+<!-- iOS ignores the manifest for these three; it needs its own tags -->
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="7azar Fazar">
+<meta name="mobile-web-app-capable" content="yes">
+
 <script defer src="https://unpkg.com/mammoth@1.6.0/mammoth.browser.min.js"></script>
 <style>
   :root{
@@ -37,7 +52,14 @@
   .screen{display:none; max-width:1000px; margin:0 auto; padding:24px 16px 60px;}
   .screen.active{display:block;}
   h1{font-size:2.4rem; text-align:center; margin:18px 0 4px; letter-spacing:.5px;}
-  h1 .sj{background:linear-gradient(90deg,var(--teamA),var(--teamB)); -webkit-background-clip:text; background-clip:text; color:transparent;}
+  /* the gradient sits on the h1 itself so it still runs unbroken across both
+     words with the logo in between; background-clip:text only paints glyphs,
+     so the <img> child renders normally */
+  h1 .sj, h1.sj{background:linear-gradient(90deg,var(--teamA),var(--teamB)); -webkit-background-clip:text; background-clip:text; color:transparent;}
+  /* the mark keeps its own black backing, so it reads as a badge rather than a
+     blob — rounded like the app icon it is */
+  .brand-mark{height:1.15em; width:1.15em; object-fit:cover; border-radius:24%;
+    vertical-align:-.22em; margin:0 .3em; box-shadow:0 2px 10px #16182b40;}
   .tagline{text-align:center; color:var(--muted); margin-bottom:28px;}
   .card{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:20px; margin-bottom:18px; box-shadow:0 2px 10px #16182b0a;}
   .card h2{font-size:1.05rem; text-transform:uppercase; letter-spacing:1.5px; color:#4b5563; margin-bottom:14px;}
@@ -91,6 +113,16 @@
   .center{text-align:center;}
   .file-row{display:flex; gap:10px; flex-wrap:wrap; align-items:center;}
   .file-row input[type=text]{flex:1; min-width:220px;}
+  /* automatic bank load: one line above the panels, only while it matters */
+  #bankStatus{display:none; margin:0 0 18px; padding:12px 16px; border-radius:14px;
+    font-size:.95rem; font-weight:600; border:1px solid transparent; text-align:center;}
+  #bankStatus.shown{display:block;}
+  #bankStatus.loading{background:#e6eeff; border-color:#c2d4fb; color:var(--blue-d);}
+  #bankStatus.ok{background:#d8f7e0; border-color:#8fdfa9; color:var(--green-d);}
+  #bankStatus.err{background:#ffe0e7; border-color:#f5a8bd; color:#a3123a; text-align:left;}
+  #bankStatus .sub{display:block; font-weight:500; font-size:.85rem; margin-top:6px; opacity:.9;}
+  #bankStatus button{margin-top:10px;}
+  #bankToggleRow{margin-bottom:18px;}
   #fileStatus{font-size:.85rem; margin-top:10px;}
   #fileStatus.ok{color:var(--good);} #fileStatus.err{color:var(--bad);}
 
@@ -120,6 +152,11 @@
     background:#eaf5ff;
   }
   #qText{font-size:1.7rem; font-weight:700; line-height:1.4; text-align:center;}
+  /* the ±1 notice rides with the question so the teams see it while guessing */
+  #qNote{display:none; margin-top:12px; text-align:center; font-size:.95rem; font-weight:700;
+    color:var(--blue-d); background:#e6eeff; border:1px solid #c2d4fb;
+    border-radius:999px; padding:6px 14px; align-self:center;}
+  #qNote.shown{display:inline-block;}
   #qImgWrap{display:none; margin-top:18px; text-align:center;}
   #qImgWrap.shown{display:block;}
   #qImg{
@@ -128,11 +165,6 @@
     transition:filter .45s ease, transform .45s ease;
   }
   #qImgHint{font-size:.75rem; color:var(--muted); margin-top:6px;}
-  /* El-Barahma blur stages (over-scale so blurred edges don't show a halo) */
-  #qImg.blur3{filter:blur(13px); transform:scale(1.05);}
-  #qImg.blur2{filter:blur(8px); transform:scale(1.03);}
-  #qImg.blur1{filter:blur(3px); transform:scale(1.015);}
-  #qImg.blur0{filter:none; transform:none;}
   /* figure questions need the whole width — drop the timer onto its own row */
   .qwrap.with-img .qcard{flex:1 1 100%; min-height:0;}
   .qwrap.with-img .timer-box{flex-direction:row; gap:18px; width:100%;}
@@ -216,8 +248,10 @@
   .cell .dot{display:block; font-size:.68rem; font-weight:400; margin-top:1px; opacity:.75;}
   #boardTurn{text-align:center; font-size:1.2rem; font-weight:800; margin:4px 0 10px;}
   #boardTurn.t0{color:var(--teamA);} #boardTurn.t1{color:var(--teamB);}
-  /* board screen fills the viewport so everything fits on one TV screen */
-  #screen-board.active{display:flex; flex-direction:column; height:100vh; padding-top:12px; padding-bottom:10px; overflow:hidden;}
+  /* board screen fills the viewport so everything fits on one TV screen.
+     100dvh, not 100vh: on iOS the address bar makes vh overshoot, which pushed
+     the bottom of the board off screen. dvh tracks the visible area. */
+  #screen-board.active{display:flex; flex-direction:column; height:100vh; height:100dvh; padding-top:12px; padding-bottom:10px; overflow:hidden;}
   #screen-board .scoreboard{margin-bottom:8px;}
   #screen-board .team-score{padding:9px 16px;}
   #screen-board .team-score .tpts{font-size:1.5rem;}
@@ -242,10 +276,68 @@
   #cheerVideo{max-width:88vw; max-height:78vh; border-radius:14px; box-shadow:0 10px 50px #000;}
   /* this overlay stays dark — video reads better against black */
   #cheerOverlay .skip{color:#ffffffb3; font-size:.85rem;}
-  @media (max-width:640px){
+
+  /* ---- responsive ----------------------------------------------------
+     Three shapes: phone (one column, big touch targets), tablet (roomier
+     grids), desktop/TV (the 1000px centred layout above). */
+
+  /* keep content clear of the notch and the home indicator when installed */
+  .screen{padding-left:max(16px, env(safe-area-inset-left));
+          padding-right:max(16px, env(safe-area-inset-right));}
+  #screen-board.active{padding-bottom:max(10px, env(safe-area-inset-bottom));}
+  .controls{padding-bottom:env(safe-area-inset-bottom);}
+
+  /* standalone apps shouldn't feel like a web page being dragged around */
+  body{-webkit-tap-highlight-color:transparent; overscroll-behavior:none;}
+  .btn, .cell, .topic-chip, .tierbox{-webkit-user-select:none; user-select:none; touch-action:manipulation;}
+
+  @media (max-width:900px){                 /* tablets */
+    .screen{max-width:100%;}
+    .topics{grid-template-columns:repeat(auto-fill,minmax(190px,1fr));}
+    #qText{font-size:1.5rem;}
+  }
+
+  @media (max-width:640px){                 /* phones */
+    h1{font-size:1.7rem;} .tagline{margin-bottom:18px;}
+    .screen{padding-top:14px; padding-bottom:40px;}
+    .card{padding:15px; border-radius:14px;}
+    .row > *{min-width:100%;}               /* rules fields stack */
+    .topics{grid-template-columns:1fr 1fr; gap:8px;}
+    .topic-chip{padding:11px 10px; font-size:.92rem;}
     #qText{font-size:1.3rem;}
-    h1{font-size:1.7rem;}
+    .qcard{padding:22px 16px; min-height:0;}
     .team-score .tpts{font-size:1.5rem;}
+    .team-score{padding:10px 12px;}
+    /* timer sits beside the question instead of stealing a whole row */
+    .qwrap{gap:12px;} .timer-box{min-width:0; flex-direction:row; width:100%; gap:14px;}
+    .ring{width:88px; height:88px;} #timeLeft{font-size:1.5rem;}
+    /* full-width judging buttons — easier to hit, harder to mis-tap */
+    .controls{gap:9px;} .controls .btn{flex:1 1 100%; min-height:48px;}
+    .btn{padding:12px 18px;} .btn.small{padding:10px 14px;}
+    .btn.primary{width:100%; font-size:1.1rem;}
+    .file-row{flex-direction:column; align-items:stretch;}
+    .file-row input[type=text]{min-width:0;}
+    #winnerName{font-size:2rem;} .final-scores .fs{padding:16px 22px; min-width:140px;}
+    #cheerVideo{max-width:94vw; max-height:70vh;}
+  }
+
+  @media (max-width:420px){                 /* small phones */
+    .topics{grid-template-columns:1fr;}
+    h1{font-size:1.45rem;}
+  }
+
+  /* phone in landscape: almost no height, so shed vertical padding */
+  @media (max-height:520px) and (orientation:landscape){
+    .screen{padding-top:8px;}
+    h1, .tagline{display:none;}
+    .qcard{padding:14px 16px; min-height:0;}
+    #qText{font-size:1.15rem;}
+    .ring{width:72px; height:72px;} #timeLeft{font-size:1.3rem;}
+    .controls{margin-top:12px;}
+  }
+
+  @media (prefers-reduced-motion:reduce){   /* respect the OS setting */
+    *{animation-duration:.001ms !important; transition-duration:.001ms !important;}
   }
 </style>
 </head>
@@ -253,8 +345,13 @@
 
 <!-- ============ SETUP ============ -->
 <section id="screen-setup" class="screen active">
-  <h1><span class="sj">7azar Fazar</span> 🎯</h1>
+  <!-- alt="" on purpose: the words either side already say the name, so the
+       mark is decoration and a screen reader should skip it -->
+  <h1 class="sj">7azar<img class="brand-mark" src="./icons/icon-192.png" alt="" width="192" height="192">Fazar</h1>
   <p class="tagline">Two teams. Timed questions. One champion family.</p>
+
+  <!-- how the automatic bank load is going; aria-live so it is announced -->
+  <div id="bankStatus" role="status" aria-live="polite"></div>
 
   <div class="card c-teams">
     <h2>Teams</h2>
@@ -312,7 +409,15 @@
     </div>
   </div>
 
-  <div class="card c-bank">
+  <!-- The bank loads itself now, so this panel is collapsed by default and the
+       manual loaders are the fallback. -->
+  <div class="center" id="bankToggleRow">
+    <button class="btn small ghost" id="btnShowBank" aria-expanded="false" aria-controls="bankCard">
+      📂 Load a different question bank
+    </button>
+  </div>
+
+  <div class="card c-bank" id="bankCard" hidden>
     <h2>Question bank</h2>
     <div class="file-row">
       <button class="btn small ghost" id="btnPickFile">📂 Load .docx / .json file</button>
@@ -369,6 +474,8 @@
   <div class="qwrap">
     <div class="qcard">
       <div id="qText"></div>
+      <!-- shown with the question, while the teams are still guessing -->
+      <div id="qNote"></div>
       <div id="qImgWrap">
         <img id="qImg" alt="Question figure">
         <div id="qImgHint">🚫 Use “Ban this question” if the image looks wrong or cut off</div>
@@ -393,13 +500,6 @@
     <button class="btn good" id="btnCorrect">✓ Correct</button>
     <button class="btn bad" id="btnWrong">✗ Wrong</button>
     <button class="btn steal" id="btnSteal">🔁 Steal</button>
-  </div>
-  <div class="controls" id="barahmaControls" style="display:none;">
-    <button class="btn good" id="btnBWho">👤 Who ✓</button>
-    <button class="btn good" id="btnBWhere">📍 Where ✓</button>
-    <button class="btn good" id="btnBWhen">📅 When ✓</button>
-    <button class="btn bad" id="btnBHint">🔍 Clear a layer (−9 pts)</button>
-    <button class="btn ghost" id="btnBDone">➡ Reveal &amp; next</button>
   </div>
   <div class="center" style="margin-top:26px; display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
     <button class="btn small ghost" id="btnSwap">🔄 Swap question (−5 pts)</button>
@@ -735,14 +835,6 @@ function validateJsonBank(obj){
                       // figure image: a relative path next to this page, or a data: URI
                       if(typeof x.img === "string" && x.img.trim() && !/^\s*(https?|javascript):/i.test(x.img))
                         e.img = x.img.trim();
-                      // El-Barahma photo round: keep the type + where/when answers
-                      if(x.type === "barahma"){
-                        e.type = "barahma";
-                        if(typeof x.who === "string") e.who = x.who.trim();
-                        if(typeof x.where === "string") e.where = x.where.trim();
-                        if(typeof x.when === "string") e.when = x.when.trim();
-                        if(typeof x.ref === "string") e.ref = x.ref.trim();
-                      }
                       return e;
                     });
     if(clean.length) parsed[topic] = clean;
@@ -846,11 +938,9 @@ function tierListFor(n, tiers){
 function buildBoard(configs, tierSel){
   const usedPicAns = new Set();                  // board-wide: no country picture twice
   return configs.map(({topic, n})=>{
-    const qs = activeQs(topic).map(x=>({q:x.q, a:x.a, d:normD(x.d ?? 2), t:x.t, img:x.img, type:x.type, who:x.who, where:x.where, when:x.when, ref:x.ref, id:qid(topic, x.q)}));
+    const qs = activeQs(topic).map(x=>({q:x.q, a:x.a, d:normD(x.d ?? 2), t:x.t, img:x.img, id:qid(topic, x.q)}));
     const takenIds = new Set();
-    // El-Barahma has no difficulty tiers — all cells one flat value, filter ignored
-    const flat = qs.length && qs.every(x=>x.type === "barahma");
-    const tiers = flat ? Array(n).fill(3) : tierListFor(n, tierSel);
+    const tiers = tierListFor(n, tierSel);
     const seen = {};                             // split each tier evenly: owners 0,1,0,1…
     const cells = tiers.map(tier => {
       const k = seen[tier] || 0; seen[tier] = k + 1;
@@ -924,7 +1014,7 @@ function showBoard(){
       b.className = "cell own" + cell.owner + (cell.done ? " done" : (mine ? " mine" : " theirs"));
       b.disabled = cell.done || !mine;
       b.title = cell.done ? "" : `${game.teams[cell.owner].name}'s question`;
-      const cellLabel = cell.type === "barahma" ? "📷 Photo" : `${TIER_DOT[cell.d]} ${TIER_NAME[cell.d]}`;
+      const cellLabel = `${TIER_DOT[cell.d]} ${TIER_NAME[cell.d]}`;
       b.innerHTML = `${PTS[cell.d]}<span class="dot">${cellLabel}</span>`;
       if(!cell.done && mine) b.addEventListener("click", ()=>{
         ensureAudio();
@@ -962,13 +1052,25 @@ window.addEventListener("resize", ()=>{ if($("screen-board").classList.contains(
    men were in a Roman legion? 5000" from sprouting a date range. */
 const YEAR_ANSWER = /^\s*(?:in\s+)?(\d{3,4})\s*(BCE?|AD)?\s*\.?\s*$/i;
 const TEMPORAL_Q  = /\byear\b|\bwhen\b/i;
-function yearRange(question, answer){
+function yearAnswer(question, answer){
   const m = YEAR_ANSWER.exec(String(answer == null ? "" : answer));
-  if(!m || !TEMPORAL_Q.test(String(question || ""))) return "";
-  const v = parseInt(m[1], 10), era = (m[2] || "").toUpperCase();
+  if(!m || !TEMPORAL_Q.test(String(question || ""))) return null;
+  return {v: parseInt(m[1], 10), era: (m[2] || "").toUpperCase()};
+}
+/* the explicit window, for the host judging after the reveal */
+function yearRange(question, answer){
+  const y = yearAnswer(question, answer);
+  if(!y) return "";
   // BC years count backwards, so the earlier bound is the bigger number
-  if(era.startsWith("B")) return `  (accept ${v+1}${era} – ${v-1}${era})`;
-  return `  (accept ${v-1} – ${v+1}${era ? " " + era : ""})`;
+  if(y.era.startsWith("B")) return `  (accept ${y.v+1}${y.era} – ${y.v-1}${y.era})`;
+  return `  (accept ${y.v-1} – ${y.v+1}${y.era ? " " + y.era : ""})`;
+}
+/* the same fact, told to the teams while they are still guessing. Says only
+   that the tolerance exists — naming the window here would give the answer. */
+function showYearNote(question, answer){
+  const on = !!yearAnswer(question, answer);
+  $("qNote").textContent = on ? "🎯 ±1 year — a year either side counts" : "";
+  $("qNote").classList.toggle("shown", on);
 }
 function showIntermission(){
   const c = cur(), team = curTeam();
@@ -976,9 +1078,7 @@ function showIntermission(){
   // 🟠 not 🟡: team 2 is orange now, and 🟡 already means the medium tier
   $("ovTeam").textContent = team===0 ? "🔵 " + game.teams[0].name : "🟠 " + game.teams[1].name;
   $("ovTeam").className = "ov-team t" + team;
-  $("ovSub").textContent = c.type === "barahma"
-    ? `📷 Family photo — ${PTS[c.d]} points • name WHO, WHERE and WHEN (${Math.round(PTS[c.d]/3)} each) • ${fmtDur(c.t || game.timerSecs)} on the clock`
-    : `${TIER_DOT[c.d]} ${TIER_NAME[c.d]} — worth ${PTS[c.d]} points • ${fmtDur(c.t || game.timerSecs)} on the clock`;
+  $("ovSub").textContent = `${TIER_DOT[c.d]} ${TIER_NAME[c.d]} — worth ${PTS[c.d]} points • ${fmtDur(c.t || game.timerSecs)} on the clock`;
   $("overlay").classList.add("shown");
 }
 $("btnGo").addEventListener("click", ()=>{
@@ -990,9 +1090,7 @@ function startQuestion(){
   const c = cur();
   usedSet.add(c.id); saveUsed();
   const total = game.board.reduce((s,col)=>s+col.cells.length, 0);
-  $("topicBanner").textContent = c.type === "barahma"
-    ? `${game.board[game.pick.ti].topic} — 📷 Photo (${PTS[c.d]} pts)`
-    : `${game.board[game.pick.ti].topic} — ${TIER_DOT[c.d]} ${TIER_NAME[c.d]} (${PTS[c.d]} pts)`;
+  $("topicBanner").textContent = `${game.board[game.pick.ti].topic} — ${TIER_DOT[c.d]} ${TIER_NAME[c.d]} (${PTS[c.d]} pts)`;
   $("progressText").textContent = `Question ${total - cellsLeft() + 1} / ${total}`;
   $("turnText").textContent = `${game.teams[curTeam()].name}'s turn`;
   $("qText").textContent = c.q;
@@ -1010,27 +1108,10 @@ function startQuestion(){
     $("qText").style.fontSize = "";
     $("qText").style.color = "";
   }
-  const isBara = c.type === "barahma";
-  $("qImg").classList.remove("blur3","blur2","blur1","blur0");
-  if(isBara){
-    $("qText").style.fontSize = "1.15rem"; $("qText").style.color = "";
-    $("qImgHint").textContent = `Photo ${c.ref || "?"} · Guess WHO, WHERE and WHEN — the host clears the photo as you get them.`;
-    // the photo round's WHEN is a year guess too, so it gets the same window
-    $("aText").textContent = `👤 ${c.who || "?"}    📍 ${c.where || "?"}    📅 ${c.when || "?"}${yearRange("when", c.when)}`;
-    $("qImg").classList.add("blur3");
-    game.bara = {who:false, where:false, when:false, hints:0};
-    $("stdControls").style.display = "none";
-    $("barahmaControls").style.display = "";
-    $("btnBWho").disabled = false;
-    $("btnBWhere").disabled = false;
-    $("btnBWhen").disabled = false;
-    $("btnBHint").disabled = false;
-  } else {
-    $("qImgHint").textContent = '🚫 Use "Ban this question" if the image looks wrong or cut off';
-    $("aText").textContent = "✓ " + c.a + yearRange(c.q, c.a);
-    $("stdControls").style.display = "";
-    $("barahmaControls").style.display = "none";
-  }
+  $("qImgHint").textContent = '🚫 Use "Ban this question" if the image looks wrong or cut off';
+  $("aText").textContent = "✓ " + c.a + yearRange(c.q, c.a);
+  $("stdControls").style.display = "";
+  showYearNote(c.q, c.a);
   $("aText").classList.remove("shown");
   setJudging(false);
   updateScores();
@@ -1144,44 +1225,6 @@ $("btnSteal").addEventListener("click", ()=>{
   nextQuestion();                                                  // a steal gets no reaction
 });
 
-/* ---- El-Barahma photo round: who / where / when, each clears the blur a step ---- */
-function baraCorrect(){ return (game.bara.who?1:0) + (game.bara.where?1:0) + (game.bara.when?1:0); }
-function baraBlurStep(){
-  // blur clears for each correct answer AND for each paid hint
-  const lvl = Math.min(3, baraCorrect() + (game.bara.hints || 0));
-  const img = $("qImg");
-  img.classList.remove("blur3","blur2","blur1","blur0");
-  img.classList.add(["blur3","blur2","blur1","blur0"][lvl]);
-  $("btnBHint").disabled = lvl >= 3;              // nothing left to clear
-  return lvl;
-}
-function baraGot(part, btnId){
-  if(!game.bara || game.bara[part]) return;
-  game.bara[part] = true; sfx.correct();
-  game.teams[curTeam()].score += Math.round(PTS[cur().d] / 3);
-  baraBlurStep();
-  if(baraCorrect() === 3) $("aText").classList.add("shown");   // only a full guess reveals the answer
-  $(btnId).disabled = true;
-  updateScores();
-}
-$("btnBHint").addEventListener("click", ()=>{
-  if(!game.bara) return;
-  if(baraCorrect() + (game.bara.hints || 0) >= 3) return;      // already fully clear
-  game.bara.hints = (game.bara.hints || 0) + 1;
-  game.teams[curTeam()].score -= 9;
-  sfx.wrong();
-  baraBlurStep();
-  updateScores();
-});
-$("btnBWho").addEventListener("click", ()=>baraGot("who", "btnBWho"));
-$("btnBWhere").addEventListener("click", ()=>baraGot("where", "btnBWhere"));
-$("btnBWhen").addEventListener("click", ()=>baraGot("when", "btnBWhen"));
-$("btnBDone").addEventListener("click", ()=>{
-  stopTimer();
-  $("qImg").classList.remove("blur3","blur2","blur1"); $("qImg").classList.add("blur0");
-  $("aText").classList.add("shown");
-  nextQuestion();
-});
 
 function nextQuestion(){
   stopTimer();
@@ -1218,7 +1261,6 @@ function replacementFor(c){
 function putReplacement(repl){
   const cell = cur();
   delete cell.img; delete cell.t;                     // don't inherit the old question's figure
-  delete cell.type; delete cell.who; delete cell.where; delete cell.when; delete cell.ref;  // ...nor its El-Barahma fields
   Object.assign(cell, repl);   // keep the cell's position and done flag
 }
 $("btnBan").addEventListener("click", ()=>{
@@ -1295,6 +1337,83 @@ function launchConfetti(){
 
 /* ================= init ================= */
 renderTopicList();
+
+/* ---- installed-app plumbing ----------------------------------------------
+   Both of these are no-ops when the file is opened straight off disk, so
+   double-clicking index.html still works exactly as it always has. */
+
+/* ---- automatic question-bank load ---------------------------------------
+   The bank ships next to index.html and loads on its own, so nobody has to
+   find and import a JSON file before playing. It goes through exactly the same
+   validateJsonBank() -> mergeBank() path as a manual upload; there is no second
+   copy of the parsing or merging logic anywhere. */
+const BANK_URL = "./trivia-questions.json";   // capitalisation matters on Netlify
+
+function setBankStatus(kind, html){
+  const el = $("bankStatus");
+  el.className = kind ? "shown " + kind : "";
+  el.innerHTML = html || "";
+}
+
+async function loadBundledBank(){
+  setBankStatus("loading", "⏳ Loading the question bank…");
+  try{
+    const res = await fetch(BANK_URL, {cache:"no-cache"});
+    if(!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText} for ${BANK_URL}`);
+    const parsed = validateJsonBank(await res.json());
+    const topics = parsed ? Object.keys(parsed).length : 0;
+    if(!topics) throw new Error("the file loaded but held no usable topics");
+    mergeBank(parsed, "trivia-questions.json");           // the shared path
+    const total = Object.values(parsed).reduce((s,v)=>s+v.length, 0);
+    setBankStatus("ok", `✓ ${total.toLocaleString()} questions ready across ${topics} topics.`);
+    setTimeout(()=>setBankStatus(""), 4000);              // tidy itself away
+  }catch(err){
+    console.error("[7azar Fazar] could not load", BANK_URL, err);   // technical detail
+
+    // A failed fetch only matters if there is nothing to fall back on. Opening
+    // index.html straight off disk always fails this — file:// cannot fetch —
+    // but the bank saved in this browser loads fine, so the game is complete
+    // and there is nothing to warn about.
+    if(localStorage.getItem(BANK_KEY)){
+      const total = Object.values(bank).reduce((s,v)=>s+v.length, 0);
+      setBankStatus("ok", `✓ ${total.toLocaleString()} questions ready — using the bank saved in this browser.`);
+      setTimeout(()=>setBankStatus(""), 4000);
+      return;
+    }
+
+    const onDisk = location.protocol === "file:";
+    setBankStatus("err",
+      "⚠️ Couldn't load the question bank — playing with the built-in sample questions for now."
+      + `<span class="sub">${onDisk
+          ? "Opening the file directly from disk stops the browser fetching it. Serve the folder over http, or load the file by hand below."
+          : "Check your connection, then try again. The technical details are in the browser console."}</span>`
+      + `<button class="btn small ghost" id="btnRetryBank">↻ Try again</button>`);
+    const retry = $("btnRetryBank");
+    if(retry) retry.addEventListener("click", loadBundledBank);
+    revealBankPanel();                                    // the fallback, right where they need it
+  }
+}
+
+/* the manual loaders are a fallback now, so the panel starts collapsed */
+function revealBankPanel(){
+  $("bankCard").hidden = false;
+  $("btnShowBank").setAttribute("aria-expanded", "true");
+  $("bankToggleRow").hidden = true;
+}
+$("btnShowBank").addEventListener("click", revealBankPanel);
+
+document.addEventListener("DOMContentLoaded", loadBundledBank);
+/* the script tag sits at the end of <body>, so on a warm cache DOMContentLoaded
+   can already have fired by the time we get here — in which case run it now */
+if(document.readyState !== "loading") loadBundledBank();
+
+/* Service workers need a secure context; file:// and plain http on a LAN IP
+   are neither, and registering there throws. */
+if("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost" || location.hostname === "127.0.0.1")){
+  window.addEventListener("load", ()=>{
+    navigator.serviceWorker.register("./sw.js").catch(()=>{});
+  });
+}
 </script>
 </body>
 </html>
