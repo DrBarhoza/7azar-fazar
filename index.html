@@ -58,8 +58,8 @@
   h1 .sj, h1.sj{background:linear-gradient(90deg,var(--teamA),var(--teamB)); -webkit-background-clip:text; background-clip:text; color:transparent;}
   /* the mark keeps its own black backing, so it reads as a badge rather than a
      blob — rounded like the app icon it is */
-  .brand-mark{height:1.15em; width:1.15em; object-fit:cover; border-radius:24%;
-    vertical-align:-.22em; margin:0 .3em; box-shadow:0 2px 10px #16182b40;}
+  .brand-mark{height:1.55em; width:1.55em; object-fit:cover; border-radius:24%;
+    vertical-align:-.38em; margin:0 .22em; box-shadow:0 3px 14px #16182b52;}
   .tagline{text-align:center; color:var(--muted); margin-bottom:28px;}
   .card{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:20px; margin-bottom:18px; box-shadow:0 2px 10px #16182b0a;}
   .card h2{font-size:1.05rem; text-transform:uppercase; letter-spacing:1.5px; color:#4b5563; margin-bottom:14px;}
@@ -134,6 +134,14 @@
   }
   .team-score .tname{font-weight:700; font-size:1.05rem; margin-bottom:2px;}
   .team-score .tpts{font-size:2rem; font-weight:800;}
+  .score-line{display:flex; align-items:center; justify-content:space-between; gap:10px;}
+  .score-adjust{display:flex; gap:5px; flex-wrap:wrap; justify-content:flex-end;}
+  .score-adjust button{
+    min-width:36px; padding:5px 7px; border:1px solid #94a3b8; border-radius:8px;
+    background:#fff; color:var(--ink); font-size:.75rem; font-weight:800; cursor:pointer;
+  }
+  .score-adjust button:hover{border-color:var(--blue); color:var(--blue);}
+  .score-adjust button:active{transform:scale(.94);}
   .team-score.t0{background:#dff4fa;} .team-score.t1{background:#ffeada;}
   .team-score.t0 .tpts{color:var(--turq-d);} .team-score.t1 .tpts{color:var(--orange-d);}
   .team-score.active-turn.t0{border-color:var(--teamA); box-shadow:0 0 0 4px #0891b21f;}
@@ -260,6 +268,9 @@
 
   /* results */
   #winnerName{font-size:3rem; text-align:center; font-weight:900; margin:20px 0;}
+  #winnerVideoWrap{display:none; justify-content:center; margin:10px auto 20px; width:min(680px, 92vw);}
+  #winnerVideoWrap.shown{display:flex;}
+  #winnerVideo{display:block; width:100%; max-height:38vh; object-fit:contain; border-radius:18px; background:#000; box-shadow:0 12px 34px #16182b2b;}
   .final-scores{display:flex; gap:16px; justify-content:center; margin:26px 0; flex-wrap:wrap;}
   .final-scores .fs{background:var(--card); border:1px solid var(--line); box-shadow:0 3px 14px #16182b0d; padding:22px 34px; border-radius:var(--radius); text-align:center; min-width:180px;}
   .final-scores .fs:nth-child(1){background:#dff4fa; border-color:#a7dce8;}
@@ -267,7 +278,7 @@
   .final-scores .fs .n{color:var(--muted); margin-bottom:6px;}
   .final-scores .fs .p{font-size:2.4rem; font-weight:800;}
   canvas#confetti{position:fixed; inset:0; pointer-events:none; z-index:40;}
-  /* celebration video overlay */
+  /* full-screen reaction video overlay */
   #cheerOverlay{
     position:fixed; inset:0; background:#000000e0; display:none; z-index:60;
     align-items:center; justify-content:center; flex-direction:column; gap:12px; cursor:pointer;
@@ -318,6 +329,8 @@
     .file-row{flex-direction:column; align-items:stretch;}
     .file-row input[type=text]{min-width:0;}
     #winnerName{font-size:2rem;} .final-scores .fs{padding:16px 22px; min-width:140px;}
+    #winnerVideoWrap{margin:8px auto 14px; width:min(560px, 94vw);}
+    #winnerVideo{max-height:34vh; border-radius:13px;}
     #cheerVideo{max-width:94vw; max-height:70vh;}
   }
 
@@ -347,8 +360,8 @@
 <section id="screen-setup" class="screen active">
   <!-- alt="" on purpose: the words either side already say the name, so the
        mark is decoration and a screen reader should skip it -->
-  <h1 class="sj">7azar<img class="brand-mark" src="./icons/icon-192.png" alt="" width="192" height="192">Fazar</h1>
-  <p class="tagline">Two teams. Timed questions. One champion family.</p>
+  <h1 class="sj">7azar<img class="brand-mark" src="./icons/logo-home.png" alt="7F" width="192" height="192">Fazar</h1>
+  <p class="tagline">Think fast. Play smart. Rule the gang.</p>
 
   <!-- how the automatic bank load is going; aria-live so it is announced -->
   <div id="bankStatus" role="status" aria-live="polite"></div>
@@ -447,8 +460,8 @@
 <!-- ============ PICK BOARD ============ -->
 <section id="screen-board" class="screen">
   <div class="scoreboard">
-    <div class="team-score t0" id="bScore0"><div class="tname"></div><div class="tpts">0</div></div>
-    <div class="team-score t1" id="bScore1"><div class="tname"></div><div class="tpts">0</div></div>
+    <div class="team-score t0" id="bScore0"><div class="tname"></div><div class="score-line"><div class="tpts">0</div><div class="score-adjust" data-team="0"><button type="button" data-delta="-10">−10</button><button type="button" data-delta="-1">−1</button><button type="button" data-delta="1">+1</button><button type="button" data-delta="10">+10</button></div></div></div>
+    <div class="team-score t1" id="bScore1"><div class="tname"></div><div class="score-line"><div class="tpts">0</div><div class="score-adjust" data-team="1"><button type="button" data-delta="-10">−10</button><button type="button" data-delta="-1">−1</button><button type="button" data-delta="1">+1</button><button type="button" data-delta="10">+10</button></div></div></div>
   </div>
   <div class="game-meta"><span id="boardProgress"></span><span></span></div>
   <div id="boardTurn"></div>
@@ -461,8 +474,8 @@
 <!-- ============ GAME ============ -->
 <section id="screen-game" class="screen">
   <div class="scoreboard">
-    <div class="team-score t0" id="score0"><div class="tname"></div><div class="tpts">0</div></div>
-    <div class="team-score t1" id="score1"><div class="tname"></div><div class="tpts">0</div></div>
+    <div class="team-score t0" id="score0"><div class="tname"></div><div class="score-line"><div class="tpts">0</div><div class="score-adjust" data-team="0"><button type="button" data-delta="-10">−10</button><button type="button" data-delta="-1">−1</button><button type="button" data-delta="1">+1</button><button type="button" data-delta="10">+10</button></div></div></div>
+    <div class="team-score t1" id="score1"><div class="tname"></div><div class="score-line"><div class="tpts">0</div><div class="score-adjust" data-team="1"><button type="button" data-delta="-10">−10</button><button type="button" data-delta="-1">−1</button><button type="button" data-delta="1">+1</button><button type="button" data-delta="10">+10</button></div></div></div>
   </div>
 
   <div class="game-meta">
@@ -512,6 +525,9 @@
 <section id="screen-results" class="screen">
   <h1>🏆 Results</h1>
   <div id="winnerName"></div>
+  <div id="winnerVideoWrap">
+    <video id="winnerVideo" playsinline controls preload="auto"></video>
+  </div>
   <div class="final-scores">
     <div class="fs"><div class="n" id="fsName0"></div><div class="p" id="fsPts0" style="color:var(--teamA)"></div></div>
     <div class="fs"><div class="n" id="fsName1"></div><div class="p" id="fsPts1" style="color:var(--teamB)"></div></div>
@@ -531,7 +547,7 @@
   </div>
 </div>
 
-<!-- celebration video (medium/hard correct answers) -->
+<!-- reaction videos -->
 <div id="cheerOverlay">
   <video id="cheerVideo" playsinline></video>
   <div class="skip">click anywhere to skip</div>
@@ -673,9 +689,47 @@ let bannedSet = loadSet(BANNED_KEY);
     localStorage.setItem("sj_mig_v3", "1");
   }catch(e){}
 })();
+(function migrateCountryCityTopic(){ // one-time: retire the old name before the expanded bank loads
+  try{
+    if(localStorage.getItem("sj_mig_v4")) return;
+    if(bank["Guess the Country"]){
+      delete bank["Guess the Country"];
+      saveBank();
+    }
+    localStorage.setItem("sj_mig_v4", "1");
+  }catch(e){}
+})();
+(function removeRetiredLogoQuestions(){ // one-time: remove questions retired from the logo round
+  try{
+    if(localStorage.getItem("sj_mig_v9")) return;
+    const retired = new Set(["Bacardi", "Patreon", "Santa Cruz", "John Deere"]);
+    if(Array.isArray(bank["Logos"])){
+      bank["Logos"] = bank["Logos"].filter(q=>!retired.has(q.a));
+      saveBank();
+    }
+    localStorage.setItem("sj_mig_v9", "1");
+  }catch(e){}
+})();
+(function removeRetiredSickBoatRiddle(){ // one-time: remove a retired riddle from saved banks
+  try{
+    if(localStorage.getItem("sj_mig_v11")) return;
+    if(Array.isArray(bank["Riddles"])){
+      bank["Riddles"] = bank["Riddles"].filter(q=>q.q !== "Where do you take a sick boat?");
+      saveBank();
+    }
+    localStorage.setItem("sj_mig_v11", "1");
+  }catch(e){}
+})();
 let game = null;
 let timer = {id:null, left:0, total:30};
-let audioCtx = null;
+const gameMusic = new Audio("sounds/music/game-loop.mp3");
+const clockTicking = new Audio("sounds/effects/clock-ticking.mp3");
+const WINNER_ANNOUNCEMENT_VIDEO = "reactions/winner/winner-announcement-updated.mov";
+const GAME_MUSIC_VOLUME = 0.22;
+gameMusic.loop = true;
+gameMusic.volume = GAME_MUSIC_VOLUME;
+clockTicking.loop = true;
+clockTicking.volume = 0.38;
 
 /* ================= helpers ================= */
 const $ = id => document.getElementById(id);
@@ -703,14 +757,14 @@ function saveSet(key, set){ try{ localStorage.setItem(key, JSON.stringify([...se
 function saveUsed(){ saveSet(USED_KEY, usedSet); }
 function saveBanned(){ saveSet(BANNED_KEY, bannedSet); }
 function activeQs(topic){
-  return bank[topic].filter(x=>!bannedSet.has(qid(topic, x.q)));
+  return bank[topic].filter(x=>!bannedSet.has(qid(topic, x.q, x.img)));
 }
-function qid(topic, qtext){
+function qid(topic, qtext, img){
   // stable id per question so play history survives reloads and bank re-imports
   let h = 5381;
   // NUL separator: it cannot occur in a topic or question, so it cannot collide.
   // Spelled as an escape; as a raw byte it made this whole file read as binary.
-  const s = topic + "\u0000" + qtext;
+  const s = topic + "\u0000" + qtext + "\u0000" + (img || "");
   for(let i=0;i<s.length;i++) h = ((h*33) ^ s.charCodeAt(i)) >>> 0;
   return h.toString(36);
 }
@@ -722,26 +776,27 @@ function normD(d){
 function show(screenId){
   document.querySelectorAll(".screen").forEach(s=>s.classList.remove("active"));
   $(screenId).classList.add("active");
+  if(screenId === "screen-board" || screenId === "screen-game") playGameMusic();
+  else stopGameMusic();
 }
 
-/* ================= sounds (WebAudio, no files needed) ================= */
-function ensureAudio(){ if(!audioCtx) audioCtx = new (window.AudioContext||window.webkitAudioContext)(); }
-function beep(freq, dur, type="sine", vol=0.15, when=0){
-  if(!audioCtx) return;
-  const o = audioCtx.createOscillator(), g = audioCtx.createGain();
-  o.type = type; o.frequency.value = freq;
-  g.gain.setValueAtTime(vol, audioCtx.currentTime + when);
-  g.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + when + dur);
-  o.connect(g).connect(audioCtx.destination);
-  o.start(audioCtx.currentTime + when); o.stop(audioCtx.currentTime + when + dur + 0.05);
+/* ================= local game audio ================= */
+function playGameMusic(){
+  const p = gameMusic.play();
+  if(p && p.catch) p.catch(()=>{});
 }
-const sfx = {
-  tick: ()=>beep(880, .08, "square", .06),
-  timeUp: ()=>{ beep(180, .5, "sawtooth", .2); beep(140, .5, "sawtooth", .2, .15); },
-  correct: ()=>{ beep(660, .12); beep(880, .18, "sine", .15, .12); },
-  wrong: ()=>beep(220, .3, "triangle", .18),
-  fanfare: ()=>{ [523,659,784,1047].forEach((f,i)=>beep(f, .25, "sine", .15, i*.15)); }
-};
+function stopGameMusic(){ gameMusic.pause(); }
+function startClockTicking(){
+  gameMusic.volume = 0.12;
+  clockTicking.currentTime = 0;
+  const p = clockTicking.play();
+  if(p && p.catch) p.catch(()=>{});
+}
+function stopClockTicking(){
+  clockTicking.pause();
+  clockTicking.currentTime = 0;
+  gameMusic.volume = GAME_MUSIC_VOLUME;
+}
 
 /* ================= setup screen ================= */
 function renderTopicList(){
@@ -750,12 +805,12 @@ function renderTopicList(){
   Object.keys(bank).forEach(t=>{
     const qs = activeQs(t);
     const n = qs.length;
-    const fresh = qs.filter(x=>!usedSet.has(qid(t, x.q))).length;
+    const fresh = qs.filter(x=>!usedSet.has(qid(t, x.q, x.img))).length;
     const chip = document.createElement("label");
     chip.className = "topic-chip";
     chip.innerHTML = `<input type="checkbox" value="${t.replace(/"/g,"&quot;")}"><span>${t}</span><span class="count">${fresh}/${n} new</span>` +
       `<select class="qn" title="questions in this topic (shared by both teams)">` +
-      [2,4,6,8,10,12].map(k=>`<option value="${k}"${k===6?" selected":""}>×${k}</option>`).join("") +
+      [2,4,6,8,10,12,24].map(k=>`<option value="${k}"${k===6?" selected":""}>×${k}</option>`).join("") +
       `</select>`;
     box.appendChild(chip);
   });
@@ -785,7 +840,7 @@ function updateTopicHint(){
   for(const {topic, n} of sel){
     const qs = activeQs(topic);
     if(qs.length < n) short.push(topic);
-    else if(qs.filter(x=>!usedSet.has(qid(topic, x.q))).length < n) stale.push(topic);
+    else if(qs.filter(x=>!usedSet.has(qid(topic, x.q, x.img))).length < n) stale.push(topic);
   }
   $("btnUnban").textContent = `♻️ Restore banned questions (${bannedSet.size})`;
   const totalQ = sel.reduce((s,c)=>s+c.n, 0);
@@ -938,7 +993,7 @@ function tierListFor(n, tiers){
 function buildBoard(configs, tierSel){
   const usedPicAns = new Set();                  // board-wide: no country picture twice
   return configs.map(({topic, n})=>{
-    const qs = activeQs(topic).map(x=>({q:x.q, a:x.a, d:normD(x.d ?? 2), t:x.t, img:x.img, id:qid(topic, x.q)}));
+    const qs = activeQs(topic).map(x=>({q:x.q, a:x.a, d:normD(x.d ?? 2), t:x.t, img:x.img, id:qid(topic, x.q, x.img)}));
     const takenIds = new Set();
     const tiers = tierListFor(n, tierSel);
     const seen = {};                             // split each tier evenly: owners 0,1,0,1…
@@ -950,12 +1005,12 @@ function buildBoard(configs, tierSel){
   });
 }
 $("btnStart").addEventListener("click", ()=>{
-  ensureAudio();
   const configs = selectedConfigs();
   if(configs.length === 0){
     $("topicHint").textContent = "⚠️ Pick at least one topic to start!";
     return;
   }
+  gameMusic.currentTime = 0;
   game = {
     teams: [
       {name: $("teamAName").value.trim() || "Team 1", score: 0},
@@ -991,6 +1046,16 @@ function updateScores(){
     }
   }
 }
+document.querySelectorAll(".score-adjust button").forEach(button=>{
+  button.addEventListener("click", ()=>{
+    if(!game) return;
+    const team = Number(button.closest(".score-adjust").dataset.team);
+    const delta = Number(button.dataset.delta);
+    if(!Number.isInteger(team) || !Number.isFinite(delta) || !game.teams[team]) return;
+    game.teams[team].score += delta;
+    updateScores();
+  });
+});
 
 /* ---- pick board ---- */
 function showBoard(){
@@ -1017,7 +1082,6 @@ function showBoard(){
       const cellLabel = `${TIER_DOT[cell.d]} ${TIER_NAME[cell.d]}`;
       b.innerHTML = `${PTS[cell.d]}<span class="dot">${cellLabel}</span>`;
       if(!cell.done && mine) b.addEventListener("click", ()=>{
-        ensureAudio();
         game.pick = {ti, ci};
         show("screen-game");
         showIntermission();
@@ -1082,7 +1146,6 @@ function showIntermission(){
   $("overlay").classList.add("shown");
 }
 $("btnGo").addEventListener("click", ()=>{
-  ensureAudio();
   $("overlay").classList.remove("shown");
   startQuestion();
 });
@@ -1125,19 +1188,21 @@ function startTimer(){
   timer.total = cur().t || game.timerSecs;   // per-question time override
   timer.left = timer.total;
   renderTimer();
+  startClockTicking();
   timer.id = setInterval(()=>{
     timer.left--;
     renderTimer();
-    if(timer.left <= 5 && timer.left > 0) sfx.tick();
     if(timer.left <= 0){
       stopTimer();
-      sfx.timeUp();
       $("timerHint").textContent = "⏰ Time's up! Reveal the answer →";
     }
   }, 1000);
   $("timerHint").textContent = "answer before time runs out!";
 }
-function stopTimer(){ if(timer.id){ clearInterval(timer.id); timer.id = null; } }
+function stopTimer(){
+  if(timer.id){ clearInterval(timer.id); timer.id = null; }
+  stopClockTicking();
+}
 function renderTimer(){
   const C = 2 * Math.PI * 60;
   const frac = Math.max(timer.left, 0) / timer.total;
@@ -1190,12 +1255,15 @@ function playReaction(kind, done){
   const list = REACTIONS[kind] || [];
   if(!list.length){ done(); return; }          // nothing for this kind yet → carry on
   const ov = $("cheerOverlay"), v = $("cheerVideo");
+  const resumeMusic = !gameMusic.paused;
+  stopGameMusic();
   let finished = false;
   const finish = ()=>{
     if(finished) return; finished = true;
     ov.classList.remove("shown");
     try{ v.pause(); }catch(e){}
     v.removeAttribute("src"); v.load();
+    if(resumeMusic) playGameMusic();
     done();
   };
   // encodeURI: some clip names carry spaces, parentheses and Arabic text
@@ -1207,19 +1275,35 @@ function playReaction(kind, done){
   const p = v.play();
   if(p && p.catch) p.catch(()=>finish());   // autoplay blocked → just carry on
 }
+function stopWinnerAnnouncement(){
+  const wrap = $("winnerVideoWrap"), v = $("winnerVideo");
+  wrap.classList.remove("shown");
+  try{ v.pause(); }catch(e){}
+  v.onerror = null;
+  v.removeAttribute("src"); v.load();
+}
+function playWinnerAnnouncement(){
+  const wrap = $("winnerVideoWrap"), v = $("winnerVideo");
+  stopGameMusic();
+  v.src = WINNER_ANNOUNCEMENT_VIDEO;
+  v.volume = 1;
+  v.currentTime = 0;
+  v.onerror = ()=>wrap.classList.remove("shown");
+  wrap.classList.add("shown");
+  const p = v.play();
+  if(p && p.catch) p.catch(()=>{});
+}
 $("btnCorrect").addEventListener("click", ()=>{
-  sfx.correct();
   game.teams[curTeam()].score += PTS[cur().d];
   updateScores();
   if(cur().d >= 2) playReaction("celebration", ()=>nextQuestion());   // medium & hard get a cheer
   else nextQuestion();
 });
 $("btnWrong").addEventListener("click", ()=>{
-  sfx.wrong();
-  playReaction("booing", ()=>nextQuestion());
+  if(cur().d >= 2) playReaction("booing", ()=>nextQuestion());
+  else nextQuestion();
 });
 $("btnSteal").addEventListener("click", ()=>{
-  sfx.correct();
   game.teams[1 - curTeam()].score += Math.floor(PTS[cur().d]/2);   // half, to the other team
   updateScores();
   nextQuestion();                                                  // a steal gets no reaction
@@ -1254,7 +1338,7 @@ function replacementFor(c){
   for(const col of game.board) for(const cell of col.cells)
     if(cell.img && cell !== c) blockAns.add(normAns(cell.a));
   const pool = activeQs(topic)
-    .map(x=>({q:x.q, a:x.a, d:normD(x.d ?? 2), t:x.t, img:x.img, type:x.type, who:x.who, where:x.where, when:x.when, ref:x.ref, id:qid(topic, x.q)}))
+    .map(x=>({q:x.q, a:x.a, d:normD(x.d ?? 2), t:x.t, img:x.img, id:qid(topic, x.q, x.img)}))
     .filter(x=>!taken.has(x.id));
   return pool.length ? pickOne(pool, c.d, new Set(), blockAns) : null;
 }
@@ -1283,7 +1367,7 @@ $("btnSwap").addEventListener("click", ()=>{
     $("timerHint").textContent = "No replacement left in this topic!";
     return;
   }
-  stopTimer(); sfx.wrong();
+  stopTimer();
   game.teams[curTeam()].score -= 5;
   putReplacement(repl);
   startQuestion();
@@ -1292,6 +1376,7 @@ $("btnSwap").addEventListener("click", ()=>{
 /* ================= results + confetti ================= */
 function endGame(){
   stopTimer();
+  stopWinnerAnnouncement();
   $("overlay").classList.remove("shown");
   game.pick = null;
   const [a, b] = game.teams;
@@ -1302,10 +1387,13 @@ function endGame(){
   else msg = "🎉 " + (a.score > b.score ? a.name : b.name) + " wins!";
   $("winnerName").textContent = msg;
   show("screen-results");
-  sfx.fanfare();
-  if(a.score !== b.score) launchConfetti();
+  if(a.score !== b.score){
+    playWinnerAnnouncement();
+    launchConfetti();
+  }
 }
 $("btnAgain").addEventListener("click", ()=>{
+  stopWinnerAnnouncement();
   show("screen-setup");
   renderTopicList();
 });

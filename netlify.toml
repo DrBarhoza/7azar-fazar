@@ -35,6 +35,21 @@
     Cache-Control = "public, max-age=604800"
 
 [[headers]]
+  for = "/country-flags/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/logo-assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/sounds/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
   for = "/reactions/*"
   [headers.values]
     Cache-Control = "public, max-age=604800"

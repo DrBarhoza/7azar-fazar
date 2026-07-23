@@ -18241,7 +18241,7 @@
    "src": "authored"
   }
  ],
- "Guess the Country": [
+ "Guess the Country or City": [
   {
    "q": "Which country? 🍕🍝",
    "a": "Italy",
@@ -19150,6 +19150,3319 @@
    "d": "hard",
    "src": "authored",
    "img": "landmark-photos/opt/vietnam.jpg"
+  },
+  {
+   "q": "Which famous city? 🐝🌱",
+   "a": "Beirut",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which famous city? 👩👋",
+   "a": "Mumbai",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which famous city? ✅👋",
+   "a": "Dubai",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which famous city? 8️⃣🐔🐔",
+   "a": "Athens",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which famous city? 📈🏠",
+   "a": "Stockholm",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which famous city? 🆕🏰",
+   "a": "Newcastle",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which famous city? K🚣‍♀️",
+   "a": "Cairo",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Argentina",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/ar.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Australia",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/au.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Austria",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/at.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Bangladesh",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/bd.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Belgium",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/be.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Brazil",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/br.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Canada",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/ca.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "China",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/cn.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Denmark",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/dk.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Egypt",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/eg.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Finland",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/fi.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "France",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/fr.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Germany",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/de.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Greece",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/gr.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "India",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/in.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Indonesia",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/id.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Ireland",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/ie.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Israel",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/il.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Italy",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/it.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Jamaica",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/jm.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Japan",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/jp.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Mexico",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/mx.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Morocco",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/ma.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Nepal",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/np.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Netherlands",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/nl.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "New Zealand",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/nz.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Nigeria",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/ng.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Norway",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/no.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Pakistan",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/pk.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Poland",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/pl.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Portugal",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/pt.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Qatar",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/qa.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Russia",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/ru.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Saudi Arabia",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/sa.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "South Africa",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/za.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "South Korea",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/kr.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Spain",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/es.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Palestine",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/ps.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Sweden",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/se.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Switzerland",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/ch.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Thailand",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/th.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Turkey",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/tr.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Ukraine",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/ua.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "United Arab Emirates",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/ae.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "United Kingdom",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/gb.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "United States",
+   "d": "easy",
+   "src": "authored",
+   "img": "country-flags/us.svg"
+  },
+  {
+   "q": "Which famous city? 🦸‍♂️🏘️",
+   "a": "Cape Town",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which famous city? 🫀🏊",
+   "a": "Liverpool",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which famous city? ⚔️🪚",
+   "a": "Warsaw",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which famous city? 📝🦴",
+   "a": "Lisbon",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which famous city? 🌿🐄",
+   "a": "Moscow",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Afghanistan",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/af.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Albania",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/al.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Algeria",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/dz.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Andorra",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/ad.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Angola",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/ao.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Armenia",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/am.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Azerbaijan",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/az.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Bahamas",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/bs.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Bahrain",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/bh.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Barbados",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/bb.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Belarus",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/by.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Bolivia",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/bo.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Bosnia & Herzegovina",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/ba.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Botswana",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/bw.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Brunei",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/bn.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Bulgaria",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/bg.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Cape Verde",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/cv.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Cambodia",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/kh.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Cameroon",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/cm.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Chile",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/cl.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Colombia",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/co.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Costa Rica",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/cr.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Croatia",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/hr.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Cuba",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/cu.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Cyprus",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/cy.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Czech Republic",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/cz.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Dominican Republic",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/do.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Ecuador",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/ec.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "El Salvador",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/sv.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Estonia",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/ee.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Ethiopia",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/et.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Georgia",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/ge.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Ghana",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/gh.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Guatemala",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/gt.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Haiti",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/ht.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Honduras",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/hn.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Hungary",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/hu.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Iceland",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/is.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Iran",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/ir.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Iraq",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/iq.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Jordan",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/jo.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Kazakhstan",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/kz.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Kenya",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/ke.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Kuwait",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/kw.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Latvia",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/lv.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Lebanon",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/lb.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Lithuania",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/lt.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Luxembourg",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/lu.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Malaysia",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/my.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Moldova",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/md.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Monaco",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/mc.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Mongolia",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/mn.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Montenegro",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/me.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Myanmar (Burma)",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/mm.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Namibia",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/na.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Nicaragua",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/ni.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "North Macedonia",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/mk.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Oman",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/om.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Panama",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/pa.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Paraguay",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/py.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Peru",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/pe.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Philippines",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/ph.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Romania",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/ro.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Serbia",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/rs.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Singapore",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/sg.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Slovakia",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/sk.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Slovenia",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/si.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Sri Lanka",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/lk.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Syria",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/sy.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Taiwan",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/tw.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Tanzania",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/tz.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Tunisia",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/tn.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Uganda",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/ug.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Uruguay",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/uy.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Uzbekistan",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/uz.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Venezuela",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/ve.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Vietnam",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/vn.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Yemen",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/ye.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Zambia",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/zm.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Zimbabwe",
+   "d": "medium",
+   "src": "authored",
+   "img": "country-flags/zw.svg"
+  },
+  {
+   "q": "Which country? 👙👙🤒",
+   "a": "Brazil",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which famous city? 🧘🐜",
+   "a": "Budapest",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which famous city? 🐻↘️",
+   "a": "Berlin",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which famous city? 🥃➡️",
+   "a": "Glasgow",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Antigua & Barbuda",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/ag.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Belize",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/bz.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Benin",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/bj.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Bhutan",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/bt.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Burkina Faso",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/bf.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Burundi",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/bi.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Central African Republic",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/cf.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Chad",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/td.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Comoros",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/km.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Ivory Coast",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/ci.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Democratic Republic of the Congo",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/cd.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Djibouti",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/dj.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Dominica",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/dm.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Equatorial Guinea",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/gq.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Eritrea",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/er.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Eswatini",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/sz.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Federated States of Micronesia",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/fm.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Fiji",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/fj.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Gabon",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/ga.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Gambia",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/gm.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Grenada",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/gd.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Guinea",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/gn.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Guinea-Bissau",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/gw.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Guyana",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/gy.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Vatican City",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/va.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Kiribati",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/ki.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Kosovo",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/xk.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Kyrgyzstan",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/kg.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Laos",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/la.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Lesotho",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/ls.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Liberia",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/lr.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Libya",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/ly.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Liechtenstein",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/li.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Madagascar",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/mg.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Malawi",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/mw.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Maldives",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/mv.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Mali",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/ml.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Malta",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/mt.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Marshall Islands",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/mh.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Mauritania",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/mr.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Mauritius",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/mu.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Mozambique",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/mz.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Nauru",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/nr.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Niger",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/ne.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "North Korea",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/kp.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Palau",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/pw.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Papua New Guinea",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/pg.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Republic of the Congo",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/cg.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Rwanda",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/rw.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "St. Kitts & Nevis",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/kn.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "St. Lucia",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/lc.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "St. Vincent & Grenadines",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/vc.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Samoa",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/ws.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "San Marino",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/sm.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "São Tomé & Príncipe",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/st.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Senegal",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/sn.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Seychelles",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/sc.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Sierra Leone",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/sl.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Solomon Islands",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/sb.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Somalia",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/so.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "South Sudan",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/ss.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Sudan",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/sd.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Suriname",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/sr.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Tajikistan",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/tj.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Timor-Leste",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/tl.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Togo",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/tg.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Tonga",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/to.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Trinidad & Tobago",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/tt.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Turkmenistan",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/tm.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Tuvalu",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/tv.svg"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "a": "Vanuatu",
+   "d": "hard",
+   "src": "authored",
+   "img": "country-flags/vu.svg"
+  }
+ ],
+ "Logos": [
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Starbucks",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/opt/starbucks.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Google",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/opt/google.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "YouTube",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/opt/youtube.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Apple",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/opt/apple.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Adidas",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/opt/adidas.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Pepsi",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/opt/pepsi.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Chanel",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/opt/chanel.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Target",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/opt/target.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "PayPal",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/opt/paypal.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Bitcoin",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/opt/bitcoin-supplied.png"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Adobe",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/opt/adobe.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Rolex",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/opt/rolex.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Mitsubishi",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/opt/mitsubishi.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Mercedes-Benz",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/opt/mercedes-benz-v2.png"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "TikTok",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/opt/tiktok-v2.png"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Pizza Hut",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/opt/pizza-hut-v2.png"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Airbnb",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/opt/airbnb-v2.png"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Red Bull",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/opt/red-bull-v2.png"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Louis Vuitton",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/opt/louis-vuitton-v2.png"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "KFC",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/opt/kfc-v2.png"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Under Armour",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/opt/under-armour-v2.png"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Audi",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/audi.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "BMW",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/bmw.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Bugatti",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/bugatti.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Cadillac",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/cadillac.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Chevrolet",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/chevrolet.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Ferrari",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/ferrari.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Fiat",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/fiat.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Ford",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/ford.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Honda",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/honda.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Hyundai",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/hyundai.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Jaguar",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/jaguar.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Jeep",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/jeep.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Kia",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/kia.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Lamborghini",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/lamborghini.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Land Rover",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/landrover.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Lexus",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/lexus.png"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Maserati",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/maserati.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Mazda",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/mazda.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "McLaren",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/mclaren.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "MG",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/mg.png"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "MINI",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/mini.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Nissan",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/nissan.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Peugeot",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/peugeot.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Porsche",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/porsche.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Renault",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/renault.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Rolls-Royce",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/rollsroyce.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Subaru",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/subaru.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Suzuki",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/suzuki.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Tesla",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/tesla.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Toyota",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/toyota.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Volkswagen",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/volkswagen.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Volvo",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/cars/volvo.svg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Lidl",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/requested/lidl.svg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "IKEA",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/requested/ikea.svg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Levi’s",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/requested/levis.svg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "HP",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/requested/hp.svg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "7azar Fazar",
+   "d": "easy",
+   "src": "authored",
+   "img": "icons/logo-home.png"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Amazon",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/requested/amazon.svg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Gucci",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/requested/gucci.svg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Timberland",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/requested/timberland-emblem.png"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Lacoste",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/requested/lacoste-emblem-v2.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Ralph Lauren",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/requested/ralphlauren.svg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "ASDA",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/requested/asda.svg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Burger King",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/requested/burgerking.svg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "CBS",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/opt/cbs.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Unilever",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/opt/unilever.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Kodak",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/opt/kodak.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Beats",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/opt/beats.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "BP",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/opt/bp.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Quiksilver",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/opt/quiksilver.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Motorola",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/opt/motorola.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "NBC",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/opt/nbc.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "The Rolling Stones",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/opt/rolling-stones-v2.png"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "New York Yankees",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/opt/new-york-yankees-v2.png"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Dropbox",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/opt/dropbox-v2.png"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Duolingo",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/opt/duolingo-v2.png"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Jordan",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/opt/jordan-v2.png"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Fruit of the Loom",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/opt/fruit-of-the-loom.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Carrefour",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/opt/carrefour-v2.png"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Tripadvisor",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/opt/tripadvisor-v2.png"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Abarth",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/abarth.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Acura",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/acura.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Alfa Romeo",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/alfaromeo.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Aston Martin",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/astonmartin.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Bentley",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/bentley.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Buick",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/buick.png"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "BYD",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/byd.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Chery",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/chery.png"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Chrysler",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/chrysler.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Citroën",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/citroen.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "CUPRA",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/cupra.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Dacia",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/dacia.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Dodge",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/dodge.png"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Geely",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/geely.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Genesis",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/genesis.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "GMC",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/gmc.png"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Great Wall Motor",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/greatwall.png"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Haval",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/haval.png"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Infiniti",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/infiniti.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Isuzu",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/isuzu.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Lada",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/lada.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Lincoln",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/lincoln.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Lotus",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/lotus.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Mahindra",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/mahindra.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Opel",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/opel.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Polestar",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/polestar.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Ram",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/ram-emblem.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Rivian",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/rivian.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "SEAT",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/seat.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Škoda",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/skoda.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Smart",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/smart.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Tata Motors",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/tata.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Vauxhall",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/cars/vauxhall.svg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Sainsbury’s",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/requested/sainsburys.svg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Qatar Airways",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/requested/qatarairways.svg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Primark",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/requested/primark.svg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Montblanc",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/requested/montblanc.svg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Fred Perry",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/requested/fredperry-laurel-v2.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Hardee’s",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/requested/hardees.svg"
+  },
+  {
+   "q": "Which fashion brand does this logo belong to?",
+   "a": "Calvin Klein",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/requested/calvin-klein.svg"
+  },
+  {
+   "q": "Which fashion brand does this logo belong to?",
+   "a": "Armani",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/requested/armani-symbol.svg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Malibu Rum",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/opt/malibu-rum.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Atari",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/opt/atari.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "BIC",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/opt/bic.jpg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Lufthansa",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/opt/lufthansa-supplied.jpeg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Evergrande",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/opt/evergrande-v2.png"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Ethereum",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/opt/ethereum-supplied.png"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Petronas",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/opt/petronas-v2.png"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "General Electric",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/opt/general-electric-supplied.png"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Daihatsu",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/cars/daihatsu.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "DS Automobiles",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/cars/dsautomobiles.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "GAC Motor",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/cars/gac.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Hongqi",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/cars/hongqi.png"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Koenigsegg",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/cars/koenigsegg.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Lucid",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/cars/lucid.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "NIO",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/cars/nio.png"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Pagani",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/cars/pagani.png"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Perodua",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/cars/perodua.png"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Proton",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/cars/proton.svg"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Rimac",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/cars/rimac.png"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "VinFast",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/cars/vinfast.png"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "XPeng",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/cars/xpeng.png"
+  },
+  {
+   "q": "Which car manufacturer or brand does this logo belong to?",
+   "a": "Zeekr",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/cars/zeekr.png"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "AstraZeneca",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/requested/astrazeneca.svg"
+  },
+  {
+   "q": "Which business or brand does this logo belong to?",
+   "a": "Novartis",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/requested/novartis.svg"
+  }
+ ],
+ "Riddles": [
+  {
+   "q": "What gets smaller every time it takes a bath?",
+   "a": "Soap",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "I'm not a blanket, yet I cover the ground; a crystal from heaven that doesn't make a sound. What am I?",
+   "a": "Snowflake.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "I'm sweet and cold with a stick to hold; a treat on a hot day, worth more than gold. What am I?",
+   "a": "Popsicle.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What has a head but no brain?",
+   "a": "Lettuce.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Why do cats make good warriors?",
+   "a": "Because they’ve got nine lives.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "I have a neck, but no head. I have two arms, but no hands. What am I?",
+   "a": "A shirt.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What word contains 26 letters but only has three syllables?",
+   "a": "Alphabet.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What comes down but never goes up?",
+   "a": "Rain.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What five-letter word typed in all capital letters can be read the same upside down?",
+   "a": "SWIMS.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "The more you take, the more you leave behind. What am I?",
+   "a": "Footsteps.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "David's father has three sons: Snap, Crackle and _____?",
+   "a": "David.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What is more useful when it is broken?",
+   "a": "An egg.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "I am easy to lift, but hard to throw. What am I?",
+   "a": "A feather.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which fish costs the most?",
+   "a": "A goldfish.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What goes up, but never comes down?",
+   "a": "Age.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "A cowboy rode into town on Friday. He stayed for three nights and rode out on Friday. How is this possible?",
+   "a": "His horse's name is Friday.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What has a neck but no head?",
+   "a": "A bottle.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What is full of holes but still holds water?",
+   "a": "A sponge.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "How do you spell COW in thirteen letters?",
+   "a": "SEE O DOUBLE YOU.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Why is Europe like a frying pan?",
+   "a": "Because it has Greece at the bottom.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What do the numbers 11, 69 and 88 all have in common?",
+   "a": "They all read the same way when placed upside down.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "If 2 is company and 3 is a crowd, what are 4 and 5?",
+   "a": "9.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "I add 5 to 9 and get 2. The answer is correct, so what am I?",
+   "a": "A clock. When it is 9 a.m., adding 5 hours would make it 2 p.m.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Rachel goes to the supermarket and buys 10 tomatoes. Unfortunately, on the way back home, all but 9 get ruined. How many tomatoes are left in a good condition?",
+   "a": "9.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What is 3/7 chicken, 2/3 cat, and 2/4 goat?",
+   "a": "Chicago!",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "If a zookeeper had 100 pairs of animals in her zoo, and two pairs of babies are born for each one of the original animals, then (sadly) 23 animals don’t survive, how many animals do you have left in total?",
+   "a": "977 animals (100 x 2 = 200; 200 + 800 = 1000; 1000 – 23 = 977)",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "I saw my math teacher with a piece of graph paper yesterday.",
+   "a": "I think he must be plotting something.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "If you multiply this number by any other number, the answer will always be the same. What number is this?",
+   "a": "Zero.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "I am an odd number. Take away a letter and I become even. What number am I?",
+   "a": "Seven.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What three numbers give the same result when multiplied and added together?",
+   "a": "1, 2, and 3 (1 + 2 + 3 = 6 and 1 x 2 x 3 = 6).",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What's a single-digit number with no value?",
+   "a": "Zero.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "A tree doubled in height each year until it reached its maximum height over the course of ten years. How many years did it take for the tree to reach half its maximum height?",
+   "a": "Nine years.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Every night I’m told what to do, and each morning I do what i’m told. But I still don’t escape your scold. What am I?",
+   "a": "An alarm clock.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What do the letter \"t\" and an island have in common?",
+   "a": "They're both in the middle of water.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which word in the dictionary is spelled incorrectly?",
+   "a": "Incorrectly.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "How can you drop a raw egg from a height onto a concrete floor without cracking it?",
+   "a": "Concrete floors are very hard to crack.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What do you call a bear with no teeth?",
+   "a": "A gummy bear.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What has many rings but no fingers?",
+   "a": "A phone.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What can you break without touching it?",
+   "a": "A promise.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "I sometimes run, but I can’t walk. What am I?",
+   "a": "A nose.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "It has keys, but no locks. It has space, but no room. You can enter, but can’t go inside. What is it?",
+   "a": "A keyboard.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "I have pointed fangs, and I sit and wait. I have piercing force, and I crunch with weight. I grab my victims, but they do not fight. I join them each with a single, quick bite. What am I?",
+   "a": "A stapler.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Pronounced as one letter, And written with three, two letters there are, and two only in me. I’m double, I’m single, I’m black blue and gray, I’m read from both ends, and the same either way. What am I?",
+   "a": "Eye.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Who has married many women but was never married?",
+   "a": "The priest.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Forward, I am heavy; backward, I am not. What am I?",
+   "a": "Ton.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What can you hold in your right hand, but never in your left hand?",
+   "a": "Your left hand.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "If two snakes marry, what will their towels say?",
+   "a": "Hiss and hers.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does a man do only once in his lifetime, but women do once a year after they are 29?",
+   "a": "Turn 30.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What has four fingers and a thumb, but is not living?",
+   "a": "A glove.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What starts with T, ends with T, and has T in it?",
+   "a": "A teapot.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What kind of ship has two mates but no captain?",
+   "a": "A relationship.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Ask this question all day long, but always get completely different answers, and yet all the answers will be correct. What is the question?",
+   "a": "What time is it?",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What loses its head in the morning but gets it back at night?",
+   "a": "A pillow.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Four cars come to a four-way stop, each coming from a different direction. They can’t decide who got there first, so they all go forward at the same time. All four cars go, but none crash into each other. How is this possible?",
+   "a": "They all made right-hand turns.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "I have a head like a cat and feet like a cat, but I am not a cat. What am I?",
+   "a": "A kitten.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Who makes it, has no need of it. Who buys it, has no use for it. Who uses it can neither see nor feel it. What is it?",
+   "a": "A coffin.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What has hands but cannot clap?",
+   "a": "A clock.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Paul's height is six feet, he's an assistant at a butcher's shop, and wears size 9 shoes. What does he weigh?",
+   "a": "Meat.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Poor people have it. Rich people need it. If you eat it you die. What is it?",
+   "a": "Nothing.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What is the longest word in the dictionary?",
+   "a": "Smiles, because there is a mile between each ‘s.’",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Throw away the outside and cook the inside, then eat the outside and throw away the inside. What is it?",
+   "a": "Corn on the cob.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What is at the end of a rainbow?",
+   "a": "The letter W!",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What kind of tree can you carry in your hand?",
+   "a": "A palm!",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "They come out at night without being called, and are lost in the day without being stolen. What are they?",
+   "a": "Stars!",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What is always in front of you, but can’t be seen?",
+   "a": "The future.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "You’ll find me in Mercury, Earth, Mars, Jupiter, Saturn and Uranus. But never Neptune, or Venus. What am I?",
+   "a": "The letter “R.”",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "How many months have 28 days?",
+   "a": "Every month has 28 days.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "I can be cracked, made, told and played. What am I?",
+   "a": "A joke.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "I cannot talk, but I always reply when spoken to. What am I?",
+   "a": "An echo.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "When is the top of a mountain similar to a savings account?",
+   "a": "When it peaks one’s interest.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "A man goes out for a walk during a storm with nothing to protect him from the rain. He doesn’t have a hat, a hood or an umbrella. But by the end of his walk, there isn’t a single wet hair on his head. Why doesn’t the man have wet hair?",
+   "a": "He’s bald.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "I love to dance and twist. I shake my tail as I sail away. When I fly wingless into the sky. What am I?",
+   "a": "A kite.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "When you stop to look, you can always see me. But if you try to touch me, you can never feel me. Although you walk towards me, I remain the same distance from you. What am I?",
+   "a": "The horizon.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "You see a boat filled with people. It has not sunk. But when you look back, you don’t see a single person on the boat. Why?",
+   "a": "All the people on board are married.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What is it that no one wants to have, but no one wants to lose either?",
+   "a": "A lawsuit.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "I welcome the day with a show of light, I stealthily came here in the night. I bathe the earthy stuff at dawn, but by noon, alas! I'm gone.",
+   "a": "The morning dew.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What goes through cities and fields, but never moves?",
+   "a": "A road.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What can be touched but can't be seen?",
+   "a": "Someone’s heart.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "In a bus, there is a 26-year-old pregnant lady, a 30-year-old policeman, a 52-year-old random woman, and the driver who is 65 years old. Who is the youngest?",
+   "a": "The baby of the pregnant lady.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "When it is alive we sing, when it is dead we clap our hands. What is it?",
+   "a": "A birthday candle.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What can go through glass without breaking it?",
+   "a": "Light.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What gets bigger the more you take away?",
+   "a": "A hole.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "I have no life, but I can die. What am I?",
+   "a": "A battery.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What kind of room has no walls, door or windows?",
+   "a": "A mushroom.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "It belongs to you, but your friends use it more. What is it?",
+   "a": "Your name.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What two things can you never eat for breakfast?",
+   "a": "Lunch and dinner.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "I make a loud sound when I’m changing. When I do change, I get bigger but weigh less. What am I?",
+   "a": "Popcorn.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "I’m orange, I wear a green hat and I sound like a parrot. What am I?",
+   "a": "A carrot.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What runs all around a backyard, yet never moves?",
+   "a": "A fence.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Take off my skin — I won't cry, but you will! What am I?",
+   "a": "An onion.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What invention lets you look right through a wall?",
+   "a": "A window.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What is always on its way but never arrives?",
+   "a": "Tomorrow.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Two girls were born to the same mother, on the same day, at the same time, in the same month and year, and yet they're not twins. How can this be?",
+   "a": "The two babies are two of a set of triplets.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What has a bottom at the top?",
+   "a": "Your legs.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What can you catch but never throw?",
+   "a": "A cold.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What has many teeth but cannot bite?",
+   "a": "A comb.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What has branches, but no fruit, trunk or leaves?",
+   "a": "A bank.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What thrives when you feed it but dies when you water it?",
+   "a": "A fire.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What do you buy to eat but never consume?",
+   "a": "Cutlery.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Two fathers and two sons are in a car, yet there are only three people in the car. How?",
+   "a": "They are grandfather, father, and son.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "A bus driver goes the wrong way down a one-way street. He passes the cops, but they don’t stop him. Why?",
+   "a": "He was walking.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "If an electric train is traveling south, then which way is the smoke going?",
+   "a": "There is no smoke — it's an electric train.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Where is the only place where today comes before yesterday?",
+   "a": "The dictionary.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What can you put in a bucket to make it weigh less?",
+   "a": "A hole.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "How can kids drink beer and not get drunk?",
+   "a": "By sticking to root beer.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What is black when it’s clean and white when it’s dirty?",
+   "a": "A chalkboard.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "I have one eye but am unable to see. What am I?",
+   "a": "A needle.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What two keys can’t open any door?",
+   "a": "A monkey and a donkey.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "A man and his boss have the same parents but are not siblings. How is this possible?",
+   "a": "He’s self-employed.",
+   "d": "hard",
+   "src": "authored"
+  }
+ ],
+ "Autobus Complete": [
+  {
+   "q": "Letter A — Say a male name, female name, country, city, fruit and animal beginning with A. Any valid answers count.",
+   "a": "Example — Male: Adam · Female: Alice · Country: Argentina · City: Athens · Fruit: Apple · Animal: Ant",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Letter B — Say a male name, female name, country, city, fruit and animal beginning with B. Any valid answers count.",
+   "a": "Example — Male: Ben · Female: Bella · Country: Brazil · City: Berlin · Fruit: Banana · Animal: Bear",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Letter C — Say a male name, female name, country, city, fruit and animal beginning with C. Any valid answers count.",
+   "a": "Example — Male: Carl · Female: Chloe · Country: Canada · City: Cairo · Fruit: Cherry · Animal: Cat",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Letter D — Say a male name, female name, country, city, fruit and animal beginning with D. Any valid answers count.",
+   "a": "Example — Male: Daniel · Female: Diana · Country: Denmark · City: Dubai · Fruit: Date · Animal: Dog",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Letter G — Say a male name, female name, country, city, fruit and animal beginning with G. Any valid answers count.",
+   "a": "Example — Male: George · Female: Grace · Country: Germany · City: Glasgow · Fruit: Grape · Animal: Goat",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Letter M — Say a male name, female name, country, city, fruit and animal beginning with M. Any valid answers count.",
+   "a": "Example — Male: Michael · Female: Mary · Country: Mexico · City: Madrid · Fruit: Mango · Animal: Monkey",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Letter S — Say a male name, female name, country, city, fruit and animal beginning with S. Any valid answers count.",
+   "a": "Example — Male: Sam · Female: Sarah · Country: Spain · City: Seoul · Fruit: Strawberry · Animal: Snake",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Letter T — Say a male name, female name, country, city, fruit and animal beginning with T. Any valid answers count.",
+   "a": "Example — Male: Thomas · Female: Tina · Country: Tunisia · City: Tokyo · Fruit: Tangerine · Animal: Tiger",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Letter E — Say a male name, female name, country, city, fruit and animal beginning with E. Any valid answers count.",
+   "a": "Example — Male: Ethan · Female: Emma · Country: Egypt · City: Edinburgh · Fruit: Elderberry · Animal: Elephant",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Letter F — Say a male name, female name, country, city, fruit and animal beginning with F. Any valid answers count.",
+   "a": "Example — Male: Frank · Female: Fatima · Country: France · City: Florence · Fruit: Fig · Animal: Fox",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Letter H — Say a male name, female name, country, city, fruit and animal beginning with H. Any valid answers count.",
+   "a": "Example — Male: Henry · Female: Hannah · Country: Hungary · City: Hanoi · Fruit: Honeydew · Animal: Horse",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Letter J — Say a male name, female name, country, city, fruit and animal beginning with J. Any valid answers count.",
+   "a": "Example — Male: Jack · Female: Jasmine · Country: Japan · City: Jakarta · Fruit: Jackfruit · Animal: Jaguar",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Letter K — Say a male name, female name, country, city, fruit and animal beginning with K. Any valid answers count.",
+   "a": "Example — Male: Karim · Female: Kate · Country: Kenya · City: Kyoto · Fruit: Kiwi · Animal: Kangaroo",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Letter L — Say a male name, female name, country, city, fruit and animal beginning with L. Any valid answers count.",
+   "a": "Example — Male: Liam · Female: Layla · Country: Lebanon · City: London · Fruit: Lemon · Animal: Lion",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Letter N — Say a male name, female name, country, city, fruit and animal beginning with N. Any valid answers count.",
+   "a": "Example — Male: Noah · Female: Nora · Country: Norway · City: Nairobi · Fruit: Nectarine · Animal: Newt",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Letter O — Say a male name, female name, country, city, fruit and animal beginning with O. Any valid answers count.",
+   "a": "Example — Male: Omar · Female: Olivia · Country: Oman · City: Oslo · Fruit: Orange · Animal: Otter",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Letter P — Say a male name, female name, country, city, fruit and animal beginning with P. Any valid answers count.",
+   "a": "Example — Male: Peter · Female: Paula · Country: Peru · City: Paris · Fruit: Papaya · Animal: Panda",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Letter R — Say a male name, female name, country, city, fruit and animal beginning with R. Any valid answers count.",
+   "a": "Example — Male: Ryan · Female: Rose · Country: Romania · City: Rome · Fruit: Raspberry · Animal: Rabbit",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Letter I — Say a male name, female name, country, city, fruit and animal beginning with I. Any valid answers count.",
+   "a": "Example — Male: Isaac · Female: Isabella · Country: India · City: Istanbul · Fruit: Ilama · Animal: Iguana",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Letter Q — Say a male name, female name, country, city, fruit and animal beginning with Q. Any valid answers count.",
+   "a": "Example — Male: Quentin · Female: Queenie · Country: Qatar · City: Quebec City · Fruit: Quince · Animal: Quail",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Letter U — Say a male name, female name, country, city, fruit and animal beginning with U. Any valid answers count.",
+   "a": "Example — Male: Umar · Female: Uma · Country: Uruguay · City: Utrecht · Fruit: Ugli fruit · Animal: Urial",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Letter V — Say a male name, female name, country, city, fruit and animal beginning with V. Any valid answers count.",
+   "a": "Example — Male: Victor · Female: Victoria · Country: Vietnam · City: Venice · Fruit: Voavanga · Animal: Vulture",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Letter W — Say a male name, female name, country, city, fruit and animal beginning with W. Any valid answers count.",
+   "a": "Example — Male: William · Female: Wendy · Country: Wales · City: Warsaw · Fruit: Wolfberry · Animal: Wolf",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Letter X — Say a male name, female name, city, fruit and animal beginning with X. The country category is an automatic pass because no current country begins with X.",
+   "a": "Example — Male: Xavier · Female: Ximena · Country: automatic pass · City: Xi’an · Fruit: Xigua · Animal: Xerus",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Letter Y — Say a male name, female name, country, city, fruit and animal beginning with Y. Any valid answers count.",
+   "a": "Example — Male: Yusuf · Female: Yasmin · Country: Yemen · City: Yokohama · Fruit: Yuzu · Animal: Yak",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Letter Z — Say a male name, female name, country, city, fruit and animal beginning with Z. Any valid answers count.",
+   "a": "Example — Male: Zain · Female: Zoe · Country: Zambia · City: Zurich · Fruit: Zucchini (botanically a fruit) · Animal: Zebra",
+   "d": "hard",
+   "src": "authored"
   }
  ]
 }

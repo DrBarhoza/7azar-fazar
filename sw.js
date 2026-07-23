@@ -9,7 +9,7 @@
      all local anyway.
 
    Bump CACHE_VERSION to retire old caches on the next deploy. */
-const CACHE_VERSION = "v2";   // v2: the 7F logo replaced the placeholder icons
+const CACHE_VERSION = "v3";   // v3: expanded topics, local audio and refreshed home logo
 const SHELL = `7azar-shell-${CACHE_VERSION}`;
 const MEDIA = `7azar-media-${CACHE_VERSION}`;
 
@@ -21,7 +21,10 @@ const SHELL_ASSETS = [
   "./index.html",
   "./manifest.webmanifest",
   "./trivia-questions.json",
+  "./sounds/music/game-loop.mp3",
+  "./sounds/effects/clock-ticking.mp3",
   "./icons/icon-192.png",
+  "./icons/logo-home.png",
   "./icons/icon-512.png",
   "./icons/icon-maskable-192.png",
   "./icons/icon-maskable-512.png",
@@ -29,7 +32,7 @@ const SHELL_ASSETS = [
   "./icons/favicon-32.png",
 ];
 
-const MEDIA_PATH = /\/(landmark-photos|country-shapes|kangaroo-figures|reactions)\//;
+const MEDIA_PATH = /\/(landmark-photos|country-flags|country-shapes|kangaroo-figures|logo-assets|reactions)\//;
 
 self.addEventListener("install", (e) => {
   e.waitUntil((async () => {
