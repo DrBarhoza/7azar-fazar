@@ -78,9 +78,26 @@
     width:100%; padding:12px 14px; border-radius:12px; border:1px solid var(--line);
     background:var(--bg2); color:var(--ink); font-size:1rem; outline:none;
   }
-  input[type=text]:focus, select:focus{border-color:var(--teamA);}
+  textarea{
+    width:100%; min-height:92px; resize:vertical; padding:12px 14px; border-radius:12px;
+    border:1px solid var(--line); background:#fff; color:var(--ink); font:inherit; outline:none;
+  }
+  input[type=text]:focus, textarea:focus, select:focus{border-color:var(--teamA);}
   .teamA-accent{border-left:5px solid var(--teamA);}
   .teamB-accent{border-left:5px solid var(--teamB);}
+  .contestant-setup{margin-top:18px; padding-top:18px; border-top:1px solid #a7d3f5;}
+  .contestant-actions{display:flex; gap:10px; flex-wrap:wrap; margin-top:10px;}
+  .contestant-actions .btn{flex:0 0 auto;}
+  .contestant-grid{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:9px; margin-top:14px;}
+  .contestant-row{display:grid; grid-template-columns:minmax(0,1fr) minmax(130px,.8fr);
+    align-items:center; gap:10px; padding:9px 10px; background:#fff; border:1px solid var(--line); border-radius:11px;}
+  .contestant-row .person-name{font-weight:700; overflow-wrap:anywhere;}
+  .contestant-row select{padding:8px 10px; font-size:.9rem;}
+  .roster-preview{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin-top:12px;}
+  .roster-box{padding:10px 12px; border-radius:11px; background:#fff; border:1px solid var(--line);
+    font-size:.88rem; line-height:1.45; min-height:62px;}
+  .roster-box strong{display:block; margin-bottom:3px;}
+  #contestantStatus.err{color:var(--bad);} #contestantStatus.ok{color:var(--good);}
   .topics{display:grid; grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); gap:10px;}
   .topic-chip{
     display:flex; align-items:center; gap:8px; padding:12px 14px; border-radius:12px;
@@ -167,6 +184,9 @@
   #qNote.shown{display:inline-block;}
   #qImgWrap{display:none; margin-top:18px; text-align:center;}
   #qImgWrap.shown{display:block;}
+  #qAudioWrap{display:none; margin:22px auto 2px; text-align:center;}
+  #qAudioWrap.shown{display:block;}
+  #soundStatus{display:block; margin-top:8px; color:var(--muted); font-size:.82rem;}
   #qImg{
     max-width:100%; max-height:52vh; border-radius:10px; background:#fff;
     padding:8px; box-shadow:0 4px 18px #16182b26; border:1px solid var(--line);
@@ -210,6 +230,19 @@
   .ov-team{font-size:1.5rem; margin-bottom:6px;}
   .ov-team.t0{color:var(--teamA);} .ov-team.t1{color:var(--teamB);}
   .ov-sub{color:var(--muted); margin-bottom:26px;}
+  .powerup-title{font-weight:900; margin:18px 0 9px;}
+  .powerup-grid{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:9px; margin-bottom:12px;}
+  .powerup-btn{border:2px solid var(--line); background:#fff; border-radius:14px; padding:11px 7px; font-weight:850; cursor:pointer;}
+  .powerup-btn.selected{border-color:var(--teamA); background:#e9f9ff; box-shadow:0 0 0 3px #00a7cc22;}
+  .powerup-btn:disabled{opacity:.38; cursor:not-allowed; text-decoration:line-through;}
+  .powerup-none{border:0; background:transparent; color:var(--muted); font-weight:800; cursor:pointer; margin-bottom:14px;}
+  #activePowerup{display:none; justify-content:center; gap:9px; flex-wrap:wrap; max-width:95%; margin:12px auto 0; text-align:center;}
+  #activePowerup.shown{display:flex;}
+  .powerup-status{padding:8px 13px; border-radius:999px; background:#fff; border:2px solid var(--line); font-weight:850;}
+  .powerup-status.active{background:#fff3cc; border-color:#f0b429; box-shadow:0 0 0 3px #f0b42922;}
+  .powerup-status.used{opacity:.42; text-decoration:line-through;}
+  button.powerup-status.available{cursor:pointer; border-color:var(--teamA); color:var(--ink);}
+  button.powerup-status:disabled{cursor:not-allowed;}
 
   .tierbox{display:flex; align-items:center; gap:7px; padding:9px 14px; border-radius:10px;
     background:var(--bg2); border:1px solid var(--line); cursor:pointer; font-size:.98rem; user-select:none;}
@@ -328,6 +361,7 @@
     .btn.primary{width:100%; font-size:1.1rem;}
     .file-row{flex-direction:column; align-items:stretch;}
     .file-row input[type=text]{min-width:0;}
+    .contestant-grid,.roster-preview{grid-template-columns:1fr;}
     #winnerName{font-size:2rem;} .final-scores .fs{padding:16px 22px; min-width:140px;}
     #winnerVideoWrap{margin:8px auto 14px; width:min(560px, 94vw);}
     #winnerVideo{max-height:34vh; border-radius:13px;}
@@ -376,6 +410,20 @@
       <div class="teamB-accent" style="padding-left:12px;">
         <label class="field">Team 2 name</label>
         <input type="text" id="teamBName" value="Team Fazar" maxlength="24">
+      </div>
+    </div>
+    <div class="contestant-setup">
+      <label class="field" for="contestantNames">Contestants — enter one name per line, or separate names with commas</label>
+      <textarea id="contestantNames" maxlength="1200" placeholder="Enter contestant names here"></textarea>
+      <div class="contestant-actions">
+        <button type="button" class="btn small ghost" id="btnSetContestants">Assign manually</button>
+        <button type="button" class="btn small" id="btnRandomTeams">🎲 Make balanced random teams</button>
+      </div>
+      <p class="hint" id="contestantStatus">Contestant names are optional. Random assignment makes equal teams, or a difference of one when the total is odd.</p>
+      <div class="contestant-grid" id="contestantAssignments"></div>
+      <div class="roster-preview" id="rosterPreview" hidden>
+        <div class="roster-box teamA-accent"><strong id="rosterName0">Team 7azar</strong><span id="rosterMembers0">No contestants assigned</span></div>
+        <div class="roster-box teamB-accent"><strong id="rosterName1">Team Fazar</strong><span id="rosterMembers1">No contestants assigned</span></div>
       </div>
     </div>
   </div>
@@ -483,17 +531,22 @@
     <span id="turnText"></span>
   </div>
   <div class="topic-banner" id="topicBanner"></div>
+  <div id="activePowerup"></div>
 
   <div class="qwrap">
     <div class="qcard">
-      <div id="qText"></div>
+      <div id="qText" dir="auto"></div>
       <!-- shown with the question, while the teams are still guessing -->
       <div id="qNote"></div>
       <div id="qImgWrap">
         <img id="qImg" alt="Question figure">
         <div id="qImgHint">🚫 Use “Ban this question” if the image looks wrong or cut off</div>
       </div>
-      <div id="aText"></div>
+      <div id="qAudioWrap">
+        <button type="button" class="btn ghost" id="btnPlaySound">▶ Play sound</button>
+        <span id="soundStatus">Listen carefully — replay is allowed</span>
+      </div>
+      <div id="aText" dir="auto"></div>
     </div>
     <div class="timer-box">
       <div class="ring">
@@ -543,6 +596,13 @@
     <div class="ov-topic" id="ovTopic"></div>
     <div class="ov-team" id="ovTeam"></div>
     <div class="ov-sub" id="ovSub"></div>
+    <div class="powerup-title">Choose a power-up for this question (optional)</div>
+    <div class="powerup-grid" id="powerupGrid">
+      <button type="button" class="powerup-btn" data-powerup="hole">🕳️ Hole</button>
+      <button type="button" class="powerup-btn" data-powerup="double">✌️ Double Answer</button>
+      <button type="button" class="powerup-btn" data-powerup="friend">📱 Ask a Friend / AI</button>
+    </div>
+    <button type="button" class="powerup-none" id="btnNoPowerup">Continue without a power-up</button>
     <button class="btn primary" id="btnGo">Go! ⏱</button>
   </div>
 </div>
@@ -555,6 +615,8 @@
 
 <canvas id="confetti"></canvas>
 
+<script src="./find-the-odd-bank.js"></script>
+<script src="./egyptian-proverbs-bank.js"></script>
 <script>
 "use strict";
 /* ================= sample question bank ================= */
@@ -661,6 +723,96 @@ const MAX_TOPICS = 6;
 const PTS = {1:10, 2:20, 3:30};
 const TIER_NAME = {1:"Easy", 2:"Medium", 3:"Hard"};
 const TIER_DOT = {1:"🟢", 2:"🟡", 3:"🔴"};
+const GUESS_SOUND_BANK = [
+  ["electric-jigsaw","Electric jigsaw",2],["hedge-trimmer","Hedge trimmer",2],
+  ["ratchet-wrench","Ratchet wrench",2],["pneumatic-nail-gun","Pneumatic nail gun",2],
+  ["pneumatic-impact-wrench","Pneumatic impact wrench",3],
+  ["angle-grinder","Angle grinder cutting metal",3],
+  ["anchor-chain-hoist","Anchor being hoisted by chain",3],
+  ["air-compressor-release","Air-compressor pressure release",3],
+  ["orbital-sander","Electric power sander",3],["manual-tile-cutter","Manual tile cutter",3],
+  ["diesel-engine-idling","Diesel engine idling",2],
+  ["train-crossing-signal","Train-crossing warning signal",2],
+  ["transit-door-warning","Transit doors closing with a warning beep",2],
+  ["two-stroke-motorcycle","Two-stroke motorcycle starting",3],
+  ["train-wheel-squeal","Train wheels squealing",3],
+  ["powered-parachute","Powered parachute flying and landing",3],
+  ["helicopter-rotor-start","Helicopter rotor starting",3],
+  ["printer-paper-feed","Printer feeding paper",2],["sewing-machine","Sewing machine",2],
+  ["coffee-grinder","Coffee grinder",3],["woodpecker","Woodpecker drilling wood",2],
+  ["tawny-owl","Tawny owl call",3],["rattlesnake","Rattlesnake warning rattle",3],
+  ["waves-in-sea-cave","Sea waves",2],["stapler","Stapler",2],
+  ["cardboard-tearing","Corrugated cardboard tearing",2],
+  ["manual-window-crank","Manual car-window crank",3],
+  ["spinning-coin","Coin spinning and settling",3],
+  ["mortar-pestle","Mortar and pestle grinding",3],
+  ["bowling","Bowling ball hitting pins",2],
+  ["stirring-coffee","Stirring coffee with a spoon",2],
+  ["dial-up-modem","Dial-up modem connecting",2],
+  ["billiards-balls","Billiard balls colliding",2],
+  ["ping-pong","Table-tennis ball being played",2],
+  ["steaming-milk","Milk being steamed by a coffee machine",3],
+  ["radio-tuning","Radio being tuned between stations",3],
+  ["atm-machine","ATM dispensing or counting cash",3],
+  ["tennis","Tennis rally",2],
+  ["car-turn-signal","Car turn signal clicking",3],
+  ["dolphin","Dolphin",2],["bats","Bats",3],["whale","Whale",2],
+  ["dead-car-battery","Car engine trying to start with a dead battery",2],
+  ["electric-pencil-sharpener","Electric pencil sharpener",3]
+].map(([stem,a,d])=>({q:"Guess the sound.",a,d,audio:`sounds/guess-the-sound/${stem}.mp3`}));
+const ABBREVIATIONS_BANK = [
+  ["WHO","World Health Organization",1],["UN","United Nations",1],
+  ["UK","United Kingdom",1],["USA","United States of America",1],
+  ["UAE","United Arab Emirates",1],["EU","European Union",1],
+  ["BBC","British Broadcasting Corporation",1],["TV","Television",1],
+  ["ATM","Automated Teller Machine",1],["GPS","Global Positioning System",1],
+  ["CEO","Chief Executive Officer",1],["VIP","Very Important Person",1],
+  ["DIY","Do It Yourself",1],["FAQ","Frequently Asked Questions",1],
+  ["HP","Hewlett-Packard",1],["VW","Volkswagen",1],
+  ["MB","Megabyte in computing, or Mercedes-Benz",1],
+  ["PDF","Portable Document Format",2],
+  ["BMW","Bavarian Motor Works / Bayerische Motoren Werke",2],
+  ["NASA","National Aeronautics and Space Administration",2],
+  ["NATO","North Atlantic Treaty Organization",2],
+  ["FIFA","Fédération Internationale de Football Association",2],
+  ["UEFA","Union of European Football Associations",2],
+  ["UNICEF","United Nations Children’s Fund",2],
+  ["UNESCO","United Nations Educational, Scientific and Cultural Organization",2],
+  ["NHS","National Health Service",2],["FBI","Federal Bureau of Investigation",2],
+  ["CIA","Central Intelligence Agency",2],["CCTV","Closed-Circuit Television",2],
+  ["PIN","Personal Identification Number",2],["SIM","Subscriber Identity Module",2],
+  ["RAM","Random Access Memory",2],["ROM","Read-Only Memory",2],
+  ["QR","Quick Response",2],["USB","Universal Serial Bus",3],
+  ["HTML","HyperText Markup Language",3],["HTTP","HyperText Transfer Protocol",3],
+  ["HTTPS","HyperText Transfer Protocol Secure",3],["URL","Uniform Resource Locator",3],
+  ["CPU","Central Processing Unit",3],["GPU","Graphics Processing Unit",3],
+  ["SSD","Solid-State Drive",3],["HDD","Hard Disk Drive",3],
+  ["DNS","Domain Name System",3],["IP","Internet Protocol",3],
+  ["VPN","Virtual Private Network",3],["LAN","Local Area Network",3],
+  ["WAN","Wide Area Network",3],["JPEG","Joint Photographic Experts Group",3],
+  ["PNG","Portable Network Graphics",3],
+  ["ID","Identification",1],["DOB","Date of Birth",1],
+  ["SMS","Short Message Service",1],["PC","Personal Computer",1],
+  ["CD","Compact Disc",1],["DVD","Digital Versatile Disc",1],
+  ["AC","Alternating Current",1],["DC","Direct Current",1],
+  ["AM","Ante Meridiem — before midday",1],["PM","Post Meridiem — after midday",1],
+  ["ASAP","As Soon As Possible",1],["ETA","Estimated Time of Arrival",1],
+  ["RIP","Rest in Peace",1],["OMG","Oh My God",1],["LOL","Laughing Out Loud",1],
+  ["AKA","Also Known As",1],["TBC","To Be Confirmed or To Be Continued",1],
+  ["TBD","To Be Decided / To Be Determined",1],["FC","Football Club",1],
+  ["KSA","Kingdom of Saudi Arabia",1],["MRI","Magnetic Resonance Imaging",2],
+  ["ECG","Electrocardiogram",2],["ICU","Intensive Care Unit",2],
+  ["CPR","Cardiopulmonary Resuscitation",2],["DNA","Deoxyribonucleic Acid",2],
+  ["RNA","Ribonucleic Acid",2],["LED","Light-Emitting Diode",2],
+  ["LCD","Liquid Crystal Display",2],["HDMI","High-Definition Multimedia Interface",2],
+  ["GMT","Greenwich Mean Time",2],["UTC","Coordinated Universal Time",2],
+  ["GDP","Gross Domestic Product",2],["VAT","Value Added Tax",2],
+  ["IBAN","International Bank Account Number",2],
+  ["ISBN","International Standard Book Number",2],["PhD","Doctor of Philosophy",2],
+  ["NSAID","Nonsteroidal anti-inflammatory drug",3],
+  ["BC","Before Christ",3],["AD","Anno Domini",3],
+  ["NB","Nota bene",3],["etc.","Et cetera",3]
+].map(([abbr,a,d])=>({q:abbr==="MB" ? "What can MB stand for?" : `What does ${abbr} stand for?`,a,d}));
 let bank = loadBank();
 let usedSet = loadSet(USED_KEY);
 let bannedSet = loadSet(BANNED_KEY);
@@ -720,16 +872,198 @@ let bannedSet = loadSet(BANNED_KEY);
     localStorage.setItem("sj_mig_v11", "1");
   }catch(e){}
 })();
+(function migrateGuessSoundTopic(){
+  try{
+    if(localStorage.getItem("sj_mig_v17_public")) return;
+    bank["Guess the Sound"] = JSON.parse(JSON.stringify(GUESS_SOUND_BANK));
+    saveBank();
+    localStorage.setItem("sj_mig_v17_public", "1");
+  }catch(e){}
+})();
+(function synchronizeLatestQuestionsAndLogos(){
+  try{
+    if(localStorage.getItem("sj_mig_v18_public")) return;
+    bank["Guess the Sound"] = JSON.parse(JSON.stringify(GUESS_SOUND_BANK));
+    if(!Array.isArray(bank["Soccer"])) bank["Soccer"] = [];
+    const maradonaQ = "How many FIFA World Cups did Diego Maradona participate in as either a player or manager?";
+    if(!bank["Soccer"].some(question=>question.q === maradonaQ)){
+      bank["Soccer"].push({q:maradonaQ,a:"5 — four as a player and one as a manager",d:2});
+    }
+    if(!Array.isArray(bank["Logos"])) bank["Logos"] = [];
+    const replacements = [
+      {q:"Guess the logo.",a:"Armani",d:2,img:"logo-assets/requested/armani-logo.jpg"},
+      {q:"Guess the logo.",a:"Shell",d:1,img:"logo-assets/requested/shell-logo.png"},
+      {q:"Guess the logo.",a:"Michelin",d:2,img:"logo-assets/requested/michelin-logo.png"},
+      {q:"Guess the logo.",a:"Bridgestone",d:3,img:"logo-assets/requested/bridgestone-logo.jpg"},
+      {q:"Guess the logo.",a:"Circle K",d:2,img:"logo-assets/requested/circle-k-logo.png"}
+    ];
+    const names = new Set(replacements.map(question=>question.a));
+    bank["Logos"] = bank["Logos"].filter(question=>!names.has(question.a));
+    bank["Logos"].push(...replacements);
+    saveBank();
+    localStorage.setItem("sj_mig_v18_public", "1");
+  }catch(e){}
+})();
+(function alignPublicLogosWithPrivate(){
+  try{
+    if(localStorage.getItem("sj_mig_v19_public")) return;
+    const retired = new Set([
+      "Abarth","Alfa Romeo","Amazon","ASDA","Aston Martin","AstraZeneca","BMW",
+      "Burger King","BYD","Chrysler","Dodge","Fiat","Ford","Genesis","GMC",
+      "Haval","HP","IKEA","Isuzu","Jeep","Kia","Land Rover","Levi’s","Lidl",
+      "Lotus","Mahindra","MG","MINI","Nissan","Pagani","Porsche","Primark","Volvo"
+    ]);
+    const replacementImages = {
+      "CUPRA":"logo-assets/cars/cupra-emblem.svg",
+      "GAC Motor":"logo-assets/cars/gac-emblem.svg",
+      "Hardee’s":"logo-assets/requested/hardees-logo.jpeg",
+      "Jaguar":"logo-assets/cars/jaguar-emblem.svg",
+      "McLaren":"logo-assets/cars/mclaren-logo.jpeg",
+      "Montblanc":"logo-assets/requested/montblanc-logo.jpg",
+      "Novartis":"logo-assets/requested/novartis-emblem.svg",
+      "Peugeot":"logo-assets/cars/peugeot-emblem.svg",
+      "Ralph Lauren":"logo-assets/requested/ralph-lauren-logo.jpg",
+      "Sainsbury’s":"logo-assets/requested/sainsburys-logo.jpg"
+    };
+    if(Array.isArray(bank["Logos"])){
+      bank["Logos"] = bank["Logos"].filter(question=>!retired.has(question.a));
+      for(const question of bank["Logos"]){
+        question.q = "Guess the logo.";
+        if(replacementImages[question.a]) question.img = replacementImages[question.a];
+      }
+      saveBank();
+    }
+    localStorage.setItem("sj_mig_v19_public", "1");
+  }catch(e){}
+})();
+(function addAbbreviationsTopic(){
+  try{
+    if(localStorage.getItem("sj_mig_v20_public")) return;
+    bank["Abbreviations"] = JSON.parse(JSON.stringify(ABBREVIATIONS_BANK));
+    saveBank();
+    localStorage.setItem("sj_mig_v20_public", "1");
+  }catch(e){}
+})();
+(function expandAbbreviationsTopic(){
+  try{
+    if(localStorage.getItem("sj_mig_v21_public")) return;
+    bank["Abbreviations"] = JSON.parse(JSON.stringify(ABBREVIATIONS_BANK));
+    saveBank();
+    localStorage.setItem("sj_mig_v21_public", "1");
+  }catch(e){}
+})();
+(function addLatestHardAbbreviations(){
+  try{
+    if(localStorage.getItem("sj_mig_v22_public")) return;
+    bank["Abbreviations"] = JSON.parse(JSON.stringify(ABBREVIATIONS_BANK));
+    saveBank();
+    localStorage.setItem("sj_mig_v22_public", "1");
+  }catch(e){}
+})();
+(function addNbAndEtcAbbreviations(){
+  try{
+    if(localStorage.getItem("sj_mig_v23_public")) return;
+    bank["Abbreviations"] = JSON.parse(JSON.stringify(ABBREVIATIONS_BANK));
+    saveBank();
+    localStorage.setItem("sj_mig_v23_public", "1");
+  }catch(e){}
+})();
+(function addFindTheOddTopic(){
+  try{
+    if(localStorage.getItem("sj_mig_v24_public")) return;
+    if(Array.isArray(window.FIND_ODD_BANK)){
+      bank["Find the Odd"] = JSON.parse(JSON.stringify(window.FIND_ODD_BANK));
+      saveBank();
+    }
+    localStorage.setItem("sj_mig_v24_public", "1");
+  }catch(e){}
+})();
+(function refreshFindTheOddAndTbc(){
+  try{
+    if(localStorage.getItem("sj_mig_v25_public")) return;
+    if(Array.isArray(window.FIND_ODD_BANK)){
+      bank["Find the Odd"] = JSON.parse(JSON.stringify(window.FIND_ODD_BANK));
+    }
+    bank["Abbreviations"] = JSON.parse(JSON.stringify(ABBREVIATIONS_BANK));
+    saveBank();
+    localStorage.setItem("sj_mig_v25_public", "1");
+  }catch(e){}
+})();
+(function addLatestFindTheOddImages(){
+  try{
+    if(localStorage.getItem("sj_mig_v26_public")) return;
+    if(Array.isArray(window.FIND_ODD_BANK)){
+      bank["Find the Odd"] = JSON.parse(JSON.stringify(window.FIND_ODD_BANK));
+      saveBank();
+    }
+    localStorage.setItem("sj_mig_v26_public", "1");
+  }catch(e){}
+})();
+(function addEgyptianProverbsTopic(){
+  try{
+    if(localStorage.getItem("sj_mig_v27_public")) return;
+    if(Array.isArray(window.EGYPTIAN_PROVERBS_BANK)){
+      bank["امثلة شعبية مصرية"] = JSON.parse(JSON.stringify(window.EGYPTIAN_PROVERBS_BANK));
+      saveBank();
+    }
+    localStorage.setItem("sj_mig_v27_public", "1");
+  }catch(e){}
+})();
+(function expandEgyptianProverbsTopic(){
+  try{
+    if(localStorage.getItem("sj_mig_v28_public")) return;
+    if(Array.isArray(window.EGYPTIAN_PROVERBS_BANK)){
+      bank["امثلة شعبية مصرية"] = JSON.parse(JSON.stringify(window.EGYPTIAN_PROVERBS_BANK));
+      saveBank();
+    }
+    localStorage.setItem("sj_mig_v28_public", "1");
+  }catch(e){}
+})();
+(function renameAndExpandProverbsTopic(){
+  try{
+    if(localStorage.getItem("sj_mig_v29_public")) return;
+    delete bank["امثلة شعبية مصرية"];
+    if(Array.isArray(window.EGYPTIAN_PROVERBS_BANK)){
+      bank["Complete the Proverb"] = JSON.parse(JSON.stringify(window.EGYPTIAN_PROVERBS_BANK));
+      saveBank();
+    }
+    localStorage.setItem("sj_mig_v29_public", "1");
+  }catch(e){}
+})();
+(function removeRetiredFindTheOddQuestions(){
+  try{
+    if(localStorage.getItem("sj_mig_v30_public")) return;
+    if(Array.isArray(window.FIND_ODD_BANK)){
+      bank["Find the Odd"] = JSON.parse(JSON.stringify(window.FIND_ODD_BANK));
+      saveBank();
+    }
+    localStorage.setItem("sj_mig_v30_public", "1");
+  }catch(e){}
+})();
+(function addFindTheOddSolutionImages(){
+  try{
+    if(localStorage.getItem("sj_mig_v31_public")) return;
+    if(Array.isArray(window.FIND_ODD_BANK)){
+      bank["Find the Odd"] = JSON.parse(JSON.stringify(window.FIND_ODD_BANK));
+      saveBank();
+    }
+    localStorage.setItem("sj_mig_v31_public", "1");
+  }catch(e){}
+})();
 let game = null;
 let timer = {id:null, left:0, total:30};
 const gameMusic = new Audio("sounds/music/game-loop.mp3");
 const clockTicking = new Audio("sounds/effects/clock-ticking.mp3");
+const questionAudio = new Audio();
+let questionSoundPlaysRemaining = 0;
 const WINNER_ANNOUNCEMENT_VIDEO = "reactions/winner/winner-announcement-updated.mov";
 const GAME_MUSIC_VOLUME = 0.22;
 gameMusic.loop = true;
 gameMusic.volume = GAME_MUSIC_VOLUME;
 clockTicking.loop = true;
 clockTicking.volume = 0.38;
+questionAudio.preload = "auto";
+questionAudio.volume = 0.95;
 
 /* ================= helpers ================= */
 const $ = id => document.getElementById(id);
@@ -757,7 +1091,7 @@ function saveSet(key, set){ try{ localStorage.setItem(key, JSON.stringify([...se
 function saveUsed(){ saveSet(USED_KEY, usedSet); }
 function saveBanned(){ saveSet(BANNED_KEY, bannedSet); }
 function activeQs(topic){
-  return bank[topic].filter(x=>!bannedSet.has(qid(topic, x.q, x.img)));
+  return bank[topic].filter(x=>!bannedSet.has(qid(topic, x.q, x.img || x.audio)));
 }
 function qid(topic, qtext, img){
   // stable id per question so play history survives reloads and bank re-imports
@@ -774,6 +1108,7 @@ function normD(d){
   return map[String(d).toLowerCase()] || 2;
 }
 function show(screenId){
+  if(screenId !== "screen-game") stopQuestionSound();
   document.querySelectorAll(".screen").forEach(s=>s.classList.remove("active"));
   $(screenId).classList.add("active");
   if(screenId === "screen-board" || screenId === "screen-game") playGameMusic();
@@ -797,15 +1132,169 @@ function stopClockTicking(){
   clockTicking.currentTime = 0;
   gameMusic.volume = GAME_MUSIC_VOLUME;
 }
+function restoreTimerAudioAfterSound(){
+  $("btnPlaySound").textContent = "↻ Replay sound";
+  $("soundStatus").textContent = "Listen carefully — replay is allowed";
+  if(timer.id){
+    gameMusic.volume = 0.12;
+    clockTicking.currentTime = 0;
+    const ticking = clockTicking.play();
+    if(ticking && ticking.catch) ticking.catch(()=>{});
+  }else{
+    gameMusic.volume = GAME_MUSIC_VOLUME;
+  }
+}
+function stopQuestionSound(){
+  questionSoundPlaysRemaining = 0;
+  questionAudio.pause();
+  questionAudio.currentTime = 0;
+  restoreTimerAudioAfterSound();
+}
+function playQuestionSound(){
+  const question = cur();
+  if(!question || !question.audio) return;
+  questionAudio.pause();
+  if(questionAudio.getAttribute("src") !== question.audio) questionAudio.src = question.audio;
+  questionAudio.currentTime = 0;
+  questionSoundPlaysRemaining = 3;
+  clockTicking.pause();
+  gameMusic.volume = 0.04;
+  $("btnPlaySound").textContent = "■ Playing…";
+  $("soundStatus").textContent = "Playing sound 1 of 3";
+  const playing = questionAudio.play();
+  if(playing && playing.catch) playing.catch(()=>{
+    questionSoundPlaysRemaining = 0;
+    restoreTimerAudioAfterSound();
+  });
+}
+questionAudio.addEventListener("ended", ()=>{
+  questionSoundPlaysRemaining--;
+  if(questionSoundPlaysRemaining > 0){
+    const playNumber = 4 - questionSoundPlaysRemaining;
+    questionAudio.currentTime = 0;
+    $("soundStatus").textContent = `Playing sound ${playNumber} of 3`;
+    const replaying = questionAudio.play();
+    if(replaying && replaying.catch) replaying.catch(()=>{
+      questionSoundPlaysRemaining = 0;
+      restoreTimerAudioAfterSound();
+    });
+    return;
+  }
+  restoreTimerAudioAfterSound();
+});
+questionAudio.addEventListener("error", ()=>{
+  questionSoundPlaysRemaining = 0;
+  $("btnPlaySound").textContent = "▶ Try sound again";
+  $("soundStatus").textContent = "The sound could not be loaded";
+});
+$("btnPlaySound").addEventListener("click", playQuestionSound);
 
 /* ================= setup screen ================= */
+let contestants = [];
+function parsedContestantNames(){
+  return $("contestantNames").value.split(/[\n,]+/).map(name=>name.trim()).filter(Boolean);
+}
+function setContestantStatus(message, ok){
+  const el = $("contestantStatus");
+  el.textContent = message;
+  el.className = "hint " + (ok ? "ok" : "err");
+}
+function syncContestantsFromInput(){
+  const names = parsedContestantNames();
+  const seen = new Set(), duplicates = [];
+  for(const name of names){
+    const key = name.toLocaleLowerCase();
+    if(seen.has(key)) duplicates.push(name);
+    seen.add(key);
+  }
+  if(duplicates.length){
+    setContestantStatus(`⚠️ Remove duplicate name${duplicates.length === 1 ? "" : "s"}: ${[...new Set(duplicates)].join(", ")}.`, false);
+    return false;
+  }
+  const oldAssignments = new Map(contestants.map(person=>[person.name.toLocaleLowerCase(), person.team]));
+  contestants = names.map(name=>({name, team:oldAssignments.get(name.toLocaleLowerCase()) ?? null}));
+  renderContestantAssignments();
+  return true;
+}
+function renderContestantAssignments(){
+  const box = $("contestantAssignments");
+  box.innerHTML = "";
+  for(const [index, person] of contestants.entries()){
+    const row = document.createElement("div");
+    row.className = "contestant-row";
+    const name = document.createElement("span");
+    name.className = "person-name";
+    name.textContent = person.name;
+    const select = document.createElement("select");
+    select.setAttribute("aria-label", `Team for ${person.name}`);
+    [
+      ["", "Choose a team…"],
+      ["0", $("teamAName").value.trim() || "Team 1"],
+      ["1", $("teamBName").value.trim() || "Team 2"]
+    ].forEach(([value, label])=>{
+      const option = document.createElement("option");
+      option.value = value; option.textContent = label;
+      select.appendChild(option);
+    });
+    select.value = person.team === null ? "" : String(person.team);
+    select.addEventListener("change", ()=>{
+      contestants[index].team = select.value === "" ? null : Number(select.value);
+      updateRosterPreview();
+    });
+    row.append(name, select);
+    box.appendChild(row);
+  }
+  updateRosterPreview();
+}
+function updateRosterPreview(){
+  const preview = $("rosterPreview");
+  preview.hidden = contestants.length === 0;
+  const teamNames = [
+    $("teamAName").value.trim() || "Team 1",
+    $("teamBName").value.trim() || "Team 2"
+  ];
+  $("rosterName0").textContent = teamNames[0];
+  $("rosterName1").textContent = teamNames[1];
+  for(let team=0; team<2; team++){
+    const members = contestants.filter(person=>person.team === team).map(person=>person.name);
+    $(`rosterMembers${team}`).textContent = members.length ? members.join(", ") : "No contestants assigned";
+  }
+  const unassigned = contestants.filter(person=>person.team === null).length;
+  if(contestants.length && unassigned === 0){
+    const counts = [0,1].map(team=>contestants.filter(person=>person.team === team).length);
+    setContestantStatus(`${contestants.length} contestants assigned — ${counts[0]} in ${teamNames[0]} and ${counts[1]} in ${teamNames[1]}.`, true);
+  }
+}
+$("btnSetContestants").addEventListener("click", ()=>{
+  if(!syncContestantsFromInput()) return;
+  if(!contestants.length) setContestantStatus("No contestant names entered. You can still play using only the team names.", true);
+  else setContestantStatus("Choose a team beside each contestant’s name.", true);
+});
+$("btnRandomTeams").addEventListener("click", ()=>{
+  if(!syncContestantsFromInput()) return;
+  if(!contestants.length){
+    setContestantStatus("⚠️ Enter at least one contestant name before making random teams.", false);
+    return;
+  }
+  const shuffledIndexes = shuffle(contestants.map((_, index)=>index));
+  const extraTeam = contestants.length % 2 ? Math.floor(Math.random()*2) : 0;
+  const firstTeamSize = Math.floor(contestants.length/2) + (extraTeam === 0 ? contestants.length%2 : 0);
+  shuffledIndexes.forEach((contestantIndex, position)=>{
+    contestants[contestantIndex].team = position < firstTeamSize ? 0 : 1;
+  });
+  renderContestantAssignments();
+});
+["teamAName","teamBName"].forEach(id=>{
+  $(id).addEventListener("input", renderContestantAssignments);
+});
+
 function renderTopicList(){
   const box = $("topicList");
   box.innerHTML = "";
   Object.keys(bank).forEach(t=>{
     const qs = activeQs(t);
     const n = qs.length;
-    const fresh = qs.filter(x=>!usedSet.has(qid(t, x.q, x.img))).length;
+    const fresh = qs.filter(x=>!usedSet.has(qid(t, x.q, x.img || x.audio))).length;
     const chip = document.createElement("label");
     chip.className = "topic-chip";
     chip.innerHTML = `<input type="checkbox" value="${t.replace(/"/g,"&quot;")}"><span>${t}</span><span class="count">${fresh}/${n} new</span>` +
@@ -840,7 +1329,7 @@ function updateTopicHint(){
   for(const {topic, n} of sel){
     const qs = activeQs(topic);
     if(qs.length < n) short.push(topic);
-    else if(qs.filter(x=>!usedSet.has(qid(topic, x.q, x.img))).length < n) stale.push(topic);
+    else if(qs.filter(x=>!usedSet.has(qid(topic, x.q, x.img || x.audio))).length < n) stale.push(topic);
   }
   $("btnUnban").textContent = `♻️ Restore banned questions (${bannedSet.size})`;
   const totalQ = sel.reduce((s,c)=>s+c.n, 0);
@@ -890,6 +1379,10 @@ function validateJsonBank(obj){
                       // figure image: a relative path next to this page, or a data: URI
                       if(typeof x.img === "string" && x.img.trim() && !/^\s*(https?|javascript):/i.test(x.img))
                         e.img = x.img.trim();
+                      if(typeof x.solutionImg === "string" && x.solutionImg.trim() && !/^\s*(https?|javascript):/i.test(x.solutionImg))
+                        e.solutionImg = x.solutionImg.trim();
+                      if(typeof x.audio === "string" && x.audio.trim() && !/^\s*(https?|javascript):/i.test(x.audio))
+                        e.audio = x.audio.trim();
                       return e;
                     });
     if(clean.length) parsed[topic] = clean;
@@ -993,7 +1486,7 @@ function tierListFor(n, tiers){
 function buildBoard(configs, tierSel){
   const usedPicAns = new Set();                  // board-wide: no country picture twice
   return configs.map(({topic, n})=>{
-    const qs = activeQs(topic).map(x=>({q:x.q, a:x.a, d:normD(x.d ?? 2), t:x.t, img:x.img, id:qid(topic, x.q, x.img)}));
+    const qs = activeQs(topic).map(x=>({q:x.q, a:x.a, d:normD(x.d ?? 2), t:x.t, img:x.img, solutionImg:x.solutionImg, audio:x.audio, id:qid(topic, x.q, x.img || x.audio)}));
     const takenIds = new Set();
     const tiers = tierListFor(n, tierSel);
     const seen = {};                             // split each tier evenly: owners 0,1,0,1…
@@ -1010,18 +1503,37 @@ $("btnStart").addEventListener("click", ()=>{
     $("topicHint").textContent = "⚠️ Pick at least one topic to start!";
     return;
   }
+  if(!syncContestantsFromInput()) return;
+  const unassigned = contestants.filter(person=>person.team === null);
+  if(unassigned.length){
+    setContestantStatus(`⚠️ Assign a team to: ${unassigned.map(person=>person.name).join(", ")}.`, false);
+    $("contestantAssignments").scrollIntoView({behavior:"smooth", block:"center"});
+    return;
+  }
   gameMusic.currentTime = 0;
   game = {
     teams: [
-      {name: $("teamAName").value.trim() || "Team 1", score: 0},
-      {name: $("teamBName").value.trim() || "Team 2", score: 0}
+      {
+        name: $("teamAName").value.trim() || "Team 1",
+        score: 0,
+        members: contestants.filter(person=>person.team === 0).map(person=>person.name),
+        powerups: {hole:true, double:true, friend:true}
+      },
+      {
+        name: $("teamBName").value.trim() || "Team 2",
+        score: 0,
+        members: contestants.filter(person=>person.team === 1).map(person=>person.name),
+        powerups: {hole:true, double:true, friend:true}
+      }
     ],
     timerSecs: parseInt($("timerSecs").value, 10),
     steal: $("stealRule").value === "on",
     board: buildBoard(configs, selectedTiers()),
     turn: 0,              // whose turn it is to pick
     pick: null,           // {ti, ci} of the cell being played
-    answerRevealed: false
+    answerRevealed: false,
+    pendingPowerup: null,
+    activePowerup: null
   };
   timer.total = game.timerSecs;
   for(const id of ["score0","bScore0"]) $(id).querySelector(".tname").textContent = game.teams[0].name;
@@ -1138,24 +1650,55 @@ function showYearNote(question, answer){
 }
 function showIntermission(){
   const c = cur(), team = curTeam();
+  game.pendingPowerup = null;
   $("ovTopic").textContent = "📚 " + game.board[game.pick.ti].topic;
   // 🟠 not 🟡: team 2 is orange now, and 🟡 already means the medium tier
   $("ovTeam").textContent = team===0 ? "🔵 " + game.teams[0].name : "🟠 " + game.teams[1].name;
   $("ovTeam").className = "ov-team t" + team;
   $("ovSub").textContent = `${TIER_DOT[c.d]} ${TIER_NAME[c.d]} — worth ${PTS[c.d]} points • ${fmtDur(c.t || game.timerSecs)} on the clock`;
+  renderPowerups();
   $("overlay").classList.add("shown");
 }
+const POWERUP_LABELS = {
+  hole: "🕳️ Hole — right: opponent loses the same points; wrong: your team loses the question points",
+  double: "✌️ Double Answer — the team may give two answers",
+  friend: "📱 Ask a Friend / AI — outside help is allowed"
+};
+function renderPowerups(){
+  const available = game.teams[curTeam()].powerups;
+  document.querySelectorAll(".powerup-btn").forEach(button=>{
+    const key = button.dataset.powerup;
+    button.disabled = !available[key];
+    button.classList.toggle("selected", game.pendingPowerup === key);
+    button.title = available[key] ? POWERUP_LABELS[key] : "Already used";
+  });
+}
+document.querySelectorAll(".powerup-btn").forEach(button=>{
+  button.addEventListener("click", ()=>{
+    if(button.disabled) return;
+    game.pendingPowerup = button.dataset.powerup;
+    renderPowerups();
+  });
+});
+$("btnNoPowerup").addEventListener("click", ()=>{
+  game.pendingPowerup = null;
+  renderPowerups();
+});
 $("btnGo").addEventListener("click", ()=>{
+  game.activePowerup = game.pendingPowerup;
+  if(game.activePowerup) game.teams[curTeam()].powerups[game.activePowerup] = false;
   $("overlay").classList.remove("shown");
   startQuestion();
 });
 function startQuestion(){
   const c = cur();
+  stopQuestionSound();
   usedSet.add(c.id); saveUsed();
   const total = game.board.reduce((s,col)=>s+col.cells.length, 0);
   $("topicBanner").textContent = `${game.board[game.pick.ti].topic} — ${TIER_DOT[c.d]} ${TIER_NAME[c.d]} (${PTS[c.d]} pts)`;
   $("progressText").textContent = `Question ${total - cellsLeft() + 1} / ${total}`;
   $("turnText").textContent = `${game.teams[curTeam()].name}'s turn`;
+  renderLivePowerups();
   $("qText").textContent = c.q;
   const wrap = $("qImgWrap"), qwrap = document.querySelector(".qwrap");
   if(c.img){
@@ -1171,15 +1714,44 @@ function startQuestion(){
     $("qText").style.fontSize = "";
     $("qText").style.color = "";
   }
+  $("qAudioWrap").classList.toggle("shown", !!c.audio);
+  $("btnPlaySound").textContent = "▶ Play sound";
+  $("soundStatus").textContent = "Listen carefully — replay is allowed";
   $("qImgHint").textContent = '🚫 Use "Ban this question" if the image looks wrong or cut off';
   $("aText").textContent = "✓ " + c.a + yearRange(c.q, c.a);
   $("stdControls").style.display = "";
   showYearNote(c.q, c.a);
   $("aText").classList.remove("shown");
   setJudging(false);
+  renderLivePowerups();
   updateScores();
   startTimer();
+  if(c.audio) playQuestionSound();
 }
+function activateLivePowerup(key){
+  if(game.answerRevealed || game.activePowerup) return;
+  const available = game.teams[curTeam()].powerups;
+  if(!available[key]) return;
+  available[key] = false;
+  game.activePowerup = key;
+  renderLivePowerups();
+}
+function renderLivePowerups(){
+  const powerup = $("activePowerup");
+  const shortLabels = {hole:"🕳️ Hole", double:"✌️ Double Answer", friend:"📱 Ask a Friend / AI"};
+  const available = game.teams[curTeam()].powerups;
+  powerup.innerHTML = Object.keys(shortLabels).map(key=>{
+    const state = game.activePowerup === key ? "active" : (available[key] ? "available" : "used");
+    const suffix = state === "active" ? " — ACTIVE" : (state === "used" ? " — used" : " — activate");
+    const disabled = state !== "available" || game.answerRevealed || !!game.activePowerup;
+    return `<button type="button" class="powerup-status ${state}" data-live-powerup="${key}" title="${POWERUP_LABELS[key]}"${disabled ? " disabled" : ""}>${shortLabels[key]}${suffix}</button>`;
+  }).join("");
+  powerup.classList.add("shown");
+}
+$("activePowerup").addEventListener("click", event=>{
+  const button = event.target.closest("[data-live-powerup]");
+  if(button) activateLivePowerup(button.dataset.livePowerup);
+});
 function fmtDur(s){
   return s % 60 === 0 && s >= 60 ? `${s/60} minute${s > 60 ? "s" : ""}` : `${s} seconds`;
 }
@@ -1201,6 +1773,7 @@ function startTimer(){
 }
 function stopTimer(){
   if(timer.id){ clearInterval(timer.id); timer.id = null; }
+  stopQuestionSound();
   stopClockTicking();
 }
 function renderTimer(){
@@ -1235,9 +1808,14 @@ function setJudging(on){
 }
 $("btnReveal").addEventListener("click", ()=>{
   stopTimer();                       // the answering window is over
+  if(cur().solutionImg){
+    $("qImg").src = cur().solutionImg;
+    $("qImgHint").textContent = "⭕ The odd item is circled";
+  }
   $("aText").classList.add("shown");
   $("timerHint").textContent = "who got it? →";
   setJudging(true);
+  renderLivePowerups();
 });
 /* ---- reaction videos: add more paths to either list; one is picked at random ---- */
 const REACTIONS = {
@@ -1294,12 +1872,18 @@ function playWinnerAnnouncement(){
   if(p && p.catch) p.catch(()=>{});
 }
 $("btnCorrect").addEventListener("click", ()=>{
-  game.teams[curTeam()].score += PTS[cur().d];
+  const points = PTS[cur().d];
+  game.teams[curTeam()].score += points;
+  if(game.activePowerup === "hole") game.teams[1 - curTeam()].score -= points;
   updateScores();
   if(cur().d >= 2) playReaction("celebration", ()=>nextQuestion());   // medium & hard get a cheer
   else nextQuestion();
 });
 $("btnWrong").addEventListener("click", ()=>{
+  if(game.activePowerup === "hole"){
+    game.teams[curTeam()].score -= PTS[cur().d];
+    updateScores();
+  }
   if(cur().d >= 2) playReaction("booing", ()=>nextQuestion());
   else nextQuestion();
 });
@@ -1315,6 +1899,8 @@ function nextQuestion(){
   cur().done = true;          // retire the cell that was just played
   cur().by = game.turn;       // record which team took it (for the per-tier cap)
   game.pick = null;
+  game.pendingPowerup = null;
+  game.activePowerup = null;
   game.turn = 1 - game.turn;  // teams alternate picking
   updateScores();
   if(cellsLeft() === 0){ endGame(); return; }
@@ -1338,13 +1924,13 @@ function replacementFor(c){
   for(const col of game.board) for(const cell of col.cells)
     if(cell.img && cell !== c) blockAns.add(normAns(cell.a));
   const pool = activeQs(topic)
-    .map(x=>({q:x.q, a:x.a, d:normD(x.d ?? 2), t:x.t, img:x.img, id:qid(topic, x.q, x.img)}))
+    .map(x=>({q:x.q, a:x.a, d:normD(x.d ?? 2), t:x.t, img:x.img, solutionImg:x.solutionImg, audio:x.audio, id:qid(topic, x.q, x.img || x.audio)}))
     .filter(x=>!taken.has(x.id));
   return pool.length ? pickOne(pool, c.d, new Set(), blockAns) : null;
 }
 function putReplacement(repl){
   const cell = cur();
-  delete cell.img; delete cell.t;                     // don't inherit the old question's figure
+  delete cell.img; delete cell.solutionImg; delete cell.audio; delete cell.t;  // don't inherit the old question's media
   Object.assign(cell, repl);   // keep the cell's position and done flag
 }
 $("btnBan").addEventListener("click", ()=>{

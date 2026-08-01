@@ -15357,8 +15357,8 @@
    "src": "authored"
   },
   {
-   "q": "How many nerves are in the human spinal cord?",
-   "a": "31",
+   "q": "How many pairs of spinal nerves are there in humans?",
+   "a": "31 pairs",
    "d": "medium",
    "src": "authored"
   },
@@ -15405,8 +15405,8 @@
    "src": "authored"
   },
   {
-   "q": "How much of the human body is made up of blood?",
-   "a": "About 8%",
+   "q": "How many litres of blood does an average human body contain?",
+   "a": "4.5 to 6 litres",
    "d": "medium",
    "src": "authored"
   },
@@ -15531,9 +15531,9 @@
    "src": "authored"
   },
   {
-   "q": "What is the medical term for a condition where the body doesn’t produce enough insulin?",
-   "a": "Diabetes mellitus",
-   "d": "hard",
+   "q": "What disease occurs when the pancreas does not produce enough insulin?",
+   "a": "Diabetes",
+   "d": "easy",
    "src": "authored"
   },
   {
@@ -15587,7 +15587,7 @@
   {
    "q": "Epistaxis is the medical term for what common occurrence?",
    "a": "Nose bleed",
-   "d": "hard",
+   "d": "medium",
    "src": "authored"
   }
  ],
@@ -15747,6 +15747,612 @@
    "a": "Sevilla",
    "d": "hard",
    "src": "verified"
+  },
+  {
+   "q": "Which country won the men's FIFA World Cup in 2022?",
+   "a": "Argentina",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which country won the men's FIFA World Cup in 2018?",
+   "a": "France",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which country won the first men's FIFA World Cup in 1930?",
+   "a": "Uruguay",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which country has won the most men's FIFA World Cups?",
+   "a": "Brazil",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "How many men's FIFA World Cups had Brazil won through 2022?",
+   "a": "Five",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which country won the men's FIFA World Cup in 2010?",
+   "a": "Spain",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which country won the men's FIFA World Cup in 2006?",
+   "a": "Italy",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which country won the men's FIFA World Cup in 2002?",
+   "a": "Brazil",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which country won the men's FIFA World Cup in 1998?",
+   "a": "France",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which country won the men's FIFA World Cup in 1966?",
+   "a": "England",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which country won the men's FIFA World Cup in 1986?",
+   "a": "Argentina",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which country won the men's FIFA World Cup in 2026?",
+   "a": "Spain",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which club has won the most European Cup and UEFA Champions League titles?",
+   "a": "Real Madrid",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which club won the 2024-25 UEFA Champions League?",
+   "a": "Paris Saint-Germain",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which club won the 2025-26 UEFA Champions League?",
+   "a": "Paris Saint-Germain",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Who won the men's Ballon d'Or in 2025?",
+   "a": "Ousmane Dembélé",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Who won the men's Ballon d'Or in 2024?",
+   "a": "Rodri",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Who won the men's Ballon d'Or in 2023?",
+   "a": "Lionel Messi",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Who won the men's Ballon d'Or in 2022?",
+   "a": "Karim Benzema",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Who has won the most men's Ballon d'Or awards?",
+   "a": "Lionel Messi",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which Portuguese star is commonly known as CR7?",
+   "a": "Cristiano Ronaldo",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which club is nicknamed the Red Devils in English football?",
+   "a": "Manchester United",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which club plays its home matches at Anfield?",
+   "a": "Liverpool",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which club plays its home matches at Camp Nou?",
+   "a": "Barcelona",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which club plays its home matches at the Santiago Bernabéu?",
+   "a": "Real Madrid",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which country does Lionel Messi represent?",
+   "a": "Argentina",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which country does Mohamed Salah represent?",
+   "a": "Egypt",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which country does Kylian Mbappé represent?",
+   "a": "France",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which country does Erling Haaland represent?",
+   "a": "Norway",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which competition is contested by Europe's top national teams every four years?",
+   "a": "UEFA European Championship",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which country won UEFA Euro 2024?",
+   "a": "Spain",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which country won the 2021 Copa América?",
+   "a": "Argentina",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which country won the 2024 Copa América?",
+   "a": "Argentina",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which country won the 2023 Africa Cup of Nations, played in 2024?",
+   "a": "Ivory Coast",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which club is known as the Gunners?",
+   "a": "Arsenal",
+   "d": "easy",
+   "src": "verified"
+  },
+  {
+   "q": "Which player scored twice for Argentina in the 2022 World Cup final?",
+   "a": "Lionel Messi",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Who scored the winning penalty for Argentina in the 2022 World Cup final shootout?",
+   "a": "Gonzalo Montiel",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which player scored the winning goal in the 2010 World Cup final?",
+   "a": "Andrés Iniesta",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Who scored Germany's winning goal in the 2014 World Cup final?",
+   "a": "Mario Götze",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which player scored a hat-trick in the 2022 World Cup final?",
+   "a": "Kylian Mbappé",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which goalkeeper won the Golden Glove at the 2022 World Cup?",
+   "a": "Emiliano Martínez",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which player won the Golden Ball at the 2022 World Cup?",
+   "a": "Lionel Messi",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which country did Argentina defeat in the 1986 World Cup final?",
+   "a": "West Germany",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which country did Brazil defeat in the 2002 World Cup final?",
+   "a": "Germany",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which country did France defeat in the 2018 World Cup final?",
+   "a": "Croatia",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which country did Spain defeat in the 2010 World Cup final?",
+   "a": "The Netherlands",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which country did Italy defeat in the 2006 World Cup final?",
+   "a": "France",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which country hosted the 2010 FIFA World Cup?",
+   "a": "South Africa",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which country hosted the 2022 FIFA World Cup?",
+   "a": "Qatar",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which three countries co-hosted the 2026 FIFA World Cup?",
+   "a": "Canada, Mexico and the United States",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "How many men's World Cup titles had Argentina won through 2022?",
+   "a": "Three",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "How many men's World Cup titles had France won through 2022?",
+   "a": "Two",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "How many men's World Cup titles had Uruguay won through 2022?",
+   "a": "Two",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "How many European Cup and Champions League titles had Real Madrid won through the 2024-25 season?",
+   "a": "Fifteen",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which club won the 2023-24 UEFA Champions League?",
+   "a": "Real Madrid",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which club did Real Madrid defeat in the 2024 Champions League final?",
+   "a": "Borussia Dortmund",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which club did Paris Saint-Germain defeat in the 2025 Champions League final?",
+   "a": "Inter Milan",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which club did Paris Saint-Germain defeat in the 2026 Champions League final?",
+   "a": "Arsenal",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "What was the score after extra time in the 2026 Champions League final?",
+   "a": "1-1",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which club won the 2022-23 UEFA Champions League?",
+   "a": "Manchester City",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which club did Manchester City defeat in the 2023 Champions League final?",
+   "a": "Inter Milan",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which club won the 2021-22 UEFA Champions League?",
+   "a": "Real Madrid",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Who scored the only goal in the 2022 Champions League final?",
+   "a": "Vinícius Júnior",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Who is the all-time leading scorer in the UEFA Champions League?",
+   "a": "Cristiano Ronaldo",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which club has the second-most European Cup and Champions League titles?",
+   "a": "AC Milan",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which player moved directly from Barcelona to Real Madrid in 2000?",
+   "a": "Luís Figo",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which Brazilian striker played for both Barcelona and Real Madrid?",
+   "a": "Ronaldo Nazário",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which Danish midfielder played for both Barcelona and Real Madrid?",
+   "a": "Michael Laudrup",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which former Real Madrid player later became a Barcelona captain and manager?",
+   "a": "Luis Enrique",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which Cameroonian striker appeared for Real Madrid before becoming a Barcelona star?",
+   "a": "Samuel Eto'o",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which Argentine forward played for both Barcelona and Real Madrid?",
+   "a": "Javier Saviola",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Who won the men's Ballon d'Or in 2018?",
+   "a": "Luka Modrić",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Who won the men's Ballon d'Or in 2007?",
+   "a": "Kaká",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which African country has won the most Africa Cup of Nations titles?",
+   "a": "Egypt",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which club won the Premier League in the 2015-16 season?",
+   "a": "Leicester City",
+   "d": "medium",
+   "src": "verified"
+  },
+  {
+   "q": "Which country won the 1934 FIFA World Cup?",
+   "a": "Italy",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Which country won the 1950 FIFA World Cup?",
+   "a": "Uruguay",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Which country won the 1962 FIFA World Cup?",
+   "a": "Brazil",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Which country won the 1978 FIFA World Cup?",
+   "a": "Argentina",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Which country won the 1994 FIFA World Cup?",
+   "a": "Brazil",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Which two countries have won consecutive men's World Cups?",
+   "a": "Italy and Brazil",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Who scored the 'Hand of God' goal at the 1986 World Cup?",
+   "a": "Diego Maradona",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Who scored the fastest goal in men's World Cup history?",
+   "a": "Hakan Şükür",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Which player is the only man to have won three FIFA World Cups as a player?",
+   "a": "Pelé",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Which defender captained Italy to the 2006 World Cup title?",
+   "a": "Fabio Cannavaro",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Which nation became the first African team to reach a men's World Cup semifinal?",
+   "a": "Morocco",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Which club won the first European Cup in 1956?",
+   "a": "Real Madrid",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Which club won the 1999 UEFA Champions League final with two stoppage-time goals?",
+   "a": "Manchester United",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Which club came back from 3-0 down to win the 2005 Champions League final on penalties?",
+   "a": "Liverpool",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Which Liverpool player scored their third and final successful penalty in the 2005 Champions League final shootout?",
+   "a": "Vladimir Smicer",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Which club won the 2012 Champions League final at Bayern Munich's home stadium?",
+   "a": "Chelsea",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Who scored Chelsea's equalizer in the 2012 Champions League final?",
+   "a": "Didier Drogba",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Which player scored Real Madrid's stoppage-time equalizer in the 2014 Champions League final?",
+   "a": "Sergio Ramos",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Which club won three consecutive Champions League titles from 2016 to 2018?",
+   "a": "Real Madrid",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Who won the men's Ballon d'Or in 1995?",
+   "a": "George Weah",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Who won the first Ballon d'Or in 1956?",
+   "a": "Stanley Matthews",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Which goalkeeper won the Ballon d'Or in 1963?",
+   "a": "Lev Yashin",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Who was the first player to move from Barcelona to Real Madrid?",
+   "a": "Alfonso Albéniz",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Which player won the Pichichi Trophy with both Barcelona and Real Madrid?",
+   "a": "Ronaldo Nazário",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "Which club won the European Cup in 1986 after goalkeeper Helmuth Duckadam saved four penalties in the shootout?",
+   "a": "Steaua București",
+   "d": "hard",
+   "src": "verified"
+  },
+  {
+   "q": "How many FIFA World Cups did Diego Maradona participate in as either a player or manager?",
+   "a": "5 — four as a player and one as a manager",
+   "d": "medium",
+   "src": "authored"
   }
  ],
  "Countries": [
@@ -20629,1026 +21235,823 @@
  ],
  "Logos": [
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Starbucks",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/opt/starbucks.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Google",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/opt/google.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "YouTube",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/opt/youtube.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Apple",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/opt/apple.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Adidas",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/opt/adidas.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Pepsi",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/opt/pepsi.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Chanel",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/opt/chanel.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Target",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/opt/target.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "PayPal",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/opt/paypal.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Bitcoin",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/opt/bitcoin-supplied.png"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Adobe",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/opt/adobe.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Rolex",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/opt/rolex.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Mitsubishi",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/opt/mitsubishi.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Mercedes-Benz",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/opt/mercedes-benz-v2.png"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "TikTok",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/opt/tiktok-v2.png"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Pizza Hut",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/opt/pizza-hut-v2.png"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Airbnb",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/opt/airbnb-v2.png"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Red Bull",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/opt/red-bull-v2.png"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Louis Vuitton",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/opt/louis-vuitton-v2.png"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "KFC",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/opt/kfc-v2.png"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Under Armour",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/opt/under-armour-v2.png"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Audi",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/cars/audi.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "BMW",
-   "d": "easy",
-   "src": "authored",
-   "img": "logo-assets/cars/bmw.svg"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Bugatti",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/cars/bugatti.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Cadillac",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/cars/cadillac.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Chevrolet",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/cars/chevrolet.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Ferrari",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/cars/ferrari.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "Fiat",
-   "d": "easy",
-   "src": "authored",
-   "img": "logo-assets/cars/fiat.svg"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "Ford",
-   "d": "easy",
-   "src": "authored",
-   "img": "logo-assets/cars/ford.svg"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Honda",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/cars/honda.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Hyundai",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/cars/hyundai.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Jaguar",
    "d": "easy",
    "src": "authored",
-   "img": "logo-assets/cars/jaguar.svg"
+   "img": "logo-assets/cars/jaguar-emblem.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "Jeep",
-   "d": "easy",
-   "src": "authored",
-   "img": "logo-assets/cars/jeep.svg"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "Kia",
-   "d": "easy",
-   "src": "authored",
-   "img": "logo-assets/cars/kia.svg"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Lamborghini",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/cars/lamborghini.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "Land Rover",
-   "d": "easy",
-   "src": "authored",
-   "img": "logo-assets/cars/landrover.svg"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Lexus",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/cars/lexus.png"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Maserati",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/cars/maserati.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Mazda",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/cars/mazda.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "McLaren",
    "d": "easy",
    "src": "authored",
-   "img": "logo-assets/cars/mclaren.svg"
+   "img": "logo-assets/cars/mclaren-logo.jpeg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "MG",
-   "d": "easy",
-   "src": "authored",
-   "img": "logo-assets/cars/mg.png"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "MINI",
-   "d": "easy",
-   "src": "authored",
-   "img": "logo-assets/cars/mini.svg"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "Nissan",
-   "d": "easy",
-   "src": "authored",
-   "img": "logo-assets/cars/nissan.svg"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Peugeot",
    "d": "easy",
    "src": "authored",
-   "img": "logo-assets/cars/peugeot.svg"
+   "img": "logo-assets/cars/peugeot-emblem.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "Porsche",
-   "d": "easy",
-   "src": "authored",
-   "img": "logo-assets/cars/porsche.svg"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Renault",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/cars/renault.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Rolls-Royce",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/cars/rollsroyce.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Subaru",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/cars/subaru.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Suzuki",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/cars/suzuki.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Tesla",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/cars/tesla.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Toyota",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/cars/toyota.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Volkswagen",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/cars/volkswagen.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "Volvo",
-   "d": "easy",
-   "src": "authored",
-   "img": "logo-assets/cars/volvo.svg"
-  },
-  {
-   "q": "Which business or brand does this logo belong to?",
-   "a": "Lidl",
-   "d": "easy",
-   "src": "authored",
-   "img": "logo-assets/requested/lidl.svg"
-  },
-  {
-   "q": "Which business or brand does this logo belong to?",
-   "a": "IKEA",
-   "d": "easy",
-   "src": "authored",
-   "img": "logo-assets/requested/ikea.svg"
-  },
-  {
-   "q": "Which business or brand does this logo belong to?",
-   "a": "Levi’s",
-   "d": "easy",
-   "src": "authored",
-   "img": "logo-assets/requested/levis.svg"
-  },
-  {
-   "q": "Which business or brand does this logo belong to?",
-   "a": "HP",
-   "d": "easy",
-   "src": "authored",
-   "img": "logo-assets/requested/hp.svg"
-  },
-  {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "7azar Fazar",
    "d": "easy",
    "src": "authored",
    "img": "icons/logo-home.png"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
-   "a": "Amazon",
-   "d": "easy",
-   "src": "authored",
-   "img": "logo-assets/requested/amazon.svg"
-  },
-  {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Gucci",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/requested/gucci.svg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Timberland",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/requested/timberland-emblem.png"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Lacoste",
    "d": "easy",
    "src": "authored",
    "img": "logo-assets/requested/lacoste-emblem-v2.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Ralph Lauren",
    "d": "easy",
    "src": "authored",
-   "img": "logo-assets/requested/ralphlauren.svg"
+   "img": "logo-assets/requested/ralph-lauren-logo.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
-   "a": "ASDA",
+   "q": "Guess the logo.",
+   "a": "Shell",
    "d": "easy",
    "src": "authored",
-   "img": "logo-assets/requested/asda.svg"
+   "img": "logo-assets/requested/shell-logo.png"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
-   "a": "Burger King",
-   "d": "easy",
-   "src": "authored",
-   "img": "logo-assets/requested/burgerking.svg"
-  },
-  {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "CBS",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/opt/cbs.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Unilever",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/opt/unilever.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Kodak",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/opt/kodak.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Beats",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/opt/beats.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "BP",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/opt/bp.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Quiksilver",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/opt/quiksilver.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Motorola",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/opt/motorola.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "NBC",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/opt/nbc.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "The Rolling Stones",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/opt/rolling-stones-v2.png"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "New York Yankees",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/opt/new-york-yankees-v2.png"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Dropbox",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/opt/dropbox-v2.png"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Duolingo",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/opt/duolingo-v2.png"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Jordan",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/opt/jordan-v2.png"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Fruit of the Loom",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/opt/fruit-of-the-loom.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Carrefour",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/opt/carrefour-v2.png"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Tripadvisor",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/opt/tripadvisor-v2.png"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "Abarth",
-   "d": "medium",
-   "src": "authored",
-   "img": "logo-assets/cars/abarth.svg"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Acura",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/cars/acura.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "Alfa Romeo",
-   "d": "medium",
-   "src": "authored",
-   "img": "logo-assets/cars/alfaromeo.svg"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "Aston Martin",
-   "d": "medium",
-   "src": "authored",
-   "img": "logo-assets/cars/astonmartin.svg"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Bentley",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/cars/bentley.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Buick",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/cars/buick.png"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "BYD",
-   "d": "medium",
-   "src": "authored",
-   "img": "logo-assets/cars/byd.svg"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Chery",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/cars/chery.png"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "Chrysler",
-   "d": "medium",
-   "src": "authored",
-   "img": "logo-assets/cars/chrysler.svg"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Citroën",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/cars/citroen.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "CUPRA",
    "d": "medium",
    "src": "authored",
-   "img": "logo-assets/cars/cupra.svg"
+   "img": "logo-assets/cars/cupra-emblem.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Dacia",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/cars/dacia.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "Dodge",
-   "d": "medium",
-   "src": "authored",
-   "img": "logo-assets/cars/dodge.png"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Geely",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/cars/geely.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "Genesis",
-   "d": "medium",
-   "src": "authored",
-   "img": "logo-assets/cars/genesis.svg"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "GMC",
-   "d": "medium",
-   "src": "authored",
-   "img": "logo-assets/cars/gmc.png"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Great Wall Motor",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/cars/greatwall.png"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "Haval",
-   "d": "medium",
-   "src": "authored",
-   "img": "logo-assets/cars/haval.png"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Infiniti",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/cars/infiniti.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "Isuzu",
-   "d": "medium",
-   "src": "authored",
-   "img": "logo-assets/cars/isuzu.svg"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Lada",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/cars/lada.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Lincoln",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/cars/lincoln.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "Lotus",
-   "d": "medium",
-   "src": "authored",
-   "img": "logo-assets/cars/lotus.svg"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "Mahindra",
-   "d": "medium",
-   "src": "authored",
-   "img": "logo-assets/cars/mahindra.svg"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Opel",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/cars/opel.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Polestar",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/cars/polestar.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Ram",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/cars/ram-emblem.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Rivian",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/cars/rivian.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "SEAT",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/cars/seat.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Škoda",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/cars/skoda.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Smart",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/cars/smart.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Tata Motors",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/cars/tata.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Vauxhall",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/cars/vauxhall.svg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Sainsbury’s",
    "d": "medium",
    "src": "authored",
-   "img": "logo-assets/requested/sainsburys.svg"
+   "img": "logo-assets/requested/sainsburys-logo.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Qatar Airways",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/requested/qatarairways.svg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
-   "a": "Primark",
-   "d": "medium",
-   "src": "authored",
-   "img": "logo-assets/requested/primark.svg"
-  },
-  {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Montblanc",
    "d": "medium",
    "src": "authored",
-   "img": "logo-assets/requested/montblanc.svg"
+   "img": "logo-assets/requested/montblanc-logo.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Fred Perry",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/requested/fredperry-laurel-v2.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Hardee’s",
    "d": "medium",
    "src": "authored",
-   "img": "logo-assets/requested/hardees.svg"
+   "img": "logo-assets/requested/hardees-logo.jpeg"
   },
   {
-   "q": "Which fashion brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Calvin Klein",
    "d": "medium",
    "src": "authored",
    "img": "logo-assets/requested/calvin-klein.svg"
   },
   {
-   "q": "Which fashion brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Armani",
    "d": "medium",
    "src": "authored",
-   "img": "logo-assets/requested/armani-symbol.svg"
+   "img": "logo-assets/requested/armani-logo.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
+   "a": "Michelin",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/requested/michelin-logo.png"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Circle K",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/requested/circle-k-logo.png"
+  },
+  {
+   "q": "Guess the logo.",
    "a": "Malibu Rum",
    "d": "hard",
    "src": "authored",
    "img": "logo-assets/opt/malibu-rum.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Atari",
    "d": "hard",
    "src": "authored",
    "img": "logo-assets/opt/atari.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "BIC",
    "d": "hard",
    "src": "authored",
    "img": "logo-assets/opt/bic.jpg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Lufthansa",
    "d": "hard",
    "src": "authored",
    "img": "logo-assets/opt/lufthansa-supplied.jpeg"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Evergrande",
    "d": "hard",
    "src": "authored",
    "img": "logo-assets/opt/evergrande-v2.png"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Ethereum",
    "d": "hard",
    "src": "authored",
    "img": "logo-assets/opt/ethereum-supplied.png"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Petronas",
    "d": "hard",
    "src": "authored",
    "img": "logo-assets/opt/petronas-v2.png"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "General Electric",
    "d": "hard",
    "src": "authored",
    "img": "logo-assets/opt/general-electric-supplied.png"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Daihatsu",
    "d": "hard",
    "src": "authored",
    "img": "logo-assets/cars/daihatsu.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "DS Automobiles",
    "d": "hard",
    "src": "authored",
    "img": "logo-assets/cars/dsautomobiles.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "GAC Motor",
    "d": "hard",
    "src": "authored",
-   "img": "logo-assets/cars/gac.svg"
+   "img": "logo-assets/cars/gac-emblem.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Hongqi",
    "d": "hard",
    "src": "authored",
    "img": "logo-assets/cars/hongqi.png"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Koenigsegg",
    "d": "hard",
    "src": "authored",
    "img": "logo-assets/cars/koenigsegg.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Lucid",
    "d": "hard",
    "src": "authored",
    "img": "logo-assets/cars/lucid.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "NIO",
    "d": "hard",
    "src": "authored",
    "img": "logo-assets/cars/nio.png"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
-   "a": "Pagani",
-   "d": "hard",
-   "src": "authored",
-   "img": "logo-assets/cars/pagani.png"
-  },
-  {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Perodua",
    "d": "hard",
    "src": "authored",
    "img": "logo-assets/cars/perodua.png"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Proton",
    "d": "hard",
    "src": "authored",
    "img": "logo-assets/cars/proton.svg"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Rimac",
    "d": "hard",
    "src": "authored",
    "img": "logo-assets/cars/rimac.png"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "VinFast",
    "d": "hard",
    "src": "authored",
    "img": "logo-assets/cars/vinfast.png"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "XPeng",
    "d": "hard",
    "src": "authored",
    "img": "logo-assets/cars/xpeng.png"
   },
   {
-   "q": "Which car manufacturer or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Zeekr",
    "d": "hard",
    "src": "authored",
    "img": "logo-assets/cars/zeekr.png"
   },
   {
-   "q": "Which business or brand does this logo belong to?",
-   "a": "AstraZeneca",
-   "d": "hard",
-   "src": "authored",
-   "img": "logo-assets/requested/astrazeneca.svg"
-  },
-  {
-   "q": "Which business or brand does this logo belong to?",
+   "q": "Guess the logo.",
    "a": "Novartis",
    "d": "hard",
    "src": "authored",
-   "img": "logo-assets/requested/novartis.svg"
+   "img": "logo-assets/requested/novartis-emblem.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Bridgestone",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/requested/bridgestone-logo.jpg"
   }
  ],
  "Riddles": [
@@ -21882,7 +22285,7 @@
   },
   {
    "q": "What can you break without touching it?",
-   "a": "A promise.",
+   "a": "Promise / heart / news.",
    "d": "medium",
    "src": "authored"
   },
@@ -21924,7 +22327,7 @@
   },
   {
    "q": "What can you hold in your right hand, but never in your left hand?",
-   "a": "Your left hand.",
+   "a": "Your left elbow.",
    "d": "medium",
    "src": "authored"
   },
@@ -22461,6 +22864,1850 @@
   {
    "q": "Letter Z — Say a male name, female name, country, city, fruit and animal beginning with Z. Any valid answers count.",
    "a": "Example — Male: Zain · Female: Zoe · Country: Zambia · City: Zurich · Fruit: Zucchini (botanically a fruit) · Animal: Zebra",
+   "d": "hard",
+   "src": "authored"
+  }
+ ],
+ "Guess the Sound": [
+  {
+   "q": "Guess the sound.",
+   "a": "Electric jigsaw",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/electric-jigsaw.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Hedge trimmer",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/hedge-trimmer.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Ratchet wrench",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/ratchet-wrench.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Pneumatic nail gun",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/pneumatic-nail-gun.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Diesel engine idling",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/diesel-engine-idling.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Train-crossing warning signal",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/train-crossing-signal.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Transit doors closing with a warning beep",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/transit-door-warning.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Printer feeding paper",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/printer-paper-feed.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Sewing machine",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/sewing-machine.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Woodpecker drilling wood",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/woodpecker.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Sea waves",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/waves-in-sea-cave.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Stapler",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/stapler.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Corrugated cardboard tearing",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/cardboard-tearing.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Bowling ball hitting pins",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/bowling.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Stirring coffee with a spoon",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/stirring-coffee.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Dial-up modem connecting",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/dial-up-modem.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Billiard balls colliding",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/billiards-balls.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Table-tennis ball being played",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/ping-pong.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Tennis rally",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/tennis.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Dolphin",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/dolphin.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Whale",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/whale.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Car engine trying to start with a dead battery",
+   "d": "medium",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/dead-car-battery.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Pneumatic impact wrench",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/pneumatic-impact-wrench.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Angle grinder cutting metal",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/angle-grinder.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Anchor being hoisted by chain",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/anchor-chain-hoist.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Air-compressor pressure release",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/air-compressor-release.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Electric power sander",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/orbital-sander.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Manual tile cutter",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/manual-tile-cutter.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Two-stroke motorcycle starting",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/two-stroke-motorcycle.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Train wheels squealing",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/train-wheel-squeal.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Powered parachute flying and landing",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/powered-parachute.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Helicopter rotor starting",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/helicopter-rotor-start.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Coffee grinder",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/coffee-grinder.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Tawny owl call",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/tawny-owl.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Rattlesnake warning rattle",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/rattlesnake.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Manual car-window crank",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/manual-window-crank.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Coin spinning and settling",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/spinning-coin.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Mortar and pestle grinding",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/mortar-pestle.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Milk being steamed by a coffee machine",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/steaming-milk.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Radio being tuned between stations",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/radio-tuning.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "ATM dispensing or counting cash",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/atm-machine.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Car turn signal clicking",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/car-turn-signal.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Bats",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/bats.mp3"
+  },
+  {
+   "q": "Guess the sound.",
+   "a": "Electric pencil sharpener",
+   "d": "hard",
+   "src": "authored",
+   "audio": "sounds/guess-the-sound/electric-pencil-sharpener.mp3"
+  }
+ ],
+ "Abbreviations": [
+  {
+   "q": "What does WHO stand for?",
+   "a": "World Health Organization",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does UN stand for?",
+   "a": "United Nations",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does UK stand for?",
+   "a": "United Kingdom",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does USA stand for?",
+   "a": "United States of America",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does UAE stand for?",
+   "a": "United Arab Emirates",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does EU stand for?",
+   "a": "European Union",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does BBC stand for?",
+   "a": "British Broadcasting Corporation",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does TV stand for?",
+   "a": "Television",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does ATM stand for?",
+   "a": "Automated Teller Machine",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does GPS stand for?",
+   "a": "Global Positioning System",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does CEO stand for?",
+   "a": "Chief Executive Officer",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does VIP stand for?",
+   "a": "Very Important Person",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does DIY stand for?",
+   "a": "Do It Yourself",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does FAQ stand for?",
+   "a": "Frequently Asked Questions",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does HP stand for?",
+   "a": "Hewlett-Packard",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does VW stand for?",
+   "a": "Volkswagen",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What can MB stand for?",
+   "a": "Megabyte in computing, or Mercedes-Benz",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does ID stand for?",
+   "a": "Identification",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does DOB stand for?",
+   "a": "Date of Birth",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does SMS stand for?",
+   "a": "Short Message Service",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does PC stand for?",
+   "a": "Personal Computer",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does CD stand for?",
+   "a": "Compact Disc",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does DVD stand for?",
+   "a": "Digital Versatile Disc",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does AC stand for?",
+   "a": "Alternating Current",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does DC stand for?",
+   "a": "Direct Current",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does AM stand for?",
+   "a": "Ante Meridiem — before midday",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does PM stand for?",
+   "a": "Post Meridiem — after midday",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does ASAP stand for?",
+   "a": "As Soon As Possible",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does ETA stand for?",
+   "a": "Estimated Time of Arrival",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does RIP stand for?",
+   "a": "Rest in Peace",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does OMG stand for?",
+   "a": "Oh My God",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does LOL stand for?",
+   "a": "Laughing Out Loud",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does AKA stand for?",
+   "a": "Also Known As",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does TBC stand for?",
+   "a": "To Be Confirmed or To Be Continued",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does TBD stand for?",
+   "a": "To Be Decided / To Be Determined",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does FC stand for?",
+   "a": "Football Club",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does KSA stand for?",
+   "a": "Kingdom of Saudi Arabia",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "What does PDF stand for?",
+   "a": "Portable Document Format",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does BMW stand for?",
+   "a": "Bavarian Motor Works / Bayerische Motoren Werke",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does NASA stand for?",
+   "a": "National Aeronautics and Space Administration",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does NATO stand for?",
+   "a": "North Atlantic Treaty Organization",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does FIFA stand for?",
+   "a": "Fédération Internationale de Football Association",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does UEFA stand for?",
+   "a": "Union of European Football Associations",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does UNICEF stand for?",
+   "a": "United Nations Children’s Fund",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does UNESCO stand for?",
+   "a": "United Nations Educational, Scientific and Cultural Organization",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does NHS stand for?",
+   "a": "National Health Service",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does FBI stand for?",
+   "a": "Federal Bureau of Investigation",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does CIA stand for?",
+   "a": "Central Intelligence Agency",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does CCTV stand for?",
+   "a": "Closed-Circuit Television",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does PIN stand for?",
+   "a": "Personal Identification Number",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does SIM stand for?",
+   "a": "Subscriber Identity Module",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does RAM stand for?",
+   "a": "Random Access Memory",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does ROM stand for?",
+   "a": "Read-Only Memory",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does QR stand for?",
+   "a": "Quick Response",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does MRI stand for?",
+   "a": "Magnetic Resonance Imaging",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does ECG stand for?",
+   "a": "Electrocardiogram",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does ICU stand for?",
+   "a": "Intensive Care Unit",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does CPR stand for?",
+   "a": "Cardiopulmonary Resuscitation",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does DNA stand for?",
+   "a": "Deoxyribonucleic Acid",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does RNA stand for?",
+   "a": "Ribonucleic Acid",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does LED stand for?",
+   "a": "Light-Emitting Diode",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does LCD stand for?",
+   "a": "Liquid Crystal Display",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does HDMI stand for?",
+   "a": "High-Definition Multimedia Interface",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does GMT stand for?",
+   "a": "Greenwich Mean Time",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does UTC stand for?",
+   "a": "Coordinated Universal Time",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does GDP stand for?",
+   "a": "Gross Domestic Product",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does VAT stand for?",
+   "a": "Value Added Tax",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does IBAN stand for?",
+   "a": "International Bank Account Number",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does ISBN stand for?",
+   "a": "International Standard Book Number",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does PhD stand for?",
+   "a": "Doctor of Philosophy",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "What does USB stand for?",
+   "a": "Universal Serial Bus",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What does HTML stand for?",
+   "a": "HyperText Markup Language",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What does HTTP stand for?",
+   "a": "HyperText Transfer Protocol",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What does HTTPS stand for?",
+   "a": "HyperText Transfer Protocol Secure",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What does URL stand for?",
+   "a": "Uniform Resource Locator",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What does CPU stand for?",
+   "a": "Central Processing Unit",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What does GPU stand for?",
+   "a": "Graphics Processing Unit",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What does SSD stand for?",
+   "a": "Solid-State Drive",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What does HDD stand for?",
+   "a": "Hard Disk Drive",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What does DNS stand for?",
+   "a": "Domain Name System",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What does IP stand for?",
+   "a": "Internet Protocol",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What does VPN stand for?",
+   "a": "Virtual Private Network",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What does LAN stand for?",
+   "a": "Local Area Network",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What does WAN stand for?",
+   "a": "Wide Area Network",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What does JPEG stand for?",
+   "a": "Joint Photographic Experts Group",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What does PNG stand for?",
+   "a": "Portable Network Graphics",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What does NSAID stand for?",
+   "a": "Nonsteroidal anti-inflammatory drug",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What does BC stand for?",
+   "a": "Before Christ",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What does AD stand for?",
+   "a": "Anno Domini",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What does NB stand for?",
+   "a": "Nota bene",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "What does etc. stand for?",
+   "a": "Et cetera",
+   "d": "hard",
+   "src": "authored"
+  }
+ ],
+ "Find the Odd": [
+  {
+   "q": "Find the odd panda.",
+   "a": "The sad panda in the bottom row.",
+   "d": "easy",
+   "src": "authored",
+   "img": "find-the-odd/supplied/pandas-cropped.jpg",
+   "solutionImg": "find-the-odd/solutions/pandas-solution.jpg"
+  },
+  {
+   "q": "Find the letter that is different from all the numbers.",
+   "a": "The letter S in the bottom row.",
+   "d": "easy",
+   "src": "authored",
+   "img": "find-the-odd/supplied/letter-s-cropped.jpg",
+   "solutionImg": "find-the-odd/solutions/letter-s-solution.jpg"
+  },
+  {
+   "q": "Find the odd penguin.",
+   "a": "The penguin with a different pose.",
+   "d": "easy",
+   "src": "authored",
+   "img": "find-the-odd/supplied/penguins-cropped.jpg",
+   "solutionImg": "find-the-odd/solutions/penguins-solution.jpg"
+  },
+  {
+   "q": "Find the odd avocado.",
+   "a": "The avocado without a stone.",
+   "d": "easy",
+   "src": "authored",
+   "img": "find-the-odd/supplied/avocados-cropped.jpg",
+   "solutionImg": "find-the-odd/solutions/avocados-solution.jpg"
+  },
+  {
+   "q": "Find the odd ladybird.",
+   "a": "Row 2, column 3 — it is missing one spot.",
+   "d": "easy",
+   "src": "authored",
+   "img": "find-the-odd/ladybirds.svg"
+  },
+  {
+   "q": "Find the odd clock.",
+   "a": "Row 3, column 4 — its minute hand points the other way.",
+   "d": "easy",
+   "src": "authored",
+   "img": "find-the-odd/clocks.svg"
+  },
+  {
+   "q": "Find the odd umbrella.",
+   "a": "Row 4, column 2 — its handle curves the other way.",
+   "d": "easy",
+   "src": "authored",
+   "img": "find-the-odd/umbrellas.svg"
+  },
+  {
+   "q": "Find the odd football.",
+   "a": "Row 1, column 5 — its centre panel is square.",
+   "d": "easy",
+   "src": "authored",
+   "img": "find-the-odd/footballs.svg"
+  },
+  {
+   "q": "Which is the odd one out: lizard, snake, turtle, crocodile, scorpion?",
+   "a": "Scorpion — it is an arachnid; the others are reptiles.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which is the odd one out: ant, bee, butterfly, beetle, spider?",
+   "a": "Spider — it is an arachnid; the others are insects.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which is the odd one out: apple, banana, mango, carrot, orange?",
+   "a": "Carrot — it is a root vegetable; the others are fruits.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Which is the odd one out: Cairo, London, Paris, Rome, Brazil?",
+   "a": "Brazil — it is a country; the others are capital cities.",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Find the odd bee.",
+   "a": "The bee with a different body.",
+   "d": "medium",
+   "src": "authored",
+   "img": "find-the-odd/supplied/bees.jpg",
+   "solutionImg": "find-the-odd/solutions/bees-solution.jpg"
+  },
+  {
+   "q": "Find the odd watermelon.",
+   "a": "The watermelon with a different pattern.",
+   "d": "medium",
+   "src": "authored",
+   "img": "find-the-odd/supplied/watermelons-cropped.jpg",
+   "solutionImg": "find-the-odd/solutions/watermelons-solution.jpg"
+  },
+  {
+   "q": "Find the odd sun.",
+   "a": "The sun with different sunglasses or face.",
+   "d": "medium",
+   "src": "authored",
+   "img": "find-the-odd/supplied/suns-cropped.jpg",
+   "solutionImg": "find-the-odd/solutions/suns-solution.jpg"
+  },
+  {
+   "q": "Find the odd flamingo.",
+   "a": "The flamingo float with a different detail.",
+   "d": "medium",
+   "src": "authored",
+   "img": "find-the-odd/supplied/flamingos-cropped.jpg"
+  },
+  {
+   "q": "Find the odd key.",
+   "a": "Row 4, column 3 — it has one fewer tooth.",
+   "d": "medium",
+   "src": "authored",
+   "img": "find-the-odd/keys.svg"
+  },
+  {
+   "q": "Find the odd fish.",
+   "a": "Row 2, column 4 — it swims in the opposite direction.",
+   "d": "medium",
+   "src": "authored",
+   "img": "find-the-odd/fish.svg"
+  },
+  {
+   "q": "Find the odd light bulb.",
+   "a": "Row 3, column 3 — its filament has a different shape.",
+   "d": "medium",
+   "src": "authored",
+   "img": "find-the-odd/lightbulbs.svg"
+  },
+  {
+   "q": "Find the odd playing card.",
+   "a": "Row 1, column 3 — it has the wrong suit and colour.",
+   "d": "medium",
+   "src": "authored",
+   "img": "find-the-odd/playing-cards.svg"
+  },
+  {
+   "q": "Which number is the odd one out: 28, 40, 14, 35, 21?",
+   "a": "40 — the other numbers are divisible by 7.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which number is the odd one out: 17, 11, 21, 19, 13?",
+   "a": "21 — the other numbers are prime.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which is the odd one out: square, triangle, pentagon, hexagon, circle?",
+   "a": "Circle — it has no straight sides.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Which is the odd one out: copper, iron, gold, silver, diamond?",
+   "a": "Diamond — it is not a metal.",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Find the odd pineapple.",
+   "a": "The pineapple with a different face.",
+   "d": "hard",
+   "src": "authored",
+   "img": "find-the-odd/supplied/pineapples.jpg",
+   "solutionImg": "find-the-odd/solutions/pineapples-solution.jpg"
+  },
+  {
+   "q": "Find the odd emoji.",
+   "a": "The emoji with a different facial expression.",
+   "d": "hard",
+   "src": "authored",
+   "img": "find-the-odd/supplied/emoji-grid-cropped.jpg",
+   "solutionImg": "find-the-odd/solutions/emoji-grid-solution.jpg"
+  },
+  {
+   "q": "Find the odd number 3.",
+   "a": "The number 3 with a different eye detail.",
+   "d": "hard",
+   "src": "authored",
+   "img": "find-the-odd/supplied/number-threes.jpg",
+   "solutionImg": "find-the-odd/solutions/number-threes-solution.jpg"
+  },
+  {
+   "q": "Find the odd lowercase letter i.",
+   "a": "The letter i with a different stroke or dot.",
+   "d": "hard",
+   "src": "authored",
+   "img": "find-the-odd/supplied/letter-i-grid.jpg",
+   "solutionImg": "find-the-odd/solutions/letter-i-solution.jpg"
+  },
+  {
+   "q": "Find the odd ice-cream cone.",
+   "a": "The ice cream with a different small detail.",
+   "d": "hard",
+   "src": "authored",
+   "img": "find-the-odd/supplied/ice-creams.jpg",
+   "solutionImg": "find-the-odd/solutions/ice-creams-solution.jpg"
+  },
+  {
+   "q": "Find the odd papaya.",
+   "a": "The papaya with a different seed pattern.",
+   "d": "hard",
+   "src": "authored",
+   "img": "find-the-odd/supplied/papayas.jpg",
+   "solutionImg": "find-the-odd/solutions/papayas-solution.jpg"
+  },
+  {
+   "q": "Find the odd letter E.",
+   "a": "The letter E with a different facial detail.",
+   "d": "hard",
+   "src": "authored",
+   "img": "find-the-odd/supplied/letter-e-grid.jpg",
+   "solutionImg": "find-the-odd/solutions/letter-e-solution.jpg"
+  },
+  {
+   "q": "Find the odd striped circle.",
+   "a": "The circle with a different number of diagonal lines.",
+   "d": "hard",
+   "src": "authored",
+   "img": "find-the-odd/supplied/striped-circles.jpg",
+   "solutionImg": "find-the-odd/solutions/striped-circles-solution.jpg"
+  },
+  {
+   "q": "Find the odd letter F.",
+   "a": "The letter F with a different facial detail.",
+   "d": "hard",
+   "src": "authored",
+   "img": "find-the-odd/supplied/letter-f-grid.jpg",
+   "solutionImg": "find-the-odd/solutions/letter-f-solution.jpg"
+  },
+  {
+   "q": "Find the odd symbol.",
+   "a": "The symbol that is the number 8 rather than an ampersand.",
+   "d": "hard",
+   "src": "authored",
+   "img": "find-the-odd/supplied/ampersands.jpg",
+   "solutionImg": "find-the-odd/solutions/ampersands-solution.jpg"
+  },
+  {
+   "q": "Find the odd flower.",
+   "a": "The flower with a different petal or centre detail.",
+   "d": "hard",
+   "src": "authored",
+   "img": "find-the-odd/supplied/flowers.jpg",
+   "solutionImg": "find-the-odd/solutions/flowers-solution.jpg"
+  },
+  {
+   "q": "Find the odd smiley face.",
+   "a": "The smiley face with a different expression or facial detail.",
+   "d": "hard",
+   "src": "authored",
+   "img": "find-the-odd/supplied/smiley-faces.jpg",
+   "solutionImg": "find-the-odd/solutions/smileys-solution.jpg"
+  },
+  {
+   "q": "Find the odd fingerprint.",
+   "a": "Row 4, column 4 — its inner pattern is different.",
+   "d": "hard",
+   "src": "authored",
+   "img": "find-the-odd/fingerprints.svg"
+  },
+  {
+   "q": "Find the odd circuit.",
+   "a": "Row 3, column 2 — its connection is broken.",
+   "d": "hard",
+   "src": "authored",
+   "img": "find-the-odd/circuits.svg"
+  },
+  {
+   "q": "Find the odd snowflake.",
+   "a": "Row 2, column 2 — it is missing one small branch.",
+   "d": "hard",
+   "src": "authored",
+   "img": "find-the-odd/snowflakes.svg"
+  },
+  {
+   "q": "Find the odd geometric tile.",
+   "a": "Row 4, column 1 — the whole tile is rotated.",
+   "d": "hard",
+   "src": "authored",
+   "img": "find-the-odd/geometry.svg"
+  },
+  {
+   "q": "Find the odd pair of glasses.",
+   "a": "Row 2, column 4 — its bridge is curved.",
+   "d": "hard",
+   "src": "authored",
+   "img": "find-the-odd/glasses.svg"
+  },
+  {
+   "q": "Which is the odd one out: Mercury, Venus, Earth, Mars, Europa?",
+   "a": "Europa — it is a moon; the others are planets.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which is the odd one out: Python, Java, Ruby, Swift, Photoshop?",
+   "a": "Photoshop — it is not a programming language.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which number is the odd one out: 100, 64, 130, 121, 81?",
+   "a": "130 — the others are perfect squares.",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which number is the odd one out: 64, 144, 8, 125, 27?",
+   "a": "144 — the others are perfect cubes.",
+   "d": "hard",
+   "src": "authored"
+  }
+ ],
+ "Complete the Proverb": [
+  {
+   "q": "أكمل المثل: اللي اختشوا…",
+   "a": "ماتوا",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: القرش الأبيض…",
+   "a": "ينفع في اليوم الأسود",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: امشي عدل…",
+   "a": "يحتار عدوك فيك",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: الباب اللي يجيلك منه الريح…",
+   "a": "سده واستريح",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: على قد لحافك…",
+   "a": "مد رجليك",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: يا خبر النهارده بفلوس…",
+   "a": "بكرة يبقى ببلاش",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: من بره هالله هالله…",
+   "a": "ومن جوه يعلم الله",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: اللي بيته من إزاز…",
+   "a": "ما يحدفش الناس بالطوب",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: ادي العيش لخبازه…",
+   "a": "ولو ياكل نصه",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: اسأل مجرب…",
+   "a": "ولا تسأل طبيب",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: ابن الوز…",
+   "a": "عوام",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: اقلب القدرة على فمها…",
+   "a": "تطلع البنت لأمها",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: القرد في عين…",
+   "a": "أمه غزال",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: اللي على راسه بطحة…",
+   "a": "يحسس عليها",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: عصفور في اليد…",
+   "a": "ولا عشرة على الشجرة",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: اللي فات…",
+   "a": "مات",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: المكتوب على الجبين…",
+   "a": "لازم تشوفه العين",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: اللي يعيش…",
+   "a": "ياما يشوف",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: من طول الغيبات…",
+   "a": "جاب الغنايم",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: إن غاب القط…",
+   "a": "العب يا فار",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: أبو بلاش…",
+   "a": "كتر منه",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: من فات قديمه…",
+   "a": "تاه",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: العجلة من…",
+   "a": "الشيطان",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: إن كبر ابنك…",
+   "a": "خاويه",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: اللي يزرع…",
+   "a": "يحصد",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: كل واحد ينام…",
+   "a": "على الجنب اللي يريحه",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: ما خفي…",
+   "a": "كان أعظم",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: You reap…",
+   "a": "what you sow",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: Don’t put all your eggs…",
+   "a": "in one basket",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: Actions speak louder…",
+   "a": "than words",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: Better late…",
+   "a": "than never",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: When in Rome…",
+   "a": "do as the Romans do",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: Practice makes…",
+   "a": "perfect",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: The early bird…",
+   "a": "catches the worm",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: A picture is worth…",
+   "a": "a thousand words",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: Two wrongs…",
+   "a": "don’t make a right",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: Don’t judge a book…",
+   "a": "by its cover",
+   "d": "easy",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: الجواب بيبان من…",
+   "a": "عنوانه",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: دوام الحال…",
+   "a": "من المحال",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: ربنا عرفوه…",
+   "a": "بالعقل",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: الحيطان…",
+   "a": "لها ودان",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: الصبر مفتاح…",
+   "a": "الفرج",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: كل تأخيرة…",
+   "a": "وفيها خيرة",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: من جاور…",
+   "a": "السعيد يسعد",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: الطيور على…",
+   "a": "أشكالها تقع",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: جبتك يا عبد المعين تعيني…",
+   "a": "لقيتك يا عبد المعين عايز تتعان",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: اللي ما يعرفش يقول…",
+   "a": "عدس",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: يا داخل بين البصلة وقشرتها…",
+   "a": "ما ينوبك إلا ريحتها",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: ديل الكلب عمره ما…",
+   "a": "يتعدل",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: لو كان فيه خير ما كان…",
+   "a": "رماه الطير",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: اللي يتلسع من الشوربة…",
+   "a": "ينفخ في الزبادي",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: اللي تحسبه موسى…",
+   "a": "يطلع فرعون",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: ياما تحت السواهي…",
+   "a": "دواهي",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: كل فولة…",
+   "a": "ولها كيال",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: إن كان حبيبك عسل…",
+   "a": "ما تلحسوش كله",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: يا بخت من…",
+   "a": "زار وخفف",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: اللي أوله شرط…",
+   "a": "آخره نور",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: اللي يشوف بلوة…",
+   "a": "غيره تهون عليه بلوته",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: الحداية…",
+   "a": "ما ترميش كتاكيت",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: ما يحتاجه البيت…",
+   "a": "يحرم على الجامع",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: من خرج من…",
+   "a": "داره قل مقداره",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: اللي معاه قرش محيره…",
+   "a": "يجيب حمام ويطيره",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: اتمسكن لحد…",
+   "a": "ما تتمكن",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: العتب على…",
+   "a": "النظر",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: Every cloud…",
+   "a": "has a silver lining",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: Where there’s smoke…",
+   "a": "there’s fire",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: Beggars can’t…",
+   "a": "be choosers",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: Curiosity killed…",
+   "a": "the cat",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: Fortune favors…",
+   "a": "the bold",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: Easy come…",
+   "a": "easy go",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: Absence makes the heart…",
+   "a": "grow fonder",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: Birds of a feather…",
+   "a": "flock together",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: A watched pot…",
+   "a": "never boils",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: Too many cooks…",
+   "a": "spoil the broth",
+   "d": "medium",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: المركب اللي لها…",
+   "a": "ريسين تغرق",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: اطبخي يا جارية…",
+   "a": "كلف يا سيدي",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: يا واخد القرد على ماله…",
+   "a": "يروح المال ويفضل القرد على حاله",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: حاميها…",
+   "a": "حراميها",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: ضربني وبكى…",
+   "a": "سبقني واشتكى",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: مصائب قوم…",
+   "a": "عند قوم فوائد",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: الحاجة أم…",
+   "a": "الاختراع",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: العين بصيرة…",
+   "a": "واليد قصيرة",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: اليد الواحدة…",
+   "a": "ما تسقفش",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: اعمل الخير…",
+   "a": "وارميه البحر",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: كل عقدة…",
+   "a": "ولها حلال",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: يوم عسل…",
+   "a": "ويوم بصل",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: يا نحلة لا تقرصيني…",
+   "a": "ولا عايز منك عسل",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: خد الرفيق…",
+   "a": "قبل الطريق",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: الجار قبل…",
+   "a": "الدار",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: صباح الخير يا جاري…",
+   "a": "إنت في حالك وأنا في حالي",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: صاحب بالين كداب…",
+   "a": "وصاحب تلاتة منافق",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: إن فاتك الميري…",
+   "a": "اتمرغ في ترابه",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: خدوهم بالصوت…",
+   "a": "لا يغلبوكم",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: جحا أولى…",
+   "a": "بلحم توره",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: الشاطرة تغزل…",
+   "a": "برجل حمار",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: اللي ما يشوفش من الغربال…",
+   "a": "يبقى أعمى",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: قالوا للحرامي احلف…",
+   "a": "قال جالك الفرج",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: يا ما دقت…",
+   "a": "على الراس طبول",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: يا بخت من بكاني…",
+   "a": "وبكى الناس عليا ولا ضحكني وضحك الناس عليا",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "أكمل المثل: الحلو حلو ولو…",
+   "a": "قام من النوم والوحش وحش ولو غسل وشه كل يوم",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: People who live in glass houses…",
+   "a": "shouldn’t throw stones",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: When the going gets tough…",
+   "a": "the tough get going",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: Don’t count your chickens…",
+   "a": "before they hatch",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: You can lead a horse to water…",
+   "a": "but you can’t make it drink",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: Rome wasn’t built…",
+   "a": "in a day",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: The grass is always greener…",
+   "a": "on the other side",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: Still waters…",
+   "a": "run deep",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: Necessity is the mother…",
+   "a": "of invention",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: All that glitters…",
+   "a": "is not gold",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Complete the saying: If it ain’t broke…",
+   "a": "don’t fix it",
    "d": "hard",
    "src": "authored"
   }

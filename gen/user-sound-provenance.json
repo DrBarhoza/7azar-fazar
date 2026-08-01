@@ -1,0 +1,38 @@
+{
+  "status": "manual licence review required",
+  "note": "These files were supplied by the host on 2026-07-26. Original source URLs, creators and redistribution licences were not supplied, so none are fabricated here.",
+  "processed": [
+    {"filename": "sounds/guess-the-sound/woodpecker.mp3", "supplied_as": "Great Spotted Woodpecker Pecking Wood (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/coffee-grinder.mp3", "supplied_as": "TESTING THE MANUAL COFFEE GRINDER  asmr sounds (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/rattlesnake.mp3", "supplied_as": "What Does A Rattlesnakes Rattle Sound Like_ 🔊🐍#venomous #rattlesnake #pet (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/sewing-machine.mp3", "supplied_as": "🎧 to the Soothing Sound of my Sewing Machine ASMR #sewingmachines #asmr #asmrsounds #asmrvideo #sew (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/tawny-owl.mp3", "supplied_as": "Tawny Owl - Owl Calls and Sounds (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/printer-paper-feed.mp3", "supplied_as": "Printer sound effect (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/waves-in-sea-cave.mp3", "supplied_as": "Sea Waves - Sound Effect 2 (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/spinning-coin.mp3", "supplied_as": "Coin Spin! Spinning a Coin, Satisfying Sounds (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/cardboard-tearing.mp3", "supplied_as": "Cardboard Tearing Sound Effect — Slow Clean Rip Foley for Editors (HQ) (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/mortar-pestle.mp3", "supplied_as": "ASMR Mortar and pestle sound crushing sound #shorts.m4a"},
+    {"filename": "sounds/guess-the-sound/manual-window-crank.mp3", "supplied_as": "🪟 Nostalgia 🪟 Window crank 🪟 The cat didn't like the crank😹 #nostalgia #car #shorts #shortsvideo.m4a"},
+    {"filename": "sounds/guess-the-sound/stapler.mp3", "supplied_as": "Stapler sounds (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/bowling.mp3", "supplied_as": "Bowling _ Sports _ Sound Effects (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/stirring-coffee.mp3", "supplied_as": "Stirring. Stirring coffee sound. Sounds. Stirring sound. #sounds #soundeffects #satisfying #stirring (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/dial-up-modem.mp3", "supplied_as": "Dial up network sound effect (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/billiards-balls.mp3", "supplied_as": "Billiards Ball Sound Effect I Free Sound to Download #shorts (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/ping-pong.mp3", "supplied_as": "Ping pong ball ASMR_CRAZY!!! #subscribe (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/steaming-milk.mp3", "supplied_as": "STEAM MILK( SOUNDS) 🔊#nepali#baristalife #latte#steammilkperfec #coffeetime#cappucino #coffeemaker (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/radio-tuning.mp3", "supplied_as": "Radio Tuning Sound Effect (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/atm-machine.mp3", "supplied_as": "Atm machine sound (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/tennis.mp3", "supplied_as": "Tennis ASMR 🎾 (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/car-turn-signal.mp3", "supplied_as": "2020 Toyota RAV4 Turn Signal Sound (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/dolphin.mp3", "supplied_as": "Dolphin - Sound Effect _ ProSounds (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/bats.mp3", "supplied_as": "Bats sound 🦇 __ Bats hanging on a tree 🌴 🦇 #shorts #youtubeshorts #viral (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/whale.mp3", "supplied_as": "Whale - Sound Effect _ ProSounds (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/dead-car-battery.mp3", "supplied_as": "Dead Car Battery - Sound Effect (معدل).m4a"},
+    {"filename": "sounds/guess-the-sound/electric-pencil-sharpener.mp3", "supplied_as": "XACTO Pencil Sharpener - ASMR Bites (معدل).m4a"}
+  ],
+  "retained_alternate": {
+    "supplied_as": "🎧 to the Soothing Sound of my Sewing Machine ASMR #sewingmachines #asmr #asmrsounds #asmrvideo #sew (معدل) 2.m4a",
+    "stored_as": "sounds/guess-the-sound/source-previews/sewing-machine-user-alternate-source.m4a",
+    "reason": "Same question sound; retained for audit but not added as a duplicate question."
+  }
+}

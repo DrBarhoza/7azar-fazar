@@ -9,7 +9,7 @@
      all local anyway.
 
    Bump CACHE_VERSION to retire old caches on the next deploy. */
-const CACHE_VERSION = "v3";   // v3: expanded topics, local audio and refreshed home logo
+const CACHE_VERSION = "v4";   // v4: Guess the Sound clips and three-play audio round
 const SHELL = `7azar-shell-${CACHE_VERSION}`;
 const MEDIA = `7azar-media-${CACHE_VERSION}`;
 
@@ -32,7 +32,7 @@ const SHELL_ASSETS = [
   "./icons/favicon-32.png",
 ];
 
-const MEDIA_PATH = /\/(landmark-photos|country-flags|country-shapes|kangaroo-figures|logo-assets|reactions)\//;
+const MEDIA_PATH = /\/(landmark-photos|country-flags|country-shapes|kangaroo-figures|logo-assets|reactions|sounds\/guess-the-sound)\//;
 
 self.addEventListener("install", (e) => {
   e.waitUntil((async () => {
