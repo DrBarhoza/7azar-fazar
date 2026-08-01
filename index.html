@@ -251,10 +251,15 @@
   .scorebox{padding:12px 14px; border-radius:12px; background:var(--bg2); border:1px solid var(--line);}
 
   /* ---- pick board ---- */
-  .board{display:flex; gap:10px; align-items:flex-start; justify-content:center; transform-origin:top center;}
+  .board{display:flex; gap:12px; align-items:flex-start; justify-content:center; transform-origin:top center;}
   .board-col{flex:1; min-width:100px;}
+  .board-col.split-2{flex-grow:2; min-width:210px;}
+  .board-col.split-3{flex-grow:3; min-width:320px;}
+  .cell-grid{display:grid; grid-template-columns:1fr; gap:7px; padding-top:5px;}
+  .board-col.split-2 .cell-grid{grid-template-columns:repeat(2,minmax(92px,1fr));}
+  .board-col.split-3 .cell-grid{grid-template-columns:repeat(3,minmax(92px,1fr));}
   .board-col h3{
-    font-size:.82rem; text-align:center; padding:6px 6px; border-radius:10px 10px 0 0;
+    font-size:1.05rem; text-align:center; padding:9px 8px; border-radius:10px 10px 0 0;
     background:var(--card2); min-height:0; display:flex; align-items:center; justify-content:center;
     color:#fff; font-weight:800;
   }
@@ -273,8 +278,8 @@
   .board-col:nth-child(5n+5){background:#fcdeeb;}
   .board-col h3{margin:0 -5px;}
   .cell{
-    width:100%; margin-top:5px; padding:7px 6px; border-radius:10px; border:1px solid var(--line);
-    background:#fff; color:var(--ink); font-size:1.05rem; font-weight:800; cursor:pointer; line-height:1.05;
+    width:100%; margin:0; padding:10px 7px; border-radius:10px; border:1px solid var(--line);
+    background:#fff; color:var(--ink); font-size:1.3rem; font-weight:800; cursor:pointer; line-height:1.08;
     transition:transform .1s, background .15s, border-color .15s;
   }
   .cell:hover:not(:disabled){background:var(--card2); border-color:var(--blue); transform:translateY(-2px);}
@@ -286,18 +291,39 @@
   .cell.own1.mine{background:#fff1e4;}
   .cell.theirs{opacity:.45; text-decoration:none;}
   .cell.done{opacity:.3; text-decoration:line-through; border-left-color:#c9d2e3 !important;}
-  .cell .dot{display:block; font-size:.68rem; font-weight:400; margin-top:1px; opacity:.75;}
-  #boardTurn{text-align:center; font-size:1.2rem; font-weight:800; margin:4px 0 10px;}
+  .cell .dot{display:block; font-size:.82rem; font-weight:600; margin-top:3px; opacity:.82;}
+  #boardTurn{text-align:center; font-size:1.55rem; font-weight:800; margin:5px 0 12px;}
   #boardTurn.t0{color:var(--teamA);} #boardTurn.t1{color:var(--teamB);}
   /* board screen fills the viewport so everything fits on one TV screen.
      100dvh, not 100vh: on iOS the address bar makes vh overshoot, which pushed
      the bottom of the board off screen. dvh tracks the visible area. */
   #screen-board.active{display:flex; flex-direction:column; height:100vh; height:100dvh; padding-top:12px; padding-bottom:10px; overflow:hidden;}
+  #screen-board{max-width:min(98vw,1800px);}
+  #screen-game{max-width:min(96vw,1450px);}
   #screen-board .scoreboard{margin-bottom:8px;}
-  #screen-board .team-score{padding:9px 16px;}
-  #screen-board .team-score .tpts{font-size:1.5rem;}
-  #screen-board .game-meta{margin-bottom:4px;}
+  #screen-board .team-score{padding:11px 18px;}
+  #screen-board .team-score .tname{font-size:1.25rem;}
+  #screen-board .team-score .tmembers{font-size:.95rem;}
+  #screen-board .team-score .tpts{font-size:2rem;}
+  #screen-board .game-meta{margin-bottom:5px; font-size:1.05rem;}
   #boardGrid{flex:0 0 auto;}
+
+  /* TV / mirrored-screen readability: the game view uses the available width
+     and keeps all host controls legible from across a room. */
+  #screen-game .team-score .tname{font-size:1.25rem;}
+  #screen-game .team-score .tmembers{font-size:.95rem;}
+  #screen-game .team-score .tpts{font-size:2.5rem;}
+  #screen-game .game-meta{font-size:1.1rem;}
+  #screen-game .topic-banner{font-size:1.6rem; padding:13px;}
+  #screen-game .controls .btn{font-size:1.2rem; padding:15px 24px;}
+  #screen-game #btnReveal{font-size:1.25rem; padding:16px 28px;}
+  #screen-game .score-adjust button,#screen-board .score-adjust button{
+    min-width:46px; padding:8px 10px; font-size:1rem;
+  }
+
+  /* El-Barahma photos use the original strongest blur until the answer reveal. */
+  #qImg.barahma-blurred{filter:blur(13px); transform:scale(1.05);}
+  #qImg.barahma-clear{filter:none; transform:none;}
 
   /* results */
   #winnerName{font-size:3rem; text-align:center; font-weight:900; margin:20px 0;}
@@ -311,7 +337,7 @@
   .final-scores .fs .n{color:var(--muted); margin-bottom:6px;}
   .final-scores .fs .p{font-size:2.4rem; font-weight:800;}
   canvas#confetti{position:fixed; inset:0; pointer-events:none; z-index:40;}
-  /* full-screen reaction video overlay */
+  /* full-screen reaction and winner-announcement video overlay */
   #cheerOverlay{
     position:fixed; inset:0; background:#000000e0; display:none; z-index:60;
     align-items:center; justify-content:center; flex-direction:column; gap:12px; cursor:pointer;
@@ -352,6 +378,10 @@
     .qcard{padding:22px 16px; min-height:0;}
     .team-score .tpts{font-size:1.5rem;}
     .team-score{padding:10px 12px;}
+    .board-col.split-2,.board-col.split-3{min-width:190px;}
+    .board-col.split-3 .cell-grid{grid-template-columns:repeat(2,minmax(84px,1fr));}
+    .cell{font-size:1.05rem; padding:8px 5px;}
+    .cell .dot{font-size:.68rem;}
     /* timer sits beside the question instead of stealing a whole row */
     .qwrap{gap:12px;} .timer-box{min-width:0; flex-direction:row; width:100%; gap:14px;}
     .ring{width:88px; height:88px;} #timeLeft{font-size:1.5rem;}
@@ -719,7 +749,7 @@ const DEFAULT_BANK = {
 const BANK_KEY = "sj_bank_v1";
 const USED_KEY = "sj_used_v1";
 const BANNED_KEY = "sj_banned_v1";
-const MAX_TOPICS = 6;
+const MAX_TOPICS = 10;
 const PTS = {1:10, 2:20, 3:30};
 const TIER_NAME = {1:"Easy", 2:"Medium", 3:"Hard"};
 const TIER_DOT = {1:"🟢", 2:"🟡", 3:"🔴"};
@@ -1583,23 +1613,29 @@ function showBoard(){
   grid.innerHTML = "";
   game.board.forEach((col, ti)=>{
     const div = document.createElement("div");
-    div.className = "board-col";
+    const splitCount = col.cells.length >= 24
+      ? (game.board.length <= 4 ? 3 : 2)
+      : 1;
+    div.className = "board-col" + (splitCount > 1 ? ` split-${splitCount}` : "");
     div.innerHTML = `<h3>${col.topic}</h3>`;
+    const cellGrid = document.createElement("div");
+    cellGrid.className = "cell-grid";
     col.cells.forEach((cell, ci)=>{
       const mine = cell.owner === game.turn;
       const b = document.createElement("button");
       b.className = "cell own" + cell.owner + (cell.done ? " done" : (mine ? " mine" : " theirs"));
       b.disabled = cell.done || !mine;
       b.title = cell.done ? "" : `${game.teams[cell.owner].name}'s question`;
-      const cellLabel = `${TIER_DOT[cell.d]} ${TIER_NAME[cell.d]}`;
+      const cellLabel = cell.type === "barahma" ? "📷 Photo" : `${TIER_DOT[cell.d]} ${TIER_NAME[cell.d]}`;
       b.innerHTML = `${PTS[cell.d]}<span class="dot">${cellLabel}</span>`;
       if(!cell.done && mine) b.addEventListener("click", ()=>{
         game.pick = {ti, ci};
         show("screen-game");
         showIntermission();
       });
-      div.appendChild(b);
+      cellGrid.appendChild(b);
     });
+    div.appendChild(cellGrid);
     grid.appendChild(div);
   });
   show("screen-board");
