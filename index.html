@@ -1186,6 +1186,82 @@ let bannedSet = loadSet(BANNED_KEY);
     localStorage.setItem("sj_mig_v32_public", "1");
   }catch(e){}
 })();
+(function addExpandedNonCarLogos(){
+  try{
+    if(localStorage.getItem("sj_mig_v33_public")) return;
+    if(!Array.isArray(bank["Logos"])) bank["Logos"] = [];
+    const retired = new Set(["NASA", "Chase Bank", "Slack"]);
+    bank["Logos"] = bank["Logos"].filter(item => !retired.has(item.a));
+    const additions = [
+      ["Microsoft",1,"microsoft.svg"],["Nike",1,"nike.svg"],["McDonald's",1,"mcdonalds.svg"],
+      ["Netflix",1,"netflix.svg"],["Spotify",1,"spotify.svg"],["Instagram",1,"instagram.svg"],
+      ["WhatsApp",1,"whatsapp.svg"],["Snapchat",1,"snapchat.svg"],["Facebook",1,"facebook.svg"],
+      ["Mastercard",1,"mastercard.png"],["PlayStation",1,"playstation.svg"],["Xbox",1,"xbox.svg"],
+      ["Google Play",1,"google-play.png"],["NVIDIA",2,"nvidia.svg"],["Google Chrome",2,"google-chrome.webp"],
+      ["Firefox",2,"firefox.svg"],["Android",2,"android.svg"],["Pinterest",2,"pinterest.svg"],
+      ["Reddit",2,"reddit.svg"],["Discord",2,"discord.svg"],["Twitch",2,"twitch.svg"],
+      ["Telegram",2,"telegram.svg"],["LinkedIn",2,"linkedin.svg"],["GitHub",2,"github.svg"],
+      ["Xiaomi",3,"xiaomi.svg"],["Huawei",3,"huawei.svg"],["HSBC",3,"hsbc.svg"],
+      ["Barclays",3,"barclays.svg"],["British Airways",3,"british-airways.svg"],
+      ["Turkish Airlines",3,"turkish-airlines.svg"],["OpenAI",3,"openai.svg"]
+    ].map(([a,d,file]) => ({
+      q:"Guess the logo.", a, d, src:"authored",
+      img:`logo-assets/expanded-non-car/${file}`
+    }));
+    for(const item of additions){
+      const existing = bank["Logos"].find(question => question.a === item.a);
+      if(existing) Object.assign(existing, item);
+      else bank["Logos"].push(item);
+    }
+    saveBank();
+    localStorage.setItem("sj_mig_v33_public", "1");
+  }catch(e){}
+})();
+(function addOutlookAndAppStoreLogos(){
+  try{
+    if(localStorage.getItem("sj_mig_v34_public")) return;
+    if(!Array.isArray(bank["Logos"])) bank["Logos"] = [];
+    const additions = [
+      {q:"Guess the logo.",a:"Microsoft Outlook",d:1,src:"authored",img:"logo-assets/expanded-non-car/microsoft-outlook.webp"},
+      {q:"Guess the logo.",a:"Apple App Store",d:1,src:"authored",img:"logo-assets/expanded-non-car/apple-app-store.png"}
+    ];
+    for(const item of additions){
+      const existing = bank["Logos"].find(question => question.a === item.a);
+      if(existing) Object.assign(existing, item);
+      else bank["Logos"].push(item);
+    }
+    saveBank();
+    localStorage.setItem("sj_mig_v34_public", "1");
+  }catch(e){}
+})();
+(function addNbaAndCartoonNetworkLogos(){
+  try{
+    if(localStorage.getItem("sj_mig_v35_public")) return;
+    if(!Array.isArray(bank["Logos"])) bank["Logos"] = [];
+    const additions = [
+      {q:"Guess the logo.",a:"NBA",d:1,src:"authored",img:"logo-assets/expanded-non-car/nba.png"},
+      {q:"Guess the logo.",a:"Cartoon Network",d:1,src:"authored",img:"logo-assets/expanded-non-car/cartoon-network.webp"}
+    ];
+    for(const item of additions){
+      const existing = bank["Logos"].find(question => question.a === item.a);
+      if(existing) Object.assign(existing, item);
+      else bank["Logos"].push(item);
+    }
+    saveBank();
+    localStorage.setItem("sj_mig_v35_public", "1");
+  }catch(e){}
+})();
+(function removeExcludedBusinessLogos(){
+  try{
+    if(localStorage.getItem("sj_mig_v36_public")) return;
+    const excluded = new Set(["Cloudflare", "Bank of America", "Deutsche Bank", "Alibaba Cloud"]);
+    if(Array.isArray(bank["Logos"])){
+      bank["Logos"] = bank["Logos"].filter(item => !excluded.has(item.a));
+      saveBank();
+    }
+    localStorage.setItem("sj_mig_v36_public", "1");
+  }catch(e){}
+})();
 let game = null;
 let timer = {id:null, left:0, total:30};
 const gameMusic = new Audio("sounds/music/game-loop.mp3");

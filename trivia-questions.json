@@ -22064,6 +22064,251 @@
    "d": "hard",
    "src": "authored",
    "img": "logo-assets/requested/bridgestone-logo.jpg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Microsoft",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/microsoft.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Nike",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/nike.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "McDonald's",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/mcdonalds.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Netflix",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/netflix.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Spotify",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/spotify.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Instagram",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/instagram.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "WhatsApp",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/whatsapp.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Snapchat",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/snapchat.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Facebook",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/facebook.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Mastercard",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/mastercard.png"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "PlayStation",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/playstation.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Xbox",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/xbox.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Google Play",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/google-play.png"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "NVIDIA",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/nvidia.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Google Chrome",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/google-chrome.webp"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Firefox",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/firefox.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Android",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/android.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Pinterest",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/pinterest.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Reddit",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/reddit.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Discord",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/discord.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Twitch",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/twitch.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Telegram",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/telegram.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "LinkedIn",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/linkedin.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "GitHub",
+   "d": "medium",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/github.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Xiaomi",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/xiaomi.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Huawei",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/huawei.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "HSBC",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/hsbc.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Barclays",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/barclays.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "British Airways",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/british-airways.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Turkish Airlines",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/turkish-airlines.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "OpenAI",
+   "d": "hard",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/openai.svg"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Microsoft Outlook",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/microsoft-outlook.webp"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Apple App Store",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/apple-app-store.png"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "NBA",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/nba.png"
+  },
+  {
+   "q": "Guess the logo.",
+   "a": "Cartoon Network",
+   "d": "easy",
+   "src": "authored",
+   "img": "logo-assets/expanded-non-car/cartoon-network.webp"
   }
  ],
  "Riddles": [
