@@ -49,7 +49,7 @@
     background-attachment:fixed;
     color:var(--ink); min-height:100vh;
   }
-  .screen{display:none; max-width:1000px; margin:0 auto; padding:24px 16px 60px;}
+  .screen{display:none; width:min(96vw,1800px); max-width:none; margin:0 auto; padding:24px 16px 60px;}
   .screen.active{display:block;}
   h1{font-size:2.4rem; text-align:center; margin:18px 0 4px; letter-spacing:.5px;}
   /* the gradient sits on the h1 itself so it still runs unbroken across both
@@ -61,6 +61,40 @@
   .brand-mark{height:1.55em; width:1.55em; object-fit:cover; border-radius:24%;
     vertical-align:-.38em; margin:0 .22em; box-shadow:0 3px 14px #16182b52;}
   .tagline{text-align:center; color:var(--muted); margin-bottom:28px;}
+  .help-launch{
+    position:fixed; top:14px; right:18px; z-index:35; border:2px solid #ff8a1f;
+    border-radius:999px; padding:10px 15px; background:#fff7e8; color:#8a3700;
+    font:800 .95rem/1 inherit; cursor:pointer; box-shadow:0 5px 18px #16182b24;
+  }
+  .help-launch:hover{background:#ffead0; transform:translateY(-1px);}
+  .help-dialog{
+    width:min(760px,92vw); max-height:88vh; margin:auto; padding:0; overflow:auto;
+    color:var(--ink); background:#f8fbff; border:2px solid #ff9a2f; border-radius:22px;
+    box-shadow:0 24px 80px #0007;
+  }
+  .help-dialog::backdrop{background:#081126b8; backdrop-filter:blur(3px);}
+  .help-head{
+    position:sticky; top:0; z-index:1; display:flex; align-items:center; justify-content:space-between;
+    gap:14px; padding:18px 22px; background:linear-gradient(90deg,#0d91b4,#2369c9,#d21670);
+    color:#fff;
+  }
+  .help-head h2{font-size:1.55rem;}
+  .help-close{border:0; border-radius:50%; width:38px; height:38px; background:#fff; color:#17203a;
+    font-size:1.35rem; font-weight:900; cursor:pointer;}
+  .help-body{padding:22px; line-height:1.5;}
+  .help-body h3{margin:18px 0 8px; color:#0d7895;}
+  .help-body h3:first-child{margin-top:0;}
+  .help-steps{padding-left:22px;}
+  .help-steps li{margin:7px 0;}
+  .help-score-grid,.help-power-grid{display:grid; gap:10px;}
+  .help-score-grid{grid-template-columns:repeat(3,minmax(0,1fr));}
+  .help-power-grid{grid-template-columns:repeat(3,minmax(0,1fr));}
+  .help-score,.help-power{padding:13px; border:1px solid var(--line); border-radius:14px; background:#fff;}
+  .help-score{text-align:center; font-weight:900;}
+  .help-score.easy{border-top:6px solid #16a34a}.help-score.medium{border-top:6px solid #eab308}
+  .help-score.hard{border-top:6px solid #dc2626}
+  .help-power strong{display:block; margin-bottom:5px; color:#b8480a;}
+  .help-note{margin-top:14px; padding:12px 14px; border-radius:12px; background:#fff0c9; border-left:5px solid #f0a000;}
   .card{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:20px; margin-bottom:18px; box-shadow:0 2px 10px #16182b0a;}
   .card h2{font-size:1.05rem; text-transform:uppercase; letter-spacing:1.5px; color:#4b5563; margin-bottom:14px;}
   /* each setup panel gets its own colour so the page isn't a wall of white */
@@ -70,7 +104,9 @@
   .card.c-bank  {background:#d8f7e0; border-color:#8fdfa9;}
   /* inputs and chips go white so they lift off the tinted panel */
   .card.c-teams input[type=text], .card.c-rules select, .card.c-bank input[type=text],
-  .card.c-topics .topic-chip, .card.c-rules .tierbox, .card.c-rules .scorebox{background:#fff;}
+  .card.c-topics .topic-chip{background:#b9d88a;}
+  .card.c-topics .topic-chip.checked{background:#96c568;}
+  .card.c-rules .tierbox, .card.c-rules .scorebox{background:#fff;}
   .row{display:flex; gap:14px; flex-wrap:wrap;}
   .row > *{flex:1; min-width:200px;}
   label.field{display:block; font-size:.85rem; color:var(--muted); margin-bottom:6px;}
@@ -98,16 +134,32 @@
     font-size:.88rem; line-height:1.45; min-height:62px;}
   .roster-box strong{display:block; margin-bottom:3px;}
   #contestantStatus.err{color:var(--bad);} #contestantStatus.ok{color:var(--good);}
-  .topics{display:grid; grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); gap:10px;}
+  .topics{display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:14px;}
   .topic-chip{
-    display:flex; align-items:center; gap:8px; padding:12px 14px; border-radius:12px;
+    position:relative; display:grid; grid-template-columns:1fr auto; align-items:center; gap:7px 8px;
+    min-height:150px; padding:14px 12px 12px; border-radius:16px;
     background:var(--bg2); border:1px solid var(--line); cursor:pointer; user-select:none;
     transition:all .15s;
   }
-  .topic-chip:hover{border-color:var(--turq);}
+  .topic-chip:hover{border-color:var(--turq); transform:translateY(-2px); box-shadow:0 8px 22px #16182b16;}
   .topic-chip.checked{background:#dff6fa; border-color:var(--turq); color:#0b5f70;}
-  .topic-chip input{accent-color:var(--teamA); width:17px; height:17px;}
-  .topic-chip .count{margin-left:auto; font-size:.75rem; color:var(--muted);}
+  .topic-chip input{position:absolute; top:12px; left:12px; accent-color:var(--teamA); width:19px; height:19px;}
+  .topic-chip .topic-icon{
+    grid-column:1/-1; display:flex; align-items:center; justify-content:center; justify-self:center;
+    width:76px; height:76px; border-radius:22px; font-size:3.25rem; line-height:1;
+    background:linear-gradient(145deg,#ffad32,#ff7900); border:2px solid #ffca72;
+    box-shadow:0 7px 16px #d8560038;
+  }
+  .topic-chip .topic-icon.letter-icon{
+    font-size:3rem; font-weight:900; font-family:Georgia,serif; color:#fff;
+    background:linear-gradient(145deg,#ffad32,#ff7900); border:4px solid #11245a;
+    text-shadow:0 2px 3px #0006;
+  }
+  .topic-chip .topic-name{
+    grid-column:1/-1; min-height:2.35em; display:flex; align-items:center; justify-content:center;
+    text-align:center; font-size:1.05rem; line-height:1.15; font-weight:800;
+  }
+  .topic-chip .count{font-size:.78rem; color:var(--muted); padding-left:2px;}
   .topic-chip select.qn{
     display:none; padding:4px 6px; border-radius:8px; font-size:.8rem;
     background:var(--bg); color:var(--ink); border:1px solid var(--line);
@@ -363,7 +415,7 @@
 
   @media (max-width:900px){                 /* tablets */
     .screen{max-width:100%;}
-    .topics{grid-template-columns:repeat(auto-fill,minmax(190px,1fr));}
+    .topics{grid-template-columns:repeat(3,minmax(0,1fr));}
     #qText{font-size:1.5rem;}
   }
 
@@ -373,7 +425,11 @@
     .card{padding:15px; border-radius:14px;}
     .row > *{min-width:100%;}               /* rules fields stack */
     .topics{grid-template-columns:1fr 1fr; gap:8px;}
-    .topic-chip{padding:11px 10px; font-size:.92rem;}
+    .topic-chip{min-height:132px; padding:11px 10px; font-size:.92rem;}
+    .topic-chip .topic-icon{width:62px; height:62px; border-radius:18px; font-size:2.55rem;}
+    .topic-chip .topic-name{font-size:.94rem;}
+    .help-launch{top:8px; right:8px; padding:8px 11px; font-size:.82rem;}
+    .help-score-grid,.help-power-grid{grid-template-columns:1fr;}
     #qText{font-size:1.3rem;}
     .qcard{padding:22px 16px; min-height:0;}
     .team-score .tpts{font-size:1.5rem;}
@@ -419,6 +475,7 @@
 </style>
 </head>
 <body>
+<button type="button" class="help-launch" id="btnHowToPlay" aria-haspopup="dialog">ℹ️ How to Play</button>
 
 <!-- ============ SETUP ============ -->
 <section id="screen-setup" class="screen active">
@@ -620,6 +677,44 @@
   </div>
 </section>
 
+<dialog class="help-dialog" id="howToPlayDialog" aria-labelledby="howToPlayTitle">
+  <div class="help-head">
+    <h2 id="howToPlayTitle">ℹ️ How to Play 7azar Fazar</h2>
+    <form method="dialog"><button class="help-close" aria-label="Close instructions">×</button></form>
+  </div>
+  <div class="help-body">
+    <h3>Game flow</h3>
+    <ol class="help-steps">
+      <li>Enter the contestants, assign two teams, choose up to 10 topics, and set the question count and timer.</li>
+      <li>Teams alternate turns. The playing team chooses one available question from the board.</li>
+      <li>The playing team must give its answer before the timer finishes. The other team must wait until time runs out or the playing team’s leader declares the team’s final answer before offering an answer.</li>
+      <li>The host reveals the answer, then marks it Correct, Wrong, or Steal when the other team answers correctly.</li>
+      <li>The team with the highest score when the board is finished wins.</li>
+    </ol>
+
+    <h3>Scoring</h3>
+    <div class="help-score-grid">
+      <div class="help-score easy">🟢 Easy<br>10 points</div>
+      <div class="help-score medium">🟡 Medium<br>20 points</div>
+      <div class="help-score hard">🔴 Hard<br>30 points</div>
+    </div>
+    <ul class="help-steps">
+      <li>A correct answer earns the full question value.</li>
+      <li>If stealing is enabled, the other team can earn half the points after a wrong answer.</li>
+      <li>Swapping costs 5 points for Easy or Medium questions and 10 points for Hard questions.</li>
+      <li>The host can use the ±1 and ±10 score controls to correct scoring mistakes.</li>
+    </ul>
+
+    <h3>Power-ups — one use of each per team</h3>
+    <div class="help-power-grid">
+      <div class="help-power"><strong>🕳️ Hole</strong>Must be activated before seeing the question. Correct: your team gains the points and the opponent loses the same amount. Wrong: your team loses the question value. If the opponent steals, your team still loses the full value and the opponent earns half.</div>
+      <div class="help-power"><strong>✌️ Double Answer</strong>May be activated during the question. Your team can give two answers; if either is correct, it earns the full points.</div>
+      <div class="help-power"><strong>🤝 Ask Other Team</strong>May be activated during the question. If the other team gives the correct answer, the question points are divided equally between both teams. If they do not know, nobody scores and Steal is disabled.</div>
+    </div>
+    <div class="help-note">The host should reveal the answer before judging. Medium and Hard answers may play reaction videos.</div>
+  </div>
+</dialog>
+
 <!-- intermission overlay -->
 <div id="overlay">
   <div class="ov-card">
@@ -630,7 +725,7 @@
     <div class="powerup-grid" id="powerupGrid">
       <button type="button" class="powerup-btn" data-powerup="hole">🕳️ Hole</button>
       <button type="button" class="powerup-btn" data-powerup="double">✌️ Double Answer</button>
-      <button type="button" class="powerup-btn" data-powerup="friend">📱 Ask a Friend / AI</button>
+      <button type="button" class="powerup-btn" data-powerup="friend">🤝 Ask Other Team</button>
     </div>
     <button type="button" class="powerup-none" id="btnNoPowerup">Continue without a power-up</button>
     <button class="btn primary" id="btnGo">Go! ⏱</button>
@@ -841,7 +936,7 @@ const ABBREVIATIONS_BANK = [
   ["ISBN","International Standard Book Number",2],["PhD","Doctor of Philosophy",2],
   ["NSAID","Nonsteroidal anti-inflammatory drug",3],
   ["BC","Before Christ",3],["AD","Anno Domini",3],
-  ["NB","Nota bene",3],["etc.","Et cetera",3]
+  ["NB","Nota bene",3],["etc.","Et cetera",1]
 ].map(([abbr,a,d])=>({q:abbr==="MB" ? "What can MB stand for?" : `What does ${abbr} stand for?`,a,d}));
 let bank = loadBank();
 let usedSet = loadSet(USED_KEY);
@@ -1080,6 +1175,17 @@ let bannedSet = loadSet(BANNED_KEY);
     localStorage.setItem("sj_mig_v31_public", "1");
   }catch(e){}
 })();
+(function makeEtcAbbreviationEasy(){
+  try{
+    if(localStorage.getItem("sj_mig_v32_public")) return;
+    const items = bank["Abbreviations"];
+    if(Array.isArray(items)){
+      const item = items.find(x => x.q === "What does etc. stand for?");
+      if(item){ item.d = 1; saveBank(); }
+    }
+    localStorage.setItem("sj_mig_v32_public", "1");
+  }catch(e){}
+})();
 let game = null;
 let timer = {id:null, left:0, total:30};
 const gameMusic = new Audio("sounds/music/game-loop.mp3");
@@ -1097,6 +1203,10 @@ questionAudio.volume = 0.95;
 
 /* ================= helpers ================= */
 const $ = id => document.getElementById(id);
+$("btnHowToPlay").addEventListener("click", ()=>$("howToPlayDialog").showModal());
+$("howToPlayDialog").addEventListener("click", event=>{
+  if(event.target === $("howToPlayDialog")) $("howToPlayDialog").close();
+});
 function shuffle(arr){
   const a = arr.slice();
   for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; }
@@ -1318,6 +1428,18 @@ $("btnRandomTeams").addEventListener("click", ()=>{
   $(id).addEventListener("input", renderContestantAssignments);
 });
 
+function topicIcon(topic){
+  const key = topic.toLocaleLowerCase();
+  if(key.includes("barahma")) return {symbol:"B", letter:true};
+  const icons = [
+    ["geography","🗺️"], ["countries","🏳️"], ["hollywood","🎬"], ["medicine","🩺"],
+    ["history","🏛️"], ["soccer","⚽"], ["animals","🐾"], ["riddles","🧩"],
+    ["kangaroo","🦘"], ["country or city","🧭"], ["logos","🏷️"],
+    ["autobus","🔤"], ["sound","🔊"], ["abbreviations","🔠"],
+    ["find the odd","🔍"], ["proverb","💬"]
+  ];
+  return {symbol:(icons.find(([name])=>key.includes(name)) || ["","❓"])[1], letter:false};
+}
 function renderTopicList(){
   const box = $("topicList");
   box.innerHTML = "";
@@ -1327,7 +1449,10 @@ function renderTopicList(){
     const fresh = qs.filter(x=>!usedSet.has(qid(t, x.q, x.img || x.audio))).length;
     const chip = document.createElement("label");
     chip.className = "topic-chip";
-    chip.innerHTML = `<input type="checkbox" value="${t.replace(/"/g,"&quot;")}"><span>${t}</span><span class="count">${fresh}/${n} new</span>` +
+    const icon = topicIcon(t);
+    chip.innerHTML = `<input type="checkbox" value="${t.replace(/"/g,"&quot;")}">` +
+      `<span class="topic-icon${icon.letter ? " letter-icon" : ""}" aria-hidden="true">${icon.symbol}</span>` +
+      `<span class="topic-name">${t}</span><span class="count">${fresh}/${n} new</span>` +
       `<select class="qn" title="questions in this topic (shared by both teams)">` +
       [2,4,6,8,10,12,24].map(k=>`<option value="${k}"${k===6?" selected":""}>×${k}</option>`).join("") +
       `</select>`;
@@ -1698,7 +1823,7 @@ function showIntermission(){
 const POWERUP_LABELS = {
   hole: "🕳️ Hole — right: opponent loses the same points; wrong: your team loses the question points",
   double: "✌️ Double Answer — the team may give two answers",
-  friend: "📱 Ask a Friend / AI — outside help is allowed"
+  friend: "🤝 Ask Other Team — if correct, both teams split the points; if they do not know, nobody scores"
 };
 function renderPowerups(){
   const available = game.teams[curTeam()].powerups;
@@ -1728,6 +1853,7 @@ $("btnGo").addEventListener("click", ()=>{
 });
 function startQuestion(){
   const c = cur();
+  $("btnSwap").textContent = `🔄 Swap question (−${c.d === 3 ? 10 : 5} pts)`;
   stopQuestionSound();
   usedSet.add(c.id); saveUsed();
   const total = game.board.reduce((s,col)=>s+col.cells.length, 0);
@@ -1765,6 +1891,7 @@ function startQuestion(){
   if(c.audio) playQuestionSound();
 }
 function activateLivePowerup(key){
+  if(key === "hole") return;   // Hole must be committed before the question is shown
   if(game.answerRevealed || game.activePowerup) return;
   const available = game.teams[curTeam()].powerups;
   if(!available[key]) return;
@@ -1774,12 +1901,15 @@ function activateLivePowerup(key){
 }
 function renderLivePowerups(){
   const powerup = $("activePowerup");
-  const shortLabels = {hole:"🕳️ Hole", double:"✌️ Double Answer", friend:"📱 Ask a Friend / AI"};
+  const shortLabels = {hole:"🕳️ Hole", double:"✌️ Double Answer", friend:"🤝 Ask Other Team"};
   const available = game.teams[curTeam()].powerups;
   powerup.innerHTML = Object.keys(shortLabels).map(key=>{
     const state = game.activePowerup === key ? "active" : (available[key] ? "available" : "used");
-    const suffix = state === "active" ? " — ACTIVE" : (state === "used" ? " — used" : " — activate");
-    const disabled = state !== "available" || game.answerRevealed || !!game.activePowerup;
+    const holeLocked = key === "hole" && state === "available";
+    const suffix = state === "active"
+      ? " — ACTIVE"
+      : (state === "used" ? " — used" : (holeLocked ? " — before question only" : " — activate"));
+    const disabled = holeLocked || state !== "available" || game.answerRevealed || !!game.activePowerup;
     return `<button type="button" class="powerup-status ${state}" data-live-powerup="${key}" title="${POWERUP_LABELS[key]}"${disabled ? " disabled" : ""}>${shortLabels[key]}${suffix}</button>`;
   }).join("");
   powerup.classList.add("shown");
@@ -1833,11 +1963,20 @@ function renderTimer(){
    screen. Swapping is gone by then — you can't trade a question you've seen. */
 function setJudging(on){
   game.answerRevealed = on;
+  const askOtherTeam = game.activePowerup === "friend";
   $("btnReveal").style.display = on ? "none" : "";
   for(const id of ["btnCorrect","btnWrong","btnSteal"]) $(id).style.display = on ? "" : "none";
-  if(on && game.steal){
+  $("btnCorrect").textContent = askOtherTeam ? "✓ Other team correct — split points" : "✓ Correct";
+  $("btnWrong").textContent = askOtherTeam ? "✗ Other team doesn't know — no points" : "✗ Wrong";
+  $("btnSteal").disabled = askOtherTeam;
+  if(on && askOtherTeam){
+    $("btnSteal").textContent = "🔒 Steal unavailable for this question";
+  } else if(on && game.steal){
     const other = game.teams[1 - curTeam()].name;
-    $("btnSteal").textContent = `🔁 ${other} stole it (+${Math.floor(PTS[cur().d]/2)})`;
+    const holePenalty = game.activePowerup === "hole"
+      ? ` · ${game.teams[curTeam()].name} −${PTS[cur().d]}`
+      : "";
+    $("btnSteal").textContent = `🔁 ${other} stole it (+${Math.floor(PTS[cur().d]/2)})${holePenalty}`;
   }
   $("btnSteal").style.display = (on && game.steal) ? "" : "none";   // steal rule off → no button
   $("btnSwap").disabled = on;
@@ -1909,8 +2048,14 @@ function playWinnerAnnouncement(){
 }
 $("btnCorrect").addEventListener("click", ()=>{
   const points = PTS[cur().d];
-  game.teams[curTeam()].score += points;
-  if(game.activePowerup === "hole") game.teams[1 - curTeam()].score -= points;
+  if(game.activePowerup === "friend"){
+    const share = points / 2;
+    game.teams[curTeam()].score += share;
+    game.teams[1 - curTeam()].score += share;
+  } else {
+    game.teams[curTeam()].score += points;
+    if(game.activePowerup === "hole") game.teams[1 - curTeam()].score -= points;
+  }
   updateScores();
   if(cur().d >= 2) playReaction("celebration", ()=>nextQuestion());   // medium & hard get a cheer
   else nextQuestion();
@@ -1920,10 +2065,18 @@ $("btnWrong").addEventListener("click", ()=>{
     game.teams[curTeam()].score -= PTS[cur().d];
     updateScores();
   }
+  if(game.activePowerup === "friend"){
+    nextQuestion();
+    return;
+  }
   if(cur().d >= 2) playReaction("booing", ()=>nextQuestion());
   else nextQuestion();
 });
 $("btnSteal").addEventListener("click", ()=>{
+  if(game.activePowerup === "friend") return;
+  if(game.activePowerup === "hole"){
+    game.teams[curTeam()].score -= PTS[cur().d];
+  }
   game.teams[1 - curTeam()].score += Math.floor(PTS[cur().d]/2);   // half, to the other team
   updateScores();
   nextQuestion();                                                  // a steal gets no reaction
@@ -1990,7 +2143,8 @@ $("btnSwap").addEventListener("click", ()=>{
     return;
   }
   stopTimer();
-  game.teams[curTeam()].score -= 5;
+  const swapCost = c.d === 3 ? 10 : 5;
+  game.teams[curTeam()].score -= swapCost;
   putReplacement(repl);
   startQuestion();
 });

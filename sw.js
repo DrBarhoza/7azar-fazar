@@ -9,7 +9,7 @@
      all local anyway.
 
    Bump CACHE_VERSION to retire old caches on the next deploy. */
-const CACHE_VERSION = "v4";   // v4: Guess the Sound clips and three-play audio round
+const CACHE_VERSION = "v5";   // v5: refresh corrected Find the Odd puzzle/solution assets
 const SHELL = `7azar-shell-${CACHE_VERSION}`;
 const MEDIA = `7azar-media-${CACHE_VERSION}`;
 

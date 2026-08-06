@@ -19291,6 +19291,18 @@
    "src": "authored"
   },
   {
+   "q": "Which country? 🤖 🦢 🅰️",
+   "a": "Botswana",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
+   "q": "Which country? P 😘 🔟",
+   "a": "Pakistan",
+   "d": "hard",
+   "src": "authored"
+  },
+  {
    "q": "Which country has this shape?",
    "a": "Egypt",
    "d": "medium",
@@ -22075,7 +22087,7 @@
   },
   {
    "q": "What has a head but no brain?",
-   "a": "Lettuce.",
+   "a": "Lettuce/Nail/Coin",
    "d": "easy",
    "src": "authored"
   },
@@ -23722,7 +23734,7 @@
   {
    "q": "What does etc. stand for?",
    "a": "Et cetera",
-   "d": "hard",
+   "d": "easy",
    "src": "authored"
   }
  ],
