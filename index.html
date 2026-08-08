@@ -1262,6 +1262,26 @@ let bannedSet = loadSet(BANNED_KEY);
     localStorage.setItem("sj_mig_v36_public", "1");
   }catch(e){}
 })();
+(function removeGeneratedFindTheOddGrids(){
+  try{
+    if(localStorage.getItem("sj_mig_v37_public")) return;
+    if(Array.isArray(window.FIND_ODD_BANK)){
+      bank["Find the Odd"] = JSON.parse(JSON.stringify(window.FIND_ODD_BANK));
+      saveBank();
+    }
+    localStorage.setItem("sj_mig_v37_public", "1");
+  }catch(e){}
+})();
+(function addApprovedFindTheOddTextQuestions(){
+  try{
+    if(localStorage.getItem("sj_mig_v38_public")) return;
+    if(Array.isArray(window.FIND_ODD_BANK)){
+      bank["Find the Odd"] = JSON.parse(JSON.stringify(window.FIND_ODD_BANK));
+      saveBank();
+    }
+    localStorage.setItem("sj_mig_v38_public", "1");
+  }catch(e){}
+})();
 let game = null;
 let timer = {id:null, left:0, total:30};
 const gameMusic = new Audio("sounds/music/game-loop.mp3");

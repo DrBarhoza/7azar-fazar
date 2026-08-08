@@ -23987,324 +23987,336 @@
   {
    "q": "Find the odd panda.",
    "a": "The sad panda in the bottom row.",
-   "d": "easy",
-   "src": "authored",
+   "d": 1,
    "img": "find-the-odd/supplied/pandas-cropped.jpg",
    "solutionImg": "find-the-odd/solutions/pandas-solution.jpg"
   },
   {
    "q": "Find the letter that is different from all the numbers.",
    "a": "The letter S in the bottom row.",
-   "d": "easy",
-   "src": "authored",
+   "d": 1,
    "img": "find-the-odd/supplied/letter-s-cropped.jpg",
    "solutionImg": "find-the-odd/solutions/letter-s-solution.jpg"
   },
   {
    "q": "Find the odd penguin.",
    "a": "The penguin with a different pose.",
-   "d": "easy",
-   "src": "authored",
+   "d": 1,
    "img": "find-the-odd/supplied/penguins-cropped.jpg",
    "solutionImg": "find-the-odd/solutions/penguins-solution.jpg"
   },
   {
    "q": "Find the odd avocado.",
    "a": "The avocado without a stone.",
-   "d": "easy",
-   "src": "authored",
+   "d": 1,
    "img": "find-the-odd/supplied/avocados-cropped.jpg",
    "solutionImg": "find-the-odd/solutions/avocados-solution.jpg"
   },
   {
-   "q": "Find the odd ladybird.",
-   "a": "Row 2, column 3 — it is missing one spot.",
-   "d": "easy",
-   "src": "authored",
-   "img": "find-the-odd/ladybirds.svg"
-  },
-  {
-   "q": "Find the odd clock.",
-   "a": "Row 3, column 4 — its minute hand points the other way.",
-   "d": "easy",
-   "src": "authored",
-   "img": "find-the-odd/clocks.svg"
-  },
-  {
-   "q": "Find the odd umbrella.",
-   "a": "Row 4, column 2 — its handle curves the other way.",
-   "d": "easy",
-   "src": "authored",
-   "img": "find-the-odd/umbrellas.svg"
-  },
-  {
-   "q": "Find the odd football.",
-   "a": "Row 1, column 5 — its centre panel is square.",
-   "d": "easy",
-   "src": "authored",
-   "img": "find-the-odd/footballs.svg"
-  },
-  {
-   "q": "Which is the odd one out: lizard, snake, turtle, crocodile, scorpion?",
-   "a": "Scorpion — it is an arachnid; the others are reptiles.",
-   "d": "easy",
-   "src": "authored"
-  },
-  {
-   "q": "Which is the odd one out: ant, bee, butterfly, beetle, spider?",
-   "a": "Spider — it is an arachnid; the others are insects.",
-   "d": "easy",
-   "src": "authored"
-  },
-  {
-   "q": "Which is the odd one out: apple, banana, mango, carrot, orange?",
-   "a": "Carrot — it is a root vegetable; the others are fruits.",
-   "d": "easy",
-   "src": "authored"
-  },
-  {
-   "q": "Which is the odd one out: Cairo, London, Paris, Rome, Brazil?",
-   "a": "Brazil — it is a country; the others are capital cities.",
-   "d": "easy",
-   "src": "authored"
-  },
-  {
    "q": "Find the odd bee.",
    "a": "The bee with a different body.",
-   "d": "medium",
-   "src": "authored",
+   "d": 2,
    "img": "find-the-odd/supplied/bees.jpg",
    "solutionImg": "find-the-odd/solutions/bees-solution.jpg"
   },
   {
    "q": "Find the odd watermelon.",
    "a": "The watermelon with a different pattern.",
-   "d": "medium",
-   "src": "authored",
+   "d": 2,
    "img": "find-the-odd/supplied/watermelons-cropped.jpg",
    "solutionImg": "find-the-odd/solutions/watermelons-solution.jpg"
   },
   {
    "q": "Find the odd sun.",
    "a": "The sun with different sunglasses or face.",
-   "d": "medium",
-   "src": "authored",
+   "d": 2,
    "img": "find-the-odd/supplied/suns-cropped.jpg",
    "solutionImg": "find-the-odd/solutions/suns-solution.jpg"
   },
   {
    "q": "Find the odd flamingo.",
    "a": "The flamingo float with a different detail.",
-   "d": "medium",
-   "src": "authored",
+   "d": 2,
    "img": "find-the-odd/supplied/flamingos-cropped.jpg"
-  },
-  {
-   "q": "Find the odd key.",
-   "a": "Row 4, column 3 — it has one fewer tooth.",
-   "d": "medium",
-   "src": "authored",
-   "img": "find-the-odd/keys.svg"
-  },
-  {
-   "q": "Find the odd fish.",
-   "a": "Row 2, column 4 — it swims in the opposite direction.",
-   "d": "medium",
-   "src": "authored",
-   "img": "find-the-odd/fish.svg"
-  },
-  {
-   "q": "Find the odd light bulb.",
-   "a": "Row 3, column 3 — its filament has a different shape.",
-   "d": "medium",
-   "src": "authored",
-   "img": "find-the-odd/lightbulbs.svg"
-  },
-  {
-   "q": "Find the odd playing card.",
-   "a": "Row 1, column 3 — it has the wrong suit and colour.",
-   "d": "medium",
-   "src": "authored",
-   "img": "find-the-odd/playing-cards.svg"
-  },
-  {
-   "q": "Which number is the odd one out: 28, 40, 14, 35, 21?",
-   "a": "40 — the other numbers are divisible by 7.",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which number is the odd one out: 17, 11, 21, 19, 13?",
-   "a": "21 — the other numbers are prime.",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which is the odd one out: square, triangle, pentagon, hexagon, circle?",
-   "a": "Circle — it has no straight sides.",
-   "d": "medium",
-   "src": "authored"
-  },
-  {
-   "q": "Which is the odd one out: copper, iron, gold, silver, diamond?",
-   "a": "Diamond — it is not a metal.",
-   "d": "medium",
-   "src": "authored"
   },
   {
    "q": "Find the odd pineapple.",
    "a": "The pineapple with a different face.",
-   "d": "hard",
-   "src": "authored",
+   "d": 3,
    "img": "find-the-odd/supplied/pineapples.jpg",
    "solutionImg": "find-the-odd/solutions/pineapples-solution.jpg"
   },
   {
    "q": "Find the odd emoji.",
    "a": "The emoji with a different facial expression.",
-   "d": "hard",
-   "src": "authored",
+   "d": 3,
    "img": "find-the-odd/supplied/emoji-grid-cropped.jpg",
    "solutionImg": "find-the-odd/solutions/emoji-grid-solution.jpg"
   },
   {
    "q": "Find the odd number 3.",
    "a": "The number 3 with a different eye detail.",
-   "d": "hard",
-   "src": "authored",
+   "d": 3,
    "img": "find-the-odd/supplied/number-threes.jpg",
    "solutionImg": "find-the-odd/solutions/number-threes-solution.jpg"
   },
   {
    "q": "Find the odd lowercase letter i.",
    "a": "The letter i with a different stroke or dot.",
-   "d": "hard",
-   "src": "authored",
+   "d": 3,
    "img": "find-the-odd/supplied/letter-i-grid.jpg",
    "solutionImg": "find-the-odd/solutions/letter-i-solution.jpg"
   },
   {
    "q": "Find the odd ice-cream cone.",
    "a": "The ice cream with a different small detail.",
-   "d": "hard",
-   "src": "authored",
+   "d": 3,
    "img": "find-the-odd/supplied/ice-creams.jpg",
    "solutionImg": "find-the-odd/solutions/ice-creams-solution.jpg"
   },
   {
    "q": "Find the odd papaya.",
    "a": "The papaya with a different seed pattern.",
-   "d": "hard",
-   "src": "authored",
+   "d": 3,
    "img": "find-the-odd/supplied/papayas.jpg",
    "solutionImg": "find-the-odd/solutions/papayas-solution.jpg"
   },
   {
    "q": "Find the odd letter E.",
    "a": "The letter E with a different facial detail.",
-   "d": "hard",
-   "src": "authored",
+   "d": 3,
    "img": "find-the-odd/supplied/letter-e-grid.jpg",
    "solutionImg": "find-the-odd/solutions/letter-e-solution.jpg"
   },
   {
    "q": "Find the odd striped circle.",
    "a": "The circle with a different number of diagonal lines.",
-   "d": "hard",
-   "src": "authored",
+   "d": 3,
    "img": "find-the-odd/supplied/striped-circles.jpg",
    "solutionImg": "find-the-odd/solutions/striped-circles-solution.jpg"
   },
   {
    "q": "Find the odd letter F.",
    "a": "The letter F with a different facial detail.",
-   "d": "hard",
-   "src": "authored",
+   "d": 3,
    "img": "find-the-odd/supplied/letter-f-grid.jpg",
    "solutionImg": "find-the-odd/solutions/letter-f-solution.jpg"
   },
   {
    "q": "Find the odd symbol.",
    "a": "The symbol that is the number 8 rather than an ampersand.",
-   "d": "hard",
-   "src": "authored",
+   "d": 3,
    "img": "find-the-odd/supplied/ampersands.jpg",
    "solutionImg": "find-the-odd/solutions/ampersands-solution.jpg"
   },
   {
    "q": "Find the odd flower.",
    "a": "The flower with a different petal or centre detail.",
-   "d": "hard",
-   "src": "authored",
+   "d": 3,
    "img": "find-the-odd/supplied/flowers.jpg",
    "solutionImg": "find-the-odd/solutions/flowers-solution.jpg"
   },
   {
    "q": "Find the odd smiley face.",
    "a": "The smiley face with a different expression or facial detail.",
-   "d": "hard",
-   "src": "authored",
+   "d": 3,
    "img": "find-the-odd/supplied/smiley-faces.jpg",
    "solutionImg": "find-the-odd/solutions/smileys-solution.jpg"
   },
   {
-   "q": "Find the odd fingerprint.",
-   "a": "Row 4, column 4 — its inner pattern is different.",
-   "d": "hard",
-   "src": "authored",
-   "img": "find-the-odd/fingerprints.svg"
+   "q": "Which is the odd one out: lizard, snake, turtle, crocodile, scorpion?",
+   "a": "Scorpion — it is an arachnid; the others are reptiles.",
+   "d": 1
   },
   {
-   "q": "Find the odd circuit.",
-   "a": "Row 3, column 2 — its connection is broken.",
-   "d": "hard",
-   "src": "authored",
-   "img": "find-the-odd/circuits.svg"
+   "q": "Which is the odd one out: ant, bee, butterfly, beetle, spider?",
+   "a": "Spider — it is an arachnid; the others are insects.",
+   "d": 1
   },
   {
-   "q": "Find the odd snowflake.",
-   "a": "Row 2, column 2 — it is missing one small branch.",
-   "d": "hard",
-   "src": "authored",
-   "img": "find-the-odd/snowflakes.svg"
+   "q": "Which is the odd one out: apple, banana, mango, carrot, orange?",
+   "a": "Carrot — it is a root vegetable; the others are fruits.",
+   "d": 1
   },
   {
-   "q": "Find the odd geometric tile.",
-   "a": "Row 4, column 1 — the whole tile is rotated.",
-   "d": "hard",
-   "src": "authored",
-   "img": "find-the-odd/geometry.svg"
+   "q": "Which is the odd one out: Cairo, London, Paris, Rome, Brazil?",
+   "a": "Brazil — it is a country; the others are capital cities.",
+   "d": 1
   },
   {
-   "q": "Find the odd pair of glasses.",
-   "a": "Row 2, column 4 — its bridge is curved.",
-   "d": "hard",
-   "src": "authored",
-   "img": "find-the-odd/glasses.svg"
+   "q": "Which number is the odd one out: 28, 40, 14, 35, 21?",
+   "a": "40 — the other numbers are divisible by 7.",
+   "d": 2
+  },
+  {
+   "q": "Which number is the odd one out: 17, 11, 21, 19, 13?",
+   "a": "21 — the other numbers are prime.",
+   "d": 2
+  },
+  {
+   "q": "Which is the odd one out: square, triangle, pentagon, hexagon, circle?",
+   "a": "Circle — it has no straight sides.",
+   "d": 2
+  },
+  {
+   "q": "Which is the odd one out: copper, iron, gold, silver, diamond?",
+   "a": "Diamond — it is not a metal.",
+   "d": 2
   },
   {
    "q": "Which is the odd one out: Mercury, Venus, Earth, Mars, Europa?",
    "a": "Europa — it is a moon; the others are planets.",
-   "d": "hard",
-   "src": "authored"
+   "d": 3
   },
   {
    "q": "Which is the odd one out: Python, Java, Ruby, Swift, Photoshop?",
    "a": "Photoshop — it is not a programming language.",
-   "d": "hard",
-   "src": "authored"
+   "d": 3
   },
   {
    "q": "Which number is the odd one out: 100, 64, 130, 121, 81?",
    "a": "130 — the others are perfect squares.",
-   "d": "hard",
-   "src": "authored"
+   "d": 3
   },
   {
    "q": "Which number is the odd one out: 64, 144, 8, 125, 27?",
    "a": "144 — the others are perfect cubes.",
-   "d": "hard",
-   "src": "authored"
+   "d": 3
+  },
+  {
+   "q": "Which is the odd one out: salmon, tuna, dolphin, cod, shark?",
+   "a": "Dolphin — it is a mammal; the others are fish.",
+   "d": 1
+  },
+  {
+   "q": "Which is the odd one out: rose, tulip, oak, daisy, sunflower?",
+   "a": "Oak — it is a tree; the others are flowering garden plants.",
+   "d": 1
+  },
+  {
+   "q": "Which is the odd one out: violin, trumpet, cello, harp, guitar?",
+   "a": "Trumpet — it is a wind instrument; the others are string instruments.",
+   "d": 1
+  },
+  {
+   "q": "Which is the odd one out: metre, yard, litre, mile, centimetre?",
+   "a": "Litre — it measures volume; the others measure length.",
+   "d": 1
+  },
+  {
+   "q": "Which is the odd one out: petrol, bitumen, coal, diesel, kerosene?",
+   "a": "Coal — the others are products obtained from refining crude oil.",
+   "d": 1
+  },
+  {
+   "q": "Which is the odd one out: ruby, pearl, emerald, sapphire, diamond?",
+   "a": "Pearl — it is produced by a living animal; the others are minerals.",
+   "d": 1
+  },
+  {
+   "q": "Which is the odd one out: cheese, yoghurt, tofu, butter, cream?",
+   "a": "Tofu — it is made from soya beans; the others are dairy products.",
+   "d": 1
+  },
+  {
+   "q": "Which is the odd one out: Japan, Madagascar, Nepal, Iceland, Sri Lanka?",
+   "a": "Nepal — it is landlocked; the others are island countries.",
+   "d": 1
+  },
+  {
+   "q": "Which is the odd one out: Atlantic, Mediterranean, Pacific, Arctic, Indian?",
+   "a": "Mediterranean — it is a sea; the others are oceans.",
+   "d": 1
+  },
+  {
+   "q": "Which is the odd one out: squid, nautilus, jellyfish, octopus, cuttlefish?",
+   "a": "Jellyfish — it is a cnidarian; the others are cephalopods.",
+   "d": 2
+  },
+  {
+   "q": "Which is the odd one out: spider, mite, scorpion, centipede, tick?",
+   "a": "Centipede — it is a myriapod; the others are arachnids.",
+   "d": 2
+  },
+  {
+   "q": "Which is the odd one out: oxygen, carbon dioxide, chlorine, nitrogen, hydrogen?",
+   "a": "Carbon dioxide — it is a compound; the others are elements.",
+   "d": 2
+  },
+  {
+   "q": "Which is the odd one out: kilowatt-hour, joule, watt, calorie, electronvolt?",
+   "a": "Watt — it measures power; the others measure energy.",
+   "d": 2
+  },
+  {
+   "q": "Which is the odd one out: gigabyte, megabyte, gigahertz, terabyte, kilobyte?",
+   "a": "Gigahertz — it measures frequency; the others measure digital data.",
+   "d": 2
+  },
+  {
+   "q": "Which is the odd one out: HTTP, HTML, FTP, SMTP, IMAP?",
+   "a": "HTML — it is a markup language; the others are communication protocols.",
+   "d": 2
+  },
+  {
+   "q": "Which is the odd one out: clarinet, oboe, flute, bassoon, saxophone?",
+   "a": "Flute — it does not use a reed; the others do.",
+   "d": 2
+  },
+  {
+   "q": "Which is the odd one out: yen, euro, won, yuan, baht?",
+   "a": "Euro — the others are currencies originating in Asian countries.",
+   "d": 2
+  },
+  {
+   "q": "Which is the odd one out: A, AB, Rh, O, B?",
+   "a": "Rh — it is a blood-group factor; the others belong to the ABO system.",
+   "d": 2
+  },
+  {
+   "q": "Which is the odd one out: Spanish, Portuguese, German, Italian, French?",
+   "a": "German — it is a Germanic language; the others are Romance languages.",
+   "d": 2
+  },
+  {
+   "q": "Which number is the odd one out: 81, 68, 54, 72, 63?",
+   "a": "68 — the others are divisible by 9.",
+   "d": 3
+  },
+  {
+   "q": "Which number is the odd one out: 34, 13, 36, 55, 21?",
+   "a": "36 — the others are Fibonacci numbers.",
+   "d": 3
+  },
+  {
+   "q": "Which number is the odd one out: 128, 96, 32, 256, 64?",
+   "a": "96 — the others are powers of 2.",
+   "d": 3
+  },
+  {
+   "q": "Which is the odd one out: Europa, Io, Titan, Callisto, Ganymede?",
+   "a": "Titan — it orbits Saturn; the others orbit Jupiter.",
+   "d": 3
+  },
+  {
+   "q": "Which is the odd one out: Macbeth, Oliver Twist, Hamlet, King Lear, Othello?",
+   "a": "Oliver Twist — it was written by Charles Dickens; the others are Shakespeare plays.",
+   "d": 3
+  },
+  {
+   "q": "Which is the odd one out: natural gas, uranium, peat, petroleum, coal?",
+   "a": "Uranium — it is a nuclear fuel; the others are fossil or carbon-based fuels.",
+   "d": 3
+  },
+  {
+   "q": "Which is the odd one out: thyroid, pituitary, spleen, adrenal gland, pancreas?",
+   "a": "Spleen — it is not an endocrine gland; the others produce hormones.",
+   "d": 3
+  },
+  {
+   "q": "Which is the odd one out: Kelvin, Pascal, Celsius, Rankine, Fahrenheit?",
+   "a": "Pascal — it measures pressure; the others are temperature scales.",
+   "d": 3
   }
  ],
  "Complete the Proverb": [

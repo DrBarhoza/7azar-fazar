@@ -9,7 +9,7 @@
      all local anyway.
 
    Bump CACHE_VERSION to retire old caches on the next deploy. */
-const CACHE_VERSION = "v9";   // v9: remove excluded business-logo questions
+const CACHE_VERSION = "v11";  // v11: add the approved Find the Odd text questions
 const SHELL = `7azar-shell-${CACHE_VERSION}`;
 const MEDIA = `7azar-media-${CACHE_VERSION}`;
 
