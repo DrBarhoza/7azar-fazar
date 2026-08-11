@@ -20140,10 +20140,11 @@
    "src": "authored"
   },
   {
-   "q": "Which famous city? 🫀🏊",
+   "q": "Which famous city?",
    "a": "Liverpool",
    "d": "medium",
-   "src": "authored"
+   "src": "authored",
+   "img": "city-emoji-assets/liverpool-liver-swimmer.png"
   },
   {
    "q": "Which famous city? ⚔️🪚",

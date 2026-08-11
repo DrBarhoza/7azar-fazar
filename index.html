@@ -1282,6 +1282,23 @@ let bannedSet = loadSet(BANNED_KEY);
     localStorage.setItem("sj_mig_v38_public", "1");
   }catch(e){}
 })();
+(function replaceLiverpoolEmojiRebus(){
+  try{
+    if(localStorage.getItem("sj_mig_v39_public")) return;
+    const items = bank["Guess the Country or City"];
+    if(Array.isArray(items)){
+      const item = items.find(question => question.a === "Liverpool");
+      if(item){
+        Object.assign(item, {
+          q:"Which famous city?", a:"Liverpool", d:2, src:"authored",
+          img:"city-emoji-assets/liverpool-liver-swimmer.png"
+        });
+        saveBank();
+      }
+    }
+    localStorage.setItem("sj_mig_v39_public", "1");
+  }catch(e){}
+})();
 let game = null;
 let timer = {id:null, left:0, total:30};
 const gameMusic = new Audio("sounds/music/game-loop.mp3");

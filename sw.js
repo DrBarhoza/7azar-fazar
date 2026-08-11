@@ -9,7 +9,7 @@
      all local anyway.
 
    Bump CACHE_VERSION to retire old caches on the next deploy. */
-const CACHE_VERSION = "v11";  // v11: add the approved Find the Odd text questions
+const CACHE_VERSION = "v12";  // v12: replace Liverpool's heart with the custom liver rebus
 const SHELL = `7azar-shell-${CACHE_VERSION}`;
 const MEDIA = `7azar-media-${CACHE_VERSION}`;
 
@@ -32,7 +32,7 @@ const SHELL_ASSETS = [
   "./icons/favicon-32.png",
 ];
 
-const MEDIA_PATH = /\/(landmark-photos|country-flags|country-shapes|kangaroo-figures|logo-assets|reactions|sounds\/guess-the-sound)\//;
+const MEDIA_PATH = /\/(landmark-photos|country-flags|country-shapes|kangaroo-figures|logo-assets|city-emoji-assets|reactions|sounds\/guess-the-sound)\//;
 
 self.addEventListener("install", (e) => {
   e.waitUntil((async () => {
