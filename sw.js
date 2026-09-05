@@ -9,7 +9,7 @@
      all local anyway.
 
    Bump CACHE_VERSION to retire old caches on the next deploy. */
-const CACHE_VERSION = "v12";  // v12: replace Liverpool's heart with the custom liver rebus
+const CACHE_VERSION = "v21";  // v21: complete public Rummikub gameplay and puzzle library
 const SHELL = `7azar-shell-${CACHE_VERSION}`;
 const MEDIA = `7azar-media-${CACHE_VERSION}`;
 
@@ -21,6 +21,12 @@ const SHELL_ASSETS = [
   "./index.html",
   "./manifest.webmanifest",
   "./trivia-questions.json",
+  "./rummikub/rummikub-engine.js",
+  "./rummikub/rummikub-generator.js",
+  "./rummikub/rummikub-imported-puzzles.js",
+  "./rummikub/rummikub-ui.js",
+  "./rummikub/rummikub.css",
+  "./rummikub/data/rummikub-approved.json",
   "./sounds/music/game-loop.mp3",
   "./sounds/effects/clock-ticking.mp3",
   "./icons/icon-192.png",

@@ -1,0 +1,1658 @@
+[
+  {
+    "id": "RUM-E-104",
+    "difficulty": "expert",
+    "gameTier": "medium",
+    "status": "approved",
+    "reviewed": true,
+    "timeLimit": 60,
+    "table": [
+      [
+        {
+          "id": "t-217",
+          "color": "red",
+          "number": 5
+        },
+        {
+          "id": "t-218",
+          "color": "blue",
+          "number": 5
+        },
+        {
+          "id": "t-219",
+          "color": "black",
+          "number": 5
+        },
+        {
+          "id": "t-220",
+          "color": "orange",
+          "number": 5
+        }
+      ],
+      [
+        {
+          "id": "t-221",
+          "color": "red",
+          "number": 6
+        },
+        {
+          "id": "t-222",
+          "color": "blue",
+          "number": 6
+        },
+        {
+          "id": "t-223",
+          "color": "black",
+          "number": 6
+        },
+        {
+          "id": "t-224",
+          "color": "orange",
+          "number": 6
+        }
+      ],
+      [
+        {
+          "id": "t-225",
+          "color": "red",
+          "number": 7
+        },
+        {
+          "id": "t-226",
+          "color": "blue",
+          "number": 7
+        },
+        {
+          "id": "t-227",
+          "color": "black",
+          "number": 7
+        },
+        {
+          "id": "t-228",
+          "color": "orange",
+          "number": 7
+        }
+      ],
+      [
+        {
+          "id": "t-229",
+          "color": "red",
+          "number": 8
+        },
+        {
+          "id": "t-230",
+          "color": "blue",
+          "number": 8
+        },
+        {
+          "id": "t-231",
+          "color": "black",
+          "number": 8
+        },
+        {
+          "id": "t-232",
+          "color": "orange",
+          "number": 8
+        }
+      ],
+      [
+        {
+          "id": "t-233",
+          "color": "red",
+          "number": 9
+        },
+        {
+          "id": "t-234",
+          "color": "blue",
+          "number": 9
+        },
+        {
+          "id": "t-235",
+          "color": "black",
+          "number": 9
+        },
+        {
+          "id": "t-236",
+          "color": "orange",
+          "number": 9
+        }
+      ],
+      [
+        {
+          "id": "t-237",
+          "color": "red",
+          "number": 10
+        },
+        {
+          "id": "t-238",
+          "color": "blue",
+          "number": 10
+        },
+        {
+          "id": "t-239",
+          "color": "black",
+          "number": 10
+        },
+        {
+          "id": "t-240",
+          "color": "orange",
+          "number": 10
+        }
+      ],
+      [
+        {
+          "id": "t-241",
+          "color": "red",
+          "number": 11
+        },
+        {
+          "id": "t-242",
+          "color": "blue",
+          "number": 11
+        },
+        {
+          "id": "t-243",
+          "color": "black",
+          "number": 11
+        },
+        {
+          "id": "t-244",
+          "color": "orange",
+          "number": 11
+        }
+      ]
+    ],
+    "rack": [
+      {
+        "id": "t-245",
+        "color": "red",
+        "number": 4
+      },
+      {
+        "id": "t-246",
+        "color": "blue",
+        "number": 12
+      },
+      {
+        "id": "t-247",
+        "color": "black",
+        "number": 4
+      },
+      {
+        "id": "t-248",
+        "color": "orange",
+        "number": 12
+      }
+    ],
+    "solution": {
+      "finalTable": [
+        [
+          {
+            "id": "t-217",
+            "color": "red",
+            "number": 5
+          },
+          {
+            "id": "t-221",
+            "color": "red",
+            "number": 6
+          },
+          {
+            "id": "t-245",
+            "color": "red",
+            "number": 4
+          }
+        ],
+        [
+          {
+            "id": "t-218",
+            "color": "blue",
+            "number": 5
+          },
+          {
+            "id": "t-222",
+            "color": "blue",
+            "number": 6
+          },
+          {
+            "id": "t-226",
+            "color": "blue",
+            "number": 7
+          },
+          {
+            "id": "t-230",
+            "color": "blue",
+            "number": 8
+          },
+          {
+            "id": "t-234",
+            "color": "blue",
+            "number": 9
+          },
+          {
+            "id": "t-238",
+            "color": "blue",
+            "number": 10
+          },
+          {
+            "id": "t-242",
+            "color": "blue",
+            "number": 11
+          },
+          {
+            "id": "t-246",
+            "color": "blue",
+            "number": 12
+          }
+        ],
+        [
+          {
+            "id": "t-225",
+            "color": "red",
+            "number": 7
+          },
+          {
+            "id": "t-229",
+            "color": "red",
+            "number": 8
+          },
+          {
+            "id": "t-233",
+            "color": "red",
+            "number": 9
+          },
+          {
+            "id": "t-237",
+            "color": "red",
+            "number": 10
+          },
+          {
+            "id": "t-241",
+            "color": "red",
+            "number": 11
+          }
+        ],
+        [
+          {
+            "id": "t-220",
+            "color": "orange",
+            "number": 5
+          },
+          {
+            "id": "t-224",
+            "color": "orange",
+            "number": 6
+          },
+          {
+            "id": "t-228",
+            "color": "orange",
+            "number": 7
+          }
+        ],
+        [
+          {
+            "id": "t-232",
+            "color": "orange",
+            "number": 8
+          },
+          {
+            "id": "t-236",
+            "color": "orange",
+            "number": 9
+          },
+          {
+            "id": "t-240",
+            "color": "orange",
+            "number": 10
+          },
+          {
+            "id": "t-244",
+            "color": "orange",
+            "number": 11
+          },
+          {
+            "id": "t-248",
+            "color": "orange",
+            "number": 12
+          }
+        ],
+        [
+          {
+            "id": "t-219",
+            "color": "black",
+            "number": 5
+          },
+          {
+            "id": "t-223",
+            "color": "black",
+            "number": 6
+          },
+          {
+            "id": "t-227",
+            "color": "black",
+            "number": 7
+          },
+          {
+            "id": "t-231",
+            "color": "black",
+            "number": 8
+          },
+          {
+            "id": "t-235",
+            "color": "black",
+            "number": 9
+          },
+          {
+            "id": "t-239",
+            "color": "black",
+            "number": 10
+          },
+          {
+            "id": "t-243",
+            "color": "black",
+            "number": 11
+          },
+          {
+            "id": "t-247",
+            "color": "black",
+            "number": 4
+          }
+        ]
+      ],
+      "steps": [
+        {
+          "tileId": "t-245",
+          "text": "Move red 4 from the rack to meld 1.",
+          "toMeld": 0,
+          "toIndex": 2
+        },
+        {
+          "tileId": "t-246",
+          "text": "Move blue 12 from the rack to meld 2.",
+          "toMeld": 1,
+          "toIndex": 7
+        },
+        {
+          "tileId": "t-248",
+          "text": "Move orange 12 from the rack to meld 5.",
+          "toMeld": 4,
+          "toIndex": 4
+        },
+        {
+          "tileId": "t-247",
+          "text": "Move black 4 from the rack to meld 6.",
+          "toMeld": 5,
+          "toIndex": 7
+        },
+        {
+          "text": "Confirm that every rack tile is played and every meld is legal.",
+          "final": true
+        }
+      ]
+    },
+    "difficultyScore": 100,
+    "reviewNotes": "",
+    "metrics": {
+      "score": 100,
+      "difficulty": "expert",
+      "rackTiles": 4,
+      "tilesMoved": 11,
+      "meldsAffected": 7,
+      "transfers": 6,
+      "splits": 0,
+      "joker": false,
+      "estimatedComplexity": "Very high"
+    },
+    "solutionCount": 3
+  },
+  {
+    "id": "RUM-H-301",
+    "difficulty": "hard",
+    "status": "approved",
+    "reviewed": true,
+    "timeLimit": 60,
+    "table": [
+      [
+        {
+          "id": "t-1",
+          "color": "red",
+          "number": 13
+        },
+        {
+          "id": "t-2",
+          "color": "blue",
+          "number": 13
+        },
+        {
+          "id": "t-3",
+          "color": "black",
+          "number": 13
+        }
+      ],
+      [
+        {
+          "id": "t-4",
+          "color": "orange",
+          "number": 9
+        },
+        {
+          "id": "t-5",
+          "color": "orange",
+          "number": 10
+        },
+        {
+          "id": "t-6",
+          "color": "orange",
+          "number": 11
+        },
+        {
+          "id": "t-7",
+          "joker": true
+        },
+        {
+          "id": "t-8",
+          "color": "orange",
+          "number": 13
+        }
+      ],
+      [
+        {
+          "id": "t-9",
+          "color": "red",
+          "number": 6
+        },
+        {
+          "id": "t-10",
+          "color": "red",
+          "number": 7
+        },
+        {
+          "id": "t-11",
+          "color": "red",
+          "number": 8
+        }
+      ],
+      [
+        {
+          "id": "t-12",
+          "color": "orange",
+          "number": 13
+        },
+        {
+          "id": "t-13",
+          "color": "blue",
+          "number": 13
+        },
+        {
+          "id": "t-14",
+          "color": "red",
+          "number": 13
+        }
+      ],
+      [
+        {
+          "id": "t-15",
+          "color": "orange",
+          "number": 1
+        },
+        {
+          "id": "t-16",
+          "color": "orange",
+          "number": 2
+        },
+        {
+          "id": "t-17",
+          "color": "orange",
+          "number": 3
+        }
+      ],
+      [
+        {
+          "id": "t-18",
+          "color": "orange",
+          "number": 8
+        },
+        {
+          "id": "t-19",
+          "color": "orange",
+          "number": 9
+        },
+        {
+          "id": "t-20",
+          "color": "orange",
+          "number": 10
+        }
+      ],
+      [
+        {
+          "id": "t-21",
+          "color": "red",
+          "number": 1
+        },
+        {
+          "id": "t-22",
+          "color": "red",
+          "number": 2
+        },
+        {
+          "id": "t-23",
+          "color": "red",
+          "number": 3
+        },
+        {
+          "id": "t-24",
+          "color": "red",
+          "number": 4
+        }
+      ]
+    ],
+    "rack": [
+      {
+        "id": "t-25",
+        "color": "red",
+        "number": 4
+      }
+    ],
+    "solution": {
+      "finalTable": [
+        [
+          {
+            "id": "t-7",
+            "joker": true
+          },
+          {
+            "id": "t-9",
+            "color": "red",
+            "number": 6
+          },
+          {
+            "id": "t-10",
+            "color": "red",
+            "number": 7
+          },
+          {
+            "id": "t-11",
+            "color": "red",
+            "number": 8
+          },
+          {
+            "id": "t-25",
+            "color": "red",
+            "number": 4
+          }
+        ],
+        [
+          {
+            "id": "t-4",
+            "color": "orange",
+            "number": 9
+          },
+          {
+            "id": "t-5",
+            "color": "orange",
+            "number": 10
+          },
+          {
+            "id": "t-6",
+            "color": "orange",
+            "number": 11
+          }
+        ],
+        [
+          {
+            "id": "t-1",
+            "color": "red",
+            "number": 13
+          },
+          {
+            "id": "t-2",
+            "color": "blue",
+            "number": 13
+          },
+          {
+            "id": "t-3",
+            "color": "black",
+            "number": 13
+          },
+          {
+            "id": "t-8",
+            "color": "orange",
+            "number": 13
+          }
+        ],
+        [
+          {
+            "id": "t-12",
+            "color": "orange",
+            "number": 13
+          },
+          {
+            "id": "t-13",
+            "color": "blue",
+            "number": 13
+          },
+          {
+            "id": "t-14",
+            "color": "red",
+            "number": 13
+          }
+        ],
+        [
+          {
+            "id": "t-15",
+            "color": "orange",
+            "number": 1
+          },
+          {
+            "id": "t-16",
+            "color": "orange",
+            "number": 2
+          },
+          {
+            "id": "t-17",
+            "color": "orange",
+            "number": 3
+          }
+        ],
+        [
+          {
+            "id": "t-18",
+            "color": "orange",
+            "number": 8
+          },
+          {
+            "id": "t-19",
+            "color": "orange",
+            "number": 9
+          },
+          {
+            "id": "t-20",
+            "color": "orange",
+            "number": 10
+          }
+        ],
+        [
+          {
+            "id": "t-21",
+            "color": "red",
+            "number": 1
+          },
+          {
+            "id": "t-22",
+            "color": "red",
+            "number": 2
+          },
+          {
+            "id": "t-23",
+            "color": "red",
+            "number": 3
+          },
+          {
+            "id": "t-24",
+            "color": "red",
+            "number": 4
+          }
+        ]
+      ],
+      "steps": [
+        {
+          "tileId": "t-25",
+          "text": "Move red 4 from the rack to meld 1.",
+          "toMeld": 0,
+          "toIndex": 4
+        },
+        {
+          "text": "Confirm that every rack tile is played and every meld is legal.",
+          "final": true
+        }
+      ]
+    },
+    "difficultyScore": 67,
+    "reviewNotes": "Approved by user for private gameplay trial",
+    "solverCoreMelds": [
+      0,
+      1,
+      2
+    ],
+    "metrics": {
+      "score": 67,
+      "difficulty": "hard",
+      "rackTiles": 1,
+      "tilesMoved": 4,
+      "meldsAffected": 3,
+      "transfers": 2,
+      "splits": 0,
+      "joker": true,
+      "estimatedComplexity": "Challenging"
+    },
+    "solutionCount": 1,
+    "referencePattern": true,
+    "gameTier": "medium",
+    "dateApproved": "2026-09-06"
+  },
+  {
+    "id": "RUM-H-302",
+    "gameTier": "medium",
+    "difficulty": "hard",
+    "status": "approved",
+    "reviewed": true,
+    "timeLimit": 60,
+    "table": [
+      [
+        {
+          "id": "t-26",
+          "color": "blue",
+          "number": 6
+        },
+        {
+          "id": "t-27",
+          "color": "blue",
+          "number": 7
+        },
+        {
+          "id": "t-28",
+          "color": "blue",
+          "number": 8
+        }
+      ],
+      [
+        {
+          "id": "t-29",
+          "color": "orange",
+          "number": 11
+        },
+        {
+          "id": "t-30",
+          "color": "black",
+          "number": 11
+        },
+        {
+          "id": "t-31",
+          "color": "blue",
+          "number": 11
+        }
+      ],
+      [
+        {
+          "id": "t-32",
+          "color": "orange",
+          "number": 12
+        },
+        {
+          "id": "t-33",
+          "color": "black",
+          "number": 12
+        },
+        {
+          "id": "t-34",
+          "color": "blue",
+          "number": 12
+        }
+      ],
+      [
+        {
+          "id": "t-35",
+          "color": "orange",
+          "number": 13
+        },
+        {
+          "id": "t-36",
+          "color": "black",
+          "number": 13
+        },
+        {
+          "id": "t-37",
+          "color": "blue",
+          "number": 13
+        }
+      ],
+      [
+        {
+          "id": "t-38",
+          "color": "black",
+          "number": 1
+        },
+        {
+          "id": "t-39",
+          "color": "black",
+          "number": 2
+        },
+        {
+          "id": "t-40",
+          "color": "black",
+          "number": 3
+        },
+        {
+          "id": "t-41",
+          "color": "black",
+          "number": 4
+        }
+      ],
+      [
+        {
+          "id": "t-42",
+          "color": "orange",
+          "number": 1
+        },
+        {
+          "id": "t-43",
+          "color": "orange",
+          "number": 2
+        },
+        {
+          "id": "t-44",
+          "color": "orange",
+          "number": 3
+        }
+      ],
+      [
+        {
+          "id": "t-45",
+          "color": "orange",
+          "number": 1
+        },
+        {
+          "id": "t-46",
+          "color": "blue",
+          "number": 1
+        },
+        {
+          "id": "t-47",
+          "color": "red",
+          "number": 1
+        },
+        {
+          "id": "t-48",
+          "color": "black",
+          "number": 1
+        }
+      ],
+      [
+        {
+          "id": "t-49",
+          "color": "red",
+          "number": 10
+        },
+        {
+          "id": "t-50",
+          "color": "red",
+          "number": 11
+        },
+        {
+          "id": "t-51",
+          "color": "red",
+          "number": 12
+        }
+      ],
+      [
+        {
+          "id": "t-52",
+          "color": "red",
+          "number": 2
+        },
+        {
+          "id": "t-53",
+          "color": "red",
+          "number": 3
+        },
+        {
+          "id": "t-54",
+          "color": "red",
+          "number": 4
+        }
+      ],
+      [
+        {
+          "id": "t-55",
+          "color": "red",
+          "number": 1
+        },
+        {
+          "id": "t-56",
+          "color": "red",
+          "number": 2
+        },
+        {
+          "id": "t-57",
+          "color": "red",
+          "number": 3
+        }
+      ],
+      [
+        {
+          "id": "t-58",
+          "color": "blue",
+          "number": 1
+        },
+        {
+          "id": "t-59",
+          "color": "blue",
+          "number": 2
+        },
+        {
+          "id": "t-60",
+          "color": "blue",
+          "number": 3
+        }
+      ],
+      [
+        {
+          "id": "t-61",
+          "color": "red",
+          "number": 7
+        },
+        {
+          "id": "t-62",
+          "color": "orange",
+          "number": 7
+        },
+        {
+          "id": "t-63",
+          "color": "black",
+          "number": 7
+        }
+      ],
+      [
+        {
+          "id": "t-64",
+          "color": "orange",
+          "number": 9
+        },
+        {
+          "id": "t-65",
+          "color": "blue",
+          "number": 9
+        },
+        {
+          "id": "t-66",
+          "color": "black",
+          "number": 9
+        }
+      ],
+      [
+        {
+          "id": "t-67",
+          "color": "black",
+          "number": 5
+        },
+        {
+          "id": "t-68",
+          "color": "black",
+          "number": 6
+        },
+        {
+          "id": "t-69",
+          "color": "black",
+          "number": 7
+        },
+        {
+          "id": "t-70",
+          "color": "black",
+          "number": 8
+        },
+        {
+          "id": "t-71",
+          "color": "black",
+          "number": 9
+        }
+      ],
+      [
+        {
+          "id": "t-72",
+          "joker": true
+        },
+        {
+          "id": "t-73",
+          "color": "red",
+          "number": 12
+        },
+        {
+          "id": "t-74",
+          "color": "red",
+          "number": 13
+        }
+      ],
+      [
+        {
+          "id": "t-75",
+          "color": "red",
+          "number": 8
+        },
+        {
+          "id": "t-76",
+          "color": "black",
+          "number": 8
+        },
+        {
+          "id": "t-77",
+          "color": "blue",
+          "number": 8
+        },
+        {
+          "id": "t-78",
+          "color": "orange",
+          "number": 8
+        }
+      ],
+      [
+        {
+          "id": "t-79",
+          "color": "red",
+          "number": 6
+        },
+        {
+          "id": "t-80",
+          "color": "blue",
+          "number": 6
+        },
+        {
+          "id": "t-81",
+          "color": "orange",
+          "number": 6
+        },
+        {
+          "id": "t-82",
+          "color": "black",
+          "number": 6
+        }
+      ],
+      [
+        {
+          "id": "t-83",
+          "color": "blue",
+          "number": 4
+        },
+        {
+          "id": "t-84",
+          "color": "red",
+          "number": 4
+        },
+        {
+          "id": "t-85",
+          "color": "orange",
+          "number": 4
+        }
+      ],
+      [
+        {
+          "id": "t-86",
+          "color": "orange",
+          "number": 4
+        },
+        {
+          "id": "t-87",
+          "color": "black",
+          "number": 4
+        },
+        {
+          "id": "t-88",
+          "color": "blue",
+          "number": 4
+        }
+      ],
+      [
+        {
+          "id": "t-89",
+          "color": "black",
+          "number": 5
+        },
+        {
+          "id": "t-90",
+          "color": "orange",
+          "number": 5
+        },
+        {
+          "id": "t-91",
+          "color": "red",
+          "number": 5
+        }
+      ],
+      [
+        {
+          "id": "t-92",
+          "color": "orange",
+          "number": 10
+        },
+        {
+          "id": "t-93",
+          "color": "blue",
+          "number": 10
+        },
+        {
+          "id": "t-94",
+          "color": "black",
+          "number": 10
+        }
+      ],
+      [
+        {
+          "id": "t-95",
+          "color": "red",
+          "number": 11
+        },
+        {
+          "id": "t-96",
+          "color": "blue",
+          "number": 11
+        },
+        {
+          "id": "t-97",
+          "color": "orange",
+          "number": 11
+        }
+      ],
+      [
+        {
+          "id": "t-98",
+          "color": "blue",
+          "number": 13
+        },
+        {
+          "id": "t-99",
+          "color": "black",
+          "number": 13
+        },
+        {
+          "id": "t-100",
+          "color": "red",
+          "number": 13
+        },
+        {
+          "id": "t-101",
+          "color": "orange",
+          "number": 13
+        }
+      ]
+    ],
+    "rack": [
+      {
+        "id": "t-102",
+        "color": "blue",
+        "number": 5
+      },
+      {
+        "id": "t-103",
+        "color": "blue",
+        "number": 10
+      }
+    ],
+    "solution": {
+      "finalTable": [
+        [
+          {
+            "id": "t-26",
+            "color": "blue",
+            "number": 6
+          },
+          {
+            "id": "t-27",
+            "color": "blue",
+            "number": 7
+          },
+          {
+            "id": "t-28",
+            "color": "blue",
+            "number": 8
+          },
+          {
+            "id": "t-102",
+            "color": "blue",
+            "number": 5
+          }
+        ],
+        [
+          {
+            "id": "t-29",
+            "color": "orange",
+            "number": 11
+          },
+          {
+            "id": "t-32",
+            "color": "orange",
+            "number": 12
+          },
+          {
+            "id": "t-35",
+            "color": "orange",
+            "number": 13
+          }
+        ],
+        [
+          {
+            "id": "t-30",
+            "color": "black",
+            "number": 11
+          },
+          {
+            "id": "t-33",
+            "color": "black",
+            "number": 12
+          },
+          {
+            "id": "t-36",
+            "color": "black",
+            "number": 13
+          }
+        ],
+        [
+          {
+            "id": "t-31",
+            "color": "blue",
+            "number": 11
+          },
+          {
+            "id": "t-34",
+            "color": "blue",
+            "number": 12
+          },
+          {
+            "id": "t-37",
+            "color": "blue",
+            "number": 13
+          },
+          {
+            "id": "t-103",
+            "color": "blue",
+            "number": 10
+          }
+        ],
+        [
+          {
+            "id": "t-38",
+            "color": "black",
+            "number": 1
+          },
+          {
+            "id": "t-39",
+            "color": "black",
+            "number": 2
+          },
+          {
+            "id": "t-40",
+            "color": "black",
+            "number": 3
+          },
+          {
+            "id": "t-41",
+            "color": "black",
+            "number": 4
+          }
+        ],
+        [
+          {
+            "id": "t-42",
+            "color": "orange",
+            "number": 1
+          },
+          {
+            "id": "t-43",
+            "color": "orange",
+            "number": 2
+          },
+          {
+            "id": "t-44",
+            "color": "orange",
+            "number": 3
+          }
+        ],
+        [
+          {
+            "id": "t-45",
+            "color": "orange",
+            "number": 1
+          },
+          {
+            "id": "t-46",
+            "color": "blue",
+            "number": 1
+          },
+          {
+            "id": "t-47",
+            "color": "red",
+            "number": 1
+          },
+          {
+            "id": "t-48",
+            "color": "black",
+            "number": 1
+          }
+        ],
+        [
+          {
+            "id": "t-49",
+            "color": "red",
+            "number": 10
+          },
+          {
+            "id": "t-50",
+            "color": "red",
+            "number": 11
+          },
+          {
+            "id": "t-51",
+            "color": "red",
+            "number": 12
+          }
+        ],
+        [
+          {
+            "id": "t-52",
+            "color": "red",
+            "number": 2
+          },
+          {
+            "id": "t-53",
+            "color": "red",
+            "number": 3
+          },
+          {
+            "id": "t-54",
+            "color": "red",
+            "number": 4
+          }
+        ],
+        [
+          {
+            "id": "t-55",
+            "color": "red",
+            "number": 1
+          },
+          {
+            "id": "t-56",
+            "color": "red",
+            "number": 2
+          },
+          {
+            "id": "t-57",
+            "color": "red",
+            "number": 3
+          }
+        ],
+        [
+          {
+            "id": "t-58",
+            "color": "blue",
+            "number": 1
+          },
+          {
+            "id": "t-59",
+            "color": "blue",
+            "number": 2
+          },
+          {
+            "id": "t-60",
+            "color": "blue",
+            "number": 3
+          }
+        ],
+        [
+          {
+            "id": "t-61",
+            "color": "red",
+            "number": 7
+          },
+          {
+            "id": "t-62",
+            "color": "orange",
+            "number": 7
+          },
+          {
+            "id": "t-63",
+            "color": "black",
+            "number": 7
+          }
+        ],
+        [
+          {
+            "id": "t-64",
+            "color": "orange",
+            "number": 9
+          },
+          {
+            "id": "t-65",
+            "color": "blue",
+            "number": 9
+          },
+          {
+            "id": "t-66",
+            "color": "black",
+            "number": 9
+          }
+        ],
+        [
+          {
+            "id": "t-67",
+            "color": "black",
+            "number": 5
+          },
+          {
+            "id": "t-68",
+            "color": "black",
+            "number": 6
+          },
+          {
+            "id": "t-69",
+            "color": "black",
+            "number": 7
+          },
+          {
+            "id": "t-70",
+            "color": "black",
+            "number": 8
+          },
+          {
+            "id": "t-71",
+            "color": "black",
+            "number": 9
+          }
+        ],
+        [
+          {
+            "id": "t-72",
+            "joker": true
+          },
+          {
+            "id": "t-73",
+            "color": "red",
+            "number": 12
+          },
+          {
+            "id": "t-74",
+            "color": "red",
+            "number": 13
+          }
+        ],
+        [
+          {
+            "id": "t-75",
+            "color": "red",
+            "number": 8
+          },
+          {
+            "id": "t-76",
+            "color": "black",
+            "number": 8
+          },
+          {
+            "id": "t-77",
+            "color": "blue",
+            "number": 8
+          },
+          {
+            "id": "t-78",
+            "color": "orange",
+            "number": 8
+          }
+        ],
+        [
+          {
+            "id": "t-79",
+            "color": "red",
+            "number": 6
+          },
+          {
+            "id": "t-80",
+            "color": "blue",
+            "number": 6
+          },
+          {
+            "id": "t-81",
+            "color": "orange",
+            "number": 6
+          },
+          {
+            "id": "t-82",
+            "color": "black",
+            "number": 6
+          }
+        ],
+        [
+          {
+            "id": "t-83",
+            "color": "blue",
+            "number": 4
+          },
+          {
+            "id": "t-84",
+            "color": "red",
+            "number": 4
+          },
+          {
+            "id": "t-85",
+            "color": "orange",
+            "number": 4
+          }
+        ],
+        [
+          {
+            "id": "t-86",
+            "color": "orange",
+            "number": 4
+          },
+          {
+            "id": "t-87",
+            "color": "black",
+            "number": 4
+          },
+          {
+            "id": "t-88",
+            "color": "blue",
+            "number": 4
+          }
+        ],
+        [
+          {
+            "id": "t-89",
+            "color": "black",
+            "number": 5
+          },
+          {
+            "id": "t-90",
+            "color": "orange",
+            "number": 5
+          },
+          {
+            "id": "t-91",
+            "color": "red",
+            "number": 5
+          }
+        ],
+        [
+          {
+            "id": "t-92",
+            "color": "orange",
+            "number": 10
+          },
+          {
+            "id": "t-93",
+            "color": "blue",
+            "number": 10
+          },
+          {
+            "id": "t-94",
+            "color": "black",
+            "number": 10
+          }
+        ],
+        [
+          {
+            "id": "t-95",
+            "color": "red",
+            "number": 11
+          },
+          {
+            "id": "t-96",
+            "color": "blue",
+            "number": 11
+          },
+          {
+            "id": "t-97",
+            "color": "orange",
+            "number": 11
+          }
+        ],
+        [
+          {
+            "id": "t-98",
+            "color": "blue",
+            "number": 13
+          },
+          {
+            "id": "t-99",
+            "color": "black",
+            "number": 13
+          },
+          {
+            "id": "t-100",
+            "color": "red",
+            "number": 13
+          },
+          {
+            "id": "t-101",
+            "color": "orange",
+            "number": 13
+          }
+        ]
+      ],
+      "steps": [
+        {
+          "tileId": "t-102",
+          "text": "Move blue 5 from the rack to meld 1.",
+          "toMeld": 0,
+          "toIndex": 3
+        },
+        {
+          "tileId": "t-103",
+          "text": "Move blue 10 from the rack to meld 4.",
+          "toMeld": 3,
+          "toIndex": 3
+        },
+        {
+          "text": "Confirm that every rack tile is played and every meld is legal.",
+          "final": true
+        }
+      ]
+    },
+    "difficultyScore": 77,
+    "reviewNotes": "Approved by user for private gameplay trial",
+    "solverCoreMelds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "metrics": {
+      "score": 77,
+      "difficulty": "hard",
+      "rackTiles": 2,
+      "tilesMoved": 6,
+      "meldsAffected": 4,
+      "transfers": 3,
+      "splits": 0,
+      "joker": true,
+      "estimatedComplexity": "High"
+    },
+    "solutionCount": 1,
+    "dateApproved": "2026-09-06"
+  }
+]

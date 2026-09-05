@@ -20,6 +20,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <script defer src="https://unpkg.com/mammoth@1.6.0/mammoth.browser.min.js"></script>
+<link rel="stylesheet" href="./rummikub/rummikub.css">
 <style>
   :root{
     /* The five accents, each in two strengths. The bright one is for borders,
@@ -155,6 +156,11 @@
     background:linear-gradient(145deg,#ffad32,#ff7900); border:4px solid #11245a;
     text-shadow:0 2px 3px #0006;
   }
+  .topic-chip .topic-icon.rummikub-icon{background:#72bd55; border-color:#b8eb9e;}
+  .rum-topic-tiles{display:flex; align-items:center; justify-content:center; gap:2px; transform:rotate(-3deg);}
+  .rum-topic-tiles i{display:grid;place-items:center;width:22px;height:34px;border-radius:4px;background:#fffbea;border:1px solid #d3c9a6;box-shadow:0 2px 3px #0003;color:#006cff;font:900 17px/1 Arial,sans-serif;font-style:normal;}
+  .rum-topic-tiles i:nth-child(2){color:#ffd400;transform:translateY(-4px);}
+  .rum-topic-tiles i:nth-child(3){color:#ff2020;}
   .topic-chip .topic-name{
     grid-column:1/-1; min-height:2.35em; display:flex; align-items:center; justify-content:center;
     text-align:center; font-size:1.05rem; line-height:1.15; font-weight:800;
@@ -647,6 +653,8 @@
     </div>
   </div>
 
+  <div id="rummikubMount" hidden></div>
+
   <div class="controls" id="stdControls">
     <!-- both teams answer out loud first; the host reveals, then judges -->
     <button class="btn ghost" id="btnReveal">👁 Reveal answer</button>
@@ -742,6 +750,10 @@
 
 <script src="./find-the-odd-bank.js"></script>
 <script src="./egyptian-proverbs-bank.js"></script>
+<script src="./rummikub/rummikub-engine.js"></script>
+<script src="./rummikub/rummikub-generator.js"></script>
+<script src="./rummikub/rummikub-imported-puzzles.js"></script>
+<script src="./rummikub/rummikub-ui.js"></script>
 <script>
 "use strict";
 /* ================= sample question bank ================= */
@@ -1299,8 +1311,24 @@ let bannedSet = loadSet(BANNED_KEY);
     localStorage.setItem("sj_mig_v39_public", "1");
   }catch(e){}
 })();
+(function addBeetleChildrenProverb(){
+  try{
+    if(localStorage.getItem("sj_mig_v40_public")) return;
+    if(!Array.isArray(bank["Complete the Proverb"])) bank["Complete the Proverb"] = [];
+    const item = {
+      q:"أكمل المثل: خنفسه شافت ولادها ع الحيط…",
+      a:"قالت دا لولي ملضوم فى خيط", d:2, src:"authored"
+    };
+    const existing = bank["Complete the Proverb"].find(question => /خنفسه شافت ولادها/.test(question.q));
+    if(existing) Object.assign(existing, item);
+    else bank["Complete the Proverb"].push(item);
+    saveBank();
+    localStorage.setItem("sj_mig_v40_public", "1");
+  }catch(e){}
+})();
 let game = null;
 let timer = {id:null, left:0, total:30};
+let activeRummikubBoard = null;
 const gameMusic = new Audio("sounds/music/game-loop.mp3");
 const clockTicking = new Audio("sounds/effects/clock-ticking.mp3");
 const questionAudio = new Audio();
@@ -1361,6 +1389,7 @@ function normD(d){
   return map[String(d).toLowerCase()] || 2;
 }
 function show(screenId){
+  if(screenId !== "screen-game" && activeRummikubBoard){activeRummikubBoard.destroy();activeRummikubBoard=null;}
   if(screenId !== "screen-game") stopQuestionSound();
   document.querySelectorAll(".screen").forEach(s=>s.classList.remove("active"));
   $(screenId).classList.add("active");
@@ -1544,6 +1573,7 @@ $("btnRandomTeams").addEventListener("click", ()=>{
 function topicIcon(topic){
   const key = topic.toLocaleLowerCase();
   if(key.includes("barahma")) return {symbol:"B", letter:true};
+  if(key.includes("rummikub")) return {symbol:"<span class=\"rum-topic-tiles\"><i>7</i><i>8</i><i>9</i></span>",letter:false,rummikub:true};
   const icons = [
     ["geography","🗺️"], ["countries","🏳️"], ["hollywood","🎬"], ["medicine","🩺"],
     ["history","🏛️"], ["soccer","⚽"], ["animals","🐾"], ["riddles","🧩"],
@@ -1564,7 +1594,7 @@ function renderTopicList(){
     chip.className = "topic-chip";
     const icon = topicIcon(t);
     chip.innerHTML = `<input type="checkbox" value="${t.replace(/"/g,"&quot;")}">` +
-      `<span class="topic-icon${icon.letter ? " letter-icon" : ""}" aria-hidden="true">${icon.symbol}</span>` +
+      `<span class="topic-icon${icon.letter ? " letter-icon" : ""}${icon.rummikub ? " rummikub-icon" : ""}" aria-hidden="true">${icon.symbol}</span>` +
       `<span class="topic-name">${t}</span><span class="count">${fresh}/${n} new</span>` +
       `<select class="qn" title="questions in this topic (shared by both teams)">` +
       [2,4,6,8,10,12,24].map(k=>`<option value="${k}"${k===6?" selected":""}>×${k}</option>`).join("") +
@@ -1754,7 +1784,7 @@ function tierListFor(n, tiers){
 function buildBoard(configs, tierSel){
   const usedPicAns = new Set();                  // board-wide: no country picture twice
   return configs.map(({topic, n})=>{
-    const qs = activeQs(topic).map(x=>({q:x.q, a:x.a, d:normD(x.d ?? 2), t:x.t, img:x.img, solutionImg:x.solutionImg, audio:x.audio, id:qid(topic, x.q, x.img || x.audio)}));
+    const qs = activeQs(topic).map(x=>({q:x.q, a:x.a, d:normD(x.d ?? 2), t:x.t, img:x.img, solutionImg:x.solutionImg, audio:x.audio, type:x.type, puzzle:x.puzzle, puzzleDifficulty:x.puzzleDifficulty, id:qid(topic, x.q, x.img || x.audio)}));
     const takenIds = new Set();
     const tiers = tierListFor(n, tierSel);
     const seen = {};                             // split each tier evenly: owners 0,1,0,1…
@@ -1966,6 +1996,11 @@ $("btnGo").addEventListener("click", ()=>{
 });
 function startQuestion(){
   const c = cur();
+  if(activeRummikubBoard){activeRummikubBoard.destroy();activeRummikubBoard=null;}
+  document.querySelector(".qwrap").hidden=false;
+  $("rummikubMount").hidden=true;
+  $("btnSwap").hidden=false;
+  $("btnBan").hidden=false;
   $("btnSwap").textContent = `🔄 Swap question (−${c.d === 3 ? 10 : 5} pts)`;
   stopQuestionSound();
   usedSet.add(c.id); saveUsed();
@@ -1995,6 +2030,18 @@ function startQuestion(){
   $("qImgHint").textContent = '🚫 Use "Ban this question" if the image looks wrong or cut off';
   $("aText").textContent = "✓ " + c.a + yearRange(c.q, c.a);
   $("stdControls").style.display = "";
+  document.querySelector(".qwrap").hidden=c.type==="rummikub";
+  $("rummikubMount").hidden=c.type!=="rummikub";
+  $("btnSwap").hidden=c.type==="rummikub";
+  $("btnBan").hidden=c.type==="rummikub";
+  if(c.type==="rummikub"){
+    stopTimer();
+    $("topicBanner").textContent=`Rummikub Puzzle — ${String(c.puzzleDifficulty||"hard").toUpperCase()} (${PTS[c.d]} pts)`;
+    setJudging(false);
+    activeRummikubBoard=new RummikubBoard($("rummikubMount"),c.puzzle,{onSolved:()=>{setJudging(true);$("btnCorrect").textContent="✓ Puzzle solved — award points";$("btnWrong").style.display="none";},onTimeout:()=>{setJudging(true);$("btnCorrect").style.display="none";$("btnWrong").textContent="✗ Time expired — no points";}});
+    activeRummikubBoard.start();
+    return;
+  }
   showYearNote(c.q, c.a);
   $("aText").classList.remove("shown");
   setJudging(false);
@@ -2198,6 +2245,7 @@ $("btnSteal").addEventListener("click", ()=>{
 
 function nextQuestion(){
   stopTimer();
+  if(activeRummikubBoard){activeRummikubBoard.destroy();activeRummikubBoard=null;}
   cur().done = true;          // retire the cell that was just played
   cur().by = game.turn;       // record which team took it (for the per-tier cap)
   game.pick = null;
@@ -2226,7 +2274,7 @@ function replacementFor(c){
   for(const col of game.board) for(const cell of col.cells)
     if(cell.img && cell !== c) blockAns.add(normAns(cell.a));
   const pool = activeQs(topic)
-    .map(x=>({q:x.q, a:x.a, d:normD(x.d ?? 2), t:x.t, img:x.img, solutionImg:x.solutionImg, audio:x.audio, id:qid(topic, x.q, x.img || x.audio)}))
+    .map(x=>({q:x.q, a:x.a, d:normD(x.d ?? 2), t:x.t, img:x.img, solutionImg:x.solutionImg, audio:x.audio, type:x.type, puzzle:x.puzzle, puzzleDifficulty:x.puzzleDifficulty, id:qid(topic, x.q, x.img || x.audio)}))
     .filter(x=>!taken.has(x.id));
   return pool.length ? pickOne(pool, c.d, new Set(), blockAns) : null;
 }
@@ -2341,11 +2389,13 @@ async function loadBundledBank(){
     const topics = parsed ? Object.keys(parsed).length : 0;
     if(!topics) throw new Error("the file loaded but held no usable topics");
     mergeBank(parsed, "trivia-questions.json");           // the shared path
+    await loadApprovedRummikub();
     const total = Object.values(parsed).reduce((s,v)=>s+v.length, 0);
     setBankStatus("ok", `✓ ${total.toLocaleString()} questions ready across ${topics} topics.`);
     setTimeout(()=>setBankStatus(""), 4000);              // tidy itself away
   }catch(err){
     console.error("[7azar Fazar] could not load", BANK_URL, err);   // technical detail
+    await loadApprovedRummikub();
 
     // A failed fetch only matters if there is nothing to fall back on. Opening
     // index.html straight off disk always fails this — file:// cannot fetch —
@@ -2368,6 +2418,22 @@ async function loadBundledBank(){
     const retry = $("btnRetryBank");
     if(retry) retry.addEventListener("click", loadBundledBank);
     revealBankPanel();                                    // the fallback, right where they need it
+  }
+}
+
+async function loadApprovedRummikub(){
+  const imported=window.RummikubImportedPuzzles ? window.RummikubImportedPuzzles.build() : [];
+  try{
+    const response=await fetch("./rummikub/data/rummikub-approved.json",{cache:"no-cache"});if(!response.ok)return;
+    const puzzles=[...(await response.json()).filter(p=>p.status==="approved"&&p.reviewed===true&&["hard","expert"].includes(p.difficulty)),...imported];
+    delete bank["Rummikub Puzzles"];
+    if(!puzzles.length){delete bank["Rummikub"];renderTopicList();return;}
+    bank["Rummikub"]=puzzles.map(p=>({q:`Solve ${p.id}: play every rack tile and leave only legal melds.`,a:"Solver-confirmed legal table",d:p.gameTier==="easy"?1:p.gameTier==="medium"?2:3,t:p.timeLimit||(p.gameTier==="easy"?30:p.gameTier==="medium"?60:120),type:"rummikub",puzzle:p,puzzleDifficulty:p.gameTier||p.difficulty}));
+    renderTopicList();
+  }catch(error){
+    console.warn("Approved Rummikub library could not be loaded; using built-in puzzles",error);
+    const puzzles=[...(window.RummikubGenerator?window.RummikubGenerator.buildFileApproved():[]),...imported];
+    if(puzzles.length){delete bank["Rummikub Puzzles"];bank["Rummikub"]=puzzles.map(p=>({q:`Solve ${p.id}: play every rack tile and leave only legal melds.`,a:"Solver-confirmed legal table",d:p.gameTier==="easy"?1:p.gameTier==="medium"?2:3,t:p.timeLimit||(p.gameTier==="easy"?30:p.gameTier==="medium"?60:120),type:"rummikub",puzzle:p,puzzleDifficulty:p.gameTier||p.difficulty}));renderTopicList();}
   }
 }
 
