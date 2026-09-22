@@ -7,12 +7,33 @@
     return{id:`shot-${++serial}`,color:color[code[0]],number:Number(code.slice(1))};
   }
   const meld=text=>text.trim().split(/\s+/).map(tile);
-  function puzzle(id,title,gameTier,table,rack){
+  function puzzle(id,title,gameTier,table,rack,leaveCodes=[]){
     const difficulty=gameTier==="expert"?"expert":"hard";
     const timeLimit=gameTier==="easy"?30:gameTier==="medium"?60:120;
+    const rackTiles=meld(rack), leaveOnRack=[];
+    leaveCodes.forEach(code=>{const wanted=code==="j"?rackTiles.find(t=>t.joker&&!leaveOnRack.includes(t.id)):rackTiles.find(t=>!t.joker&&`${Object.keys(color).find(k=>color[k]===t.color)}${t.number}`===code&&!leaveOnRack.includes(t.id));if(wanted)leaveOnRack.push(wanted.id);});
     return{id,title,difficulty,gameTier,status:"approved",reviewed:true,timeLimit,
-      table:table.map(meld),rack:meld(rack),solution:null,referencePattern:true,
+      table:table.map(meld),rack:rackTiles,leaveOnRack,solution:null,referencePattern:true,
       reviewNotes:"Manually transcribed from the user's reference screenshot for private play testing."};
+  }
+  // Screenshot tables often contain many completely unrelated melds. Keep the
+  // puzzle looking like a real late-game table, but discard exactly half of the
+  // melds that the reviewed solution does not touch (floor for odd counts).
+  // Core indices are remapped after pruning so the solver still locks every
+  // decorative meld and only rearranges the intended part of the table.
+  function pruneUnusedMelds(p,coreIndices){
+    const core=new Set(coreIndices);
+    const unused=p.table.map((_,i)=>i).filter(i=>!core.has(i));
+    const remove=new Set(unused.slice(-Math.floor(unused.length/2)));
+    const remapped=[];
+    p.table=p.table.filter((_,i)=>{
+      if(remove.has(i))return false;
+      if(core.has(i))remapped.push(p.table.slice(0,i+1).filter((__,j)=>!remove.has(j)).length-1);
+      return true;
+    });
+    p.solverCoreMelds=remapped;
+    p.trimmedUnusedMelds=remove.size;
+    return p;
   }
   function build(){
     serial=0;
@@ -77,7 +98,22 @@
         "b6 o6 r6","r4 b4 o4","b7 b8 b9","k1 o1 r1","r1 o1 k1",
         "k2 b2 o2","o8 b8 r8","k13 b13 o13","k3 b3 o3","o7 j o9 o10",
         "k11 b11 o11","r2 r3 r4 r5 r6"
-      ],"r7 o3 b13 k13 b6 b1 r7 o11 o12")
+      ],"r7 o3 b13 k13 b6 b1 r7 o11 o12"),
+      puzzle("RUM-H-411","All except orange 11 and red 12","hard",[
+        "b5 b6 b7","o5 o6 o7 o8 o9","o9 j o11","b11 b12 b13","k10 r10 j",
+        "b6 b7 b8","k13 o13 r13","o1 o2 o3","o2 k2 b2","b13 o13 k13",
+        "k3 b3 r3","k8 o8 r8","b10 b11 b12","k4 o4 b4","r1 r2 r3 r4"
+      ],"k5 k7 o3 k9 o11 r8 r9 r12",["o11","r12"]),
+      puzzle("RUM-H-412","Put all","easy",[
+        "b9 b10 b11","b12 k12 o12","k1 o1 r1","o3 o4 o5","k5 r5 b5 o5",
+        "o6 k6 b6","k4 b4 o4","r13 k13 b13 o13","k7 b7 o7 r7","b8 o8 r8",
+        "r3 k3 b3","r3 r4 r5 r6","o8 o9 o10 o11 o12","k1 k2 k3","b2 k2 r2","r8 r9 j"
+      ],"o7 k8 r12 k11"),
+      puzzle("RUM-H-413","Meld all","easy",[
+        "b2 r2 k2 o2","r5 r6 r7","r9 r10 r11 r12","b3 r3 k3","k6 r6 b6",
+        "b4 k4 o4 r4","b1 r1 o1","k8 o8 r8","b3 b4 b5","k7 b7 o7",
+        "r1 k1 b1","b13 j k13","b9 b10 b11","k11 o11 j","k8 k9 k10","o8 o9 o10 o11 o12"
+      ],"r5 o5 o7")
     ];
     const cores={
       "RUM-H-401":[0,1,9,10],
@@ -89,11 +125,14 @@
       "RUM-H-407":[1,3,6],
       "RUM-H-408":[0,5,8,9,11,12],
       "RUM-H-409":[0,4,5,12,13,14,16],
-      "RUM-E-410":[3,5,11,12,14,18,20]
+      "RUM-E-410":[3,5,11,12,14,18,20],
+      "RUM-H-411":[4,10,13,14],
+      "RUM-H-412":[1,7,9,12],
+      "RUM-H-413":[0,8,15]
     };
     if(global.RummikubEngine){
       puzzles.forEach(p=>{
-        p.solverCoreMelds=cores[p.id];
+        pruneUnusedMelds(p,cores[p.id]);
         const solved=global.RummikubEngine.solve(p,1);
         if(solved.solvable){
           const finalTable=solved.solutions[0];

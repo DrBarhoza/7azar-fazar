@@ -119,7 +119,9 @@
       if(!scoped.solvable)return scoped;
       return {...scoped,solutions:scoped.solutions.map(table=>[...table,...clone(locked)])};
     }
-    const tiles=[...flatten(puzzle.table), ...puzzle.rack].map((tile,index)=>({tile:clone(tile),index}));
+    const leave=new Set(puzzle.leaveOnRack||[]);
+    const playableRack=(puzzle.rack||[]).filter(tile=>!leave.has(tile.id));
+    const tiles=[...flatten(puzzle.table), ...playableRack].map((tile,index)=>({tile:clone(tile),index}));
     if(tiles.length > 34) return {solvable:false, solutions:[], count:0, truncated:true, reason:"Puzzle exceeds the interactive solver safety limit."};
     const candidates=meldCandidates(tiles);
     const byTile=Array.from({length:tiles.length},()=>[]);
@@ -148,7 +150,8 @@
     return {solvable:solutions.length>0, solutions, count:solutions.length, truncated:solutions.length>=limit};
   }
   function solutionSteps(puzzle, finalTable){
-    const rackIds=new Set((puzzle.rack||[]).map(t=>t.id));
+    const leave=new Set(puzzle.leaveOnRack||[]);
+    const rackIds=new Set((puzzle.rack||[]).filter(t=>!leave.has(t.id)).map(t=>t.id));
     const startMembership=new Map(),finalMembership=new Map();
     (puzzle.table||[]).forEach(meld=>{const key=meld.map(t=>t.id).sort().join("|");meld.forEach(t=>startMembership.set(t.id,key));});
     finalTable.forEach(meld=>{const key=meld.map(t=>t.id).sort().join("|");meld.forEach(t=>finalMembership.set(t.id,key));});

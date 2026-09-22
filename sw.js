@@ -9,7 +9,7 @@
      all local anyway.
 
    Bump CACHE_VERSION to retire old caches on the next deploy. */
-const CACHE_VERSION = "v21";  // v21: complete public Rummikub gameplay and puzzle library
+const CACHE_VERSION = "v22";  // v22: reference-matched Rummikub table, rack and tile palette
 const SHELL = `7azar-shell-${CACHE_VERSION}`;
 const MEDIA = `7azar-media-${CACHE_VERSION}`;
 
